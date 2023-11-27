@@ -1,0 +1,47 @@
+############################## Banner ###################################
+banner:
+  bgImage : "images/banner/banner2.jpg"
+  title : "Welcome to CURIOSS"
+
+########################### home ##################################
+home:
+  enable : true
+  title : "What is CURIOSS?"
+  subtitle : "CURIOSS is a community for those working in University and Research Institution CURIOSSs. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
+CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
+"
+
+########################### joinCURIOSS ##################################
+joincurioss:
+  enable : true
+  title : "What is CURIOSS?"
+  subtitle : "CURIOSS is a community for those working in University and Research Institution CURIOSSs. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
+CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
+"
+
+############################ features #################################
+  enable : true
+  title : "Learn from our member's experience"
+  featureItem:
+    # feature item
+    - title : "User Experience"
+      icon : "ti-vector" # themify icon pack https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+      
+    # feature item
+    - title : "Responsive Layout"
+      icon : "ti-layout" # themify icon pack https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+      
+    # feature item
+    - title : "Digital Solutions"
+      icon : "ti-headphone-alt" # themify icon pack https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+      
+    # feature item
+    - title : "Bootstrap 4x"
+      icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+
+
+

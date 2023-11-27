@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+
+
+{{ $pages := .Data.Pages }}
+{{ $pages = where $pages "Section" "in" "resource" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range $pages }}
+      <div class="col-lg-4 col-md-6 mb-4 event-card">
+        <div class="card border-0">
+          <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
+          <div class="card-body p-0">
+            <h3><a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }}
+                class="post-title">{{ .Title }}</a></h3>
+           <!-- <p class="card-text">{{ .Summary }}</p> --> 
+            <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">Read more</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<div class="container text-left pb-4 mb-4">
+  <h3 class="display-4 text-center">Third Party Resources</h3>
+  <p class="lead"> {{.Content}}</p>
+</div>
+</div>
+</div>
+</section>
+
+
+{{ end }}

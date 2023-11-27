@@ -1,0 +1,96 @@
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_left }}
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_left }}
+          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_middle }}
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_middle }}
+          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_right }}
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_right }}
+          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href="{{ site.BaseURL }}"><img width="{{site.Params.logo_width}}"  class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+        <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
+        
+        {{ if site.Params.social }}
+        <ul class="list-inline social-icons">
+          {{ range site.Params.social }}
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">{{ site.Params.Copyright | markdownify }}</small>
+    </div>
+  </div>
+</footer>
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ if .Params.Quiz }}
+
+<script src="/plugins/quizdown/quizdown.js"></script>
+<script>
+  quizdown.init({
+    shuffle_answers: false,
+    shuffle_questions: false,
+    primary_color: '#2E3192',      
+    secondary_color: '#EDF6F5'
+  });
+</script>
+{{ end }}
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PEP8NJXFE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4PEP8NJXFE');
+</script>
+  <!-- End Google Analytics -->

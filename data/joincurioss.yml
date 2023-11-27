@@ -1,0 +1,20 @@
+description:
+  enable: true
+  subtitle: "Here are some useful links and information that will help you get started. "
+
+############################### services ####################################
+services:
+  # service item
+  - title: "Join us"
+    icon: "ti-comments" # themify icon pack https://themify.me/themify-icons
+    content: "Join the growing CURIOSS community. You will find some great companions to join you on your CURIOSS journey. [Join Community ->](/about/join/)"
+
+  # service item
+  - title: "Events"
+    icon: "ti-announcement" # themify icon pack https://themify.me/themify-icons
+    content: "Attend a community gathering; virtual or in-person. Check out our upcoming events and videos of our previous presentations on our [Events page](/events/)."
+
+  # service item
+  - title: "Contact Us"
+    icon: "ti-email" # themify icon pack https://themify.me/themify-icons
+    content: "We always love hearing from people passionate about CURIOSSs. So drop us a line at [curioss-org@googlegroups.com](mailto:curioss-org@googlegroups.com) even if it's just to say Hi!"

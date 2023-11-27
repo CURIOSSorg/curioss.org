@@ -1,0 +1,54 @@
+---
+title: "About CURIOSS"
+date: 2019-08-01T16:19:26+06:00
+draft: false
+---
+CURIOSS is a community for those working in University and Research Institution OSPOs. Our goals are to facilitate the networking and collaboration between OSPO representatives from universities and research institutions worldwide.
+C﻿URIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
+
+<div >
+<p class="h1 row text-center justify-content-md-center">Who can join CURIOSS?</p>
+ Who will be considered for CURIOSS membership? Individuals from universities or research institutions who are involved in running an OSPO or actively working on setting up an OSPO in their institution. If you are interested in joining the community, please fill in the Join CURIOSS form. 
+</div>
+
+<div class="row text-center justify-content-md-center" id="team">
+  <div class="col-sm-12">
+    <p class="h1">Organizing Team</p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-lg-4">
+    <img src="/images/about/team/ciara.png" title="Ciara Flanagan" class="align-middle"/>
+    <p class="row text-center justify-content-md-center" id="team">Ciara Flanagan handles all the CURIOSS community operations. She is also a qualified conflict coach, mediator, and facilitator, specializing in Restorative Practice. She also works to help grow and scale communities such as InnerSource Commons.
+In her roles as a mediator and conflict coach, she has supported individuals, communities and organizations in the public and private sector to resolve disputes and repair relationships. 
+ </p>
+  </div>
+   <div class="col-xs-12 col-sm-6 col-lg-4">
+    <img src="/images/about/team/clare.png" title="Clare Dillon" class="align-middle"/>
+    <p>Clare Dillon is an open source and InnerSource advocate and the community manager for CURIOSS. She is also currently a researcher with Lero, the Science Foundation Ireland Research Centre for Software, where she is a member of Lero's OSPO team. From 2021-2023, Clare served as the inaugural Executive Director of InnerSource Commons, a global non-profit foundation supporting open collaboration methods in corporate software development. In 2021, Clare co-founded Open Ireland Network, a community for those interested in advancing open source at a national level in Ireland. Clare is a qualified coach and frequently speaks on topics relating to open collaboration and the future of work.
+
+ </p>
+  </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <p class="row text-center justify-content-md-center" id="team">Richard Littauer supports CURIOSS activities and leads the Sustain OSS Academic Working Group. You may know Richard as the host of the Sustain OSS podcast, what you probably don’t know is that he casually creates languages for fictional races for film and tv. Richard has led Sustain’s community-building efforts, creating and maintaining spaces for people to share, discuss, debate, and learn from one another. 
+      </p>
+      </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+    <img src="/images/about/team/sayeed.png" title="Sayeed Choudhury" class="align-middle"/>
+    <p class="row text-center justify-content-md-center" id="team">Sayeed Choudhury is the Director of Open Source Programs Office (OSPO) at Carnegie Mellon University. Sayeed supports CURIOSS by hosting the organization at CMU.
+ </p>
+  </div>
+</div>
+
+## FAQs
+
+- I am an OSS advocate in my university, but we don’t have an OSPO, can I join CURIOSS? 
+This community is designed exclusively for OSPO representatives, or those actively involved in setting up an OSPO in a university or research institution. We recommend the SustainOSS Academic Working Group for more general discussions on OSS in universities.  
+
+- I work in an associated community, foundation, or corporate organization that supports OSPOs, can I join? 
+From time to time, CURIOSS may invite representatives from associated communities, foundations, or corporate organizations to join specific conversations or CURIOSS project groups. However, to ensure we keep the community focused and continue to provide a safe space for discussion, such individuals will not become CURIOSS members.
+
+  As above, we recommend such individuals join the SustainOSS Academic Working Group to share learnings with the broader university OSS ecosystem.
+
+- How will CURIOSS work with other related communities and organizations?
+CURIOSS was set up to meet the need for a safe space dedicated to those in OSPOs in universities and research institutions. We acknowledge that there are many communities out there who are involved in related activities. We aim to keep CURIOSS members informed of the events and activities happening in the broader academic OSS landscape. If you have an event or activity you would like to share with the CURIOSS community, please let us know on the <a href="/about/join/">Contact Us</a> page.
+
+

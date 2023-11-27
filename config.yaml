@@ -1,0 +1,178 @@
+baseURL:  'https://curioss.org/'
+title: CURIOSS
+buildFuture: true
+summaryLength: 10
+preserveTaxonomyNames: true
+
+pluralizeListTitles: false
+menu:
+  main:
+    - name: Community
+      identifier: community
+      weight: 1
+      hasChildren: true
+    - name: CURIOSS Community
+      URL: community
+      parent: community
+      weight: 1
+    - name: US Open Source Policy
+      URL: community/policy
+      parent: community
+      weight: 2
+    - name: Events
+      URL: events
+      weight: 2
+    - name: Resources
+      URL: resource
+      weight: 3
+      identifier: resource
+    - name: About
+      hasChildren: true
+      identifier: about
+      weight: 4
+    - name: About CURIOSS
+      URL: about
+      parent: about
+      weight: 1
+    - name: Members
+      URL: about/members
+      parent: about
+      weight: 2
+    - name: Code of Conduct
+      URL: about/codeofconduct
+      parent: about
+      weight: 3
+    - name: Join
+      URL: about/join
+      parent: about
+      weight: 4
+    - name: Contact Us
+      URL: about/contact
+      parent: about
+      weight: 5
+  footer_left:
+    - name: Home
+      weight: 1
+      post: bold
+  footer_middle:
+    - name: Community
+      URL: community
+      weight: 1
+      post: bold
+      pre: _blank
+    - name: CURIOSS Community
+      URL: community
+      weight: 2
+    - name: US Open Source Policy
+      URL: community/policy
+      weight: 3
+    - name: Events
+      URL: events
+      weight: 4
+      post: bold
+    - name: Resources
+      URL: resource
+      weight: 5
+      post: bold
+  footer_right:
+    - name: About
+      URL: about
+      weight: 1
+      post: bold
+    - name: About CURIOSS
+      URL: about
+      weight: 2
+    - name: Members
+      URL: about/members
+      weight: 3
+    - name: Code of Conduct
+      URL: about/codeofconduct
+      weight: 4
+    - name: Join
+      URL: about/join
+      weight: 5
+languages:
+  en:
+    languageName: English
+    weight: 1
+  de:
+    languageName: Deutsch
+    weight: 2
+  ja:
+    languageName: 日本語
+    weight: 2
+  zh:
+    languageName: 中文
+    weight: 2
+  it:
+    languageName: Italiano
+    weight: 2
+  es:
+    languageName:  Español
+    weight: 2
+  ru:
+    languageName: Русский
+    weight: 2
+  fr:
+    languageName: Français
+    weight: 2
+paginate: '3'
+summaryLength: '15'
+disqusShortname: ''
+googleAnalytics: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+minify:
+  disableHTML: true
+params:
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themify-icons/themify-icons.css
+      - link: plugins/slick/slick.css
+      - link: plugins/youmax/youmax.css
+      - link: plugins/bootstrap-select/css/bootstrap-select.min.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/youmax/youmax.js
+      - link: plugins/bootstrap-select/js/bootstrap-select.min.js
+  logo: images/curioss.png
+  home: "Home"
+  logo_width: 200px
+  themeVariant: quizdown
+  description: CURIOSS is a network and a community of collaborative open source program offices in universities, governments, and civic institutions. We're building resources to help create CURIOSSs, actively engaging in discussions on how to best manage and grow open source programs, and how to garden sustainable communities that last.
+  author: CURIOSS
+  defaultImage: images/curioss.png
+  footer_content: >-
+    The site is licensed under a CC-BY-SA license unless otherwise marked.
+  copyright: >-
+    Design by [Themefisher](https://themefisher.com/) and [Gethugothemes](https://gethugothemes.com/),
+    icons by [Freepik Storyset](https://storyset.com/people)
+  preloader:
+    enable: false
+    preloader: ''
+  navigation_button:
+    enable: true
+    label: Join Slack
+    link: slack
+  social:
+    - title: github
+      icon: ti-github
+      link: 'https://github.com/CURIOSS'
+    - title: youtube
+      icon: ti-youtube
+      link: 'https://www.youtube.com/channel/UCNdXX2pcsYagQ1O4-MF6rUA'
+    - title: twitter
+      icon: ti-twitter-alt
+      link: 'https://twitter.com/CURIOSS'
+    - title: linkedin
+      icon: ti-linkedin
+      link: 'https://www.linkedin.com/company/CURIOSS/'
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  resource: "studies"
