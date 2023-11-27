@@ -2,7 +2,7 @@ name: github pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   hugo-build:
@@ -13,7 +13,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
 
       - name: Build

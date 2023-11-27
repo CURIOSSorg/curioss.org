@@ -1,4 +1,4 @@
-baseURL:  'https://curioss.org/'
+baseURL:  'http://curioss.org/'
 title: CURIOSS
 buildFuture: true
 summaryLength: 10
