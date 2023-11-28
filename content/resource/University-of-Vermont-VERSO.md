@@ -1,7 +1,7 @@
 ---
 title: "University of Vermont VERSO"
 date: 2023-03-14T09:10:26+06:00 
-draft: false
+draft: true
 image: images/resource/University-of-Vermont-VERSO.png
 author: Kendall Fortney and Ciara Flanagan
 studies: "Case Study"

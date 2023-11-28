@@ -1,7 +1,7 @@
 ---
 title: "CURIOSS UC Santa Cruz"
 date: 2022-12-22T16:10:26+06:00 
-draft: false
+draft: true
 image: images/resource/CURIOSS-UC-Santa-Cruz.png
 author: Stephanie Lieggi and Ciara Flanagan
 studies: "Case Study"

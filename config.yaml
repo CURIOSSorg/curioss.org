@@ -1,4 +1,4 @@
-baseURL:  'http://curioss.org/'
+baseURL: 'https://curioss.org/'
 title: CURIOSS
 buildFuture: true
 summaryLength: 10
@@ -163,15 +163,6 @@ params:
     - title: github
       icon: ti-github
       link: 'https://github.com/CURIOSS'
-    - title: youtube
-      icon: ti-youtube
-      link: 'https://www.youtube.com/channel/UCNdXX2pcsYagQ1O4-MF6rUA'
-    - title: twitter
-      icon: ti-twitter-alt
-      link: 'https://twitter.com/CURIOSS'
-    - title: linkedin
-      icon: ti-linkedin
-      link: 'https://www.linkedin.com/company/CURIOSS/'
 taxonomies:
   tag: "tags"
   category: "categories"

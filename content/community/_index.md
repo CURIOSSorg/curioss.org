@@ -83,7 +83,6 @@ title: "Community"
         <p class="mt-3 h1">Is CURIOSS For Me?</p>
         <p>If you are part of any of the following categories you are welcome to join our Community. We are a friendly bunch.</p>
         <p>
-     
       </div>
       <div class="row d-flex justify-content-center">
         <a href="/about/join/" class="btn btn-primary btn-sm">Want to Join? Get in Touch!</a>

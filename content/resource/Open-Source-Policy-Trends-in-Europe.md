@@ -1,7 +1,7 @@
 ---
 title: "Open Source Policy Trends in Europe"
 date: 2023-03-24T18:12:26+06:00 
-draft: false
+draft: true
 image: images/resource/Open-Source-Policy-Trends-in-Europe.png
 author: Sachiko Muto, Colleen Maloney, Ciara Flanagan
 studies: "Article"

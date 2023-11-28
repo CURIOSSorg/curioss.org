@@ -1,7 +1,7 @@
 ---
 title: "Empowering communities worlds apart "
 date: 2021-11-08T14:50:26+06:00
-draft: false
+draft: true
 image: images/resource/St-Francis-Neighborhood-Center.png
 description: "Deploying open source at St. Francis Neighborhood Center"
 author: Brian Proffitt, Bryan Behrenshausen, and Ruth Suehle

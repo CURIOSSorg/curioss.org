@@ -4,7 +4,7 @@ date: 2019-08-01T16:19:26+06:00
 draft: false
 ---
 
-### [HELIOS](https://www.heliosopen.org/)
+<!-- ### [HELIOS](https://www.heliosopen.org/)
 - [Open Source, Tech Transfer & Commercialization](https://www.heliosopen.org/news/spotlight-series-recap-open-source-tech-transfer-amp-commercialization) - A Spotlight Series Recap blog post sumarizing the key themes of the November 15th, 2022, convention of academic leaders, discussing their open source, code, and software sharing efforts. 
 
 ### [CURIOSS ZONE](https://CURIOSS.zone/) 
@@ -22,4 +22,4 @@ draft: false
      - [How to Create an Open Source Program](https://todogroup.org/guides/create-program/)
      - [Measuring Your Open Source Program](https://todogroup.org/guides/measuring/)
      - [Tools for Managing Your Open Source Program](https://todogroup.org/guides/management-tools/)
-     - [Managing Career Development within CURIOSSs](https://todogroup.org/guides/career-development/)
+     - [Managing Career Development within CURIOSSs](https://todogroup.org/guides/career-development/) -->

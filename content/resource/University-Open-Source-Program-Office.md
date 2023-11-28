@@ -1,7 +1,7 @@
 ---
 title: "University Open Source Program Offices"
 date: 2021-03-30T16:19:26+06:00
-draft: false
+draft: true
 image: images/resource/University-Open-Source-Program-Offices.png
 author: Sayeed Choudhury
 studies: "Case Study"

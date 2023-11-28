@@ -1,7 +1,7 @@
 ---
 title: "Carnegie Mellon University CURIOSS"
 date: 2023-03-21T09:10:26+06:00 
-draft: false
+draft: true
 image: images/resource/Carnegie-Mellon-University-CURIOSS.png
 author: Sayeed Choudhury and Ciara Flanagan
 studies: "Case Study"

@@ -1,7 +1,7 @@
 ---
 title: "All the Boats Must Rise"
 date: 2021-06-22T16:19:26+06:00
-draft: false
+draft: true
 image: images/resource/risingtide.png
 author: Danese Cooper
 studies: "Article"

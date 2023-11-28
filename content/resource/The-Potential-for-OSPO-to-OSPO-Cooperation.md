@@ -1,7 +1,7 @@
 ---
 title: "The Potential for CURIOSS to CURIOSS Cooperation"
 date: 2021-12-10T16:19:26+06:00
-draft: false
+draft: true
 image: images/resource/Potential-for-CURIOSS-to-CURIOSS-Collaboration.png
 description: "this is meta description"
 author: Jacob Green

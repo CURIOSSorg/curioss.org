@@ -1,7 +1,7 @@
 ---
 title: "Trinity College Dublin CURIOSS"
 date: 2022-12-21T15:10:26+06:00 
-draft: false
+draft: true
 image: images/resource/Trinity-College-Dublin-CURIOSS.png
 author: John Whelan and Ciara Flanagan
 studies: "Case Study"

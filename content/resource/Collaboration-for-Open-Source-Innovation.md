@@ -1,7 +1,7 @@
 ---
 title: "Collaborating for Open Source Innovation"
 date: 2023-03-24T19:12:26+06:00 
-draft: false
+draft: true
 image: images/resource/Collaboration-for-Open-Source-Innovation.png
 author: Cindy Chepanoske, Jacob Green, Joe Doyle, John Whelan, L﻿ucie Smolka, Clare Dillon, Colleen Maloney, Ciara Flanagan
 studies: "Article"

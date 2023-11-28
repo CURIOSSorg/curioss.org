@@ -1,7 +1,7 @@
 ---
 title: "Enabling OSS Innovation in Universities "
 date: 2023-03-24T22:25:26+06:00
-draft: false
+draft: true
 image: images/resource/Enabling-OSS-Innovation-in-Universities.png
 author: Aoife Tierney, Jiří Marek, Michael Nolan, Noel O'Connor, Sayeed Choudhury, Colleen Maloney, Clare Dillon and Ciara Flanagan
 studies: "Article"

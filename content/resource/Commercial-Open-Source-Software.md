@@ -1,7 +1,7 @@
 ---
 title: "Commercial Open Source Software"
 date: 2023-03-24T17:19:26+06:00
-draft: false
+draft: true
 image: images/resource/Commercial-Open-Source-Software.png
 author: Andrew Wichmann, Colleen Maloney, Ciara Flanagan
 studies: "Article"

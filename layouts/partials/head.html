@@ -4,8 +4,10 @@
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description"
+    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
   {{ "<!-- plugins -->" | safeHTML }}
@@ -18,34 +20,28 @@
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
-  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen"/>
+  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/images/favicons/site.webmanifest">
-  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon_logo_sm.png">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <meta name="layout" content="{{ .Kind }} - {{ .Layout }} - {{ .Type }} - {{ .Section }} - {{ .CurrentSection }}">
-  
+
   {{ if .IsTranslated }}
-	{{ range .Translations }}
-	<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
-	{{ end }}
+  {{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
   {{ end }}
-  
+  {{ end }}
+
   {{ template "_internal/opengraph.html" . }}
   {{ if .Params.Image }}
-    {{ with .Params.Image }}
-    <meta property="og:image" content="{{ . | absURL }}" />
-    {{ end }}
+  {{ with .Params.Image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
   {{else}}
-    {{ with site.Params.defaultImage }}
-    <meta property="og:image" content="{{ . | absURL }}" />
-    {{ end }}
+  {{ with site.Params.defaultImage }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
   {{ end }}
 
 </head>

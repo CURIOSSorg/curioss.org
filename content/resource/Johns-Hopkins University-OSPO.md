@@ -1,7 +1,7 @@
 ---
 title: "Johns Hopkins University CURIOSS"
 date:  2022-12-21T15:18:26+06:00
-draft: false
+draft: true
 image: images/resource/Johns-Hopkins University-CURIOSS.png 
 author:  Sayeed Choudhury and Ciara Flanagan
 studies: "Case Study"

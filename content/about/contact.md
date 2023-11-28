@@ -14,7 +14,7 @@ Stay in touch — here are all the ways to contact CURIOSS:
   <div class="container">
    <div class="col-md-6">
     <div class="bg-white p-4">
-        <form action="https://formspree.io/f/xlevvdby" target="_blank" method="post">
+        <form action="https://docs.google.com/forms/d/1uzWysuE89ASvZYFq9CUOZgvsvCQZ7nxzQzGdgIeWRwY/formResponse" target="_blank" method="post">
           <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Name">
           <input type="text" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email address">
             <label for="review">Query</label>

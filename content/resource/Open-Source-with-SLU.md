@@ -1,7 +1,7 @@
 ---
 title: "Open Source with SLU"
 date: 2023-03-14T10:10:26+06:00 
-draft: false
+draft: true
 image: images/resource/Open-Source-with-SLU.png
 author: Daniel Shown and Ciara Flanagan
 studies: "Case Study"

@@ -4,7 +4,7 @@ subtitle: "Welcome to the CURIOSS Events page. This is the place where you will 
 draft: false
 ---
 
-- Oct 7, 2021 - CURIOSS University & Academia: “Open Science” - Karthik Ram, UCBerkley & Paul Nagy, JHU
+<!-- - Oct 7, 2021 - CURIOSS University & Academia: “Open Science” - Karthik Ram, UCBerkley & Paul Nagy, JHU
 - Oct 7, 2021 - LAUNCH: CURIOSS Governments & Agencies: “Policy Goals with Open Source” - Hosts: Clare Dillon, Leslie Hawthorn, Astor
 - Sept 28, 2021 - CURIOSS Luncheon @ CURIOSSCon Seattle
 - Sept 9, 2021 - CURIOSS and the Cascadia Innovation Corridor
@@ -37,4 +37,4 @@ draft: false
 - May 14, 2020 - CURIOSS & Open Source as a Movement - Danese Copper, NearForm
 - May 7, 2020 - Organizing/Engineering CURIOSS, JHU, Paris, Baltimore - Jacob Green, CURIOSS
 - April 30, 2020 - Industry CURIOSS, what is it? - Kevin Fleming, Bloomberg LP CURIOSS
-- April 23, 2020 - Metrics strategy for University CURIOSS’s - Georg Link, Bitergia
+- April 23, 2020 - Metrics strategy for University CURIOSS’s - Georg Link, Bitergia -->

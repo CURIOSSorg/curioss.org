@@ -1,7 +1,7 @@
 ---
 title: "Open Science, Technology Transfer & Innovation"
 date: 2023-03-24T16:19:26+06:00
-draft: false
+draft: true
 image: images/resource/Open-Science-Technology-Transfer-and-Innovation.png
 author: Sayeed Choudhury, Colleen Maloney, Ciara Flanagan
 studies: "Article"
