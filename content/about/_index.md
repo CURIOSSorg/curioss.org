@@ -4,11 +4,12 @@ date: 2019-08-01T16:19:26+06:00
 draft: false
 ---
 CURIOSS is a community for those working in University and Research Institution OSPOs. Our goals are to facilitate the networking and collaboration between OSPO representatives from universities and research institutions worldwide.
-C﻿URIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
+
+CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
 
 <div >
 <p class="h1 row text-center justify-content-md-center">Who can join CURIOSS?</p>
- Who will be considered for CURIOSS membership? Individuals from universities or research institutions who are involved in running an OSPO or actively working on setting up an OSPO in their institution. If you are interested in joining the community, please fill in the Join CURIOSS form. 
+Who will be considered for CURIOSS membership? Individuals from universities or research institutions who are involved in running an OSPO or actively working on setting up an OSPO in their institution. If you are interested in joining the community, please fill in the CURIOSS Contact form. 
 </div>
 
 <div class="row text-center justify-content-md-center" id="team">
@@ -28,7 +29,7 @@ C﻿URIOSS was set up in 2023 with the support of a grant from the Alfred P. Slo
   </div>
   <div class="col-xs-12 col-sm-6">
       <img src="/images/about/team/richard.png" title="Richard Littauer" class="align-middle"/>
-      <p class="row text-center justify-content-md-center" id="team">Richard Littauer supports CURIOSS activities and leads the Sustain OSS Academic Working Group. You may know Richard as the host of the Sustain OSS podcast, what you probably don’t know is that he casually creates languages for fictional races for film and tv. Richard has led Sustain’s community-building efforts, creating and maintaining spaces for people to share, discuss, debate, and learn from one another. 
+      <p class="row text-center justify-content-md-center" id="team">Richard Littauer supports CURIOSS activities and leads the <a href="https://sustainoss.org/working-groups/academic-projects/" target="_blank">Sustain OSS Academic Working Group.</a> You may know Richard as the host of the Sustain OSS podcast, what you probably don’t know is that he casually creates languages for fictional races for film and tv. Richard has led Sustain’s community-building efforts, creating and maintaining spaces for people to share, discuss, debate, and learn from one another. 
       </p>
   </div>
   <div class="col-xs-12 col-sm-6">
@@ -40,15 +41,18 @@ C﻿URIOSS was set up in 2023 with the support of a grant from the Alfred P. Slo
 
 ## FAQs
 
-- I am an OSS advocate in my university, but we don’t have an OSPO, can I join CURIOSS? 
+<b>I am an OSS advocate in my university, but we don’t have an OSPO, can I join CURIOSS? </b>
+
 This community is designed exclusively for OSPO representatives, or those actively involved in setting up an OSPO in a university or research institution. We recommend the SustainOSS Academic Working Group for more general discussions on OSS in universities.  
 
-- I work in an associated community, foundation, or corporate organization that supports OSPOs, can I join? 
+<b>I work in an associated community, foundation, or corporate organization that supports OSPOs, can I join?</b> 
+
 From time to time, CURIOSS may invite representatives from associated communities, foundations, or corporate organizations to join specific conversations or CURIOSS project groups. However, to ensure we keep the community focused and continue to provide a safe space for discussion, such individuals will not become CURIOSS members.
 
-  As above, we recommend such individuals join the SustainOSS Academic Working Group to share learnings with the broader university OSS ecosystem.
+  As above, we recommend such individuals join the [SustainOSS Academic Working Group](https://sustainoss.org/working-groups/academic-projects/) to share learnings with the broader university OSS ecosystem.
 
-- How will CURIOSS work with other related communities and organizations?
-CURIOSS was set up to meet the need for a safe space dedicated to those in OSPOs in universities and research institutions. We acknowledge that there are many communities out there who are involved in related activities. We aim to keep CURIOSS members informed of the events and activities happening in the broader academic OSS landscape. If you have an event or activity you would like to share with the CURIOSS community, please let us know on the <a href="/about/join/">Contact Us</a> page.
+<b>How will CURIOSS work with other related communities and organizations?</b>
+
+CURIOSS was set up to meet the need for a safe space dedicated to those in OSPOs in universities and research institutions. We acknowledge that there are many communities out there who are involved in related activities. We aim to keep CURIOSS members informed of the events and activities happening in the broader academic OSS landscape. If you have an event or activity you would like to share with the CURIOSS community, please let us know on the <a href="/about/join/">Contact CURIOSS</a> page.
 
 

@@ -1,12 +1,11 @@
 ---
-title: "CURIOSS Code of Conduct"
+title: "Community Code of Conduct"
 subtitle: ""
 description: "CURIOSS is a network and a community of collaborative open source program offices in universities, governments, and civic institutions. We're building resources to help create CURIOSSs, actively engaging in discussions on how to best manage and grow open source programs, and how to garden sustainable communities that last."
 draft: false
 image: "/images/logo.png"
 ---
 
-# Community Code of Conduct
 
 ## Our Pledge
 

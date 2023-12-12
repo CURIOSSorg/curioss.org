@@ -46,7 +46,7 @@ menu:
       URL: about/join
       parent: about
       weight: 4
-    - name: Contact Us
+    - name: Contact
       URL: about/contact
       parent: about
       weight: 5

@@ -15,6 +15,6 @@ services:
     content: "Attend a community gathering; virtual or in-person. Check out our upcoming events and videos of our previous presentations on our [Events page](/events/)."
 
   # service item
-  - title: "Contact Us"
+  - title: "Contact CURIOSS"
     icon: "ti-email" # themify icon pack https://themify.me/themify-icons
     content: "We always love hearing from people passionate about CURIOSSs. So drop us a line at [curioss-org@googlegroups.com](mailto:curioss-org@googlegroups.com) even if it's just to say Hi!"
