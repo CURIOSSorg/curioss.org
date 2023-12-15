@@ -7,25 +7,6 @@ preserveTaxonomyNames: true
 pluralizeListTitles: false
 menu:
   main:
-    - name: Community
-      identifier: community
-      weight: 1
-      hasChildren: true
-    - name: CURIOSS Community
-      URL: community
-      parent: community
-      weight: 1
-    - name: US Open Source Policy
-      URL: community/policy
-      parent: community
-      weight: 2
-    - name: Events
-      URL: events
-      weight: 2
-    - name: Resources
-      URL: resource
-      weight: 3
-      identifier: resource
     - name: About
       hasChildren: true
       identifier: about
@@ -42,10 +23,6 @@ menu:
       URL: about/codeofconduct
       parent: about
       weight: 3
-    - name: Join
-      URL: about/join
-      parent: about
-      weight: 4
     - name: Contact
       URL: about/contact
       parent: about
@@ -53,26 +30,6 @@ menu:
   footer_left:
     - name: Home
       weight: 1
-      post: bold
-  footer_middle:
-    - name: Community
-      URL: community
-      weight: 1
-      post: bold
-      pre: _blank
-    - name: CURIOSS Community
-      URL: community
-      weight: 2
-    - name: US Open Source Policy
-      URL: community/policy
-      weight: 3
-    - name: Events
-      URL: events
-      weight: 4
-      post: bold
-    - name: Resources
-      URL: resource
-      weight: 5
       post: bold
   footer_right:
     - name: About
@@ -88,8 +45,8 @@ menu:
     - name: Code of Conduct
       URL: about/codeofconduct
       weight: 4
-    - name: Join
-      URL: about/join
+    - name: Contact
+      URL: about/contact
       weight: 5
 languages:
   en:

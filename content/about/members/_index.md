@@ -6,10 +6,8 @@ subtitle: "CURIOSS is a community for university and research institution OSPOs"
   <div class="container">
     <div class="row justify-content-center">
       {{< company name="Carnegie Mellon University" image="/images/about/logos/cmu.png"/>}}
-      {{< /company >}}
       {{< company name="Cross" image="/images/about/logos/cross_logo.png"/>}} 
-      {{< /company >}}
-      {{< company name="Georgia Tech" image="/images/about/logos/georgia.png" />}}
+      {{< company name="Georgia Tech" image="/images/about/logos/georgia.png">}}
       {{< /company >}}
       {{< company name="JHU Library" image="/images/about/logos/jhu_library_sheridan.png" >}}
       {{< /company >}}
