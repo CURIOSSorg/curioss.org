@@ -10,9 +10,7 @@ title: "Community"
         </p>
 
       </div>
-      <div class="col-md-4 order-1 order-md-2 mb-4 mb-md-0">
-        <img style="height: 200px;" src="/images/logo_sm.png" class="img-fluid">
-      </div>
+      
     </div>
   </div>
 </section>
