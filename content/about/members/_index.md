@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Current CURIOSS++ Members"
-subtitle: "CURIOSS++ is a network and a community of collaborative open source program offices in universities, governments, and civic institutions. Listed below are the current CURIOSS++ Members. If you are interested in joining our network please visit our Join CURIOSS++ page."
+title: "Current CURIOSS Members"
+subtitle: "CURIOSS is a community for university and research institution OSPOs"
 ---
   <div class="container">
     <div class="row justify-content-center">
