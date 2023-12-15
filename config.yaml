@@ -97,7 +97,7 @@ params:
       - link: plugins/slick/slick.min.js
       - link: plugins/youmax/youmax.js
       - link: plugins/bootstrap-select/js/bootstrap-select.min.js
-  logo: images/curioss.png
+  logo: images/color_horizontal_logotype1.svg
   home: "Home"
   logo_width: 200px
   themeVariant: quizdown
@@ -116,10 +116,6 @@ params:
     enable: true
     label: Join Slack
     link: slack
-  social:
-    - title: github
-      icon: ti-github
-      link: 'https://github.com/CURIOSS'
 taxonomies:
   tag: "tags"
   category: "categories"

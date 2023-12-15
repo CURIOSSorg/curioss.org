@@ -22,7 +22,7 @@
   {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon_logo_sm.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/color_logo_vert1.svg">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <meta name="layout" content="{{ .Kind }} - {{ .Layout }} - {{ .Type }} - {{ .Section }} - {{ .CurrentSection }}">
