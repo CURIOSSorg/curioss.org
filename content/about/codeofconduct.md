@@ -3,7 +3,7 @@ title: "Community Code of Conduct"
 subtitle: ""
 description: "CURIOSS is a community of university and research institution OSPOs"
 draft: false
-image: "/images/logo.png"
+image: "/curioss.org/images/logo.png"
 ---
 
 

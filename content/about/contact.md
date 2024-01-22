@@ -1,7 +1,7 @@
 ---
 title: "Contact CURIOSS"
 description: "Stay in touch with CURIOSS."
-image: "/images/logo.png"
+image: "/curioss.org/images/logo.png"
 type: wide
 ---
 

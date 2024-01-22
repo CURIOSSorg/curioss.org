@@ -1,6 +1,6 @@
 ############################## Banner ###################################
 banner:
-  bgImage : "images/banner/banner2.jpg"
+  bgImage : "/curioss.org/images/banner/banner2.jpg"
   title : "Welcome to CURIOSS"
 
 ########################### home ##################################
