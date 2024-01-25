@@ -17,23 +17,23 @@ Who will be considered for CURIOSS membership? Individuals from universities or 
     <p class="h1">Organizing Team</p>
   </div>
   <div class="col-xs-12 col-sm-6">
-    <img src="/curioss.org/images/about/team/ciara.png" title="Ciara Flanagan" class="align-middle"/>
+    <img src="/images/about/team/ciara.png" title="Ciara Flanagan" class="align-middle"/>
       <p class="row text-center justify-content-md-center" id="team">Ciara Flanagan handles all the CURIOSS community operations. She is also a qualified conflict coach, mediator, and facilitator, specializing in Restorative Practice. She also works to help grow and scale communities such as InnerSource Commons.
         In her roles as a mediator and conflict coach, she has supported individuals, communities and organizations in the public and private sector to resolve disputes and repair relationships. 
       </p>
   </div>
   <div class="col-xs-12 col-sm-6">
-    <img src="/curioss.org/images/about/team/clare.png" title="Clare Dillon" class="align-middle"/>
+    <img src="/images/about/team/clare.png" title="Clare Dillon" class="align-middle"/>
     <p class="row text-center justify-content-md-center" id="team">Clare Dillon is an open source and InnerSource advocate and the community manager for CURIOSS. She is also currently a researcher with Lero, the Science Foundation Ireland Research Centre for Software, where she is a member of Lero's OSPO team. From 2021-2023, Clare served as the inaugural Executive Director of InnerSource Commons, a global non-profit foundation supporting open collaboration methods in corporate software development. In 2021, Clare co-founded Open Ireland Network, a community for those interested in advancing open source at a national level in Ireland. Clare is a qualified coach and frequently speaks on topics relating to open collaboration and the future of work.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6">
-      <img src="/curioss.org/images/about/team/richard.png" title="Richard Littauer" class="align-middle"/>
+      <img src="/images/about/team/richard.png" title="Richard Littauer" class="align-middle"/>
       <p class="row text-center justify-content-md-center" id="team">Richard Littauer supports CURIOSS activities and leads the <a href="https://sustainoss.org/working-groups/academic-projects/" target="_blank">Sustain OSS Academic Working Group.</a> You may know Richard as the host of the Sustain OSS podcast, what you probably don’t know is that he casually creates languages for fictional races for film and tv. Richard has led Sustain’s community-building efforts, creating and maintaining spaces for people to share, discuss, debate, and learn from one another. 
       </p>
   </div>
   <div class="col-xs-12 col-sm-6">
-    <img src="/curioss.org/images/about/team/sc.png" title="Sayeed Choudhury" class="align-middle"/>
+    <img src="/images/about/team/sc.png" title="Sayeed Choudhury" class="align-middle"/>
     <p class="row text-center justify-content-md-center" id="team">Sayeed Choudhury is the Director of Open Source Programs Office (OSPO) at Carnegie Mellon University. Sayeed supports CURIOSS by hosting the organization at CMU.
     </p>
   </div>

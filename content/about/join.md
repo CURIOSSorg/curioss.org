@@ -2,7 +2,7 @@
 title: "Who can join CURIOSS?"
 subtitle: "Individuals from universities or research institutions who are involved in running an OSPO or actively working on setting up an OSPO in their institution. If you want to join the CURIOSS community, please fill in the form below. A member of the CURIOSS organizing team will be in contact."
 description: "Stay in touch with CURIOSS."
-image: "/curioss.org/images/logo.png"
+image: "/images/logo.png"
 type: wide
 ---
 <section class="section" style="padding-top: 20px; padding-bottom: 20px;">

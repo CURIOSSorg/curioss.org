@@ -1,4 +1,4 @@
-baseURL: 'https://curiossorg.github.io/curioss.org/'
+baseURL: 'https://curioss.org/'
 title: CURIOSS
 buildFuture: true
 summaryLength: 10
@@ -97,13 +97,13 @@ params:
       - link: plugins/slick/slick.min.js
       - link: plugins/youmax/youmax.js
       - link: plugins/bootstrap-select/js/bootstrap-select.min.js
-  logo: /curioss.org/images/color_horizontal_logotype1.svg
+  logo: images/color_horizontal_logotype1.svg
   home: "Home"
   logo_width: 200px
   themeVariant: quizdown
   description: CURIOSS is a network and a community of collaborative open source program offices in universities, governments, and civic institutions. We're building resources to help create CURIOSSs, actively engaging in discussions on how to best manage and grow open source programs, and how to garden sustainable communities that last.
   author: CURIOSS
-  defaultImage: /curioss.org/images/curioss.png
+  defaultImage: images/curioss.png
   footer_content: >-
     The site is licensed under a CC-BY-SA license unless otherwise marked.
   copyright: >-
