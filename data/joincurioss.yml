@@ -17,4 +17,4 @@ services:
   # service item
   - title: "Contact CURIOSS"
     icon: "ti-email" # themify icon pack https://themify.me/themify-icons
-    content: "We always love hearing from people working in or with academic OSPOs. If you want to get in contact please fill in the form on the [Contact CURIOSS page](/about/contact/)."
+    content: "We always love hearing from people working in or with academic OSPOs. To contact us please fill in [this form](/about/contact/)."
