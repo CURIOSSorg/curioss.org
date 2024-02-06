@@ -7,8 +7,8 @@ type: wide
 
 CURIOSS is a Community for University and Research Institution OSPOs. If you want to find out more about the CURIOSS community, please drop us an email @ info@curioss.org. A member of the CURIOSS organizing team will be in contact. 
 
-/* 
-// <section class="section" style="padding-top: 20px; padding-bottom: 20px;">
+<!-- Do not run this code -->
+<section class="section" style="padding-top: 20px; padding-bottom: 20px;">
   <div class="container">
    <div class="col-md-6">
     <div class="bg-white p-4">
@@ -27,4 +27,4 @@ CURIOSS is a Community for University and Research Institution OSPOs. If you wan
     </div>
   </div>
 </section> 
-*/   
+<!-- Do not run this code -->
