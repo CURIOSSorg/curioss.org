@@ -5,8 +5,9 @@ image: "/images/logo.png"
 type: wide
 ---
 
-CURIOSS is a Community for University and Research Institution OSPOs. If you want to find out more about the CURIOSS community, please fill in the form below. A member of the CURIOSS organizing team will be in contact. 
+CURIOSS is a Community for University and Research Institution OSPOs. If you want to find out more about the CURIOSS community, please drop us an email @ info@curioss.org. A member of the CURIOSS organizing team will be in contact. 
 
+/* 
 <section class="section" style="padding-top: 20px; padding-bottom: 20px;">
   <div class="container">
    <div class="col-md-6">
@@ -25,4 +26,5 @@ CURIOSS is a Community for University and Research Institution OSPOs. If you wan
           </form>
     </div>
   </div>
-</section>    
+</section> 
+*/   
