@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact CURIOSS</title>
+    <link rel="stylesheet" href="<link rel="stylesheet" type="text/css" href="scss/styles.scss">"> <!-- Link to your CSS file -->
+    <style>
+        /* Add some quick styles or link to your CSS */
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+        .bg-white {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        textarea, input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<section class="section" style="padding-top: 20px; padding-bottom: 20px;">
+  <div class="container">
+    <div class="col-md-6">
+      <div class="bg-white p-4">
+        <form action="MAILTO:support@curioss.org" method="post" enctype="text/plain">
+          <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Name" required>
+          <input type="text" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email address" required>
+          <input type="text" id="organization" name="organization" class="form-control mb-4 px-0" placeholder="Institution or Organization" required>
+          <label for="question">Please include your question here</label>
+          <textarea id="question" name="question" rows="4" cols="50" required>
+          </textarea>
+          <label for="ospo_info">If applicable, please tell us a little about your institution's OSPO</label>
+          <textarea id="ospo_info" name="ospo_info" rows="4" cols="50">
+          </textarea>
+          <input class="btn btn-primary" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
