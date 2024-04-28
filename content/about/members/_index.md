@@ -9,7 +9,7 @@ subtitle: "CURIOSS is a community for university and research institution OSPOs"
       {{< company name="WASHINGTON University" image="/images/about/logos/washington.png"/>}}
       {{< company name="Georgia Tech" image="/images/about/logos/georgia.png">}}
       {{< /company >}}
-      {{< company name="JHU Library" image="/images/about/logos/jhu_library_sheridan.png" >}}
+      {{< company name="JHU Library" image="/images/about/logos/jhu_library.png" >}}
       {{< /company >}}
       {{< company name="Lero" image="/images/about/logos/lero_logo.png">}}
       {{< /company >}}
