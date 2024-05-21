@@ -1,13 +1,15 @@
 <div class="col-md-4 col-sm-6 mb-4">
   <div class="feature-card bg-members-box text-center mb-0">
     <div class="h-150 d-flex align-items-center justify-content-center mb-0 company-logo-box">
-      <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" title="{{ .Get "name" }}" class="mh-150">
+      <a href="{{ .Get "url" }}">
+        <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" title="{{ .Get "name" }}" class="mh-150">
+      </a>
       <div>{{ .Get "name" }}</div>
     </div>
     {{ if (not (eq (trim .Inner "\n ") "")) }}
       <div id="{{ urlize (.Get "name")}}-cite" class="cite-text">
       <p><cite>“{{ trim .Inner "\n " }}”</cite></p>
-      {{ if .Get "author_name" }}<a href="{{ .Get "link" }}"><b>{{ .Get "author_name" }}</b>, {{ .Get "author_title" }}</a>{{ end }}
+      {{ if .Get "author_name" }}{{ end }}
       </div>
     {{ end }}
   </div>
