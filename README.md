@@ -1,6 +1,6 @@
 # CURIOSS Website
 
-This repo is powering the CURIOSS Website at [CURIOSS.github.io/CURIOSS](https://github.com/CURIOSSorg/curioss.org).
+This repo is powering the CURIOSS Website at [curioss.org](https://curioss.org/).
 
 The site is built with Hugo framework. All content is located at the `content` folder.
 
