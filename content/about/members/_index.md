@@ -23,9 +23,21 @@ subtitle: "CURIOSS is a community for university and research institution OSPOs"
       {{< /company >}}
       {{< company name="Trinity College" image="/images/about/logos/trinity_college_logo.png">}}
       {{< /company >}}
+      {{< company name="Univerity of California Berkeley" image="/images/curioss.png">}}
+      {{< /company >}}
+      {{< company name="University of California Davis" image="/images/curioss.png">}}
+      {{< /company >}}
+      {{< company name="University of California Los Angeles" image="/images/curioss.png">}}
+      {{< /company >}}
+      {{< company name="University of California San Diego" image="/images/curioss.png">}}
+      {{< /company >}}
+      {{< company name="University of California Santa Barbara" image="/images/curioss.png">}}
+      {{< /company >}}
       {{< company name="UCDC" image="/images/about/logos/ucsc.png">}}
       {{< /company >}} 
       {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png">}}
+      {{< /company >}}
+      {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png">}}
       {{< /company >}}
       {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png">}}
       {{< /company >}}
