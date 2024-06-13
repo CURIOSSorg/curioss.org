@@ -23,15 +23,15 @@ subtitle: "CURIOSS is a community for university and research institution OSPOs"
       {{< /company >}}
       {{< company name="Trinity College" image="/images/about/logos/trinity_college_logo.png" url="https://sustainers.github.io/academic-map/universities/trinity-college-dublin.html">}}
       {{< /company >}}
-      {{< company name="Univerity of California Berkeley">}}
+      {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png">}}
       {{< /company >}}
-      {{< company name="University of California Davis">}}
+      {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png">}}
       {{< /company >}}
-      {{< company name="University of California Los Angeles">}}
+      {{< company name="University of California Los Angeles" image="/images/about/logos/uc_los_angeles.png">}}
       {{< /company >}}
-      {{< company name="University of California San Diego">}}
+      {{< company name="University of California San Diego" image="/images/about/logos/uc_san_diego.png">}}
       {{< /company >}}
-      {{< company name="University of California Santa Barbara">}}
+      {{< company name="University of California Santa Barbara" image="/images/about/logos/uc_santa_barbara.png">}}
       {{< /company >}}
       {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://sustainers.github.io/academic-map/universities/university-of-california-santa-cruz.html">}}
       {{< /company >}} 
