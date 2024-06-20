@@ -11,7 +11,7 @@ subtitle: "CURIOSS is a community for university and research institution OSPOs"
       {{< /company >}}
       {{< company name="JHU Library" image="/images/about/logos/jhu_library.png" url="https://sustainers.github.io/academic-map/universities/johns-hopkins-university.html">}}
       {{< /company >}}
-      {{< company name="Lero" image="/images/about/logos/lero_logo.png" url="https://sustainers.github.io/academic-map/universities/lero.html">}}
+      {{< company name="Lero" image="/images/about/logos/lero.png" url="https://sustainers.github.io/academic-map/universities/lero.html">}}
       {{< /company >}}
       {{< company name="RIT" image="/images/about/logos/rit_logo.png" url="https://sustainers.github.io/academic-map/universities/rit.html">}}
       {{< /company >}}
@@ -21,7 +21,7 @@ subtitle: "CURIOSS is a community for university and research institution OSPOs"
       {{< /company >}}
       {{< company name="Syracuse University" image="/images/about/logos/syracuse.png" url="https://sustainers.github.io/academic-map/universities/syracuse.html">}}
       {{< /company >}}
-      {{< company name="Trinity College" image="/images/about/logos/trinity_college_logo.png" url="https://sustainers.github.io/academic-map/universities/trinity-college-dublin.html">}}
+      {{< company name="Trinity College" image="/images/about/logos/tcd.png" url="https://sustainers.github.io/academic-map/universities/trinity-college-dublin.html">}}
       {{< /company >}}
       {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png">}}
       {{< /company >}}
