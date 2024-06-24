@@ -101,7 +101,7 @@ params:
   home: "Home"
   logo_width: 200px
   themeVariant: quizdown
-  description: CURIOSS is a Community for University and Research Institution Open Source Program Offices. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
+  description: CURIOSS is a **C**ommunity for **U**niversity and **R**esearch **I**nstitution **O**pen **S**ource **P**rogram **O**ffices. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
   author: CURIOSS
   defaultImage: images/curioss.png
   footer_content: >-
