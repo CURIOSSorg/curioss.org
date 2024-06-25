@@ -7,6 +7,9 @@ preserveTaxonomyNames: true
 pluralizeListTitles: false
 menu:
   main:
+    - name: News
+      URL: news
+      weight: 1
     - name: About
       hasChildren: true
       identifier: about
@@ -119,4 +122,3 @@ params:
 taxonomies:
   tag: "tags"
   category: "categories"
-  resource: "studies"
