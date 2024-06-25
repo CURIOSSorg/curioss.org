@@ -25,7 +25,7 @@
                 <li><a href="{{ "tags" | relLangURL }}/{{ . | urlize }}">{{ . }}</a></li>
               {{ end }}
             </ul>
-            <p class="card-text event-card-text">{{ .Summary }}</p>
+            <p class="card-text event-card-text">{{ .Description }}</p>
             <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="btn btn-primary btn-sm">Go to News</a>
             {{ if .Params.youtubeLink }}
             <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
@@ -45,14 +45,14 @@
             <h3>
               <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="post-title">{{ .Title }}</a>
             </h3>
-            <p class="post-date">🗓️ Last Update: {{ .Date.Format "2006-01-02" }}</p>
+            <p class="post-date">🗓️ Date: {{ .Date.Format "2006-01-02" }}</p>
             <ul>
               {{ range .Params.tags }}
                 <li><a href="{{ "tags" | relLangURL }}/{{ . | urlize }}">{{ . }}</a></li>
               {{ end }}
             </ul>
-            <p class="card-text event-card-text">{{ .Summary }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="btn btn-primary btn-sm">Open Event</a>
+            <p class="card-text event-card-text">{{ .Description }}</p>
+            <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="btn btn-primary btn-sm">Open News</a>
             {{ if .Params.youtubeLink }}
             <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
             {{ end }}
