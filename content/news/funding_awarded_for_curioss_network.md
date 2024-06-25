@@ -7,7 +7,7 @@ Description: Grant awarded to set up CURIOSS
 
 The [Alfred P. Sloan Foundation](https://sloan.org/) has awarded a one-year grant to coordinate a set of community-centered activities focused on university-based and research institution Open Source Program Offices (OSPOs).
 
-With this funding, the CURIOSS (Community for University and Research Institution OSPOs) network has been established to form and grow a global community dedicated to supporting the growing network of OSPOs in academic contexts.
+With this funding, the CURIOSS (**C**ommunity for **U**niversity and **R**esearch **I**nstitution **OS**PO**s**) network has been established to form and grow a global community dedicated to supporting the growing network of OSPOs in academic contexts.
 
 The project represents a collaboration between Sayeed Choudhury, Associate Dean of Digital Infrastructure and Director of the Carnegie Mellon University Open Source Programs Office, Clare Dillon from NuaWorks and Richard Littauer from SustainOSS.
 
