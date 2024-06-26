@@ -1,5 +1,5 @@
 ---
 title: "News"
-subtitle: "Welcome to the CURIOSS Events page. This is the place where you will find all the events and workshops we are organizing and attending."
+subtitle: "Welcome to the CURIOSS News page. This is the place to hear about the latest news from CURIOSS and its members."
 ---
 
