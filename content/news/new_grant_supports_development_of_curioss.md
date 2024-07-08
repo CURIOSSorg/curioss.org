@@ -1,5 +1,5 @@
 ---
-title: Funding awarded for CURIOSS Network
+title: Funding awarded to support the growth of CURIOSS
 image: "/images/news/new_grant_supports_development_of_curioss.png"
 date: 2024-07-05
 Description: New grant supports the development and growth of CURIOSS
