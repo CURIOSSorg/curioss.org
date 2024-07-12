@@ -9,7 +9,7 @@ CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan 
 
 <div >
 <p class="h1 row text-center justify-content-md-center">Who can join CURIOSS?</p>
-Who will be considered for CURIOSS membership? Individuals from universities or research institutions who are involved in running an OSPO or actively working on setting up an OSPO in their institution. If you are interested in joining the community, please fill in the CURIOSS Contact form. 
+Who will be considered for CURIOSS membership? Individuals from universities or research institutions who are involved in running an OSPO or actively working on setting up an OSPO in their institution. If you are interested in joining the community, please drop us an email at info@curioss.org.
 </div>
 
 <div class="row text-center justify-content-md-center" id="team">
