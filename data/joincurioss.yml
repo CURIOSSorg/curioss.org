@@ -7,7 +7,7 @@ services:
   # service item
   - title: "About CURIOSS"
     icon: "ti-comments" # themify icon pack https://themify.me/themify-icons
-    content: "Find out more about CURIOSS, the organizing and membership. [About CURIOSS ->](/about/)"
+    content: "Find out more about CURIOSS, the organizing and membership [here](/about/)."
 
   # service item
   - title: "Members"
@@ -17,4 +17,4 @@ services:
   # service item
   - title: "Contact CURIOSS"
     icon: "ti-email" # themify icon pack https://themify.me/themify-icons
-    content: "We always love hearing from people working in or with academic OSPOs. To contact us please fill in [this form](/about/contact/)."
+    content: "We always love hearing from people working in or with academic OSPOs. Check out [our contact page](/about/contact/)."

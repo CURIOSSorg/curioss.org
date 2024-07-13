@@ -27,4 +27,4 @@ type: wide
     </div>
   </div>
 </section>
-    
+
