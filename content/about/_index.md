@@ -53,6 +53,6 @@ From time to time, CURIOSS may invite representatives from associated communitie
 
 <b>How will CURIOSS work with other related communities and organizations?</b>
 
-CURIOSS was set up to meet the need for a safe space dedicated to those in OSPOs in universities and research institutions. We acknowledge that there are many communities out there who are involved in related activities. We aim to keep CURIOSS members informed of the events and activities happening in the broader academic OSS landscape. If you have an event or activity you would like to share with the CURIOSS community, please let us know on the <a href="/about/join/">Contact CURIOSS</a> page.
+CURIOSS was set up to meet the need for a safe space dedicated to those in OSPOs in universities and research institutions. We acknowledge that there are many communities out there who are involved in related activities. We aim to keep CURIOSS members informed of the events and activities happening in the broader academic OSS landscape. If you have an event or activity you would like to share with the CURIOSS community, please let us know on the <a href="/about/contact/">Contact CURIOSS</a> page.
 
 
