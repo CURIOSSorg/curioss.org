@@ -8,15 +8,6 @@ node_modules
 builds
 package-lock.json
 public
-/resources/
-<<<<<<< HEAD
-.vs/
-CURIOSS/.vs
-=======
-<<<<<<< HEAD
+resources
 .vs
-=======
-.vs/
-CURIOSS/.vs
->>>>>>> 7eda92b (Delete .vs folder)
->>>>>>> ca34863 (Delete .vs folder)
+
