@@ -54,7 +54,7 @@ Who will be considered for CURIOSS membership? Individuals from universities or 
         <img src="/images/about/team/sc.png" alt="Sayeed Choudhury"/>
       </div>
     </div>
-    <p>Sayeed Choudhury is the Director of Open Source Programs Office (OSPO) at Carnegie Mellon University. Sayeed supports CURIOSS by hosting the organization at CMU.
+    <p>Sayeed Choudhury is the Director of Open Source Programs Office (OSPO) at Carnegie Mellon University. Sayeed served as a member of the CURIOSS Organizing Team from 2023-2024 and was also the PI on the grant that launched the CURIOSS Network.
     </p>
 </div>
 </div>
