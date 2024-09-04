@@ -52,10 +52,12 @@
               {{ end }}
             </ul>
             <p class="card-text event-card-text">{{ .Description }}</p>
+            <div class="d-flex mt-auto flex-md-row flex-sm-column">
             <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="btn btn-primary btn-sm">Open News</a>
             {{ if .Params.youtubeLink }}
             <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
             {{ end }}
+          </div>
           </div>
         </div>
       </div>
