@@ -1,1 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About CURIOSS on CURIOSS</title><link>https://curioss.org/about/</link><description>Recent content in About CURIOSS on CURIOSS</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://curioss.org/about/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://curioss.org/about/newcontactus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/newcontactus/</guid><description>&lt;!DOCTYPE html> Contact CURIOSS</description></item><item><title>Community Code of Conduct</title><link>https://curioss.org/about/codeofconduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/codeofconduct/</guid><description>Our Pledge We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.</description></item><item><title>Contact CURIOSS</title><link>https://curioss.org/about/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/contact/</guid><description>CURIOSS is a Community for University and Research Institution OSPOs. If you want to find out more about the CURIOSS community, please drop us an email at info@curioss.</description></item><item><title>Who can join CURIOSS?</title><link>https://curioss.org/about/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/join/</guid><description> CURIOSS Member Application Please tell us a little about your institution’s OSPO: Comments or questions:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About CURIOSS on CURIOSS</title><link>https://curioss.org/about/</link><description>Recent content in About CURIOSS on CURIOSS</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://curioss.org/about/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://curioss.org/about/newcontactus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/newcontactus/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+ &lt;title>Contact CURIOSS&lt;/title>
+ &lt;link rel="stylesheet" href="&lt;link rel="stylesheet" type="text/css" href="scss/styles.scss">"> &lt;!-- Link to your CSS file -->
+ &lt;style>
+ /* Add some quick styles or link to your CSS */
+ .container {
+ max-width: 600px;
+ margin: auto;
+ padding: 20px;
+ }
+ .bg-white {
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 5px;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+ textarea, input[type="text"] {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 20px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ }
+ input[type="submit"] {
+ background-color: #007bff;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+ input[type="submit"]:hover {
+ background-color: #0056b3;
+ }
+ &lt;/style>
+&lt;/head>
+&lt;body>
+
+&lt;section class="section" style="padding-top: 20px; padding-bottom: 20px;">
+ &lt;div class="container">
+ &lt;div class="col-md-6">
+ &lt;div class="bg-white p-4">
+ &lt;form action="MAILTO:support@curioss.org" method="post" enctype="text/plain">
+ &lt;input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Name" required>
+ &lt;input type="text" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email address" required>
+ &lt;input type="text" id="organization" name="organization" class="form-control mb-4 px-0" placeholder="Institution or Organization" required>
+ &lt;label for="question">Please include your question here&lt;/label>
+ &lt;textarea id="question" name="question" rows="4" cols="50" required>
+ &lt;/textarea>
+ &lt;label for="ospo_info">If applicable, please tell us a little about your institution's OSPO&lt;/label>
+ &lt;textarea id="ospo_info" name="ospo_info" rows="4" cols="50">
+ &lt;/textarea>
+ &lt;input class="btn btn-primary" type="submit" value="Submit">
+ &lt;/form>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/section>
+
+&lt;/body>
+&lt;/html></description></item><item><title>Community Code of Conduct</title><link>https://curioss.org/about/codeofconduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/codeofconduct/</guid><description>&lt;h2 id="our-pledge">Our Pledge&lt;/h2>
+&lt;p>We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.&lt;/p></description></item><item><title>Contact CURIOSS</title><link>https://curioss.org/about/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/contact/</guid><description>&lt;p>CURIOSS is a Community for University and Research Institution OSPOs. If you want to find out more about the CURIOSS community, please drop us an email at &lt;a href="mailto:info@curioss.org">info@curioss.org&lt;/a>. A member of the CURIOSS organizing team will be in contact.&lt;/p></description></item><item><title>Who can join CURIOSS?</title><link>https://curioss.org/about/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/join/</guid><description>&lt;section class="section" style="padding-top: 20px; padding-bottom: 20px;">
+ &lt;div class="container">
+ &lt;div class="row align-items-center">
+ &lt;/div>
+ &lt;div class="col-md-6">
+ &lt;div class="bg-white p-4">
+ &lt;h3>CURIOSS Member Application&lt;/h3>
+ &lt;form action="https://docs.google.com/forms/d/1uzWysuE89ASvZYFq9CUOZgvsvCQZ7nxzQzGdgIeWRwY/formResponse" target="_blank" method="post">
+ &lt;input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Name">
+ &lt;input type="text" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email address">
+ &lt;input type="text" id="institution" name="institution" class="form-control mb-4 px-0" placeholder="Institution">
+ &lt;label for="review">Please tell us a little about your institution’s OSPO:&lt;/label>
+ &lt;textarea id="review" name="review" rows="4" cols="50">
+ &lt;/textarea>
+ &lt;label for="Q&amp;A">Comments or questions:&lt;/label>
+ &lt;textarea id="Q&amp;A" name="Q&amp;A" rows="4" cols="50">
+ &lt;/textarea>
+ &lt;input class="btn btn-primary" type="submit" value="Submit">
+ &lt;/form>
+ &lt;/div>
+ &lt;/div>
+&lt;/section></description></item></channel></rss>
