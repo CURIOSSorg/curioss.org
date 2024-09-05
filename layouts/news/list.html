@@ -13,7 +13,7 @@
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
         <div class="card border-0">
           <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }}>
-            <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="card-img rounded-lg mb-4">
+            <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="card-img mb-4">
           </a> 
           <div class="card-body p-0">
             <h3>
@@ -39,7 +39,7 @@
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
         <div class="card border-0">
           <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }}>
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img mb-4">
           </a>
           <div class="card-body p-0">
             <h3>
