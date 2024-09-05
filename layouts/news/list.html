@@ -11,10 +11,12 @@
     <div class="row">
       {{ range (where $pages ".Date.Unix" ">=" $yesterday).Reverse }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
-        <div class="card border-0">
-          <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }}>
-            <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="card-img mb-4">
-          </a> 
+        <div class="card border-0 h-100">
+          <div class="h-md-45">
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img mb-4">
+            </a>
+          </div>
           <div class="card-body p-0">
             <h3>
               <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="post-title">{{ .Title }}</a>
@@ -37,11 +39,13 @@
       {{ end }}
       {{ range where $pages ".Date.Unix" "<" $yesterday }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
-        <div class="card border-0">
-          <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }}>
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img mb-4">
-          </a>
-          <div class="card-body p-0">
+        <div class="card border-0 h-100">
+          <div class="h-md-45">
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img mb-4">
+            </a>
+          </div>
+          <div class="card-body p-0 d-flex flex-column">
             <h3>
               <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="post-title">{{ .Title }}</a>
             </h3>
