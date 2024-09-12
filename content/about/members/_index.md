@@ -23,15 +23,15 @@ subtitle: "CURIOSS is a community for university and research institution OSPOs"
       {{< /company >}}
       {{< company name="Trinity College" image="/images/about/logos/tcd.png" url="https://sustainers.github.io/academic-map/universities/trinity-college-dublin.html">}}
       {{< /company >}}
-      {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png">}}
+      {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://sustainers.github.io/academic-map/universities/university-of-california-berkeley.html">}}
       {{< /company >}}
-      {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png">}}
+      {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png" url="https://sustainers.github.io/academic-map/universities/university-of-california-davis.html">}}
       {{< /company >}}
-      {{< company name="University of California Los Angeles" image="/images/about/logos/uc_los_angeles.png">}}
+      {{< company name="University of California Los Angeles" image="/images/about/logos/uc_los_angeles.png" url="https://sustainers.github.io/academic-map/universities/university-of-california-los-angeles.html">}}
       {{< /company >}}
-      {{< company name="University of California San Diego" image="/images/about/logos/uc_san_diego.png">}}
+      {{< company name="University of California San Diego" image="/images/about/logos/uc_san_diego.png" url="https://sustainers.github.io/academic-map/universities/university-of-california-san-diego.html">}}
       {{< /company >}}
-      {{< company name="University of California Santa Barbara" image="/images/about/logos/uc_santa_barbara.png">}}
+      {{< company name="University of California Santa Barbara" image="/images/about/logos/uc_santa_barbara.png" url="https://sustainers.github.io/academic-map/universities/university-of-california-santa-barbara.html">}}
       {{< /company >}}
       {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://sustainers.github.io/academic-map/universities/university-of-california-santa-cruz.html">}}
       {{< /company >}} 
