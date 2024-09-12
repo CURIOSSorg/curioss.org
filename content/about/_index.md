@@ -70,8 +70,6 @@ This community is designed exclusively for OSPO representatives, or those active
 
 From time to time, CURIOSS may invite representatives from associated communities, foundations, or corporate organizations to join specific conversations or CURIOSS project groups. However, to ensure we keep the community focused and continue to provide a safe space for discussion, such individuals will not become CURIOSS members.
 
-  As above, we recommend such individuals join the [SustainOSS Academic Working Group](https://sustainoss.org/working-groups/academic-projects/) to share learnings with the broader university OSS ecosystem.
-
 <b>How will CURIOSS work with other related communities and organizations?</b>
 
 CURIOSS was set up to meet the need for a safe space dedicated to those in OSPOs in universities and research institutions. We acknowledge that there are many communities out there who are involved in related activities. We aim to keep CURIOSS members informed of the events and activities happening in the broader academic OSS landscape. If you have an event or activity you would like to share with the CURIOSS community, please let us know on the <a href="/about/contact/">Contact CURIOSS</a> page.
