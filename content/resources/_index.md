@@ -8,4 +8,4 @@ The resource list below has been built from links shared during CURIOSS calls. I
 
 <iframe src="https://docs.google.com/spreadsheets/d/1mJa_rCzj6kcvOIkwRfyWMognAXAjIrFv/pubhtml?widget=true&amp;headers=false" frameborder="0" height="1000" width="100%"></iframe>
 
-We also have [a list of publications](/publications) from our members.
+We also have [a list of publications](/resources/publications) from our members.
