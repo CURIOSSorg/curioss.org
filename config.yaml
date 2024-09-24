@@ -13,10 +13,13 @@ menu:
     - name: Resources
       URL: resources
       weight: 2
+    # - name: Guide
+    #   Url: guide
+    #   weight: 3
     - name: About
       hasChildren: true
       identifier: about
-      weight: 3
+      weight: 4
     - name: About CURIOSS
       URL: about
       parent: about
