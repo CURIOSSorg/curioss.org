@@ -2,47 +2,12 @@
 
 {{ partial "page-header.html" . }}
 
-{{ $pages := .Data.Pages }}
-{{ $yesterday := (now.AddDate 0 0 -1).Unix }}
-{{ $pages = where $pages "Section" "in" "news" }}
+{{ $pages := where .Data.Pages "Section" "news" }}
 
 <section class="section">
   <div class="container">
     <div class="row">
-      {{ range (where $pages ".Date.Unix" ">=" $yesterday).Reverse }}
-      <div class="col-lg-4 col-sm-6 mb-5 event-card">
-<!--         <div class="card border-0">
-          <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }}>
-            <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="card-img mb-4" />
-          </a>
-        </div> -->
-        <div class="card border-0 h-100">
-          <div class="h-md-45">
-            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img mb-4" />
-            </a>
-          </div>
-          <div class="card-body p-0">
-            <h3>
-              <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="post-title">{{ .Title }}</a>
-            </h3>
-            <p class="post-date">{{ .Date.Format "2006-01-02" }}</p> <!-- Date added here -->
-            <ul>
-              {{ range .Params.tags }}
-                <li><a href="{{ "tags" | relLangURL }}/{{ . | urlize }}">{{ . }}</a></li>
-              {{ end }}
-            </ul>
-            <p class="card-text event-card-text">{{ .Description }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="btn btn-primary btn-sm">Go to News</a>
-            {{ if .Params.youtubeLink }}
-            <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{ else }}
-      {{ end }}
-      {{ range where $pages ".Date.Unix" "<" $yesterday }}
+      {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
         <div class="card border-0 h-100">
           <div class="h-md-45">
@@ -62,11 +27,11 @@
             </ul>
             <p class="card-text event-card-text">{{ .Description }}</p>
             <div class="d-flex mt-auto flex-md-row flex-sm-column">
-            <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="btn btn-primary btn-sm">Open News</a>
-            {{ if .Params.youtubeLink }}
-            <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
-            {{ end }}
-          </div>
+              <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="btn btn-primary btn-sm">Read more</a>
+              {{ if .Params.youtubeLink }}
+              <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
+              {{ end }}
+            </div>
           </div>
         </div>
       </div>
