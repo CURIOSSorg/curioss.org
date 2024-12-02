@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Current CURIOSS Members"
-subtitle: "CURIOSS is a community for university and research institution OSPOs"
+subtitle: "CURIOSS is a community for individuals who work in university and research institution OSPOs. The following institutions are represented in CURIOSS."
 ---
   <div class="container">
     <div class="row justify-content-center">
