@@ -14,6 +14,8 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Lero" image="/images/about/logos/lero.png" url="https://sustainoss.org/academic-map/universities/lero.html">}}
       {{< /company >}}
+      {{< company name="Oregon State University" image="/images/about/logos/oregon_state_university.png" url="https://sustainoss.org/academic-map/universities/oregon-state-university.html">}}
+      {{< /company >}}
       {{< company name="RIT" image="/images/about/logos/rit_logo.png" url="https://sustainoss.org/academic-map/universities/rit.html">}}
       {{< /company >}}
       {{< company name="Saint Louis University" image="/images/about/logos/slu_logo.png" url="https://sustainoss.org/academic-map/universities/saint-louis-university.html">}}
