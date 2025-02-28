@@ -7,7 +7,7 @@ Description: Report from Academic Open Source Workshop, CHAOSScon, Feb 2025
 
 ## 1. Introduction
 
-[CHAOSScon Europe 2025](https://chaoss.community/chaosscon-2025-eu), co-located with [FOSDEM](https://fosdem.org/2025), took place in Brussels, Belgium, on January 30, 2025. As part of the conference, a dedicated discussion on Academic Open Source was held, sponsored by [CURIOSS](https://curioss.org). The workshop brought together researchers, software developers, and open source advocates to discuss the challenges and opportunities of sustaining open source software in academia. With 12 participants in attendance, the discussions were divided into two sessions. The first session focused on understanding different types of research software, their sustainability, and institutional support. The second session expanded on these topics, addressing funding uncertainties, emergency open sourcing, and legal considerations related to intellectual property. 
+[CHAOSScon Europe 2025](https://chaoss.community/chaosscon-2025-eu), co-located with [FOSDEM](https://fosdem.org/2025), took place in Brussels, Belgium, on January 30, 2025. As part of the conference, [CURIOSS](https://curioss.org) sponsored and facilitated a dedicated discussion on academic open source. The workshop brought together researchers, software developers, and open source advocates to discuss the challenges and opportunities of sustaining open source software in academia. With 12 participants in attendance, the discussions were divided into two sessions. The first session focused on understanding different types of research software, their sustainability, and institutional support. The second session expanded on these topics, addressing funding uncertainties, emergency open sourcing, and legal considerations related to intellectual property. 
 
 This report presents the key themes from both sessions, followed by a summary of challenges, proposed solutions, and actionable next steps. The goal is to provide a comprehensive understanding of the current state of academic open source and to outline a path forward for researchers and institutions looking to support open source practices more effectively. 
 
@@ -20,11 +20,18 @@ The diagram below provides a high-level visual summary of the key themes explore
 </p>
 *Figure 1: Key Themes in Academic Open Source*
 
+
+## 3. Key Themes from the First Session
+
+In this session, participants examined the various types of research software used in academia, the challenges of sustaining these projects, and the role of institutions in supporting open source initiatives. The discussion highlighted how academic software varies in purpose and longevity, the factors that contribute to its success, and the barriers that hinder long-term maintenance and collaboration. 
+
+This session provided a foundation for understanding the key challenges in sustaining academic open source projects, fostering cross-institutional collaboration, and aligning research incentives with open source best practices. The following themes emerged from the discussion. 
+
 ### 3.1 Framing the Discussion: Projects vs. People 
 
 Participants debated whether the focus of academic open source discussions should be on the software projects themselves or the people behind them. Some argued that understanding software development in academia requires a project-based approach, recognizing the different lifecycles and purposes of research software. Others emphasized the role of individual contributors, particularly the challenges they face in career advancement and funding. 
 
-An important insight was that research software is not solely produced within universities; national labs, private companies, and collaborative research initiatives also play significant roles. This highlighted the need for cross-institutional collaboration and better mechanisms for tracking contributions.
+An important insight was that research software is not solely produced within universities; national labs, private companies, and collaborative research initiatives also play significant roles. This highlighted the need for cross-institutional collaboration and better mechanisms for tracking contributions. 
 
 ### 3.2 Types of Research Software and Open Source Outputs
 
