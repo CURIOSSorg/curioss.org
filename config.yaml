@@ -91,7 +91,8 @@ languages:
   fr:
     languageName: Français
     weight: 2
-paginate: '3'
+pagination:
+  pagerSize: '3'
 summaryLength: '15'
 disqusShortname: ''
 googleAnalytics: ''
