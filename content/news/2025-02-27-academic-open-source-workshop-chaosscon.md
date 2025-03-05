@@ -21,6 +21,7 @@ The diagram below provides a high-level visual summary of the key themes explore
 *Figure 1: Key Themes in Academic Open Source*
 
 
+
 ## 3. Key Themes from the First Session
 
 In this session, participants examined the various types of research software used in academia, the challenges of sustaining these projects, and the role of institutions in supporting open source initiatives. The discussion highlighted how academic software varies in purpose and longevity, the factors that contribute to its success, and the barriers that hinder long-term maintenance and collaboration. 
