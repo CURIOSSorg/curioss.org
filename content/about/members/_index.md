@@ -38,7 +38,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://sustainoss.org/academic-map/universities/university-of-california-santa-cruz.html">}}
       {{< /company >}} 
-      {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/ut-austin.html">}}
+      {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/university-of-texas-austin.html">}}
       {{< /company >}}
       {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://sustainoss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
       {{< /company >}}
