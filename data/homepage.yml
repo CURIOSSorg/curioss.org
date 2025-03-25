@@ -6,17 +6,25 @@ banner:
 ########################### home ##################################
 home:
   enable : true
-  title : "What is CURIOSS?"
-  subtitle : "CURIOSS is a **C**ommunity for  **U**niversity and **R**esearch **I**nstitution **OS**PO**s**. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
-CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
-"
+  title : "Who are CURIOSS?"
+  subtitle : "**CURIOSS** is a **C**ommunity for  **U**niversity and **R**esearch **I**nstitution **OS**PO**s**." 
+  content: "Our goals are to provide support and to build the collective capacity of members who are creating, managing and sustaining Open Source Program Offices in universities and research institutions around the world."
+  header: "We do this in a number of ways, including:"
+  bullet_point: "<ul>
+      <li>Creating dedicated spaces for sharing learning and good practices.</li>
+      <li>Creating shared resources.</li>
+      <li>Facilitating networking and collaboration.</li>
+      <li>Partnering with other organizations to amplify impact.</li>
+      <li>Promoting awareness of academic OSPOs and their learning within the wider academic and OSS ecosystems.</li>
+      </ul>"
+
 
 ########################### joinCURIOSS ##################################
 joincurioss:
   enable : true
   title : "What is CURIOSS?"
   subtitle : "CURIOSS is a community for those working in University and Research Institution OSPOs. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
-CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
+    CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
 "
 
 ############################ features #################################
@@ -42,6 +50,5 @@ CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan 
     - title : "Bootstrap 4x"
       icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-
 
 
