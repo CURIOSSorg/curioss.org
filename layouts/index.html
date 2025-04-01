@@ -9,8 +9,7 @@
       <h2>{{ .title | markdownify }}</h2>
       <p class="lead">{{ .subtitle | markdownify}}</p>
       <p class="lead">{{ .content | markdownify}}</p>
-      <p class="lead text-left">{{ .header | markdownify}}</p>
-      <div class="lead text-left">{{ .bullet_point | safeHTML }}</div>
+      <p class="lead">{{ .description | markdownify}}</p>
       {{ end }}
     </div>
     <div class="container bg-white">
