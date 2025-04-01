@@ -8,6 +8,8 @@
     <div class="col-lg-10 mx-auto text-center">
       <h2>{{ .title | markdownify }}</h2>
       <p class="lead">{{ .subtitle | markdownify}}</p>
+      <p class="lead">{{ .content | markdownify}}</p>
+      <p class="lead">{{ .description | markdownify}}</p>
       {{ end }}
     </div>
     <div class="container bg-white">

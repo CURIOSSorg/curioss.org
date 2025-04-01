@@ -8,14 +8,14 @@ home:
   enable : true
   title : "Who are CURIOSS?"
   subtitle : "**CURIOSS** is a **C**ommunity for  **U**niversity and **R**esearch **I**nstitution **OS**PO**s**. 
-    Our goals are to provide support and to build the collective capacity of members who are creating, managing and sustaining Open Source Program Offices in universities and research institutions around the world.
-    We do this in a number of ways, including: 
-    * Creating dedicated spaces for sharing learning and good practices.
-    * Creating shared resources.
-    * Facilitating networking and collaboration.
-    * Partnering with other organizations to amplify impact.
-    * Promoting awareness of academic OSPOs and their learning within the wider academic and OSS ecosystems.
-    CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation.  " 
+    Our goals are to provide support and to build the collective capacity of members who are creating, managing and sustaining Open Source Program Offices in universities and research institutions around the world." 
+  content: "We do this in a number of ways, including,
+      creating dedicated spaces for sharing learning and good practices,
+      creating shared resources, facilitating networking and collaboration,
+      partnering with other organizations to amplify impact,
+      promoting awareness of academic OSPOs and their learning within the wider academic and OSS ecosystems.
+   "
+  description: "CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation."
 
 
 ########################### joinCURIOSS ##################################
