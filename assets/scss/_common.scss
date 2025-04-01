@@ -297,6 +297,15 @@ a:hover {
     background: $primary-gradient;
     color: $white;
     text-align: center;
+  .svg-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    filter: brightness(0) invert(1); // Makes SVG white
+    object-fit: contain;
+    margin: 0 auto;
+    display: inline-block;
+  }
   }
 }
 
