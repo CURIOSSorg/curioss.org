@@ -21,18 +21,22 @@ menu:
       URL: about
       parent: about
       weight: 1
+    - name: Join CURIOSS
+      URL: about/join
+      parent: about
+      weight: 2
     - name: Members
       URL: about/members
       parent: about
-      weight: 2
+      weight: 3
     - name: Code of Conduct
       URL: about/codeofconduct
       parent: about
-      weight: 3
+      weight: 4
     - name: Contact
       URL: about/contact
       parent: about
-      weight: 4
+      weight: 5
    
   footer_left:
     - name: Home

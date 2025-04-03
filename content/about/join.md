@@ -1,30 +1,46 @@
 ---
-title: "Who can join CURIOSS?"
-subtitle: "Individuals from universities or research institutions who are involved in running an OSPO or actively working on setting up an OSPO in their institution. If you want to join the CURIOSS community, please fill in the form below. A member of the CURIOSS organizing team will be in contact."
-description: "Stay in touch with CURIOSS."
+title: "Join CURIOSS"
 image: "/images/logo.png"
 type: wide
 ---
-<section class="section" style="padding-top: 20px; padding-bottom: 20px;">
-  <div class="container">
-    <div class="row align-items-center">
-  </div>
-   <div class="col-md-6">
-    <div class="bg-white p-4">
-      <h3>CURIOSS Member Application</h3>
-        <form action="https://docs.google.com/forms/d/1uzWysuE89ASvZYFq9CUOZgvsvCQZ7nxzQzGdgIeWRwY/formResponse" target="_blank" method="post">
-          <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Name">
-          <input type="text" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email address">
-          <input type="text" id="institution" name="institution" class="form-control mb-4 px-0" placeholder="Institution">
-            <label for="review">Please tell us a little about your institution’s OSPO:</label>
-            <textarea id="review" name="review" rows="4" cols="50">
-            </textarea>
-            <label for="Q&A">Comments or questions:</label>
-            <textarea id="Q&A" name="Q&A" rows="4" cols="50">
-            </textarea>
-          <input class="btn btn-primary" type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</section>
+
+## Apply to join CURIOSS
+
+CURIOSS membership is open to:
+
+- Individuals or teams who are funded to work in Open Source Program Offices (OSPOs) in universities and research institutions.
+- Individuals or teams who are funded to support, manage and/or sustain open source activity in their university or research institution.
+
+
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSebyfNvpEpQK_jeP_f7R4r0A93ZOunQvI9OJUEdL3SSXrOArw/viewform) to apply to join CURIOSS.
+
+
+## FAQs
+
+#### Who can join CURIOSS?
+Staff working in academic OSPOs or staff supporting the development, management or sustainability of open source activities in their university or research institution
+
+#### How many people from my OSPO can join?
+There is no cap on membership from each OSPO.
+
+#### How much does it cost to join?
+Membership of CURIOSS is free.
+
+#### What are your criteria for joining?
+Applicants should have institutional support (i.e. funding) for their OSPO or their open source support activities.
+
+#### I work part-time in this area - can I still join?
+Once you receive funding for your work in this area, you are eligible to apply to join CURIOSS.
+
+#### What happens once I apply?
+We will screen your application for eligibility.
+
+If your application is eligible, our membership review panel comprising the CURIOSS organizing team and CURIOSS members will review your application.
+
+Following the review, we will contact you by email. We may organize a call with one of our CURIOSS members or the team to learn more about your OSPO.
+
+
+#### Do you have a membership limit?
+The sustainable growth of our network is a priority for us and therefore, the number of new members we accept each year is limited and based on available resources.
+
 
