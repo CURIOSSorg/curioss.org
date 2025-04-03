@@ -110,12 +110,29 @@ params:
       - link: plugins/slick/slick.css
       - link: plugins/youmax/youmax.css
       - link: plugins/bootstrap-select/css/bootstrap-select.min.css
+      - link: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
     js:
       - link: plugins/jQuery/jquery.min.js
       - link: plugins/bootstrap/bootstrap.min.js
       - link: plugins/slick/slick.min.js
       - link: plugins/youmax/youmax.js
       - link: plugins/bootstrap-select/js/bootstrap-select.min.js
+  social:
+    - name: GitHub
+      icon: "ti-github" 
+      url: "https://github.com/CURIOSSorg"
+    - name: LinkedIn
+      icon: "ti-linkedin"
+      url: "https://www.linkedin.com/company/curioss/"
+    - name: Bluesky
+      icon: "images/bluesky.svg" 
+      url: "https://bsky.app/profile/curiossorg.bsky.social"
+    - name: Mastodon
+      icon: "fab fa-mastodon" 
+      url: "https://fosstodon.org/@curioss"
+    - name: Email
+      icon: "ti-email"
+      url: "mailto:info@curioss.org"
   logo: images/color_horizontal_logotype1.svg
   home: "Home"
   logo_width: 200px

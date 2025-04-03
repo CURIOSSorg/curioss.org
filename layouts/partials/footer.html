@@ -35,7 +35,15 @@
         {{ if site.Params.social }}
         <ul class="list-inline social-icons">
           {{ range site.Params.social }}
-          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          <li class="list-inline-item">
+            <a href="{{ .url | safeURL }}">
+              {{ if strings.HasSuffix .icon ".svg" }}
+                <img src="{{ .icon | absURL }}" alt="{{ .name }}" class="svg-icon">
+              {{ else }}
+                <i class="{{ .icon }}"></i>
+              {{ end }}
+            </a>
+          </li>
           {{ end }}
         </ul>
         {{ end }}
