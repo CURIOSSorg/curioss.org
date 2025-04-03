@@ -140,8 +140,10 @@ params:
   description: CURIOSS is a **C**ommunity for **U**niversity and **R**esearch **I**nstitution **O**pen **S**ource **P**rogram **O**ffices. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
   author: CURIOSS
   defaultImage: images/curioss.png
+  cc_by_logo: images/cc-by-4.0.png 
   footer_content: >-
-    The site is licensed under a CC BY license unless otherwise marked.
+    Content on this site, made by CURIOSS, is licensed under a 
+    [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). 
   copyright: >-
     Design by [Themefisher](https://themefisher.com/) and [Gethugothemes](https://gethugothemes.com/),
     icons by [Freepik Storyset](https://storyset.com/people)
