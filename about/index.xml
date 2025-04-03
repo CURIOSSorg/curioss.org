@@ -65,25 +65,10 @@
 &lt;/html></description></item><item><title>Community Code of Conduct</title><link>https://curioss.org/about/codeofconduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/codeofconduct/</guid><description>&lt;h2 id="our-pledge">Our Pledge&lt;/h2>
 &lt;p>We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.&lt;/p></description></item><item><title>Contact CURIOSS</title><link>https://curioss.org/about/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/contact/</guid><description>&lt;p>CURIOSS is a Community for University and Research Institution OSPOs. If you want to find out more about the CURIOSS community, please drop us an email at &lt;a href="mailto:info@curioss.org">info@curioss.org&lt;/a>. A member of the CURIOSS organizing team will be in contact.&lt;/p></description></item><item><title>Who can join CURIOSS?</title><link>https://curioss.org/about/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/join/</guid><description>&lt;section class="section" style="padding-top: 20px; padding-bottom: 20px;">
- &lt;div class="container">
- &lt;div class="row align-items-center">
- &lt;/div>
- &lt;div class="col-md-6">
- &lt;div class="bg-white p-4">
- &lt;h3>CURIOSS Member Application&lt;/h3>
- &lt;form action="https://docs.google.com/forms/d/1uzWysuE89ASvZYFq9CUOZgvsvCQZ7nxzQzGdgIeWRwY/formResponse" target="_blank" method="post">
- &lt;input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Name">
- &lt;input type="text" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email address">
- &lt;input type="text" id="institution" name="institution" class="form-control mb-4 px-0" placeholder="Institution">
- &lt;label for="review">Please tell us a little about your institution’s OSPO:&lt;/label>
- &lt;textarea id="review" name="review" rows="4" cols="50">
- &lt;/textarea>
- &lt;label for="Q&amp;A">Comments or questions:&lt;/label>
- &lt;textarea id="Q&amp;A" name="Q&amp;A" rows="4" cols="50">
- &lt;/textarea>
- &lt;input class="btn btn-primary" type="submit" value="Submit">
- &lt;/form>
- &lt;/div>
- &lt;/div>
-&lt;/section></description></item></channel></rss>
+size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.&lt;/p></description></item><item><title>Contact CURIOSS</title><link>https://curioss.org/about/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/contact/</guid><description>&lt;p>CURIOSS is a Community for University and Research Institution OSPOs. If you want to find out more about the CURIOSS community, please drop us an email at &lt;a href="mailto:info@curioss.org">info@curioss.org&lt;/a>. A member of the CURIOSS organizing team will be in contact.&lt;/p></description></item><item><title>Join CURIOSS</title><link>https://curioss.org/about/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curioss.org/about/join/</guid><description>&lt;h2 id="apply-to-join-curioss">Apply to join CURIOSS&lt;/h2>
+&lt;p>CURIOSS membership is open to:&lt;/p>
+&lt;ul>
+&lt;li>Individuals or teams who are funded to work in Open Source Program Offices (OSPOs) in universities and research institutions.&lt;/li>
+&lt;li>Individuals or teams who are funded to support, manage and/or sustain open source activity in their university or research institution.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSebyfNvpEpQK_jeP_f7R4r0A93ZOunQvI9OJUEdL3SSXrOArw/viewform">Click here&lt;/a> to apply to join CURIOSS.&lt;/p></description></item></channel></rss>
