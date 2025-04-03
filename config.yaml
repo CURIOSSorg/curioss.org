@@ -11,8 +11,17 @@ menu:
       URL: news
       weight: 1
     - name: Resources
-      URL: resources
+      hasChildren: true
+      identifier: resources
       weight: 2
+    - name: CURIOSS Patterns
+      URL: resources/curioss-patterns
+      parent: resources
+      weight: 1
+    - name: CUROSS Deep Dives
+      URL: resources/curioss-deep-dives
+      parent: resources
+      weight: 1
     - name: About
       hasChildren: true
       identifier: about
