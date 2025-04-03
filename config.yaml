@@ -42,34 +42,45 @@ menu:
     - name: Home
       weight: 1
       post: bold
+      pre: _blank
   footer_middle:
     - name: News
       URL: news
       weight: 1
       post: bold
-      pre: _blank
       post: bold
+      pre: _blank
     - name: Resources
       URL: resources
       weight: 2
       post: bold
+      pre: _blank
   footer_right:
     - name: About
       URL: about
       weight: 1
       post: bold
+      pre: _blank
     - name: About CURIOSS
       URL: about
       weight: 2
+      pre: _blank
+    - name: Join CURIOSS
+      URL: about/join
+      weight: 3
+      pre: _blank
     - name: Members
       URL: about/members
-      weight: 3
+      weight: 4
+      pre: _blank
     - name: Code of Conduct
       URL: about/codeofconduct
-      weight: 4
+      weight: 5
+      pre: _blank
     - name: Contact
       URL: about/contact
-      weight: 5
+      weight: 6
+      pre: _blank
 languages:
   en:
     languageName: English
