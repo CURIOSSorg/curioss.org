@@ -40,7 +40,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}} 
       {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://sustainoss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
       {{< /company >}}
-      {{< company name="University of Michigan" image="/images/about/logos/university_of_michigan.png">}}
+      {{< company name="University of Michigan" image="/images/about/logos/university_of_michigan.png" url="https://sustainoss.org/academic-map/universities/university-of-michigan.html">}}
       {{< /company >}}
       {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/university-of-texas-austin.html">}}
       {{< /company >}}
