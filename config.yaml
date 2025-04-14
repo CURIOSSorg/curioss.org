@@ -21,7 +21,19 @@ menu:
     - name: CUROSS Deep Dives
       URL: resources/curioss-deep-dives
       parent: resources
-      weight: 1
+      weight: 2
+    - name: CURIOSS GitHub Repos
+      URL: resources/curioss-github-repos
+      parent: resources
+      weight: 3
+    - name: Resources List
+      URL: resources/resources-list
+      parent: resources
+      weight: 4
+    - name: SustainOSS Academic Map
+      URL: https://sustainoss.org/academic-map/intro.html
+      parent: resources
+      weight: 4
     - name: About
       hasChildren: true
       identifier: about
@@ -60,9 +72,29 @@ menu:
       post: bold
       pre: _blank
     - name: Resources
-      URL: resources
+      URL: resources/curioss-patterns
       weight: 2
       post: bold
+      pre: _blank
+    - name: CURIOSS Patterns
+      URL: resources/curioss-patterns
+      weight: 3
+      pre: _blank
+    - name: CUROSS Deep Dives
+      URL: resources/curioss-deep-dives
+      weight: 4
+      pre: _blank
+    - name: CURIOSS GitHub Repos
+      URL: resources/curioss-github-repos
+      weight: 5
+      pre: _blank
+    - name: Resources List
+      URL: resources/resources-list
+      weight: 6
+      pre: _blank
+    - name: SustainOSS Academic Map
+      URL: https://sustainoss.org/academic-map/intro.html
+      weight: 7
       pre: _blank
   footer_right:
     - name: About
