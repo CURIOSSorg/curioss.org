@@ -26,14 +26,18 @@ menu:
       URL: resources/curioss-github-repos
       parent: resources
       weight: 3
+    - name: Definition of an Academic OSPO
+      URL: https://zenodo.org/records/13910683
+      parent: resources
+      weight: 4
     - name: Resources List
       URL: resources/resources-list
       parent: resources
-      weight: 4
+      weight: 5
     - name: SustainOSS Academic Map
       URL: https://sustainoss.org/academic-map/intro.html
       parent: resources
-      weight: 4
+      weight: 6
     - name: About
       hasChildren: true
       identifier: about
@@ -88,13 +92,17 @@ menu:
       URL: resources/curioss-github-repos
       weight: 5
       pre: _blank
+    - name: Definition of an Academic OSPO
+      URL: https://zenodo.org/records/13910683
+      weight: 6
+      pre: _blank
     - name: Resources List
       URL: resources/resources-list
-      weight: 6
+      weight: 7
       pre: _blank
     - name: SustainOSS Academic Map
       URL: https://sustainoss.org/academic-map/intro.html
-      weight: 7
+      weight: 8
       pre: _blank
   footer_right:
     - name: About
