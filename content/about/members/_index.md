@@ -26,6 +26,8 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Trinity College" image="/images/about/logos/tcd.png" url="https://sustainoss.org/academic-map/universities/trinity-college-dublin.html">}}
       {{< /company >}}
+      {{< company name="Université Grenobles Alpes" image="/images/about/logos/uga.png">}}
+      {{< /company >}}
       {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://sustainoss.org/academic-map/universities/university-of-california-berkeley.html">}}
       {{< /company >}}
       {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png" url="https://sustainoss.org/academic-map/universities/university-of-california-davis.html">}}
