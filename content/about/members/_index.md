@@ -28,6 +28,8 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Université Grenobles Alpes" image="/images/about/logos/uga.png">}}
       {{< /company >}}
+      {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://sustainoss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
+      {{< /company >}}
       {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://sustainoss.org/academic-map/universities/university-of-california-berkeley.html">}}
       {{< /company >}}
       {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png" url="https://sustainoss.org/academic-map/universities/university-of-california-davis.html">}}
@@ -40,8 +42,6 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://sustainoss.org/academic-map/universities/university-of-california-santa-cruz.html">}}
       {{< /company >}} 
-      {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://sustainoss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
-      {{< /company >}}
       {{< company name="University of Michigan" image="/images/about/logos/university_of_michigan.png" url="https://sustainoss.org/academic-map/universities/university-of-michigan.html">}}
       {{< /company >}}
       {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/university-of-texas-austin.html">}}
