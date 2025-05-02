@@ -3,7 +3,7 @@ title: "Discover CURIOSS Patterns"
 subtitle: ""
 ---
      
-> **[Explore the CURIOSS Patterns Collection](https://github.com/CURIOSSorg/curioss-patterns)**
+**[Explore the CURIOSS Patterns Collection](https://github.com/CURIOSSorg/curioss-patterns)**
 
 When someone finds a great solution, we want everyone to benefit from it!
 
