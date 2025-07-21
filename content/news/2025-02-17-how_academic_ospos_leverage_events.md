@@ -1,5 +1,5 @@
 ---
-title: How Academic OSPOs leverage events
+title: How Academic OSPOs leverage events to deepen Open Source engagement
 image: "/images/news/how_academic_ospos_leverage_events.png"
 date: 2025-07-17
 Description: New learning about open source events
