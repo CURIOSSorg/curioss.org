@@ -7,6 +7,8 @@ Description: New learning about open source events
 
 # How Academic OSPOs leverage events to deepen Open Source engagement
 
+## Introduction
+
 [CURIOSS members](https://curioss.org/about/members/) have collaborated to identify several key [patterns](https://curioss.org/resources/curioss-patterns/) that demonstrate how academic OSPOs leverage events and conferences to develop stronger open source communities and open source practices; and to advocate for open source software as an important research artifact within their universities and research institutions. 
 
 These patterns reveal that successful academic OSPOs don't just host conferences — they strategically design them. Members discussed a number of benefits from [organizing open source events and conferences](https://github.com/CURIOSSorg/curioss-patterns/blob/main/host-an-open-source-conference.md). Some outcomes relate to visibility and educating new audiences about the impact of open source. Other OSPOs noted the impact of meaningful connections and new opportunities for open source collaboration and skills development as a result of their conferences. All agree that their events and conferences have clearly demonstrated the value of open source and the academic OSPO within their institutions.
