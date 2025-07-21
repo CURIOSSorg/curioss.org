@@ -5,8 +5,6 @@ date: 2025-07-17
 Description: New learning about open source events
 ---
 
-# How Academic OSPOs leverage events to deepen Open Source engagement
-
 ## Introduction
 
 [CURIOSS members](https://curioss.org/about/members/) have collaborated to identify several key [patterns](https://curioss.org/resources/curioss-patterns/) that demonstrate how academic OSPOs leverage events and conferences to develop stronger open source communities and open source practices; and to advocate for open source software as an important research artifact within their universities and research institutions. 
