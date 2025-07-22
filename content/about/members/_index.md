@@ -42,7 +42,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://sustainoss.org/academic-map/universities/university-of-california-santa-cruz.html">}}
       {{< /company >}} 
-      {{< company name="University College London" image="/images/about/logos/ucl.svg">}}
+      {{< company name="University College London" image="/images/about/logos/ucl.svg" url="https://sustainoss.org/academic-map/universities/university-college-london.html">}}
       {{< /company >}}  
       {{< company name="University of Michigan" image="/images/about/logos/university_of_michigan.png" url="https://sustainoss.org/academic-map/universities/university-of-michigan.html">}}
       {{< /company >}}
