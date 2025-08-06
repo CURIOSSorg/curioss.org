@@ -48,7 +48,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/university-of-texas-austin.html">}}
       {{< /company >}}
-      {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png" url="https://sustainoss.org/academic-map/universities/university-of-vermont.html">}}
+      {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png" url="https://verso.w3.uvm.edu/">}}
       {{< /company >}}
       {{< company name="University of Wisconsin-Madison" image="/images/about/logos/wisconsin.png" url="https://sustainoss.org/academic-map/universities/university-of-wisconsin-madison.html">}}
       {{< /company >}}
