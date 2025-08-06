@@ -12,7 +12,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="JHU Library" image="/images/about/logos/jhu_library.png" url="https://sustainoss.org/academic-map/universities/johns-hopkins-university.html">}}
       {{< /company >}}
-      {{< company name="Lero" image="/images/about/logos/lero.png" url="https://sustainoss.org/academic-map/universities/lero.html">}}
+      {{< company name="Lero" image="/images/about/logos/lero.png" url="https://sfi-lero.github.io/OSPO/">}}
       {{< /company >}}
       {{< company name="Oregon State University" image="/images/about/logos/oregon_state_university.png" url="https://sustainoss.org/academic-map/universities/oregon-state-university.html">}}
       {{< /company >}}
