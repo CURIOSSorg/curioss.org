@@ -30,7 +30,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://sustainoss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
       {{< /company >}}
-      {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://sustainoss.org/academic-map/universities/university-of-california-berkeley.html">}}
+      {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://ospo-berkeley-edu.netlify.app">}}
       {{< /company >}}
       {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png" url="https://sustainoss.org/academic-map/universities/university-of-california-davis.html">}}
       {{< /company >}}
