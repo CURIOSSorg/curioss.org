@@ -44,7 +44,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}} 
       {{< company name="University College London" image="/images/about/logos/ucl.svg" url="https://sustainoss.org/academic-map/universities/university-college-london.html">}}
       {{< /company >}}  
-      {{< company name="University of Michigan" image="/images/about/logos/university_of_michigan.png" url="https://sustainoss.org/academic-map/universities/university-of-michigan.html">}}
+      {{< company name="University of Michigan" image="/images/about/logos/university_of_michigan.png" url="https://innovationpartnerships.umich.edu/moss/">}}
       {{< /company >}}
       {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/university-of-texas-austin.html">}}
       {{< /company >}}
