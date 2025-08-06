@@ -24,7 +24,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Syracuse University" image="/images/about/logos/syracuse.png" url="https://sustainoss.org/academic-map/universities/syracuse.html">}}
       {{< /company >}}
-      {{< company name="Trinity College" image="/images/about/logos/tcd.png" url="https://sustainoss.org/academic-map/universities/trinity-college-dublin.html">}}
+      {{< company name="Trinity College" image="/images/about/logos/tcd.png" url="https://www.tcd.ie/innovation/for-trinity-innovators/open-source-programme-office/">}}
       {{< /company >}}
       {{< company name="Université Grenobles Alpes" image="/images/about/logos/uga.png">}}
       {{< /company >}}
