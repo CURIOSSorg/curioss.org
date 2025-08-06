@@ -38,7 +38,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of California San Diego" image="/images/about/logos/uc_san_diego.png" url="https://sustainoss.org/academic-map/universities/university-of-california-san-diego.html">}}
       {{< /company >}}
-      {{< company name="University of California Santa Barbara" image="/images/about/logos/uc_santa_barbara.png" url="https://sustainoss.org/academic-map/universities/university-of-california-santa-barbara.html">}}
+      {{< company name="University of California Santa Barbara" image="/images/about/logos/uc_santa_barbara.png" url="https://ucospo.net/santa-barbara/">}}
       {{< /company >}}
       {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://sustainoss.org/academic-map/universities/university-of-california-santa-cruz.html">}}
       {{< /company >}} 
