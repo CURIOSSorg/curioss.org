@@ -32,7 +32,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://sustainoss.org/academic-map/universities/university-of-california-berkeley.html">}}
       {{< /company >}}
-      {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png" url="https://sustainoss.org/academic-map/universities/university-of-california-davis.html">}}
+      {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png" url="https://library.ucdavis.edu/news/uc-davis-receives-grant-to-build-network-supporting-open-source-software-in-collaboration-with-five-other-ucs/">}}
       {{< /company >}}
       {{< company name="University of California Los Angeles" image="/images/about/logos/uc_los_angeles.png" url="https://sustainoss.org/academic-map/universities/university-of-california-los-angeles.html">}}
       {{< /company >}}
