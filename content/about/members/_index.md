@@ -7,7 +7,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
     <div class="row justify-content-center">
       {{< company name="Carnegie Mellon University" image="/images/about/logos/cmul.png" url="https://www.library.cmu.edu/services/ospo"/>}}
       {{< company name="ETH Zürich" image="/images/about/logos/eth_zürich.png" url="https://transfer.ethz.ch/researchers/oss.html"/>}}
-      {{< company name="WASHINGTON University" image="/images/about/logos/washington.png" url="https://sustainoss.org/academic-map/universities/george-washington.html"/>}}
+      {{< company name="WASHINGTON University" image="/images/about/logos/washington.png" url="https://ospo.gwu.edu/"/>}}
       {{< company name="Georgia Tech" image="/images/about/logos/georgia.png" url="https://sustainoss.org/academic-map/universities/georgia-institute-of-technology.html">}}
       {{< /company >}}
       {{< company name="JHU Library" image="/images/about/logos/jhu_library.png" url="https://sustainoss.org/academic-map/universities/johns-hopkins-university.html">}}
