@@ -40,7 +40,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of California Santa Barbara" image="/images/about/logos/uc_santa_barbara.png" url="https://ucospo.net/santa-barbara/">}}
       {{< /company >}}
-      {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://sustainoss.org/academic-map/universities/university-of-california-santa-cruz.html">}}
+      {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://ucsc-ospo.github.io/">}}
       {{< /company >}} 
       {{< company name="University College London" image="/images/about/logos/ucl.svg" url="https://github-pages.ucl.ac.uk/open-source/">}}
       {{< /company >}}  
