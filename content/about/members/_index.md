@@ -18,7 +18,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="RIT" image="/images/about/logos/rit_logo.png" url="https://sustainoss.org/academic-map/universities/rit.html">}}
       {{< /company >}}
-      {{< company name="Saint Louis University" image="/images/about/logos/slu_logo.png" url="https://sustainoss.org/academic-map/universities/saint-louis-university.html">}}
+      {{< company name="Saint Louis University" image="/images/about/logos/slu_logo.png" url="https://oss-slu.github.io/">}}
       {{< /company >}}
       {{< company name="Stanford University" image="/images/about/logos/stanford.png" url="https://sustainoss.org/academic-map/universities/stanford-university.html">}}
       {{< /company >}}
