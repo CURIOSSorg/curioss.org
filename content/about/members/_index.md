@@ -22,7 +22,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Stanford University" image="/images/about/logos/stanford.png" url="https://sustainoss.org/academic-map/universities/stanford-university.html">}}
       {{< /company >}}
-      {{< company name="Syracuse University" image="/images/about/logos/syracuse.png" url="https://sustainoss.org/academic-map/universities/syracuse.html">}}
+      {{< company name="Syracuse University" image="/images/about/logos/syracuse.png" url="https://opensource.syracuse.edu/">}}
       {{< /company >}}
       {{< company name="Trinity College" image="/images/about/logos/tcd.png" url="https://www.tcd.ie/innovation/for-trinity-innovators/open-source-programme-office/">}}
       {{< /company >}}
