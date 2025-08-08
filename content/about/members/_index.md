@@ -8,7 +8,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< company name="Carnegie Mellon University" image="/images/about/logos/cmul.png" url="https://www.library.cmu.edu/services/ospo"/>}}
       {{< company name="ETH Zürich" image="/images/about/logos/eth_zürich.png" url="https://transfer.ethz.ch/researchers/oss.html"/>}}
       {{< company name="WASHINGTON University" image="/images/about/logos/washington.png" url="https://ospo.gwu.edu/"/>}}
-      {{< company name="Georgia Tech" image="/images/about/logos/georgia.png" url="https://ospo.cc.gatech.edu/"/>}}
+      {{< company name="Georgia Tech" image="/images/about/logos/georgia.png" url="https://ospo.cc.gatech.edu/">}}
       {{< /company >}}
       {{< company name="JHU Library" image="/images/about/logos/jhu_library.png" url="https://ospo.library.jhu.edu/">}}
       {{< /company >}}
@@ -46,7 +46,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}  
       {{< company name="University of Michigan" image="/images/about/logos/university_of_michigan.png" url="https://innovationpartnerships.umich.edu/moss/">}}
       {{< /company >}}
-      {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="[https://opensource.utexas.edu/](https://sustainoss.org/academic-map/universities/university-of-texas-austin.html)">}}
+      {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/university-of-texas-austin.html">}}
       {{< /company >}}
       {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png" url="https://verso.w3.uvm.edu/">}}
       {{< /company >}}
