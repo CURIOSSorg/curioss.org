@@ -73,7 +73,6 @@ menu:
       URL: news
       weight: 1
       post: bold
-      post: bold
       pre: _blank
     - name: Resources
       URL: resources/curioss-patterns
@@ -157,7 +156,6 @@ languages:
     weight: 2
 pagination:
   pagerSize: '3'
-summaryLength: '15'
 disqusShortname: ''
 googleAnalytics: ''
 markup:
