@@ -26,28 +26,28 @@ joincurioss:
     CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
 "
 
-############################ features #################################
-  enable : true
-  title : "Learn from our member's experience"
-  featureItem:
-    # feature item
-    - title : "User Experience"
-      icon : "ti-vector" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+# ############################ features #################################
+#   enable : true
+#   title : "Learn from our member's experience"
+#   featureItem:
+#     # feature item
+#     - title : "User Experience"
+#       icon : "ti-vector" # themify icon pack https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
       
-    # feature item
-    - title : "Responsive Layout"
-      icon : "ti-layout" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+#     # feature item
+#     - title : "Responsive Layout"
+#       icon : "ti-layout" # themify icon pack https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
       
-    # feature item
-    - title : "Digital Solutions"
-      icon : "ti-headphone-alt" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+#     # feature item
+#     - title : "Digital Solutions"
+#       icon : "ti-headphone-alt" # themify icon pack https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
       
-    # feature item
-    - title : "Bootstrap 4x"
-      icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+#     # feature item
+#     - title : "Bootstrap 4x"
+#       icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
 
 
