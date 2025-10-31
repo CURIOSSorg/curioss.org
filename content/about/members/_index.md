@@ -38,7 +38,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of California Davis" image="/images/about/logos/uc_davis.png" url="https://ucospo.net/davis/">}}
       {{< /company >}}
-      {{< company name="University of California Los Angeles" image="/images/about/logos/uc_los_angeles.png" url="https://sustainoss.org/academic-map/universities/university-of-california-los-angeles.html">}}
+      {{< company name="University of California Los Angeles" image="/images/about/logos/uc_los_angeles.png" url="https://ucospo.net/los-angeles/">}}
       {{< /company >}}
       {{< company name="University of California San Diego" image="/images/about/logos/uc_san_diego.png" url="https://datanexus.ucsd.edu/ospo/index.html">}}
       {{< /company >}}
