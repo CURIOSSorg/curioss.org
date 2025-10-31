@@ -14,7 +14,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Lero" image="/images/about/logos/lero.png" url="https://sfi-lero.github.io/OSPO/">}}
       {{< /company >}}
-      {{< company name="Mass General Brigham" image="/images/about/logos/mass_general_brigham.png" url="">}}
+      {{< company name="Mass General Brigham" image="/images/about/logos/mass_general_brigham.png" url="https://github.com/sustainers/academic-map/blob/main/research-institutions/mass-general-brigham.md/">}}
       {{< /company >}}
       {{< company name="Mississippi State University" image="/images/about/logos/msstate.svg" url="https://www.otm.msstate.edu/ospo">}}
       {{< /company >}}
