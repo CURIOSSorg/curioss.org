@@ -30,7 +30,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Trinity College" image="/images/about/logos/tcd.png" url="https://www.tcd.ie/innovation/for-trinity-innovators/open-source-programme-office/">}}
       {{< /company >}}
-      {{< company name="Université Grenobles Alpes" image="/images/about/logos/uga.png" url="[https://sustainoss.org/academic-map/universities/université-grenoble-alpes.html](https://scienceouverte.univ-grenoble-alpes.fr/codes-et-logiciels/accompagner/">}}
+      {{< company name="Université Grenobles Alpes" image="/images/about/logos/uga.png" url="https://scienceouverte.univ-grenoble-alpes.fr/en/about/codes-data-grenoble-alpes-office/">}}
       {{< /company >}}
       {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://www.uni.lu/snt-en/">}}
       {{< /company >}}
