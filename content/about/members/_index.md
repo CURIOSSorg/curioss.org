@@ -32,7 +32,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Université Grenobles Alpes" image="/images/about/logos/uga.png" url="https://scienceouverte.univ-grenoble-alpes.fr/en/about/codes-data-grenoble-alpes-office/">}}
       {{< /company >}}
-      {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://www.uni.lu/snt-en/">}}
+      {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://sustainoss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
       {{< /company >}}
       {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://ospo-berkeley-edu.netlify.app">}}
       {{< /company >}}
