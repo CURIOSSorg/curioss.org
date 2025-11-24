@@ -5,7 +5,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
 ---
   <div class="container">
     <div class="row justify-content-center">
-      git {{< company name="Biohub" image="/images/about/logos/biohub.png" url="https://github.com/sustainers/academic-map/blob/main/research-institutions/biohub.md"/>}} 
+      {{< company name="Biohub" image="/images/about/logos/biohub.png" url="https://github.com/sustainers/academic-map/blob/main/research-institutions/biohub.md"/>}} 
       {{< company name="Carnegie Mellon University" image="/images/about/logos/cmul.png" url="https://www.library.cmu.edu/services/ospo"/>}}
       {{< company name="ETH Zürich" image="/images/about/logos/eth_zürich.png" url="https://transfer.ethz.ch/researchers/oss.html"/>}}
       {{< company name="WASHINGTON University" image="/images/about/logos/washington.png" url="https://ospo.gwu.edu/"/>}}
