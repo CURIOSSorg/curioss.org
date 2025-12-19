@@ -9,7 +9,7 @@ Description: Effective Outreach Strategies
 
 Academic open source program offices (OSPOs) serve as centers of competency for open source software within their universities.
 
-While the focus and work of academic OSPOs may differ, ‘The overarching goal of an academic OSPO is to maximize the social and economic impact of open source software for research [and] education, both within and outside the academic environment …’ ([Definition of an Academic OSPO](https://zenodo.org/records/13910683), pg 2, Barba L, Choudhury C, Flanagan C, Lippert D, Littauer R, Young J).
+While the focus and work of individual academic OSPOs may differ, ‘The overarching goal of an academic OSPO is to maximize the social and economic impact of open source software for research [and] education, both within and outside the academic environment …’ ([Definition of an Academic OSPO](https://zenodo.org/records/13910683), pg 2, Barba L, Choudhury S, Flanagan C, Lippert D, Littauer R, Young J).
 
 Without effective outreach, even the most well-resourced OSPO risks becoming an underutilized resource, known only to a small circle of researchers and open source projects within their institution.
 
@@ -19,25 +19,22 @@ In conversations about outreach, members identified a common sequence for delive
 
 # The Outreach Challenge for Academic OSPOs
 
-Academic OSPOs face a unique challenge from the moment they’re launched: how to establish visibility and build relationships across a *decentralized* organization. 
-OSPOs cannot rely on one single communication channel or relationship to reach faculty and researchers working within their university’s numerous, siloed departments.
+An academic OSPO faces a unique challenge from the moment it's launched: how to establish visibility and build relationships across a *decentralized* organization. 
+OSPOs cannot rely on one single communication channel or relationship to reach faculty and researchers working across numerous, siloed departments.
 
-Meanwhile important stakeholders such as research groups and student organizations often remain ‘hidden’ - either because they’re unlisted in official directors or they function outside formal institutional frameworks.
+Meanwhile important stakeholders such as research groups and student organizations often remain ‘hidden’ - either because they’re unlisted in official directories or because they function outside formal institutional networks.
 
 CURIOSS members also observed a gap in understanding amongst stakeholders on the importance of open source software as a research tool and artifact and also on the need for centralized open source resources and supports that would benefit their research.
 
-The administrative placement of an OSPO also affects its visibility and reach. 
-
-
-Depending on their institution, an OSPO may be situated in the library, computer sciences, data sciences, the office of research or data. In some cases, OSPOs are situated across more than one service. OSPOs need to work proactively to extend their reach beyond their immediate organizational home. This requires deliberate, sustained outreach efforts that build awareness, establish trust, and demonstrate value across the institution.
+The administrative placement of an OSPO also affects its visibility and reach. Depending on its institution, an OSPO may be situated in the library, computer sciences, data sciences or the office of research. In some cases, OSPOs are situated across more than one service. OSPOs need to proactively extend their reach beyond their immediate organizational home. This requires deliberate, sustained outreach efforts that build awareness, establish trust and demonstrate value across their institution.
 
 # Outreach activities for Early-Stage OSPOs
 
 The initial  outreach activities being undertaken by academic OSPOs focus on two areas: establishing a digital presence and understanding the community they’re serving.
 
-The [OSPO Website](https://github.com/CURIOSSorg/curioss-patterns/blob/main/ospo-website.md) pattern is essential for establishing credibility and providing a central hub for information about OSPO services, programs, and resources. 
+The [OSPO Website](https://github.com/CURIOSSorg/curioss-patterns/blob/main/ospo-website.md) pattern is essential for establishing credibility and providing a central hub for information about OSPO services, programs and resources. 
 
-One crucial service advertised on an OSPO’s website from day one is an [Office Hours](https://github.com/CURIOSSorg/curioss-patterns/blob/main/individual-consultations-office-hours.md) slot for students, researchers and faculty. The [Template for 1:1 Campus Consultations](https://github.com/CURIOSSorg/curioss-patterns/blob/main/template-for-1:1-campus-consultations.md) pattern provides a useful framework for guiding consistent conversations to identify relevant information and needs of open source projects.
+One crucial service should be advertised on an OSPO’s website from day one is an [Office Hours](https://github.com/CURIOSSorg/curioss-patterns/blob/main/individual-consultations-office-hours.md) slot for students, researchers and faculty. The [Template for 1:1 Campus Consultations](https://github.com/CURIOSSorg/curioss-patterns/blob/main/template-for-1:1-campus-consultations.md) pattern provides a useful framework for guiding consistent conversations to identify relevant information and needs of open source projects.
 
 Early stage OSPOs need to design services based on gaps in support and to provide evidence for future program development. Two complementary approaches to discovering open source stakeholders and identifying their needs were noted by CURIOSS members.
 
@@ -65,7 +62,7 @@ The [Student Outreach Strategy](https://github.com/CURIOSSorg/curioss-patterns/b
 
 The strategy covers various activities from social media engagement to casual, in-person activities. The [Event Tabling](https://github.com/CURIOSSorg/curioss-patterns/blob/main/event-tabling.md) pattern illustrates one such approach: establishing an open source or OSPO table at larger campus events to make brief, accessible introductions to the OSPO and open source concepts. This pattern supports OSPOs to consider appropriate events, prepare effective materials and to make the most of tabling opportunities.
 
-An ambassador program may be worth considering for OSPOs that don’t have full-time staff dedicated to outreach. The [OSPO Student Ambassador Program](https://github.com/CURIOSSorg/curioss-patterns/blob/main/ospo-student-ambassador-program.md) pattern outlines an initiative for hiring part-time undergraduates and graduates to promote the OSPO and open source engagement across campus. The pattern also includes links to job descriptions for the student ambassadors. A unique aspect of this program is its basis in student-led peer-to-peer engagement rather than top-down institutional messaging. 
+An ambassador program may be worth considering for OSPOs that don’t have full-time staff dedicated to outreach. The [OSPO Student Ambassador Program](https://github.com/CURIOSSorg/curioss-patterns/blob/main/ospo-student-ambassador-program.md) pattern outlines an initiative for hiring part-time undergraduates and graduates to promote the OSPO and open source engagement across campus. The pattern also includes links to job descriptions for the student ambassadors. A unique aspect of this program is its basis in student-led, peer-to-peer engagement rather than top-down institutional messaging. 
 
 [Co-hosting Student Events](https://github.com/CURIOSSorg/curioss-patterns/blob/main/cohosting-student-events.md) provides an opportunity for both OSPO staff and student organizations to grow their reach. There are multiple benefits to collaborating with student groups on open source events. The events themselves serve as an effective tool for identifying needs, conducting outreach and building community. Division of organisational tasks frees up time-poor OSPO staff but ensures that student volunteers still receive much needed support for running an event. Once again, the student-led nature of this activity provides an informal entry point for students who are new to open source. 
 
