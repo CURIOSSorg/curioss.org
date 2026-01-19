@@ -55,6 +55,8 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png" url="https://verso.w3.uvm.edu/">}}
       {{< /company >}}
+      {{< company name="University of Washington" image="/images/about/logos/university-of-washington.png" url="https://escience.washington.edu">}}
+      {{< /company >}}
       {{< company name="University of Wisconsin-Madison" image="/images/about/logos/wisconsin.png" url="https://ospo.wisc.edu/">}}
       {{< /company >}}
     </div>
