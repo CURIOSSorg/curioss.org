@@ -39,7 +39,7 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
   
     * Bill Branan, Johns Hopkins University OSPO
     * Collin Capano, Syracuse University OSPO    
-    * Jacek Plucinski, SnT l’Université du Luxembourg
+    * Jacek Plucinski, SnT, l’Université du Luxembourg
     * Marvin Barksdale, Mass General Brigham Innovation 
 - Sayeed Choudhury, Carnegie Mellon University OSPO, Open Forum for AI:   **[An Open Technology Stack for AI](https://www.youtube.com/watch?v=DZlzog96aIo)**
 - **Panel:** **[Governance for Academic Open Source](https://www.youtube.com/watch?v=UgHGbp6yn1o)**
@@ -66,8 +66,8 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
 - **Panel:**   **[Enabling Research Software Engineering](https://www.youtube.com/watch?v=VyjWrLlCepw)**
   
     * Aedín Culhane, University of Limerick
-    * Angela Newell, University of Texas at Austin
-    * David Pérez-Suárez, University College London
+    * Angela Newell, UTAustin OSPO
+    * David Pérez-Suárez, Advanced Research Computing Centre, University College London
     * Richard Littauer, CURIOSS
 - Malcolm Bain, Across Legal:   **[Open Source Licensing for Success](https://www.youtube.com/watch?v=PB5syUAax4k)**
 
