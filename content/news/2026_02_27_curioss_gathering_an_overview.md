@@ -83,8 +83,8 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
   
     * Addie Cobb, Varro
     * Ana Jiménez, Linux Foundation
-    * Stephanie Lieggie, UC Santa Cruz
-    * Austin Check, Mississippi State University
+    * Stephanie Lieggie, UC Santa Cruz OSPO
+    * Austin Check, Office of Technology Management, Mississippi State University
 
 # Acknowledgements
 Many thanks to the **[Alfred P. Sloan Foundation](https://sloan.org/)** for their generous support, which made the CURIOSS Gathering possible.
