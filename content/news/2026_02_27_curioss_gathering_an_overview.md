@@ -17,7 +17,7 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
 
 # Day 1 - Best Practice Talks
 
-- Francesca Vera, OpenSource@Stanford:   **[From Code Review to Community: Academic OSPO Partnership with pyOpenSci and rOpenSci]**(https://www.youtube.com/watch?v=9HDAZJS_Wck)
+- Francesca Vera, OpenSource@Stanford:   **[From Code Review to Community: Academic OSPO Partnership with pyOpenSci and rOpenSci](https://www.youtube.com/watch?v=9HDAZJS_Wck)**
 - David Lippert, GW Open Source Program Office:   [OSPO-tunity Knocks - Moving your management out of the shadows and into GitHub](https://www.youtube.com/watch?v=uzixYN5dvYk)
 - Matthew Feickert, University of Wisconsin-Madison OSPO:   [UW-Madison OSPO: Open Source Software Internship Program](https://www.youtube.com/watch?v=-HIE5G6JWmY)
 
