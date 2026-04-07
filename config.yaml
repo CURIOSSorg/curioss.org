@@ -161,7 +161,7 @@ googleAnalytics: ''
 markup:
   goldmark:
     renderer:
-      unsafe: false  # Security: block dangerous HTML tags like <script>, <iframe>
+      unsafe: true
 minify:
   disableHTML: true
 params:
