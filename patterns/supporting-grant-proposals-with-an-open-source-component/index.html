@@ -1,0 +1,816 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://curioss.org/patterns/supporting-grant-proposals-with-an-open-source-component/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Supporting grant proposals with an open source component - Patterns</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+  
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+    
+      
+      
+        
+      
+      
+    
+  
+  
+  <style>:root{.md-tag.md-tag--agp{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%203c-1.27%200-2.4.8-2.82%202H3v2h1.95L2%2014c-.47%202%201%203%203.5%203s4.06-1%203.5-3L6.05%207h3.12c.33.85.98%201.5%201.83%201.83V20H2v2h20v-2h-9V8.82c.85-.32%201.5-.97%201.82-1.82h3.13L15%2014c-.47%202%201%203%203.5%203s4.06-1%203.5-3l-2.95-7H21V5h-6.17C14.4%203.8%2013.27%203%2012%203m0%202a1%201%200%200%201%201%201%201%201%200%200%201-1%201%201%201%200%200%201-1-1%201%201%200%200%201%201-1m-6.5%205.25L7%2014H4zm13%200L20%2014h-3z%22/%3E%3C/svg%3E');}.md-tag.md-tag--awareness{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%203h14a2%202%200%200%201%202%202v14a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2V5a2%202%200%200%201%202-2m2.5%2012A1.5%201.5%200%200%200%206%2016.5%201.5%201.5%200%200%200%207.5%2018%201.5%201.5%200%200%200%209%2016.5%201.5%201.5%200%200%200%207.5%2015M6%2010v2a6%206%200%200%201%206%206h2a8%208%200%200%200-8-8m0-4v2a10%2010%200%200%201%2010%2010h2A12%2012%200%200%200%206%206%22/%3E%3C/svg%3E');}.md-tag.md-tag--community{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%200a64%2064%200%201%201%200%20128%2064%2064%200%201%201%200-128m96%20312c0%2025-12.7%2047-32%2059.9V464c0%2026.5-21.5%2048-48%2048h-32c-26.5%200-48-21.5-48-48v-92.1C172.7%20359%20160%20337%20160%20312v-40c0-53%2043-96%2096-96s96%2043%2096%2096zM96%2032a56%2056%200%201%201%200%20112%2056%2056%200%201%201%200-112m16%20240v32c0%2032.5%2012.1%2062.1%2032%2084.7V464c0%201.2%200%202.5.1%203.7-8.5%207.6-19.7%2012.3-32.1%2012.3H80c-26.5%200-48-21.5-48-48v-56.6c-19.1-11-32-31.7-32-55.4v-32c0-53%2043-96%2096-96%2012.7%200%2024.8%202.5%2035.9%206.9-12.6%2021.4-19.9%2046.4-19.9%2073.1m256%20192v-75.3c19.9-22.5%2032-52.2%2032-84.7v-32c0-26.7-7.3-51.6-19.9-73.1%2011.1-4.5%2023.2-6.9%2035.9-6.9%2053%200%2096%2043%2096%2096v32c0%2023.7-12.9%2044.4-32%2055.4V432c0%2026.5-21.5%2048-48%2048h-32c-12.3%200-23.6-4.6-32.1-12.3%200-1.2.1-2.5.1-3.7m48-432a56%2056%200%201%201%200%20112%2056%2056%200%201%201%200-112%22/%3E%3C/svg%3E');}.md-tag.md-tag--value{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M6%202%202%208l10%2014L22%208l-4-6z%22/%3E%3C/svg%3E');}.md-tag.md-tag--dei{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20640%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M320%2096C178.6%2096%2064%20210.6%2064%20352v64c0%2017.7-14.3%2032-32%2032S0%20433.7%200%20416v-64C0%20175.3%20143.3%2032%20320%2032s320%20143.3%20320%20320v64c0%2017.7-14.3%2032-32%2032s-32-14.3-32-32v-64c0-141.4-114.6-256-256-256m0%20112c-79.5%200-144%2064.5-144%20144v64c0%2017.7-14.3%2032-32%2032s-32-14.3-32-32v-64c0-114.9%2093.1-208%20208-208s208%2093.1%20208%20208v64c0%2017.7-14.3%2032-32%2032s-32-14.3-32-32v-64c0-79.5-64.5-144-144-144m-32%20144v64c0%2017.7-14.3%2032-32%2032s-32-14.3-32-32v-64c0-53%2043-96%2096-96s96%2043%2096%2096v64c0%2017.7-14.3%2032-32%2032s-32-14.3-32-32v-64c0-17.7-14.3-32-32-32s-32%2014.3-32%2032%22/%3E%3C/svg%3E');}.md-tag.md-tag--edu{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M8.82%2017%2013%2019.28V22H6c-1.11%200-2-.89-2-2V4a2%202%200%200%201%202-2h1v7l2.5-1.5L12%209V2h6a2%202%200%200%201%202%202v8.54l-1.5-.82zM24%2017l-5.5-3-5.5%203%205.5%203zm-9%202.09v2L18.5%2023l3.5-1.91v-2L18.5%2021z%22/%3E%3C/svg%3E');}.md-tag.md-tag--funding{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22m1%2022%201.5-5h7l1.5%205zm12%200%201.5-5h7l1.5%205zm-7-7%201.5-5h7l1.5%205zm17-8.95-3.86%201.09L18.05%2011l-1.09-3.86-3.86-1.09%203.86-1.09%201.09-3.86%201.09%203.86z%22/%3E%3C/svg%3E');}.md-tag.md-tag--development{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22m14.6%2016.6%204.6-4.6-4.6-4.6L16%206l6%206-6%206zm-5.2%200L4.8%2012l4.6-4.6L8%206l-6%206%206%206z%22/%3E%3C/svg%3E');}.md-tag.md-tag--discovery{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%202a7%207%200%200%200-7%207c0%202.38%201.19%204.47%203%205.74V17a1%201%200%200%200%201%201h6a1%201%200%200%200%201-1v-2.26c1.81-1.27%203-3.36%203-5.74a7%207%200%200%200-7-7M9%2021a1%201%200%200%200%201%201h4a1%201%200%200%200%201-1v-1H9z%22/%3E%3C/svg%3E');}.md-tag.md-tag--sustainability{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22m21.82%2015.42-2.5%204.33c-.49.86-1.4%201.31-2.32%201.25h-2v2l-2.5-4.5L15%2014v2h2.82l-2.22-3.85%204.33-2.5%201.8%203.12c.52.77.59%201.8.09%202.65M9.21%203.06h5c.98%200%201.83.57%202.24%201.39l1%201.74%201.73-1-2.64%204.41-5.15.09%201.73-1-1.41-2.45-2.21%203.85-4.34-2.5%201.8-3.12c.41-.83%201.26-1.41%202.25-1.41m-4.16%2016.7-2.5-4.33c-.49-.85-.42-1.87.09-2.64l1-1.73-1.73-1%205.14.08%202.65%204.42-1.73-1L6.56%2016H11v5H7.4a2.51%202.51%200%200%201-2.35-1.24%22/%3E%3C/svg%3E');}.md-tag.md-tag--promoting{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M20%2011H4V8h16m0%207h-7v-2h7m0%206h-7v-2h7m-9%202H4v-6h7m9.33-8.33L18.67%203%2017%204.67%2015.33%203l-1.66%201.67L12%203l-1.67%201.67L8.67%203%207%204.67%205.33%203%203.67%204.67%202%203v16a2%202%200%200%200%202%202h16a2%202%200%200%200%202-2V3z%22/%3E%3C/svg%3E');}.md-tag.md-tag--rewards{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M20%202H4v2l5.81%204.36a7.004%207.004%200%200%200-4.46%208.84%206.996%206.996%200%200%200%208.84%204.46%207%207%200%200%200%200-13.3L20%204zm-5.06%2017.5L12%2017.78%209.06%2019.5l.78-3.33-2.59-2.24%203.41-.29L12%2010.5l1.34%203.14%203.41.29-2.59%202.24z%22/%3E%3C/svg%3E');}.md-tag.md-tag--tools{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M18%2016h-2v-1H8v1H6v-1H2v5h20v-5h-4zm2-8h-3V6c0-1.1-.9-2-2-2H9c-1.1%200-2%20.9-2%202v2H4c-1.1%200-2%20.9-2%202v4h4v-2h2v2h8v-2h2v2h4v-4c0-1.1-.9-2-2-2m-5%200H9V6h6z%22/%3E%3C/svg%3E');}.md-tag.md-tag--transfer{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M8%204a2%202%200%200%200-2%202v4h2V6h8v3h-2.5l3.5%203.5L20.5%209H18V6a2%202%200%200%200-2-2zm-5%208v2h8v-2zm0%203v2h8v-2zm10%200v2h8v-2zM3%2018v2h8v-2zm10%200v2h8v-2z%22/%3E%3C/svg%3E');}}</style>
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#supporting-grant-proposals-with-an-open-source-component" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Patterns" class="md-header__button md-logo" aria-label="Patterns" data-md-component="logo">
+      
+  <img src="https://curioss.org/images/color_horizontal_logotype1.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Patterns
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Supporting grant proposals with an open source component
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/CURIOSSorg/curioss-patterns" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Patterns" class="md-nav__button md-logo" aria-label="Patterns" data-md-component="logo">
+      
+  <img src="https://curioss.org/images/color_horizontal_logotype1.svg" alt="logo">
+
+    </a>
+    Patterns
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/CURIOSSorg/curioss-patterns" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PATTERN-TEMPLATE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pattern-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem / Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pattern-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern Category
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Context
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#raising-awareness-with-key-stakeholders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Raising awareness with key stakeholders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#provide-options-for-support-with-grant-proposals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Provide options for support with grant proposals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resulting-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resulting Context
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resulting Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#additional-learning-from-carnegie-mellon-university-ospo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional learning from Carnegie Mellon University OSPO
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-instances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Known Instances
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="References">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#related-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributors-acknowledgement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributors &amp; Acknowledgement
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        
+        
+          
+        
+      
+      
+        <a href="../.#tag:advocacy-governance--policy" class="md-tag md-tag-icon md-tag--agp">Advocacy, Governance & Policy</a>
+      
+    
+      
+      
+      
+        
+        
+          
+        
+      
+      
+        <a href="../.#tag:demonstrating-value-as-an-academic-ospo" class="md-tag md-tag-icon md-tag--value">Demonstrating value as an Academic OSPO</a>
+      
+    
+      
+      
+      
+        
+        
+          
+        
+      
+      
+        <a href="../.#tag:funding--financial-support" class="md-tag md-tag-icon md-tag--funding">Funding & Financial Support</a>
+      
+    
+  </nav>
+
+
+  
+  
+
+
+<h1 id="supporting-grant-proposals-with-an-open-source-component">Supporting grant proposals with an open source component<a class="headerlink" href="#supporting-grant-proposals-with-an-open-source-component" title="Permanent link"> §</a></h1>
+<h2 id="pattern-summary">Pattern Summary<a class="headerlink" href="#pattern-summary" title="Permanent link"> §</a></h2>
+<p>Provide a range of supports and resources to support funding proposals with an open source software component.</p>
+<h2 id="problem-challenge">Problem / Challenge<a class="headerlink" href="#problem-challenge" title="Permanent link"> §</a></h2>
+<ul>
+<li>There has been a growth in recognition of the value of open source software amongst funders.</li>
+<li>Increasingly, funders require software to be released as open source and to make research outputs publicly available.</li>
+<li>Principal Investigators (PIs) are not always aware of related best practices or options relating to open source software (OSS).</li>
+<li>Faculty and researchers may not know how best to demonstrate that their publications, data and/or software will meet these requirements in their funding applications.</li>
+</ul>
+<h2 id="pattern-category">Pattern Category<a class="headerlink" href="#pattern-category" title="Permanent link"> §</a></h2>
+<ul>
+<li>Demonstrating value as an Academic OSPO</li>
+<li>Funding &amp; Financial Support</li>
+<li>OSS Advocacy &amp; Policy</li>
+</ul>
+<h2 id="context">Context<a class="headerlink" href="#context" title="Permanent link"> §</a></h2>
+<p>A university or research institution that submits grant proposals to federal, state or private funding sources.</p>
+<p>PIs, other leaders, and central institution or departmental grants offices are involved in the preparation of grant applications.</p>
+<h2 id="forces">Forces<a class="headerlink" href="#forces" title="Permanent link"> §</a></h2>
+<p>Teams working on proposals face competing pressures and time constraints when submitting proposals and their primary concern is the proposal narrative and budget. </p>
+<p>Other components of a grant application (e.g. open source, OSS) is outside their area of expertise and/or their area of concern.</p>
+<p>Other offices that focus on grant submissions may not know of the university OSPO and how it can support their funding applications. </p>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link"> §</a></h2>
+<p>Include the OSPO in the development of grant proposals to improve their prospects for success.</p>
+<p>The solution below outlines basic core activities to consider.</p>
+<h3 id="raising-awareness-with-key-stakeholders">Raising awareness with key stakeholders<a class="headerlink" href="#raising-awareness-with-key-stakeholders" title="Permanent link"> §</a></h3>
+<p>Develop approaches for marketing OSPO support in this area with relevant faculty, researchers and senior leadership. </p>
+<p>Ideally, awareness raising activities should be conducted well in advance of any funding application deadlines. OSPO support for grant proposals can be communicated in:</p>
+<ul>
+<li>Information updates at departmental meetings.</li>
+<li>One-to-one consultations.</li>
+<li>Engagement with student groups.</li>
+<li>The OSPO website.</li>
+<li>Engagement with research support offices.</li>
+</ul>
+<p>Promotion of the OSPO may also be enhanced by collaborating with aligned teams working in the areas of open science, open access etc.</p>
+<h3 id="provide-options-for-support-with-grant-proposals">Provide options for support with grant proposals<a class="headerlink" href="#provide-options-for-support-with-grant-proposals" title="Permanent link"> §</a></h3>
+<p>Depending on capacity, options for grant support may include:</p>
+<ul>
+<li>Direct contribution to the proposal narrative (typically rare, and also highly concise given space constraints).</li>
+<li>Consultation that leads to changes in the proposal narrative by the leadership team.</li>
+<li>Letters of support or appendices that outline the services of the OSPO and other relevant teams (e.g. open science, open access), through associated templates.</li>
+<li>Letters or appendices of commitment that outline specific contributions from the OSPO toward the deliverables of the proposal.</li>
+<li>Recommendations regarding third party experts, organizations, etc. that could improve the chances of funding approval. </li>
+<li>Including OSPO personnel as members of the proposal team.</li>
+</ul>
+<h2 id="resulting-context">Resulting Context<a class="headerlink" href="#resulting-context" title="Permanent link"> §</a></h2>
+<p>Offering support with grant proposals develops and strengthens relationships with faculty, researchers and students.</p>
+<p>Marketing the OSPO’s services and providing support with funding applications also leads to long-term engagement with research teams to advance their open source software.</p>
+<p>The OSPO can also act as a connector between unconnected research teams tackling similar issues.  </p>
+<p>Possibly better reactions from reviewers interested in the open source components of proposals.</p>
+<h3 id="additional-learning-from-carnegie-mellon-university-ospo">Additional learning from Carnegie Mellon University OSPO<a class="headerlink" href="#additional-learning-from-carnegie-mellon-university-ospo" title="Permanent link"> §</a></h3>
+<p>We regularly work with CMU’s Open Science team to provide information about our services.</p>
+<p>To date, faculty have directly contacted the OSPO for proposal support. The CMU OSPO offers to meet with the leadership team, which has often taken advantage of this opportunity. </p>
+<p>In some cases, requests have come from departmental or college-level research support departments seeking additional expertise in support of faculty proposals. </p>
+<p>In all cases, the OSPO asks for a copy of the proposal, which is reviewed for any mention of or opportunity related to open source software. </p>
+<p>We’ve also noted a greater awareness and appreciation for the CMU OSPO and we’ve used this as an opportunity to introduce projects to other services such as <a href="https://bitergia.com/">Bitergia</a> and <a href="https://about.scarf.sh/">Scarf</a>.</p>
+<h2 id="known-instances">Known Instances<a class="headerlink" href="#known-instances" title="Permanent link"> §</a></h2>
+<ul>
+<li><a href="https://www.library.cmu.edu/services/ospo">CMU Open Source Program Office</a>, CMU Libraries, Carnegie Mellon University</li>
+<li><a href="https://ospo.gwu.edu/">The GW Open Source Program Office</a>, The George Washington University</li>
+<li><a href="https://opensource.utexas.edu/">The UT Austin OSPO</a>, The University of Texas at Austin</li>
+</ul>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link"> §</a></h2>
+<h3 id="related-patterns">Related Patterns<a class="headerlink" href="#related-patterns" title="Permanent link"> §</a></h3>
+<ul>
+<li><a href="../embedding-the-ospo-as-research-infrastructure/">Embedding the OSPO as Research Infrastructure</a> - Pattern from the UT Austin OSPO.</li>
+<li><a href="../open-source-grant-commitment-letter/">Open Source Grant Commitment Letter</a> - Pattern from the George Washington University OSPO.</li>
+<li><a href="../ospo-as-co-principal-investigator/">OSPO as Co-Principal Investigator</a></li>
+<li><a href="../ospo-as-lead-principal-investigator/">OSPO as <em>Lead</em> Principal Investigator</a></li>
+</ul>
+<h2 id="contributors-acknowledgement">Contributors &amp; Acknowledgement<a class="headerlink" href="#contributors-acknowledgement" title="Permanent link"> §</a></h2>
+<ul>
+<li>Sayeed Choudhury (Carnegie Mellon University) https://orcid.org/0000-0003-2891-0543</li>
+<li>Tom Hughes (Carnegie Mellon University) https://orcid.org/0009-0008-7516-3687</li>
+<li>Ciara Flanagan https://orcid.org/0009-0005-3153-7673</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.progress"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": {"Advocacy, Governance \u0026 Policy": "agp", "Awareness": "awareness", "Community Building": "community", "Demonstrating value as an Academic OSPO": "value", "Diversity, Equity \u0026 Inclusion": "dei", "Education \u0026 Skills": "edu", "Funding \u0026 Financial Support": "funding", "Open Source Development": "development", "Open Source Discovery": "discovery", "Open Source Sustainability": "sustainability", "Promoting Best Practices": "promoting", "Rewards \u0026 Recognition": "rewards", "Tools \u0026 Infrastructure": "tools", "Working with Tech Transfer / External Partners": "transfer"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
