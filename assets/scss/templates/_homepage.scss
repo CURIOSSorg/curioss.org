@@ -84,6 +84,23 @@
   }
 }
 
+// Clickable card links
+a.text-decoration-none {
+  .card {
+    cursor: pointer;
+    color: inherit;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+    }
+  }
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .bg-image {
   position: absolute;
   left: 0;
