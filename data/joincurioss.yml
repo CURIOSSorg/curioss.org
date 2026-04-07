@@ -7,14 +7,17 @@ services:
   # service item
   - title: "About CURIOSS"
     icon: "ti-comments" # themify icon pack https://themify.me/themify-icons
-    content: "Find out more about CURIOSS, the organizing and membership [here](/about/)."
+    content: "Find out more about CURIOSS, the organizing and membership."
+    url: "/about/"
 
   # service item
   - title: "Members"
     icon: "ti-announcement" # themify icon pack https://themify.me/themify-icons
-    content: "Find out about who is part of the CURIOSS Community on our [Members page](/about/members/)."
+    content: "Find out about who is part of the CURIOSS Community."
+    url: "/about/members/"
 
   # service item
   - title: "Contact CURIOSS"
     icon: "ti-email" # themify icon pack https://themify.me/themify-icons
-    content: "We always love hearing from people working in or with academic OSPOs. Check out [our contact page](/about/contact/)."
+    content: "We always love hearing from people working in or with academic OSPOs."
+    url: "/about/contact/"
