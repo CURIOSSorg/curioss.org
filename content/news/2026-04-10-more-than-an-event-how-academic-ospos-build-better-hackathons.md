@@ -92,3 +92,5 @@ These CURIOSS patterns and insights were developed through collaboration between
 Omar Mohsine and Mithusa Kajendran (UN OSPO, OICT), Tom Hughes ([Carnegie Mellon University OSPO](https://www.library.cmu.edu/services/ospo)), Emily Lovell ([UC Santa Cruz OSPO](https://ucsc-ospo.github.io/)), Laura Langdon ([UC OSPO Network](https://ucospo.net/)) and Angela Newell ([University of Texas OSPO](https://opensource.utexas.edu/))
 
 Photo by [algoleague](https://unsplash.com/@algoleague) on [Unsplash](https://unsplash.com/)
+
+**A note on AI use:** This article was drafted with the help of AI in addition to working from deep dive transcripts and capturing learning from our community discussions. As a small organization, tools like this help us turn rich conversations into written resources without losing the ideas along the way. As always, there were plenty of human eyes reviewing, editing and improving the content before this article made it to publication. Thanks go to our community for the insights. If you do spot any errors, please let us know so we can correct them!
