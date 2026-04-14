@@ -89,7 +89,7 @@ In terms of partnerships, the OSPO approach to collaboration offers a compelling
 These CURIOSS patterns and insights were developed through collaboration between CURIOSS members and were enriched by the CURIOSS Deep Dive, 'Reboot the Earth – Social Coding Events' with the United Nations Office of Information and Communication Technology.
  
 **Many thanks to:**
-Angela Newell ([University of Texas OSPO](https://opensource.utexas.edu/)), David Lippert ([George Washington University OSPO](https://ospo.gwu.edu/)) Emily Lovell ([UC Santa Cruz OSPO](https://ucsc-ospo.github.io/)), Laura Langdon ([UC OSPO Network](https://ucospo.net/)), Omar Mohsine and Mithusa Kajendran (UN OSPO, [UN Office of Information and Communications Technology](https://unite.un.org/en)) and Tom Hughes ([Carnegie Mellon University OSPO](https://www.library.cmu.edu/services/ospo)) 
+Angela Newell ([University of Texas OSPO](https://opensource.utexas.edu/)), David Lippert ([George Washington University OSPO](https://ospo.gwu.edu/)) Emily Lovell ([UC Santa Cruz OSPO](https://ucsc-ospo.github.io/)), Laura Langdon ([UC OSPO Network](https://ucospo.net/)), Omar Mohsine and Mithusa Kajendran (UN OSPO, [UN Office of Information and Communications Technology](https://unite.un.org/en)) and Tom Hughes ([Carnegie Mellon University OSPO](https://www.library.cmu.edu/services/ospo)).
 
 Photo by [algoleague](https://unsplash.com/@algoleague) on [Unsplash](https://unsplash.com/)
 
