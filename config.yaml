@@ -18,8 +18,8 @@ menu:
       URL: resources/curioss-patterns
       parent: resources
       weight: 1
-    - name: CUROSS Deep Dives
-      URL: resources/curioss-deep-dives
+    - name: CURIOSS Talks
+      URL: resources/curioss-talks
       parent: resources
       weight: 2
     - name: CURIOSS GitHub Repos
@@ -83,8 +83,8 @@ menu:
       URL: resources/curioss-patterns
       weight: 3
       pre: _blank
-    - name: CUROSS Deep Dives
-      URL: resources/curioss-deep-dives
+    - name: CURIOSS Talks
+      URL: resources/curioss-talks
       weight: 4
       pre: _blank
     - name: CURIOSS GitHub Repos

@@ -1,5 +1,7 @@
 ---
 title: "CURIOSS Talks"
+aliases:
+  - /resources/curioss-deep-dives/
 ---
 
 We share recordings from our CURIOSS Talks to support knowledge exchange and to accelerate the advancement of academic open source throughout the ecosystem.
