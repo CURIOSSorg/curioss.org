@@ -1,7 +1,8 @@
 talks:
   - slug: anita_bandrowski
-    title: "Anita Bandrowski"
+    name: "Anita Bandrowski"
     date: 2025-07-25
+    title: "Research Resource IDentifiers (RRIDs) and the RRID Portal"
     image: /images/resources/anita_bandrowski.png
     youtubeLink: https://www.youtube.com/watch?v=oAAvrFiDMoM
 
