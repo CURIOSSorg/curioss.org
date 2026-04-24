@@ -41,9 +41,8 @@
               </div>
               <div class="text-muted mb-3">{{ .funder }}</div>
               <div class="mb-3">
-                {{ with .amount }}<strong>{{ . }}</strong>{{ end }}
-                {{ if and .amount .deadline }} &middot; {{ end }}
-                {{ with .deadline }}<strong>Deadline:</strong> {{ . }}{{ end }}
+                <p>{{ with .amount }}<strong>{{ . }}</strong>{{ end }}</p>
+                <p>{{ with .deadline }}<strong>Deadline:</strong> {{ . }}{{ end }}</p>
               </div>
               {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
               <dl class="row small mb-0">
