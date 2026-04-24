@@ -2,7 +2,7 @@
 
 {{ partial "page-header.html" . }}
 
-<section class="section">
+<section class="section" id="curioss-talks">
   <div class="container">
     <div class="row">
       <div class="mx-auto mb-4">
@@ -13,11 +13,11 @@
         <div class="card border-1 h-100">
           <div class="h-md-45">
             <a href="{{ .youtubeLink }}" target="_blank" rel="noopener">
-              <img src="{{ .image | absURL }}" alt="{{ .title }}" class="card-img mb-4" />
+              <img src="{{ .image | absURL }}" alt="{{ with .title }}{{ . }}{{ else }}{{ .name }}{{ end }}" class="card-img mb-4" />
             </a>
           </div>
           <div class="card-body p-0 d-flex flex-column">
-            <h2><a href="{{ .youtubeLink }}" target="_blank" rel="noopener" class="post-title">{{ .title }}</a></h2>
+            <h2 class="recording-title"><a href="{{ .youtubeLink }}" target="_blank" rel="noopener" class="post-title">{{ .name }}</a></h2>
             <div class="d-flex mt-auto flex-md-row flex-sm-column">
               <a href="{{ .youtubeLink }}" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Watch Recording</a>
             </div>
