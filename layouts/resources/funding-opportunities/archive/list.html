@@ -27,7 +27,7 @@
         <div id="funding-list">
           {{ $data := index .Site.Data "funding-opportunities" }}
           {{ range $data.opportunities }}
-          {{ if ne (lower (trim (default "" .status) " ")) "closed" }}
+          {{ if eq (lower (trim (default "" .status) " ")) "closed" }}
           <article class="card border-1 mb-4 funding-card"
                    data-title="{{ .title }}"
                    data-funder="{{ .funder }}"
@@ -38,7 +38,10 @@
                 <h3 class="mb-0 mr-3">
                   <a href="{{ .url }}" target="_blank" rel="noopener" class="post-title">{{ .title }}</a>
                 </h3>
-                {{ with .type }}<span class="badge badge-secondary align-self-start">{{ . }}</span>{{ end }}
+                <div class="d-flex align-self-start gap-2">
+                  <span class="badge badge-dark">Closed</span>
+                  {{ with .type }}<span class="badge badge-secondary">{{ . }}</span>{{ end }}
+                </div>
               </div>
               <div class="text-muted mb-3">{{ .funder }}</div>
               <div class="mb-3">
@@ -70,17 +73,10 @@
           {{ end }}
         </div>
 
-        <p id="funding-empty" class="text-muted text-center py-4" style="display:none;">No opportunities match your filter.</p>
+        <p id="funding-empty" class="text-muted text-center py-4" style="display:none;">No archived opportunities match your filter.</p>
 
-        <div class="text-center mt-5">
-          <a href="https://github.com/CURIOSSorg/curioss.org/issues/new?title=Funding+opportunity+suggestion:+&body=%23%23+Funding+opportunity+details%0A%0A-+%2A%2ATitle%2A%2A:+%0A-+%2A%2AFunder%2A%2A:+%0A-+%2A%2AURL%2A%2A:+%0A-+%2A%2AType%2A%2A+%28Grant%2FFellowship%2FSponsorship%2FPrize%29:+%0A-+%2A%2AAmount%2A%2A:+%0A-+%2A%2ADeadline%2A%2A+%28date+or+%22Rolling%22%29:+%0A-+%2A%2AEligibility%2A%2A:+%0A-+%2A%2AGeography%2A%2A:+%0A-+%2A%2AFocus+area%2A%2A:+%0A-+%2A%2ADescription%2A%2A:+%0A"
-             target="_blank"
-             rel="noopener"
-             class="btn btn-secondary">Suggest an opportunity</a>
-        </div>
-
-        <p class="text-center text-muted mt-4 mb-0">
-          Looking for past opportunities? See the <a href="{{ "/resources/funding-opportunities/archive/" | relURL }}">funding opportunities archive</a>.
+        <p class="text-center mt-5 mb-0">
+          <a href="{{ "/resources/funding-opportunities/" | relURL }}" class="btn btn-secondary">&larr; Back to current funding opportunities</a>
         </p>
       </div>
     </div>
