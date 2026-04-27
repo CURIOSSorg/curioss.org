@@ -14,7 +14,7 @@ opportunities:
     deadline: "Preliminary proposal: 2026-01-13 · Full proposal: 2026-04-28"
     deadlineSort: "2026-01-13"
     eligibility: ""
-    geography: ""
+    geography: "USA"
     focusArea: "Open-source ecosystem safety, security, and privacy"
     description: "Supports open-source ecosystems addressing significant vulnerabilities — both technical (code vulnerabilities, side-channels) and socio-technical (supply chain, insider threats, social engineering). Ecosystems do not need prior NSF funding to apply."
     tags:
@@ -47,7 +47,7 @@ opportunities:
     deadline: "Letter of intent: 2026-05-04 · Full proposal: 2026-06-04"
     deadlineSort: "2026-05-04"
     eligibility: ""
-    geography: ""
+    geography: "USA"
     focusArea: "Biomedical, clinical, behavioral, and health research software"
     description: "Salary support via the NIH Research Specialist (R50) mechanism for Research Software Engineers contributing to NIH-funded biomedical, clinical, behavioral, or health-related research software, tools, and algorithms. Targets RSEs outside a traditional independent-investigator career path."
     tags:
@@ -64,7 +64,7 @@ opportunities:
     deadline: "Full proposal: 2026-09-01 · Full proposal: 2027-03-02"
     deadlineSort: "2026-09-01"
     eligibility: ""
-    geography: ""
+    geography: "USA"
     focusArea: "Open-source research software ecosystems"
     description: "Funds scoping activities to help existing open-source research products with small user communities transition into sustainable, robust open-source ecosystems. Phase I supports early formation of managing organizations and training for teams building such ecosystems."
     tags:
@@ -80,7 +80,7 @@ opportunities:
     deadline: "Full proposal: 2026-09-01 · Full proposal: 2027-03-02"
     deadlineSort: "2026-09-01"
     eligibility: ""
-    geography: ""
+    geography: "USA"
     focusArea: "Open-source research software ecosystems"
     description: "Supports transition of promising open-source research products with small existing user and contributor communities into sustainable, robust open-source ecosystems. A POSE Phase I award is not required to apply to Phase II."
     tags:
