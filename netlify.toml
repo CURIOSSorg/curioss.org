@@ -1,26 +1,6 @@
-Diagnosis
-
-    Relevant error lines: line 46 shows the build command Netlify ran, line 47 shows the failure ("hugo: command not found"), and line 53 shows the command exit code. The resolved config also shows the current build command and publish path (lines 60-64).
-    Error type: missing executable / build-time dependency.
-    Root cause: Netlify attempted to run hugo but no Hugo binary was installed in the build environment, so the build fails because "hugo" is not available.
-
-Solution
-
-    Verify this repo is a Hugo site
-        Confirm the repository contains Hugo site files (config.toml or config.yaml, content/, layouts/ or theme/). If it isn’t a Hugo site, change the Netlify build command to the correct builder (e.g., npm run build for a Node project).
-
-    Provide Hugo to Netlify
-        EITHER set HUGO_VERSION as a site environment variable in the Netlify UI:
-            Site settings > Build & deploy > Environment > Environment variables > Add variable:
-                Key: HUGO_VERSION
-                Value: a Hugo version string (for example "0.116.5" or whatever version your site requires)
-        OR add it to netlify.toml in the repository so it’s committed with the site (example below). This instructs Netlify to install that Hugo version before running the build.
-
-Example netlify.toml (add to repo root)
-
 [build]
   command = "hugo --minify"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.116.5"
+  HUGO_VERSION = "0.147.0"

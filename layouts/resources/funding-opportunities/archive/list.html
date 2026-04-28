@@ -1,0 +1,89 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto mb-4">
+        <div class="content">{{ .Content }}</div>
+
+        <div class="d-flex flex-wrap align-items-end gap-2 mb-4 funding-controls">
+          <div class="flex-grow-1">
+            <label for="funding-filter" class="form-label small mb-1">Filter</label>
+            <input type="search" id="funding-filter" class="form-control" placeholder="Search by keyword, funder, eligibility…" autocomplete="off">
+          </div>
+          <div>
+            <label for="funding-sort" class="form-label small mb-1">Sort by</label>
+            <select id="funding-sort" class="form-control">
+              <option value="deadline-asc">Deadline (soonest first)</option>
+              <option value="amount-desc">Amount (largest first)</option>
+              <option value="funder-asc">Funder (A–Z)</option>
+              <option value="title-asc">Title (A–Z)</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="funding-list">
+          {{ $data := index .Site.Data "funding-opportunities" }}
+          {{ range $data.opportunities }}
+          {{ if eq (lower (trim (default "" .status) " ")) "closed" }}
+          <article class="card border-1 mb-4 funding-card"
+                   data-title="{{ .title }}"
+                   data-funder="{{ .funder }}"
+                   data-amount-sort="{{ .amountSort }}"
+                   data-deadline-sort="{{ .deadlineSort }}">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start flex-wrap mb-2">
+                <h3 class="mb-0 mr-3">
+                  <a href="{{ .url }}" target="_blank" rel="noopener" class="post-title">{{ .title }}</a>
+                </h3>
+                <div class="d-flex align-self-start gap-2">
+                  <span class="badge badge-dark">Closed</span>
+                  {{ with .type }}<span class="badge badge-secondary">{{ . }}</span>{{ end }}
+                </div>
+              </div>
+              <div class="text-muted mb-3">{{ .funder }}</div>
+              <div class="mb-3">
+                <p>{{ with .amount }}<strong>{{ . }}</strong>{{ end }}</p>
+                <p>{{ with .deadline }}<strong>Deadline:</strong> {{ . }}{{ end }}</p>
+              </div>
+              {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
+              <dl class="row small mb-0">
+                {{ with .eligibility }}
+                <dt class="col-sm-3">Eligibility</dt>
+                <dd class="col-sm-9">{{ . | markdownify }}</dd>
+                {{ end }}
+                {{ with .geography }}
+                <dt class="col-sm-3">Geography</dt>
+                <dd class="col-sm-9">{{ . }}</dd>
+                {{ end }}
+                {{ with .focusArea }}
+                <dt class="col-sm-3">Focus area</dt>
+                <dd class="col-sm-9">{{ . }}</dd>
+                {{ end }}
+                {{ with .url }}
+                <dt class="col-sm-3">Website</dt>
+                <dd class="col-sm-9"><a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></dd>
+                {{ end }}
+              </dl>
+            </div>
+          </article>
+          {{ end }}
+          {{ end }}
+        </div>
+
+        <p id="funding-empty" class="text-muted text-center py-4" style="display:none;">No archived opportunities match your filter.</p>
+
+        <p class="text-center mt-5 mb-0">
+          <a href="{{ "/resources/funding-opportunities/" | relURL }}" class="btn btn-secondary">&larr; Back to current funding opportunities</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ $fundingJS := resources.Get "js/funding-opportunities.js" | minify }}
+<script src="{{ $fundingJS.Permalink }}"></script>
+
+{{ end }}

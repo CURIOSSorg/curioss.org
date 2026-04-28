@@ -1,0 +1,91 @@
+# Opportunities imported from the JHU OSPO Funding Opportunities page:
+# https://ospo.library.jhu.edu/services/funding-opportunities/
+#
+# Fields left blank (eligibility, some geography) are not specified by the
+# JHU source. Descriptions are paraphrased from the linked entry pages.
+#
+# When adding a geography, go with what makes sense: global, remote, USA, EU, etc.
+# If multiple values or other fields are needed, please file an issue.
+
+opportunities:
+  - title: "Safety, Security, and Privacy of Open-Source Ecosystems (Safe-OSE)"
+    funder: "National Science Foundation (NSF)"
+    url: "https://new.nsf.gov/funding/opportunities/safe-ose-safety-security-privacy-open-source-ecosystems/nsf24-608/solicitation"
+    type: "Grant"
+    amount: "$1,500,000 over 24 months; Year 1 not to exceed $500,000"
+    amountSort: 1500000
+    deadline: "Preliminary proposal: 2026-01-13 · Full proposal: 2026-04-28"
+    deadlineSort: "2026-01-13"
+    eligibility: ""
+    geography: "USA"
+    focusArea: "Open-source ecosystem safety, security, and privacy"
+    description: "Supports open-source ecosystems addressing significant vulnerabilities — both technical (code vulnerabilities, side-channels) and socio-technical (supply chain, insider threats, social engineering). Ecosystems do not need prior NSF funding to apply."
+    tags:
+      - security
+      - nsf
+
+  - title: "Google.org Impact Challenge: AI for Science"
+    status: "Closed" 
+    funder: "Google.org"
+    url: "https://www.google.org/impact-challenges/ai-science/"
+    type: "Grant"
+    amount: "$500,000 – $3,000,000"
+    amountSort: 3000000
+    deadline: "Full application: 2026-04-17"
+    deadlineSort: "2026-04-17"
+    eligibility: ""
+    geography: "Global"
+    focusArea: "AI for scientific research"
+    description: "A $30M global open-call that funds researchers and organizations to accelerate scientific breakthroughs with AI. Selected participants may also join a six-month Google.org Accelerator with technical support from Google specialists and Google Cloud credits."
+    tags:
+      - ai
+      - science
+
+  - title: "NIH Research Software Engineer (RSE) Award"
+    funder: "National Institutes of Health (NIH)"
+    url: "https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-24-011.html"
+    type: "Grant"
+    amount: "$300,000 for up to three years; no more than $200,000 for one year"
+    amountSort: 300000
+    deadline: "Letter of intent: 2026-05-04 · Full proposal: 2026-06-04"
+    deadlineSort: "2026-05-04"
+    eligibility: ""
+    geography: "USA"
+    focusArea: "Biomedical, clinical, behavioral, and health research software"
+    description: "Salary support via the NIH Research Specialist (R50) mechanism for Research Software Engineers contributing to NIH-funded biomedical, clinical, behavioral, or health-related research software, tools, and algorithms. Targets RSEs outside a traditional independent-investigator career path."
+    tags:
+      - rse
+      - nih
+      - biomedical
+
+  - title: "Pathways to Enable Open-Source Ecosystems (POSE) — Phase 1"
+    funder: "National Science Foundation (NSF)"
+    url: "https://new.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems"
+    type: "Grant"
+    amount: "Up to $300,000 for projects with durations up to 1 year"
+    amountSort: 300000
+    deadline: "Full proposal: 2026-09-01 · Full proposal: 2027-03-02"
+    deadlineSort: "2026-09-01"
+    eligibility: ""
+    geography: "USA"
+    focusArea: "Open-source research software ecosystems"
+    description: "Funds scoping activities to help existing open-source research products with small user communities transition into sustainable, robust open-source ecosystems. Phase I supports early formation of managing organizations and training for teams building such ecosystems."
+    tags:
+      - nsf
+      - ecosystem
+
+  - title: "Pathways to Enable Open-Source Ecosystems (POSE) — Phase 2"
+    funder: "National Science Foundation (NSF)"
+    url: "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems"
+    type: "Grant"
+    amount: "Up to $1,500,000 for projects with durations up to 2 years"
+    amountSort: 1500000
+    deadline: "Full proposal: 2026-09-01 · Full proposal: 2027-03-02"
+    deadlineSort: "2026-09-01"
+    eligibility: ""
+    geography: "USA"
+    focusArea: "Open-source research software ecosystems"
+    description: "Supports transition of promising open-source research products with small existing user and contributor communities into sustainable, robust open-source ecosystems. A POSE Phase I award is not required to apply to Phase II."
+    tags:
+      - nsf
+      - ecosystem

@@ -74,4 +74,6 @@ From time to time, CURIOSS may invite representatives from associated communitie
 
 CURIOSS was set up to meet the need for a safe space dedicated to those in OSPOs in universities and research institutions. We acknowledge that there are many communities out there who are involved in related activities. We aim to keep CURIOSS members informed of the events and activities happening in the broader academic OSS landscape. If you have an event or activity you would like to share with the CURIOSS community, please get email us at: info@curioss.org.
 
+<b>How do you pronounce CURIOSS?</b>
 
+Good question! Generally, most people use /ˈkjʊɹ.i.əs/, which is the General American and Irish pronunciation for the word '[curious](https://en.wiktionary.org/wiki/curious)'. Some members, however, also say  /ˈkjʊɹ.i.ɒs/ or /kjʊɹ.i.ˈɒs/, like in '[ocelot](https://en.wiktionary.org/wiki/ocelot)', to emphasize the OSS. Many of our members are not Irish or American and have their own dialects of English which may reflect different pronunciations.
