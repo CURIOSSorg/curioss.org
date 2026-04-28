@@ -296,8 +296,14 @@ button.svelte-la9dd4:disabled {
     font-weight: bold;
 }
 
-#curioss-talks .event-card {
-    padding-top: 60px;
+#curioss-talks {
+    .event-card {
+        padding-top: 60px;
+    }
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 .recording-title {
