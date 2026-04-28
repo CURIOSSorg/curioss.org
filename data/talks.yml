@@ -1,0 +1,266 @@
+talks:
+  - slug: anita_bandrowski
+    name: "Anita Bandrowski"
+    date: 2025-07-25
+    title: "Research Resource IDentifiers (RRIDs) and the RRID Portal"
+    image: /images/resources/anita_bandrowski.png
+    youtubeLink: https://www.youtube.com/watch?v=oAAvrFiDMoM
+
+  - slug: anita_sarma
+    name: "Anita Sarma"
+    title: "OSS Sustainability through an "Inclusivity" lens"
+    date: 2025-02-28
+    image: /images/resources/anita_sarma.png
+    youtubeLink: https://www.youtube.com/watch?v=fIDVYX_tDnw
+
+  - slug: bridget_almas
+    name: "Bridget Almas"
+    title: "The Lyrasis Organizational Home - Supporting OSS Research Infrastrucure"
+    date: 2025-03-31
+    image: /images/resources/bridget_almas.png
+    youtubeLink: https://www.youtube.com/watch?v=1TlvxgJU8uc
+
+  - slug: daniel_s_katz
+    name: "Daniel S. Katz"
+    title: "An Introduction to Research Software Engineering"
+    date: 2024-12-12
+    image: /images/resources/daniel_s_katz.png
+    youtubeLink: https://www.youtube.com/watch?v=06aYsm8_SRc
+
+  - slug: daniel_shown
+    name: "Daniel Shown"
+    title: "Opening Skills and Solutions: Experiential Learning at Saint Louis University"
+    date: 2025-09-30
+    image: /images/resources/daniel_shown.png
+    youtubeLink: https://www.youtube.com/watch?v=7UhZ-dSbJ9c
+
+  - slug: dawn_foster
+    name: "Dawn Foster"
+    title: "CHAOSS and Demonstrating the Value of Open Source Efforts"
+    date: 2026-03-27
+    image: /images/resources/dawn_foster.png
+    youtubeLink: https://www.youtube.com/watch?v=LYqG3oX3rnY
+
+  - slug: francesca_vera_ellianna_abrahams
+    name: "Francesca Vera & Ellianna Abrahams"
+    title: "Open Source@Stanford's Maintainers and Contributors Roundtable"
+    date: 2025-10-28
+    image: /images/resources/francesca_vera_ellianna_abrahams.png
+    youtubeLink: https://www.youtube.com/watch?v=1tCLyTWbSbE
+
+  - slug: jonathan_starr
+    name: "Jonathan Starr"
+    title: "Mapping the Impact of Academic OSS with NUMFocus"
+    date: 2025-05-23
+    image: /images/resources/jonathan_starr.png
+    youtubeLink: https://www.youtube.com/watch?v=85ZIuAFqggM
+
+  - slug: julieta_arancio
+    name: "Julieta Arancio"
+    title: "Fostering Innovation through Open Hardware: Opportunities for Academic OSPOs"
+    date: 2026-03-03
+    image: /images/resources/julieta_arancio.png
+    youtubeLink: https://www.youtube.com/watch?v=-bBxYYUJStg
+
+  - slug: lou_woodley
+    name: "Lou Woodley"
+    title: "Introducing the Center for Scientific Collaboration and Community Engagement and Resources for OSPOs"
+    date: 2025-05-16
+    image: /images/resources/lou_woodley.png
+    youtubeLink: https://www.youtube.com/watch?v=iZkrRetIrM4
+
+  - slug: maria_doyle
+    name: "Maria Doyle"
+    title: "The Bioconductor Project"
+    date: 2025-01-27
+    image: /images/resources/maria_doyle.png
+    youtubeLink: https://www.youtube.com/watch?v=i9_L8ygU03g
+
+  - slug: michael_shensky
+    name: "Michael Shensky"
+    title: "Discovering OSS Activity at The University of Texas at Austin"
+    date: 2024-10-25
+    image: /images/resources/michael_shensky.png
+    youtubeLink: https://www.youtube.com/watch?v=u602YcC-K9w
+
+  - slug: mithusha_kajendra_omar_mohsine_tom_hughes
+    name: "Mithusha Kajendra, Omar Mohsine & Tom Hughes"
+    title: "Reboot the Earth: Social Coding Events"
+    date: 2025-11-24
+    image: /images/resources/mithusha_kajendra_omar_mohsine_tom_hughes.png
+    youtubeLink: https://www.youtube.com/watch?v=AiZ8zXN4xJw
+
+  - slug: software_heritage
+    name: "Software Heritage"
+    title: "An Introduction to Software Heritage"
+    date: 2024-10-22
+    image: /images/resources/software_heritage.png
+    youtubeLink: https://www.youtube.com/watch?v=a1JcgsN4sTs
+
+  - slug: software_identifiers
+    name: "Software Identifiers"
+    title: "An Introduction to Software Identifiers"
+    date: 2024-10-21
+    image: /images/resources/software_identifiers.png
+    youtubeLink: https://www.youtube.com/watch?v=j0oLzVLhtIQ
+
+  - slug: zach_francesca_leah
+    name: "Zach, Francesca & Leah"
+    title: "OpenSource@Stanford & pyOpenSci"
+    date: 2025-07-02
+    image: /images/resources/zach_francesca_leah.png
+    youtubeLink: https://www.youtube.com/watch?v=P6CZeINDAUc
+
+  - slug: 2026-02-04-david-lippert
+    name: "David Lippert"
+    title: "OSPO-tunity Knocks: Moving your management out of the shadows and into GitHub
+    date: 2026-02-04T10:00:00
+    image: /images/resources/2026-02-04-david-lippert.png
+    youtubeLink: https://www.youtube.com/watch?v=uzixYN5dvYk
+
+  - slug: 2026-02-04-francesca-vera
+    name: "Francesca Vera"
+    title: "From Code Review to Community: Academic OSPO Partnerships with pyOpenSci & rOpenSci"
+    date: 2026-02-04T09:00:00
+    image: /images/resources/2026-02-04-francesca-vera.png
+    youtubeLink: https://www.youtube.com/watch?v=9HDAZJS_Wck
+
+  - slug: 2026-02-04-matthew-feickert
+    name: "Matthew Feickert"
+    title: "UW-Madison OSPO: Open Source Software Internship Program"
+    date: 2026-02-04T12:00:00
+    image: /images/resources/2026-02-04-matthew-feickert.png
+    youtubeLink: https://www.youtube.com/watch?v=-HIE5G6JWmY
+
+  - slug: 2026-02-04-virginia-scarlett
+    name: "Virginia Scarlett"
+    title: "The 2025 UC OSPO Survey: A Retrospective"
+    date: 2026-02-04T11:00:00
+    image: /images/resources/2026-02-04-virginia-scarlett.png
+    youtubeLink: https://www.youtube.com/watch?v=nbL2COrMsPY
+
+  - slug: 2026-02-05-ana-jimenez-santamaria
+    name: "Ana Jiménez Santamaría"
+    title: "OSPO Academic Outreach Program"
+    date: 2026-02-05T06:30:00
+    image: /images/resources/2026-02-05-ana-jimenez-santamaria.png
+    youtubeLink: https://m.youtube.com/watch?v=xJYituGNddk
+
+  - slug: 2026-02-05-ciaran-oriordan
+    name: "Ciarán O'Riordan"
+    title: "How European Regulations impact OSS for Open Research"
+    date: 2026-02-05T07:30:00
+    image: /images/resources/2026-02-05-ciaran-oriordan.png
+    youtubeLink: https://m.youtube.com/watch?v=aWGJAjRxe1I
+
+  - slug: 2026-02-05-clare-dillon
+    name: "Clare Dillon"
+    title: "CURIOSS Gathering 2026: Welcome Address"
+    date: 2026-02-05T01:00:00
+    image: /images/resources/2026-02-05-clare-dillon.png
+    youtubeLink: https://www.youtube.com/watch?v=Q5P3kT6YOGQ&t=5s
+
+  - slug: 2026-02-05-colin-keogh
+    name: "Colin Keogh"
+    title: "From Funded Openness to Sustainable Impact: Operationalising Open Source in Academic Research"
+    date: 2026-02-05T07:00:00
+    image: /images/resources/2026-02-05-colin-keogh.png
+    youtubeLink: https://m.youtube.com/watch?v=dBZCwTn1wPA
+
+  - slug: 2026-02-05-daniel-izquierdo-cortazar
+    name: "Daniel Izquierdo-Cortázar"
+    title: "The Geopolitics of Code: From Digital Sovereignty to Global Fragmentation"
+    date: 2026-02-05T06:00:00
+    image: /images/resources/2026-02-05-daniel-izquierdo-cortazar.png
+    youtubeLink: https://m.youtube.com/watch?v=MG-LKOxve8w
+
+  - slug: 2026-02-05-enabling-research-software-engineering
+    name: "Enabling Research Software Engineering"
+    title: "Enabling Research Software Engineering"
+    date: 2026-02-05T09:00:00
+    image: /images/resources/2026-02-05-enabling-research-software-engineering.png
+    youtubeLink: https://m.youtube.com/watch?v=VyjWrLlCepw
+
+  - slug: 2026-02-05-john-durcan
+    name: "John Durcan"
+    title: "Ireland as a Partner for Open Source Innovation"
+    date: 2026-02-05T08:00:00
+    image: /images/resources/2026-02-05-john-durcan.png
+    youtubeLink: https://m.youtube.com/watch?v=n3eR1zZaOh0
+
+  - slug: 2026-02-05-josh-greenberg
+    name: "Josh Greenberg"
+    title: "Why Open Source matters for Open Science"
+    date: 2026-02-05T02:00:00
+    image: /images/resources/2026-02-05-josh-greenberg.png
+    youtubeLink: https://www.youtube.com/watch?v=cEeDQBQpC90
+
+  - slug: 2026-02-05-malcolm-bain
+    name: "Malcolm Bain"
+    title: "Open Source Licensing for Success"
+    date: 2026-02-05T09:30:00
+    image: /images/resources/2026-02-05-malcolm-bain.png
+    youtubeLink: https://m.youtube.com/watch?v=PB5syUAax4k
+
+  - slug: 2026-02-05-panel-academic-ospos-why-you-need-them
+    name: "Panel: Academic OSPOs — Why You Need Them"
+    title: "Academic OSPOs - What they are and why you need one!"
+    date: 2026-02-05T03:30:00
+    image: /images/resources/2026-02-05-panel-academic-ospos-why-you-need-them.png
+    youtubeLink: https://www.youtube.com/watch?v=ZOInv3Dt_tU
+
+  - slug: 2026-02-05-panel-curioss-case-studies
+    name: "Panel: CURIOSS Case Studies"
+    title: "CURIOSS Academic Open Source Program Offices: Case Studies"
+    date: 2026-02-05T04:00:00
+    image: /images/resources/2026-02-05-panel-curioss-case-studies.png
+    youtubeLink: https://www.youtube.com/watch?v=9ZxQH8KsvQk
+
+  - slug: 2026-02-05-panel-governance-for-academic-open-source
+    name: "Panel: Governance for Academic Open Source"
+    title: "Governance for Academic Open Source"
+    date: 2026-02-05T05:00:00
+    image: /images/resources/2026-02-05-panel-governance-for-academic-open-source.png
+    youtubeLink: https://m.youtube.com/watch?v=UgHGbp6yn1o
+
+  - slug: 2026-02-05-panel-how-ospos-facilitate-cross-sector-collaboration
+    name: "Panel: How OSPOs Facilitate Cross-Sector Collaboration"
+    title: "How OSPOs can facilitate Cross-Sector Collaboration"
+    date: 2026-02-05T11:00:00
+    image: /images/resources/2026-02-05-panel-how-ospos-facilitate-cross-sector-collaboration.png
+    youtubeLink: https://m.youtube.com/watch?v=R35UzPFUZ-g&t=5s
+
+  - slug: 2026-02-05-panel-steps-to-setting-up-academic-ospo
+    name: "Panel: Steps to Setting Up an Academic OSPO"
+    title: "Steps to Setting Up Academic OSPO"
+    date: 2026-02-05T10:00:00
+    image: /images/resources/2026-02-05-panel-steps-to-setting-up-academic-ospo.png
+    youtubeLink: https://m.youtube.com/watch?v=agi6PoHD-7g
+
+  - slug: 2026-02-05-panel-what-skills-for-future-software-development
+    name: "Panel: What Skills for Future Software Development"
+    title: "What are the skills required for the future of software development?"
+    date: 2026-02-05T05:03:00
+    image: /images/resources/2026-02-05-panel-what-skills-for-future-software-development.png
+    youtubeLink: https://m.youtube.com/watch?v=cvYLHJ0ErHc
+
+  - slug: 2026-02-05-sarah-novotny
+    name: "Sarah Novotny"
+    title: "How Open Source Software intersects with AI"
+    date: 2026-02-05T03:00:00
+    image: /images/resources/2026-02-05-sarah-novotny.png
+    youtubeLink: https://www.youtube.com/watch?v=TUtcPIEiKnE
+
+  - slug: 2026-02-05-sayeed-choudhury
+    name: "Sayeed Choudhury"
+    title: "An Open Technology Stack for AI"
+    date: 2026-02-05T04:30:00
+    image: /images/resources/2026-02-05-sayeed-choudhury.png
+    youtubeLink: https://m.youtube.com/watch?v=DZlzog96aIo
+
+  - slug: 2026-02-05-vincent-sha
+    name: "Vincent Sha"
+    title: "Open Forum for AI: DARE, An Ecosystem for AI integration in Academic Settings"
+    date: 2026-02-05T08:30:00
+    image: /images/resources/2026-02-05-vincent-sha.png
+    youtubeLink: https://m.youtube.com/watch?v=JrCaQcfZVQg

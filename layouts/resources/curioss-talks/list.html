@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section" id="curioss-talks">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto mb-4">
+        <div class="content">{{ .Content }}</div>
+      </div>
+      {{ range sort .Site.Data.talks.talks "date" "desc" }}
+      <div class="col-lg-4 col-sm-6 mb-5 event-card">
+        <div class="card border-1 h-100">
+          <div class="h-md-45">
+            <a href="{{ .youtubeLink }}" target="_blank" rel="noopener">
+              <img src="{{ .image | absURL }}" alt="{{ with .title }}{{ . }}{{ else }}{{ .name }}{{ end }}" class="card-img mb-4" />
+            </a>
+          </div>
+          <div class="card-body p-0 d-flex flex-column">
+            <h2 class="recording-title"><a href="{{ .youtubeLink }}" target="_blank" rel="noopener" class="post-title">{{ .name }}</a></h2>
+            <div class="d-flex mt-auto flex-md-row flex-sm-column">
+              <a href="{{ .youtubeLink }}" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Watch Recording</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
