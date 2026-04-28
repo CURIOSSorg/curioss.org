@@ -3,6 +3,9 @@
 #
 # Fields left blank (eligibility, some geography) are not specified by the
 # JHU source. Descriptions are paraphrased from the linked entry pages.
+#
+# When adding a geography, go with what makes sense: global, remote, USA, EU, etc.
+# If multiple values or other fields are needed, please file an issue.
 
 opportunities:
   - title: "Safety, Security, and Privacy of Open-Source Ecosystems (Safe-OSE)"
