@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Funding Opportunities Archive</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -34,23 +34,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/color_logo_vert1.svg">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <meta name="layout" content="page -  - resources - resources - /home/runner/work/curioss.org/curioss.org/content/resources/curioss-talks/_index.md">
+  <meta name="layout" content="section -  - resources - resources - /home/runner/work/curioss.org/curioss.org/content/resources/funding-opportunities/archive/_index.md">
 
   
 
-  <meta property="og:url" content="https://curioss.org/resources/curioss-talks/2026-02-05-enabling-research-software-engineering/">
+  <meta property="og:url" content="https://curioss.org/resources/funding-opportunities/archive/">
   <meta property="og:site_name" content="CURIOSS">
-  <meta property="og:title" content="CURIOSS">
-  <meta property="og:description" content="CURIOSS is a **C**ommunity for **U**niversity and **R**esearch **I**nstitution **O**pen **S**ource **P**rogram **O**ffices. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.">
+  <meta property="og:title" content="Funding Opportunities Archive">
+  <meta property="og:description" content="Past funding opportunities whose deadlines have passed or which are otherwise no longer accepting applications. These are kept here for reference — to re-open an entry or add a new one, return to the main Funding Opportunities page.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="resources">
-    <meta property="article:published_time" content="2026-02-05T09:00:00+00:00">
-    <meta property="article:modified_time" content="2026-02-05T09:00:00+00:00">
+  <meta property="og:type" content="website">
 
   
   
-  <meta property="og:image" content="https://curioss.org/images/resources/2026-02-05-enabling-research-software-engineering.png" />
+  <meta property="og:image" content="https://curioss.org/images/curioss.png" />
   
   
 
@@ -148,19 +145,102 @@
 
 <section class="section pb-0 section-first">
   <div class="container text-center">
-    <h1 class="display-3"></h1>
+    <h1 class="display-3">Funding Opportunities Archive</h1>
     
   </div>
 </section>
+
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="content"></div>
+      <div class="col-lg-10 mx-auto mb-4">
+        <div class="content"><p>Past funding opportunities whose deadlines have passed or which are otherwise no longer accepting applications. These are kept here for reference — to re-open an entry or add a new one, return to the main <a href="/resources/funding-opportunities/">Funding Opportunities</a> page.</p>
+<p>Entries appear here when their data file marks them with <code>status: Closed</code>.</p>
+</div>
+
+        <div class="d-flex flex-wrap align-items-end gap-2 mb-4 funding-controls">
+          <div class="flex-grow-1">
+            <label for="funding-filter" class="form-label small mb-1">Filter</label>
+            <input type="search" id="funding-filter" class="form-control" placeholder="Search by keyword, funder, eligibility…" autocomplete="off">
+          </div>
+          <div>
+            <label for="funding-sort" class="form-label small mb-1">Sort by</label>
+            <select id="funding-sort" class="form-control">
+              <option value="deadline-asc">Deadline (soonest first)</option>
+              <option value="amount-desc">Amount (largest first)</option>
+              <option value="funder-asc">Funder (A–Z)</option>
+              <option value="title-asc">Title (A–Z)</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="funding-list">
+          
+          
+          
+          
+          
+          <article class="card border-1 mb-4 funding-card"
+                   data-title="Google.org Impact Challenge: AI for Science"
+                   data-funder="Google.org"
+                   data-amount-sort="3000000"
+                   data-deadline-sort="2026-04-17">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start flex-wrap mb-2">
+                <h3 class="mb-0 mr-3">
+                  <a href="https://www.google.org/impact-challenges/ai-science/" target="_blank" rel="noopener" class="post-title">Google.org Impact Challenge: AI for Science</a>
+                </h3>
+                <div class="d-flex align-self-start gap-2">
+                  <span class="badge badge-dark">Closed</span>
+                  <span class="badge badge-secondary">Grant</span>
+                </div>
+              </div>
+              <div class="text-muted mb-3">Google.org</div>
+              <div class="mb-3">
+                <p><strong>$500,000 – $3,000,000</strong></p>
+                <p><strong>Deadline:</strong> Full application: 2026-04-17</p>
+              </div>
+              <p>A $30M global open-call that funds researchers and organizations to accelerate scientific breakthroughs with AI. Selected participants may also join a six-month Google.org Accelerator with technical support from Google specialists and Google Cloud credits.</p>
+              <dl class="row small mb-0">
+                
+                
+                <dt class="col-sm-3">Geography</dt>
+                <dd class="col-sm-9">Global</dd>
+                
+                
+                <dt class="col-sm-3">Focus area</dt>
+                <dd class="col-sm-9">AI for scientific research</dd>
+                
+                
+                <dt class="col-sm-3">Website</dt>
+                <dd class="col-sm-9"><a href="https://www.google.org/impact-challenges/ai-science/" target="_blank" rel="noopener">https://www.google.org/impact-challenges/ai-science/</a></dd>
+                
+              </dl>
+            </div>
+          </article>
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+
+        <p id="funding-empty" class="text-muted text-center py-4" style="display:none;">No archived opportunities match your filter.</p>
+
+        <p class="text-center mt-5 mb-0">
+          <a href="/resources/funding-opportunities/" class="btn btn-secondary">&larr; Back to current funding opportunities</a>
+        </p>
       </div>
     </div>
   </div>
 </section>
+
+
+<script src="https://curioss.org/js/funding-opportunities.min.js"></script>
+
 <footer class="bg-light section pb-0">
   <div class="container">
     <div class="row">
