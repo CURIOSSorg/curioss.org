@@ -1,5 +1,12 @@
 {{ define "main" }}
 
+{{ $opps := (index .Site.Data "funding-opportunities").opportunities }}
+{{ range $opps }}
+  {{ if not .posted }}
+    {{ errorf "Funding opportunity %q is missing required `posted` field. Add `posted: YYYY-MM-DD` to data/funding-opportunities.yml (see the header comment in that file)." .title }}
+  {{ end }}
+{{ end }}
+
 {{ partial "page-header.html" . }}
 
 <section class="section">

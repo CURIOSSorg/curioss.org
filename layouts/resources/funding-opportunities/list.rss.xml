@@ -1,0 +1,29 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.Title }} — Funding Opportunities</title>
+    <link>{{ .Permalink }}</link>
+    <description>Open funding opportunities for open-source scientific software, curated by CURIOSS.</description>
+    <generator>Hugo</generator>
+    <language>{{ site.LanguageCode | default "en" }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <atom:link href="{{ "resources/funding-opportunities/index.xml" | absURL }}" rel="self" type="application/rss+xml" />
+    {{ $data := index site.Data "funding-opportunities" }}
+    {{ $open := where $data.opportunities "status" "!=" "Closed" }}
+    {{ range sort $open "posted" "desc" }}
+    {{ if .posted }}
+    {{ $body := "" }}
+    {{ with .amount }}{{ $body = printf "%s<p><strong>%s</strong></p>" $body . }}{{ end }}
+    {{ with .deadline }}{{ $body = printf "%s<p><strong>Deadline:</strong> %s</p>" $body . }}{{ end }}
+    {{ with .description }}{{ $body = printf "%s%s" $body (. | markdownify) }}{{ end }}
+    <item>
+      <title>{{ .title }}{{ with .funder }} — {{ . }}{{ end }}</title>
+      <link>{{ .url }}</link>
+      <pubDate>{{ (time.AsTime .posted).Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="false">{{ .url }}</guid>
+      <description>{{ printf "<![CDATA[%s]]>" $body | safeHTML }}</description>
+    </item>
+    {{ end }}
+    {{ end }}
+  </channel>
+</rss>
