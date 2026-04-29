@@ -6,9 +6,15 @@
 #
 # When adding a geography, go with what makes sense: global, remote, USA, EU, etc.
 # If multiple values or other fields are needed, please file an issue.
+#
+# `posted` is required — it's the date the entry was added (YYYY-MM-DD), used as
+# the <pubDate> in the /resources/funding-opportunities/index.xml RSS feed so
+# subscribers see new opportunities chronologically. Set it to the day you add
+# the entry; do not change it when editing an existing entry.
 
 opportunities:
   - title: "Safety, Security, and Privacy of Open-Source Ecosystems (Safe-OSE)"
+    posted: "2026-04-24"
     status: "Closed"
     funder: "National Science Foundation (NSF)"
     url: "https://new.nsf.gov/funding/opportunities/safe-ose-safety-security-privacy-open-source-ecosystems/nsf24-608/solicitation"
@@ -26,7 +32,8 @@ opportunities:
       - nsf
 
   - title: "Google.org Impact Challenge: AI for Science"
-    status: "Closed" 
+    posted: "2026-04-24"
+    status: "Closed"
     funder: "Google.org"
     url: "https://www.google.org/impact-challenges/ai-science/"
     type: "Grant"
@@ -43,6 +50,7 @@ opportunities:
       - science
 
   - title: "NIH Research Software Engineer (RSE) Award"
+    posted: "2026-04-24"
     funder: "National Institutes of Health (NIH)"
     url: "https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-24-011.html"
     type: "Grant"
@@ -60,6 +68,7 @@ opportunities:
       - biomedical
 
   - title: "Pathways to Enable Open-Source Ecosystems (POSE) — Phase 1"
+    posted: "2026-04-24"
     funder: "National Science Foundation (NSF)"
     url: "https://new.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems"
     type: "Grant"
@@ -76,6 +85,7 @@ opportunities:
       - ecosystem
 
   - title: "Pathways to Enable Open-Source Ecosystems (POSE) — Phase 2"
+    posted: "2026-04-24"
     funder: "National Science Foundation (NSF)"
     url: "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems"
     type: "Grant"

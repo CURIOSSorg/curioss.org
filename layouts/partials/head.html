@@ -33,6 +33,10 @@
   {{ end }}
   {{ end }}
 
+  {{ if eq .RelPermalink "/resources/funding-opportunities/" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — Funding Opportunities" href="{{ "resources/funding-opportunities/index.xml" | absURL }}">
+  {{ end }}
+
   {{ template "_internal/opengraph.html" . }}
   {{ if .Params.Image }}
   {{ with .Params.Image }}
