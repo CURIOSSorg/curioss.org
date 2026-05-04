@@ -307,5 +307,14 @@ button.svelte-la9dd4:disabled {
 }
 
 .recording-title {
-    margin-bottom: 40px;
+    font-size: 1rem;
+    line-height: 1.35;
+    margin-bottom: 0.35rem;
+    font-weight: 500;
+}
+
+.recording-speaker {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
 }
