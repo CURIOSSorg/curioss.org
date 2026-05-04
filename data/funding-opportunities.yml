@@ -11,6 +11,24 @@
 # the <pubDate> in the /resources/funding-opportunities/index.xml RSS feed so
 # subscribers see new opportunities chronologically. Set it to the day you add
 # the entry; do not change it when editing an existing entry.
+#
+# Template you can copy (remove the # comment marks at the beginning.)
+#  - title:
+#    posted:
+#    funder:
+#    url:
+#    type:
+#    amount:
+#    amountSort:
+#    deadline:
+#    deadlineSort:
+#    eligibility:
+#    geography:
+#    focusArea:
+#    description:
+#    tags:
+#      - 
+
 
 opportunities:
   - title: "Safety, Security, and Privacy of Open-Source Ecosystems (Safe-OSE)"
@@ -100,3 +118,22 @@ opportunities:
     tags:
       - nsf
       - ecosystem
+
+  - title: "Open Source for the Life Sciences"
+    posted: "2026-05-05"
+    funder: "Open Source for Science Fund"
+    url: https://os4science.org/funding_opportunity/os4ls/
+    type: "Grant"
+    amount: "$250,000 over 2 years (Track 1: Domain-specific Tools); $1,000,000 over 2 years (Track 2: Foundational Libraries and Ecosystem Initiatives)"
+    amountSort: 1000000
+    deadline: "Letters of intent due June 8, 2026 (2 pm PDT / 9 pm UTC); Full proposals due July 21, 2026 (2 pm PDT / 9 pm UTC)" # June 8, 2026
+    deadlineSort: "2026-06-08"
+    eligibility: ""
+    geography: "Global"
+    focusArea: "Open source software for science"
+    description: "The Open Source for Science Fund invites letters of intent from developers and maintainers of open source software projects that underpin AI and data-intensive research in the life sciences. This program will fund technical advances and address significant bottlenecks in software tools with demonstrated community adoption in the life sciences, allowing them to unlock new capabilities for scientists worldwide and evolve functionality to meet the demands of AI-native research environments."
+    tags:
+      - open-source
+      - research-software
+      - science
+      - philanthropy
