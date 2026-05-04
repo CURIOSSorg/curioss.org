@@ -35,7 +35,7 @@ talks:
     youtubeLink: https://www.youtube.com/watch?v=7UhZ-dSbJ9c
 
   - slug: dawn_foster
-    name: "Dawn Foster"
+    name: "Dr. Dawn Foster"
     title: "CHAOSS and Demonstrating the Value of Open Source Efforts"
     date: 2026-03-27
     image: /images/resources/dawn_foster.png
@@ -70,7 +70,7 @@ talks:
     youtubeLink: https://www.youtube.com/watch?v=iZkrRetIrM4
 
   - slug: maria_doyle
-    name: "Maria Doyle"
+    name: "Dr. Maria Doyle"
     title: "The Bioconductor Project"
     date: 2025-01-27
     image: /images/resources/maria_doyle.png
@@ -84,28 +84,28 @@ talks:
     youtubeLink: https://www.youtube.com/watch?v=u602YcC-K9w
 
   - slug: mithusha_kajendra_omar_mohsine_tom_hughes
-    name: "Mithusha Kajendra, Omar Mohsine & Tom Hughes"
+    name: "Mithusa Kajendran, Omar Mohsine & Tom Hughes"
     title: "Reboot the Earth: Social Coding Events"
     date: 2025-11-24
     image: /images/resources/mithusha_kajendra_omar_mohsine_tom_hughes.png
     youtubeLink: https://www.youtube.com/watch?v=AiZ8zXN4xJw
 
   - slug: software_heritage
-    name: "Software Heritage"
+    name: "Roberto Di Cosmo & Morgane Gruenpeter"
     title: "An Introduction to Software Heritage"
     date: 2024-10-22
     image: /images/resources/software_heritage.png
     youtubeLink: https://www.youtube.com/watch?v=a1JcgsN4sTs
 
   - slug: software_identifiers
-    name: "Software Identifiers"
+    name: "Roberto Di Cosmo & Morgane Gruenpeter"
     title: "An Introduction to Software Identifiers"
     date: 2024-10-21
     image: /images/resources/software_identifiers.png
     youtubeLink: https://www.youtube.com/watch?v=j0oLzVLhtIQ
 
   - slug: zach_francesca_leah
-    name: "Zach, Francesca & Leah"
+    name: "Zach Chandler, Francesca Vera & Leah Wasser"
     title: "OpenSource@Stanford & pyOpenSci"
     date: 2025-07-02
     image: /images/resources/zach_francesca_leah.png
@@ -161,21 +161,21 @@ talks:
     youtubeLink: https://www.youtube.com/watch?v=Q5P3kT6YOGQ&t=5s
 
   - slug: 2026-02-05-colin-keogh
-    name: "Colin Keogh"
+    name: "Dr. Colin Keogh"
     title: "From Funded Openness to Sustainable Impact: Operationalising Open Source in Academic Research"
     date: 2026-02-05T07:00:00
     image: /images/resources/2026-02-05-colin-keogh.png
     youtubeLink: https://m.youtube.com/watch?v=dBZCwTn1wPA
 
   - slug: 2026-02-05-daniel-izquierdo-cortazar
-    name: "Daniel Izquierdo-Cortázar"
+    name: "Dr. Daniel Izquierdo Cortázar"
     title: "The Geopolitics of Code: From Digital Sovereignty to Global Fragmentation"
     date: 2026-02-05T06:00:00
     image: /images/resources/2026-02-05-daniel-izquierdo-cortazar.png
     youtubeLink: https://m.youtube.com/watch?v=MG-LKOxve8w
 
   - slug: 2026-02-05-enabling-research-software-engineering
-    name: "Enabling Research Software Engineering"
+    name: "Aedín Culhane, Angela Newell, David Pérez-Suárez & Richard Littauer"
     title: "Enabling Research Software Engineering"
     date: 2026-02-05T09:00:00
     image: /images/resources/2026-02-05-enabling-research-software-engineering.png
@@ -203,42 +203,42 @@ talks:
     youtubeLink: https://m.youtube.com/watch?v=PB5syUAax4k
 
   - slug: 2026-02-05-panel-academic-ospos-why-you-need-them
-    name: "Panel: Academic OSPOs — Why You Need Them"
+    name: "Angela Newell, Clare Dillon, Josh Greenberg & Kate Hertweck"
     title: "Academic OSPOs - What they are and why you need one!"
     date: 2026-02-05T03:30:00
     image: /images/resources/2026-02-05-panel-academic-ospos-why-you-need-them.png
     youtubeLink: https://www.youtube.com/watch?v=ZOInv3Dt_tU
 
   - slug: 2026-02-05-panel-curioss-case-studies
-    name: "Panel: CURIOSS Case Studies"
+    name: "Bill Branan, Jacek Plucinski, Collin Capano & Marvin Barksdale"
     title: "CURIOSS Academic Open Source Program Offices: Case Studies"
     date: 2026-02-05T04:00:00
     image: /images/resources/2026-02-05-panel-curioss-case-studies.png
     youtubeLink: https://www.youtube.com/watch?v=9ZxQH8KsvQk
 
   - slug: 2026-02-05-panel-governance-for-academic-open-source
-    name: "Panel: Governance for Academic Open Source"
+    name: "Ciarán O'Riordan, Emily Lovell, Kalle Westerling & Richard Littauer"
     title: "Governance for Academic Open Source"
     date: 2026-02-05T05:00:00
     image: /images/resources/2026-02-05-panel-governance-for-academic-open-source.png
     youtubeLink: https://m.youtube.com/watch?v=UgHGbp6yn1o
 
   - slug: 2026-02-05-panel-how-ospos-facilitate-cross-sector-collaboration
-    name: "Panel: How OSPOs Facilitate Cross-Sector Collaboration"
+    name: "Addie Cobb, Ana Jiménez Santamaría, Stephanie Lieggi & Austin Check"
     title: "How OSPOs can facilitate Cross-Sector Collaboration"
     date: 2026-02-05T11:00:00
     image: /images/resources/2026-02-05-panel-how-ospos-facilitate-cross-sector-collaboration.png
     youtubeLink: https://m.youtube.com/watch?v=R35UzPFUZ-g&t=5s
 
   - slug: 2026-02-05-panel-steps-to-setting-up-academic-ospo
-    name: "Panel: Steps to Setting Up an Academic OSPO"
+    name: "David Lippert, Duane O'Brien, Vessela Ensberg & Zach Chandler"
     title: "Steps to Setting Up Academic OSPO"
     date: 2026-02-05T10:00:00
     image: /images/resources/2026-02-05-panel-steps-to-setting-up-academic-ospo.png
     youtubeLink: https://m.youtube.com/watch?v=agi6PoHD-7g
 
   - slug: 2026-02-05-panel-what-skills-for-future-software-development
-    name: "Panel: What Skills for Future Software Development"
+    name: "Clare Dillon, Daniel Ruggeri & Stephen Walli"
     title: "What are the skills required for the future of software development?"
     date: 2026-02-05T05:03:00
     image: /images/resources/2026-02-05-panel-what-skills-for-future-software-development.png
