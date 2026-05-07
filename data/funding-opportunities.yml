@@ -137,3 +137,40 @@ opportunities:
       - research-software
       - science
       - philanthropy
+ - title:  Open Science Meetings
+   posted: 2026-05-07
+   funder: "Open Science NL"
+   url: https://www.openscience.nl/en/calls/open-science-meetings-0
+   type: "Grant"
+   amount: "€15,000"
+   amountSort: 15000 # no unit?
+   deadline: "10 December 2026 14:00 CET"
+   deadlineSort: "2026-12-10"
+   eligibility: "Dutch institutions"
+   geography: "Netherlands"
+   focusArea: "Open Science communities that want to meet."
+   description: "Both researchers and research support staff may submit an application for financial support for organising an open science meeting."
+   tags:
+     - open-science
+     - meetings
+ - title: DisCouRSE Flexible Fund - Round 2
+   posted: 2026-05-07
+   funder: UKRI/DisCouRSE Network+
+   url: https://discourse-network.github.io/funding/round-2
+   type: "Grant"
+   amount: "£15,000"
+   amountSort: 15000
+   deadline: "5th June 2026, 16:00 BST"
+   deadlineSort: "2026-06-05"
+   eligibility: "Applicants must be either resident in the UK, or be employed by an overseas research organisation approved by STFC as eligible to apply for research grant funding. Project leads and co-leads do not need to be academic members of staff. The application must be led by an employed member of staff in a UK-based organisation"
+   geography: "UK"
+   focusArea: "Development of leaders of all kinds across all digital Research Technical Professional (dRTP) roles"
+   description: |
+     "The DisCouRSE Network+ project aims to encourage and support the development of leaders of all kinds across all digital Research Technical Professional (dRTP) roles, primarily within the UK, resulting in an empowered and connected community equipped to shape the future of digital research. We have a twin focus on leadership training and dRTP career pathways – preparing the next generation of leaders and ensuring roles exist for them to lead within.
+
+      Our flexible fund supports community-led projects aligned with this goal, enabling aspiring leaders to trial approaches to enhancing skills and career opportunities within their local contexts, build new connections through joint initiatives, and strategically assess options for future investment and activity."
+   tags:
+     - training
+     - drtp
+     - rse
+     - community
