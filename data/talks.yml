@@ -1,5 +1,5 @@
 talks:
- - slug: ali_bakhtiari
+  - slug: ali-bakhtiari
     name: "Ali Bakhtiari"
     date: 2026-04-23
     title: "The impact of AI assisted Code Review Tools on Open Source Contributor Dynamics"
