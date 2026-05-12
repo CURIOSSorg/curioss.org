@@ -10,3 +10,15 @@
 
 [context.branch-deploy]
   command = "hugo --minify -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "/resources/curioss-patterns"
+  to = "/patterns/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/curioss-patterns/"
+  to = "/patterns/"
+  status = 301
+  force = true
