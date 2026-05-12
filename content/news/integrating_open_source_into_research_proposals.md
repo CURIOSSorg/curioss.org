@@ -9,7 +9,7 @@ Description: Successful practices from Academic OSPOs
 # Introduction
 
 Across universities, academic OSPOs are increasingly being approached by faculty seeking support with funding applications. Recent conversations amongst [CURIOSS members](https://curioss.org/about/members/) have revealed how these requests present unique opportunities - not just to help secure research funding but to build open source best practices into projects from their earliest stages.
-These experiences have informed new [CURIOSS patterns](https://curioss.org/resources/curioss-patterns/) that capture proven approaches for both assisting with and leading on grant applications. The patterns highlight how this work consistently delivers multiple benefits. 
+These experiences have informed new [CURIOSS patterns](https://curioss.org/patterns/) that capture proven approaches for both assisting with and leading on grant applications. The patterns highlight how this work consistently delivers multiple benefits. 
 
 # Embedding Open Source Excellence at the Design Stage
 
