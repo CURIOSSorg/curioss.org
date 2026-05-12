@@ -15,7 +15,7 @@ menu:
       identifier: resources
       weight: 2
     - name: CURIOSS Patterns
-      URL: resources/curioss-patterns
+      URL: /patterns/
       parent: resources
       weight: 1
     - name: CURIOSS Talks
@@ -79,12 +79,12 @@ menu:
       post: bold
       pre: _blank
     - name: Resources
-      URL: resources/curioss-patterns
+      URL: resources/
       weight: 2
       post: bold
       pre: _blank
     - name: CURIOSS Patterns
-      URL: resources/curioss-patterns
+      URL: /patterns/
       weight: 3
       pre: _blank
     - name: CURIOSS Talks
