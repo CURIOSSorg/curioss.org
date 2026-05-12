@@ -1,0 +1,39 @@
+name: Lint data files
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - ".github/workflows/lint-data.yml"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - ".github/workflows/lint-data.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install check-jsonschema
+        run: pip install --quiet 'check-jsonschema>=0.30'
+
+      - name: Validate data/funding-opportunities.yml
+        if: ${{ !cancelled() }}
+        run: |
+          check-jsonschema \
+            --schemafile data/schemas/funding-opportunities.schema.json \
+            data/funding-opportunities.yml
+
+      - name: Validate data/talks.yml
+        if: ${{ !cancelled() }}
+        run: |
+          check-jsonschema \
+            --schemafile data/schemas/talks.schema.json \
+            data/talks.yml

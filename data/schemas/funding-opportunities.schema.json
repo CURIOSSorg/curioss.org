@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://curioss.org/schemas/funding-opportunities.schema.json",
+  "title": "Funding opportunities",
+  "description": "Schema for data/funding-opportunities.yml. Each entry in `opportunities` describes one funding call.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["opportunities"],
+  "properties": {
+    "opportunities": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/opportunity" }
+    }
+  },
+  "$defs": {
+    "opportunity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "posted", "funder", "url"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the funding opportunity."
+        },
+        "posted": {
+          "type": "string",
+          "format": "date",
+          "description": "Date this entry was added (YYYY-MM-DD). Used as the RSS pubDate. Do not change when editing an existing entry."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Open", "Closed"],
+          "description": "Current status of the call. Omit to mean Open."
+        },
+        "funder": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Funder name (e.g. \"National Science Foundation (NSF)\")."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Canonical link to the call page."
+        },
+        "type": {
+          "type": "string",
+          "description": "Funding type (e.g. Grant, Fellowship, Prize)."
+        },
+        "amount": {
+          "type": "string",
+          "description": "Human-readable amount, including currency and any tier details."
+        },
+        "amountSort": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Numeric amount used for sorting. Use the largest applicable value."
+        },
+        "deadline": {
+          "type": "string",
+          "description": "Human-readable deadline. May include multiple stages."
+        },
+        "deadlineSort": {
+          "type": "string",
+          "format": "date",
+          "description": "Earliest applicable deadline (YYYY-MM-DD), used for sorting."
+        },
+        "eligibility": {
+          "type": "string",
+          "description": "Who can apply. May be empty if the source does not specify."
+        },
+        "geography": {
+          "type": "string",
+          "description": "Region (e.g. Global, USA, EU, UK, Netherlands)."
+        },
+        "focusArea": {
+          "type": "string",
+          "description": "Topic or focus area."
+        },
+        "description": {
+          "type": "string",
+          "description": "Paraphrased summary of the opportunity."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
