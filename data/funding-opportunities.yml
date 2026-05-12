@@ -177,3 +177,30 @@ opportunities:
       - drtp
       - rse
       - community
+
+  - title: "TechAccess: AI-Ready America"
+    posted: "2026-05-12"
+    funder: "NSF"
+    url: https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america
+    type: "Grant"
+    amount: "Each Coordination Hub Award will receive support of $1M/year for three years, with the possibility for one additional year of support if the Coordination Hub can demonstrate a compelling need as it phases out or transitions to other sources of funding."
+    amountSort: 1000000
+    deadline: "Letter of intent required; Due June 16, 2026"
+    deadlineSort: "2026-06-16"
+    eligibility: "The categories of proposers eligible to submit proposals to the National Science Foundation are identified in the NSF Proposal & Award Policies & Procedures Guide (PAPPG), Chapter I.E. Unaffiliated individuals are not eligible to submit proposals in response to this solicitation."
+    geography: "US"
+    focusArea: "A national program to coordinate readiness and accelerate deployment"
+    description: |
+      TechAccess: AI-Ready America is a national-scale initiative to accelerate Artificial Intelligence (AI) readiness and adoption across the U.S. by strengthening coordination, leveraging partnerships and resources, filling gaps, and scaling what works — so local and state priorities can lead in shaping an AI-driven economy that benefits all Americans.
+      Unlike initiatives centered around K – 16 education, AI-Ready America additionally reaches businesses, public-serving organizations, and individuals, among others, expanding access to AI knowledge, tools, and resources. The program also emphasizes practical implementation through hands-on assistance and workforce up-skilling, including experiential learning such as internships, project-based work, and apprenticeships, to ensure stakeholders can effectively apply and innovate with AI.
+
+      The program supports:
+
+      1. State/Territory Coordination Hubs (Coordination Hubs) – one in every state, the District of Columbia (DC), or territory in the United States – connecting partners, strengthening planning and deployment, and rapidly scaling approaches;
+      2. A National Coordination Lead (National Lead) – facilitating collaboration and knowledge sharing among Coordination Hubs, coordinating priority economic sectors, and informing national AI strategies; and
+      3. AI-Ready Catalyst Award Competitions – a series of topic-driven competitions issued over the course of the program to pilot and scale innovative approaches that address critical national AI readiness needs.
+
+      This funding opportunity focuses on Coordination Hubs. The National Lead will be funded as an Other Transaction (OT) offered through an Other Transaction Agreement Solutions Offering. AI-Ready Catalyst Award Competitions will be announced through an NSF-approved mechanism, with proposals submitted according to the instructions provided at the time of announcement.
+    tags:
+      - ai
+      - nsf
