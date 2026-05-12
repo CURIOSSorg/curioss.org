@@ -1,4 +1,11 @@
 talks:
+  - slug: ali-bakhtiari
+    name: "Ali Bakhtiari"
+    date: 2026-04-23
+    title: "The impact of AI assisted Code Review Tools on Open Source Contributor Dynamics"
+    image: /images/resources/ali-bakhtiari.png
+    youtubeLink: https://www.youtube.com/watch?v=KsHU005cNw0
+
   - slug: anita_bandrowski
     name: "Anita Bandrowski"
     date: 2025-07-25
