@@ -204,3 +204,22 @@ opportunities:
     tags:
       - ai
       - nsf
+
+  - title: "NGI Fediversity"
+    posted: "2026-05-13"
+    funder: "NLnet"
+    url: "https://nlnet.nl/fediversity/"
+    type: "Grant"
+    amount: "€5,000 – €50,000 per project (€450,000 total across the call)"
+    amountSort: 50000
+    deadline: "1 June 2026 12:00 CEST"
+    deadlineSort: "2026-06-01"
+    eligibility: "Given equal proposals, inhabitants of the EU and countries associated to Horizon Europe are given priority; proposals from outside those geographic areas can be eligible if the project is of exceptional quality. Project results must be released under an open source license."
+    geography: "EU"
+    focusArea: "Fediversity ecosystem — federated hosting infrastructure and service portability"
+    description: "Small grants for projects that are somehow relevant to the Fediversity ecosystem. Priority areas include deploying fediverse services (PeerTube, Mastodon, Lemmy), email servers, VPN solutions, private cloud storage, wikis, and similar web services that enhance reliability, security, confidentiality, integrity, and resource efficiency."
+    tags:
+      - fediverse
+      - nlnet
+      - ngi
+      - open-source
