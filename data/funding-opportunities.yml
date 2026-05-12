@@ -6,6 +6,8 @@
 #
 # When adding a geography, go with what makes sense: global, remote, USA, EU, etc.
 # If multiple values or other fields are needed, please file an issue.
+# 
+# There is no unit for currecny. If this becomes necessary, we can add it.
 #
 # `posted` is required — it's the date the entry was added (YYYY-MM-DD), used as
 # the <pubDate> in the /resources/funding-opportunities/index.xml RSS feed so
