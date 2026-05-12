@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://curioss.org/schemas/talks.schema.json",
+  "title": "Talks",
+  "description": "Schema for data/talks.yml. Each entry describes one recorded talk.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["talks"],
+  "properties": {
+    "talks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/talk" }
+    }
+  },
+  "$defs": {
+    "talk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug", "name", "title", "date", "image", "youtubeLink"],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_-]*$",
+          "description": "URL-safe identifier. Lowercase letters, digits, hyphens, underscores."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Speaker name(s), including any honorific. Use \" & \" to join multiple speakers."
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Talk title."
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(Z|[+-]\\d{2}:?\\d{2})?)?$",
+          "description": "Date the talk was given. Use YYYY-MM-DD, or YYYY-MM-DDTHH:MM:SS when ordering within a single day matters. A timezone suffix (Z or +HH:MM) is optional."
+        },
+        "image": {
+          "type": "string",
+          "pattern": "^/images/.+\\.(png|jpg|jpeg|webp)$",
+          "description": "Site-relative path to the speaker image, starting with /images/."
+        },
+        "youtubeLink": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://(www\\.|m\\.)?youtube\\.com/watch\\?v=.+",
+          "description": "Full youtube.com/watch?v=... URL."
+        }
+      }
+    }
+  }
+}
