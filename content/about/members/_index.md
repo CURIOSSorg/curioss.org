@@ -11,7 +11,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< company name="WASHINGTON University" image="/images/about/logos/washington.png" url="https://ospo.gwu.edu/"/>}}
       {{< company name="Georgia Tech" image="/images/about/logos/georgia.png" url="https://ospo.cc.gatech.edu/">}}
       {{< /company >}}
-      {{< company name="ISGlobal” image="/images/about/logos/Is_global_logo.png” url="https://sustainoss.org/academic-map/research-institutions/isglobal-barcelona-institute-for-global-health.html"/>}}
+      {{< company name="ISGlobal” image="/images/about/logos/is_global_logo.png” url="https://sustainoss.org/academic-map/research-institutions/isglobal-barcelona-institute-for-global-health.html"/>}}
       {{< company name="JHU Library" image="/images/about/logos/jhu_library.png" url="https://ospo.library.jhu.edu/">}}
       {{< /company >}}
       {{< company name="Lero" image="/images/about/logos/lero.png" url="https://sfi-lero.github.io/OSPO/">}}
@@ -54,9 +54,9 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://sustainoss.org/academic-map/universities/university-of-texas-austin.html">}}
       {{< /company >}}
-      {{< company name="University of Texas at Dallas” image="/images/about/logos/UT_Dallas_logo.svg"/>}}
-      {{< company name="University of Texas at El Paso” image="/images/about/logos/UT_San_Antonio_Logo.svg"/>}}
-      {{< company name="University of Texas at San Antonio” image="/images/about/logos/UT_San_Antonio_Logo.svg"/>}}  
+      {{< company name="University of Texas at Dallas” image="/images/about/logos/ut_dallas_logo.svg"/>}}
+      {{< company name="University of Texas at El Paso” image="/images/about/logos/ut_san_antonio_logo.svg"/>}}
+      {{< company name="University of Texas at San Antonio” image="/images/about/logos/ut_san_antonio_logo.svg"/>}}  
       {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png" url="https://verso.w3.uvm.edu/">}}
       {{< /company >}}
       {{< company name="University of Washington" image="/images/about/logos/university-of-washington.png" url="https://escience.washington.edu">}}
