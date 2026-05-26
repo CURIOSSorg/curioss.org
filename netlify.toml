@@ -1,3 +1,6 @@
+# This site is served by GitHub Pages.
+# This document is only for the PRs and branch deploys on Netlify.
+
 [build]
   publish = "public"
   command = "hugo --minify -b $URL"
@@ -10,15 +13,3 @@
 
 [context.branch-deploy]
   command = "hugo --minify -b $DEPLOY_PRIME_URL"
-
-[[redirects]]
-  from = "/resources/curioss-patterns"
-  to = "/patterns/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/resources/curioss-patterns/"
-  to = "/patterns/"
-  status = 301
-  force = true
