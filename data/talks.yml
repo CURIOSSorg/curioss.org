@@ -1,11 +1,11 @@
 talks:
 
- - slug: juanita-gomez
-   name: "Juanita Gomez"
-   date: 2026-02-26
-   title: "Recipe for Discovery: Building the Open Source Repository Browser"
-   image: /images/resources/juanita-gomez.png
-   youtubeLink: https://youtu.be/GXGH_Tf1O3I
+  - slug: juanita-gomez
+    name: "Juanita Gomez"
+    date: 2026-02-26
+    title: "Recipe for Discovery: Building the Open Source Repository Browser"
+    image: /images/resources/juanita-gomez.png
+    youtubeLink: https://www.youtube.com/watch?v=GXGH_Tf1O3I
 
   - slug: ali-bakhtiari
     name: "Ali Bakhtiari"
