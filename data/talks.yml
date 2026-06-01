@@ -4,7 +4,7 @@ talks:
     name: "Emily Bennett"
     date: 2026-05-28
     title: "The United Nations International Computing Centre, UNIQCloud and the UNICC OSPO - Advancing open, inclusive and fit-for-purpose digital public solutions"
-    image: static/images/resources/emily-bennett.png
+    image: /images/resources/emily-bennett.png
     youtubeLink: https://www.youtube.com/watch?v=b23X7gE4gJg
 
   - slug: juanita-gomez
