@@ -16,6 +16,9 @@
         
       
       
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../feed_rss_updated.xml">
+      
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
@@ -481,6 +484,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-rss-feed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The RSS feed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#local-development" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -544,6 +558,28 @@ contributor alongside the patterns they've worked on.</p>
 <p>You do <strong>not</strong> need to edit the "Contributors &amp; Acknowledgement" section at
 the bottom of the pattern — the site generates that automatically from the
 frontmatter.</p>
+<h2 id="the-rss-feed">The RSS feed<a class="headerlink" href="#the-rss-feed" title="Permanent link"> §</a></h2>
+<p>The site publishes an RSS feed of new patterns at
+<a href="https://curioss.org/patterns/feed_rss_created.xml">/feed_rss_created.xml</a> so
+readers can subscribe to updates. A couple of things to know as a contributor:</p>
+<ul>
+<li><strong>Your ORCID, if you provide one, appears publicly in each feed item</strong> for
+  every pattern you've co-authored — as a clickable link to your ORCID
+  profile. This is the same ORCID that already shows up on the pattern page
+  itself; the feed just makes it travel further.</li>
+<li><strong>The first paragraph of your pattern becomes the feed blurb.</strong> Try to
+  make that opening sentence stand on its own — it's what readers will see
+  in their RSS reader before they click through.</li>
+<li><strong>My pattern isn't in the feed — why?</strong> Three usual culprits:
+  1. The file is not at the repo root (everything in <code>authors/</code> and the
+     four meta files — <code>README.md</code>, <code>CONTRIBUTING.md</code>, <code>PATTERN-TEMPLATE.md</code>,
+     and any new top-level non-pattern doc listed in the <code>match_path</code> of
+     <code>.config/mkdocs.yml</code> — is excluded by design).
+  2. The pattern has no git history yet (it must have been committed at
+     least once; the feed uses the first commit as the publication date).
+  3. The build is older than your latest commit — the feed is regenerated
+     on every deploy.</li>
+</ul>
 <h2 id="local-development">Local Development<a class="headerlink" href="#local-development" title="Permanent link"> §</a></h2>
 <p>If you want to test the MkDocs site locally:</p>
 <ol>
