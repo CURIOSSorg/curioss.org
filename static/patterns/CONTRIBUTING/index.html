@@ -416,6 +416,33 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -487,9 +514,36 @@
 <h1 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link"> §</a></h1>
 <p>Thanks for wanting to contribute! Open a PR or an issue for anything.</p>
 <h2 id="when-contributing">When contributing<a class="headerlink" href="#when-contributing" title="Permanent link"> §</a></h2>
-<ul>
-<li>Add your name and ORCID at the bottom of any pattern you edit!</li>
-</ul>
+<p>When you contribute to a pattern, add yourself as an author so you get credit
+on the website and on the <a href="../authors/">Authors page</a>, which lists every
+contributor alongside the patterns they've worked on.</p>
+<p>There are two short steps:</p>
+<ol>
+<li><strong>Add yourself to <a href="https://github.com/CURIOSSorg/curioss-patterns/blob/main/authors.yml"><code>authors.yml</code></a></strong> (at the root of this repo)
+   if you're not already there. Pick a short slug — usually
+   <code>firstname-lastname</code> — and fill in your name, ORCID (optional), and
+   affiliation (optional). For example:</li>
+</ol>
+<p><code>yaml
+   jane-doe:
+     name: Jane Doe
+     orcid: 0000-0001-2345-6789
+     affiliation: Example University</code></p>
+<ol start="2">
+<li><strong>Add your slug to the pattern's <code>authors:</code> frontmatter</strong> at the top of the
+   pattern file. For example:</li>
+</ol>
+<p>```yaml</p>
+<hr />
+<p>tags:
+     - Community Building
+   authors:
+     - jane-doe</p>
+<hr />
+<p>```</p>
+<p>You do <strong>not</strong> need to edit the "Contributors &amp; Acknowledgement" section at
+the bottom of the pattern — the site generates that automatically from the
+frontmatter.</p>
 <h2 id="local-development">Local Development<a class="headerlink" href="#local-development" title="Permanent link"> §</a></h2>
 <p>If you want to test the MkDocs site locally:</p>
 <ol>
