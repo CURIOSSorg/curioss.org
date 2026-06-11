@@ -63,9 +63,9 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of Texas at Dallas" image="/images/about/logos/ut_dallas_logo.svg" url="https://sustainoss.org/academic-map/universities/university-of-texas-dallas.html/">}}
       {{< /company >}}
-      {{< company name="University of Texas at El Paso" image="/images/about/logos/utep_logo.svg">}}
+      {{< company name="University of Texas at El Paso" image="/images/about/logos/utep_logo.svg" url="https://sustainoss.org/academic-map/universities/university-of-texas-el-paso.html">}}
       {{< /company >}}
-      {{< company name="University of Texas at San Antonio" image="/images/about/logos/ut-san-antonio-logo.svg">}}
+      {{< company name="University of Texas at San Antonio" image="/images/about/logos/ut-san-antonio-logo.svg" url="https://sustainoss.org/academic-map/universities/university-of-texas-san-antonio.html">}}
       {{< /company >}}
       {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png" url="https://verso.w3.uvm.edu/">}}
       {{< /company >}}
