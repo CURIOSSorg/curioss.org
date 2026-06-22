@@ -1,5 +1,12 @@
 talks:
 
+  - slug: isotta-peira
+    name: "Isotta Peira"
+    date: 2026-06-18
+    title: "Diving deep into WordPress Education Programs"
+    image: /images/resources/isotta_peira.png
+    youtubeLink: https://www.youtube.com/watch?v=Vhb86bZnb7Y
+    
   - slug: emily-bennett
     name: "Emily Bennett"
     date: 2026-05-28
