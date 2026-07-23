@@ -278,3 +278,22 @@ opportunities:
       - research-software
       - doe
       - nsf
+
+  - title: "SSI Fellowship Programme"
+    posted: "2026-07-24"
+    funder: "Software Sustainability Institute (SSI)"
+    url: "https://www.software.ac.uk/programmes/fellowship-programme/apply-fellowship-programme"
+    type: "Fellowship"
+    amount: "£4,000 per Fellow, to spend over a 15-month period"
+    amountSort: 4000
+    deadline: "Applications open 10 August 2026; close 5 October 2026"
+    deadlineSort: "2026-10-05"
+    eligibility: "Open to those doing work to promote good computational practices in research. Primarily for UK-based applicants or those with formal affiliation to a UK-based institution; up to three positions are available for international applicants, who must demonstrate how their plans foster international collaboration or how UK research culture benefits from their perspective/techniques."
+    geography: "UK (with limited international positions)"
+    focusArea: "Research software sustainability and best practices"
+    description: "Funds individuals' plans to advance research software practices over a 15-month fellowship period (1 January 2027 – 31 March 2028), selected via a proposal and six-minute screencast presentation, with an emphasis on collaboration, communication, and practical contributions to the research software community."
+    tags:
+      - fellowship
+      - research-software
+      - uk
+      - ssi
