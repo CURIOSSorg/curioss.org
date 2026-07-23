@@ -212,8 +212,8 @@ opportunities:
     type: "Grant"
     amount: "€5,000 – €50,000 per project (€450,000 total across the call)"
     amountSort: 50000
-    deadline: "1 June 2026 12:00 CEST"
-    deadlineSort: "2026-06-01"
+    deadline: "1 August 2026 12:00 CEST"
+    deadlineSort: "2026-08-01"
     eligibility: "Given equal proposals, inhabitants of the EU and countries associated to Horizon Europe are given priority; proposals from outside those geographic areas can be eligible if the project is of exceptional quality. Project results must be released under an open source license."
     geography: "EU"
     focusArea: "Fediversity ecosystem — federated hosting infrastructure and service portability"
@@ -223,3 +223,58 @@ opportunities:
       - nlnet
       - ngi
       - open-source
+
+  - title: "GitHub Secure Open Source Fund"
+    posted: "2026-07-24"
+    funder: "GitHub"
+    url: "https://github.com/open-source/github-secure-open-source-fund"
+    type: "Grant"
+    amount: "$10,000 per project, paid in tranches ($6,000 during the 3-week program, $2,000 at the 6-month check-in, $2,000 at the 12-month check-in), plus up to $10,000 in Azure credits"
+    amountSort: 10000
+    deadline: "Rolling; no fixed deadline"
+    eligibility: "Open source project maintainers (individuals or teams of up to 3) aged 18+, with an active GitHub profile, located in a GitHub Sponsors-supported region, not a current GitHub employee, with a clearly licensed project that has demonstrated community adoption and a defined governance structure."
+    geography: "Global (GitHub Sponsors-supported regions)"
+    focusArea: "Open source software security"
+    description: "Funds maintainers of widely-depended-on open source projects to improve security practices, through a 3-week education program, GitHub Security Lab office hours, and direct funding tied to security milestones at 6- and 12-month check-ins."
+    tags:
+      - security
+      - github
+      - maintainers
+
+  - title: "NGI Taler"
+    posted: "2026-07-24"
+    funder: "NLnet"
+    url: "https://nlnet.nl/taler/"
+    type: "Grant"
+    amount: "€5,000 – €50,000 per project"
+    amountSort: 50000
+    deadline: "1 August 2026 12:00 CEST"
+    deadlineSort: "2026-08-01"
+    eligibility: "Given equal proposals, inhabitants of the EU and countries associated to Horizon Europe are given priority; proposals from outside those geographic areas can be eligible if the project is of exceptional quality. Project results must be released under an open source license."
+    geography: "EU"
+    focusArea: "GNU Taler libre digital payment system ecosystem"
+    description: "Small grants for projects relevant to the GNU Taler privacy-preserving digital payment system. One of only two NGI Zero sub-funds still accepting proposals (alongside NGI Fediversity) while NLnet transitions to its successor Open Internet Stack effort."
+    tags:
+      - nlnet
+      - ngi
+      - open-source
+      - payments
+
+  - title: "BSSw Fellowship Program"
+    posted: "2026-07-24"
+    status: "Closed"
+    funder: "U.S. Department of Energy (DOE) and National Science Foundation (NSF)"
+    url: "https://bssw.io/pages/bssw-fellowship-program"
+    type: "Fellowship"
+    amount: "Up to $25,000 per Fellow, awarded as a subcontract to the recipient's institution"
+    amountSort: 25000
+    deadline: "2026 cohort closed 2025-10-31; 2027 cycle expected to open summer 2026"
+    eligibility: "Applicants at any career stage (student through senior professional) affiliated with a U.S.-based institution able to receive federal funding."
+    geography: "USA"
+    focusArea: "Scientific software developer productivity and sustainability"
+    description: "Provides recognition and funding to leaders and advocates of high-quality scientific software, who propose a funded activity (e.g. a workshop, tutorial, or community content) that promotes better scientific software practices."
+    tags:
+      - fellowship
+      - research-software
+      - doe
+      - nsf
