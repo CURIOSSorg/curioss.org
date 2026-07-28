@@ -231,11 +231,12 @@ opportunities:
     type: "Grant"
     amount: "$10,000 per project, paid in tranches ($6,000 during the 3-week program, $2,000 at the 6-month check-in, $2,000 at the 12-month check-in), plus up to $10,000 in Azure credits"
     amountSort: 10000
-    deadline: "Rolling; no fixed deadline"
+    deadline: "Session 5 applications open, reviewed on a rolling basis; due 2026-08-18"
+    deadlineSort: "2026-08-18"
     eligibility: "Open source project maintainers (individuals or teams of up to 3) aged 18+, with an active GitHub profile, located in a GitHub Sponsors-supported region, not a current GitHub employee, with a clearly licensed project that has demonstrated community adoption and a defined governance structure."
     geography: "Global (GitHub Sponsors-supported regions)"
     focusArea: "Open source software security"
-    description: "Funds maintainers of widely-depended-on open source projects to improve security practices, through a 3-week education program, GitHub Security Lab office hours, and direct funding tied to security milestones at 6- and 12-month check-ins."
+    description: "Funds maintainers of widely-depended-on open source projects to improve security practices, through a 3-week education program, GitHub Security Lab office hours, and direct funding tied to security milestones at 6- and 12-month check-ins. Session 5 applications are currently open and under rolling review."
     tags:
       - security
       - github
@@ -297,3 +298,23 @@ opportunities:
       - research-software
       - uk
       - ssi
+
+  - title: "Information Controls Research Program (ICRP)"
+    posted: "2026-07-29"
+    funder: "Open Technology Fund (OTF)"
+    url: "https://www.opentech.fund/research-2/icrp/"
+    type: "Fellowship"
+    amount: "$7,000/month stipend for 3–12 months, plus up to $5,000 travel stipend and up to $5,000 equipment stipend, depending on the project"
+    amountSort: 94000
+    deadline: "Concept note: 2026-09-07 · Full proposal (by invitation): 2026-11-01"
+    deadlineSort: "2026-09-07"
+    eligibility: "Open to students at any level and to junior- to mid-career practitioners, including those unaffiliated with an academic institution. Typical backgrounds include computer science, engineering, information security, software development, social sciences, and data visualization. Applicants from the majority world and those with experience living in repressive environments are especially encouraged. Researchers embed with a host organization for the duration of the project."
+    geography: "Global"
+    focusArea: "Internet censorship, surveillance, and circumvention research in repressive information environments"
+    description: "Formerly the Information Controls Fellowship Program, ICRP funds applied research into how authoritarian governments restrict the free flow of information, cut access to the open internet, and implement censorship and surveillance — and the ways these threats to internet freedom can be countered. Projects should include a technical component or output and are reviewed in a two-stage concept-note-then-full-proposal process."
+    tags:
+      - internet-freedom
+      - censorship
+      - security
+      - fellowship
+      - research
