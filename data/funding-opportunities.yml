@@ -318,3 +318,116 @@ opportunities:
       - security
       - fellowship
       - research
+
+  - title: "CHARTED Fund 1: FAIRifying Training Resources"
+    posted: "2026-07-30"
+    funder: "CHARTED (dRTP Skills)"
+    url: "https://drtp-skills.ac.uk/funds-fair/"
+    type: "Grant"
+    amount: "£350,000 total across at least two rounds; individual projects up to £40,000 (80% of Full Economic Costs)"
+    amountSort: 40000
+    deadline: "30 September 2026, 11:59pm BST"
+    deadlineSort: "2026-09-30"
+    eligibility: "Lead applicants must be based at UK universities, UK non-profit organisations, or work as freelance trainers/educators, able to sign a grant agreement with the University of Edinburgh."
+    geography: "UK"
+    focusArea: "FAIRifying training resources for digital Research Technical Professionals (dRTPs)"
+    description: "Supports trainers and training providers improving the findability, accessibility, interoperability, and reusability of training resources in the digital research infrastructure space, e.g. metadata schemas, trainer documentation, skills-framework mapping, and delivery-mode adaptation. Projects run up to 12 months, with shorter projects preferred."
+    tags:
+      - training
+      - drtp
+      - fair
+      - uk
+
+  - title: "CHARTED Fund 3: Tools and Frameworks"
+    posted: "2026-07-30"
+    funder: "CHARTED (dRTP Skills)"
+    url: "https://drtp-skills.ac.uk/funds-tools/"
+    type: "Grant"
+    amount: "£350,000 total across two rounds; each round funds one large project up to £150,000 and several small projects up to £15,000 (80% of Full Economic Costs)"
+    amountSort: 150000
+    deadline: "30 September 2026, 11:59pm BST (first round)"
+    deadlineSort: "2026-09-30"
+    eligibility: "Lead applicants must be based at UK universities, UK non-profit organisations, or work as freelance trainers/educators; collaborative multi-institutional proposals accepted for larger projects."
+    geography: "UK"
+    focusArea: "Tools and frameworks for navigating the dRTP skills ecosystem"
+    description: "Funds development of tools, frameworks, and approaches — such as self-assessment tools and skill-role-resource alignment frameworks — that make the digital Research Technical Professional training landscape more transparent and accessible. Outputs must be FAIR and Open."
+    tags:
+      - training
+      - drtp
+      - tools
+      - uk
+
+  - title: "CHARTED Fund 2: Community Activities"
+    posted: "2026-07-30"
+    funder: "CHARTED (dRTP Skills)"
+    url: "https://drtp-skills.ac.uk/funds-community/"
+    type: "Grant"
+    amount: "£150,000 total; up to £5,000 per activity"
+    amountSort: 5000
+    deadline: "Rolling deadline, 15th of alternate months"
+    deadlineSort: "2026-08-15"
+    eligibility: "UK-based researchers and dRTPs involved with research software, research data, or research computing, or freelance trainers/educators in this sector; can support non-UK collaborators visiting the UK."
+    geography: "UK"
+    focusArea: "Community activities for the dRTP ecosystem"
+    description: "Supports local networks, workshops, hackathons, mentoring programmes, and training that build skills and clarify career pathways for digital Research Technical Professionals. Covers room/venue hire and catering; excludes staff time and equipment purchases."
+    tags:
+      - training
+      - drtp
+      - community
+      - uk
+
+  - title: "CHARTED Fund 4: Professional Development"
+    posted: "2026-07-30"
+    funder: "CHARTED (dRTP Skills)"
+    url: "https://drtp-skills.ac.uk/funds-prof-dev/"
+    type: "Grant"
+    amount: "£150,000 total; up to £5,000 per award"
+    amountSort: 5000
+    deadline: "Rolling deadline, 15th of each month"
+    deadlineSort: "2026-08-15"
+    eligibility: "Early-career professionals and those transitioning into dRTP roles, primarily UK-based; must show career benefit, plans to share outcomes locally, and have explored other funding sources first."
+    geography: "UK"
+    focusArea: "Professional development for dRTPs"
+    description: "Reimbursement-based fund supporting early-career digital Research Technical Professionals to attend conferences, training courses, and certificate programmes, or undertake inter-institutional knowledge-exchange visits. Staff time is ineligible; recipients commit to sharing outcomes via blog posts or webinars."
+    tags:
+      - training
+      - drtp
+      - professional-development
+      - uk
+
+  - title: "Open Science Infrastructure Programme (pre-announcement)"
+    posted: "2026-07-30"
+    funder: "Open Science NL"
+    url: "https://www.openscience.nl/en/news/pre-announcement-new-funding-round-open-science-infrastructure-programme"
+    type: "Grant"
+    amount: "€17,000,000 total; up to €1,700,000 per proposal"
+    amountSort: 1700000
+    deadline: "Call expected to open October 2026 · Letter of intent due 2026-11-03 · Full proposal due 2027-04-13"
+    deadlineSort: "2026-11-03"
+    eligibility: ""
+    geography: "Netherlands"
+    focusArea: "Digital infrastructure for open science"
+    description: "Pre-announcement for the next round of the Open Science Infrastructure programme, supporting improvement and further development of existing digital infrastructures that enable open science, with a greater focus on collaboration and consortium formation. Full call details, including eligibility, will be published in the Staatscourant closer to opening."
+    tags:
+      - open-science
+      - infrastructure
+      - netherlands
+
+  - title: "Astera Hidden Science Competition"
+    posted: "2026-07-30"
+    funder: "Astera Institute"
+    url: "https://astera.org/hidden-science-competition/"
+    type: "Prize"
+    amount: "$10,000 per award (minimum 5 awards; additional prizes possible at judges' discretion)"
+    amountSort: 10000
+    deadline: "21 August 2026"
+    deadlineSort: "2026-08-21"
+    eligibility: "Graduate students (Master's or Ph.D.) within approximately one year of degree completion, not currently affiliated with Astera Institute; requires an advisor letter confirming eligibility and permission to publish."
+    geography: "Global (except countries under U.S. sanctions)"
+    focusArea: "Publishing unpublished research outputs from graduate work"
+    description: "Awards graduate students to publish data, methodologies, results, code, null results, or standardization work from their Master's or Ph.D. research that would otherwise go unpublished. Winners receive a $10,000 contract with a 6-week timeline to complete and publicly post the work."
+    tags:
+      - science
+      - open-science
+      - graduate-students
+      - philanthropy
