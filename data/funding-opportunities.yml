@@ -431,3 +431,21 @@ opportunities:
       - open-science
       - graduate-students
       - philanthropy
+
+  - title: "NSF State and Regional Artificial Intelligence Infrastructure Hubs"
+    posted: "2026-08-05"
+    funder: "National Science Foundation (NSF)"
+    url: "https://www.nsf.gov/funding/opportunities/us-national-science-foundation-state-regional-artificial"
+    type: "Grant/Cooperative Agreement"
+    amount: "$4,000,000 – $12,000,000 per award over 5 years; ~$100,000,000 available, up to 10 awards anticipated"
+    amountSort: 12000000
+    deadline: "Full proposal: 2026-11-04"
+    deadlineSort: "2026-11-04"
+    eligibility: "Limited submission: one award per state or multi-state region; one proposal per institution; individuals may serve as PI, co-PI, or Senior/Key Personnel on at most one proposal per deadline. See solicitation NSF 26-513 for eligible organization types."
+    geography: "USA"
+    focusArea: "AI research computing infrastructure"
+    description: "Funds state and regional consortia (governments, institutions, industry, and philanthropy) to expand researcher access to the compute needed for AI-enabled scientific discovery. NSF supports consortium coordination, workforce development, and faculty training, while consortia arrange funding for the underlying computing resources."
+    tags:
+      - ai
+      - nsf
+      - infrastructure
