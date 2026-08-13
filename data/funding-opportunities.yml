@@ -449,3 +449,21 @@ opportunities:
       - ai
       - nsf
       - infrastructure
+
+  - title: "FAIR Research Outputs Call (pre-announcement)"
+    posted: "2026-08-13"
+    funder: "Open Science NL"
+    url: "https://www.openscience.nl/en/news/pre-announcement-first-round-of-the-fair-research-outputs-call"
+    type: "Grant"
+    amount: "€2,850,000 total; €1,400,000 available for first call; up to €50,000 per project"
+    amountSort: 50000
+    deadline: "Call expected to open September 2026 · Continuous, first-come-first-served until 2027-02-23"
+    deadlineSort: "2026-09-01"
+    eligibility: ""
+    geography: "Netherlands"
+    focusArea: "FAIR non-traditional research outputs"
+    description: "Pre-announcement for a new funding instrument supporting researchers in making non-traditional research outputs — such as datasets, software, and creative works — open and FAIR-compliant, including development of guidelines, standards, or tools that improve findability, accessibility, interoperability, and reusability. Full call details will be published in the Staatscourant closer to opening."
+    tags:
+      - open-science
+      - fair
+      - netherlands
