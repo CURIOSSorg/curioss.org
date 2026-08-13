@@ -130,6 +130,7 @@ opportunities:
     deadline: "Letters of intent due June 8, 2026 (2 pm PDT / 9 pm UTC); Full proposals due July 21, 2026 (2 pm PDT / 9 pm UTC)" # June 8, 2026
     deadlineSort: "2026-06-08"
     eligibility: ""
+    status: "Closed"
     geography: "Global"
     focusArea: "Open source software for science"
     description: "The Open Source for Science Fund invites letters of intent from developers and maintainers of open source software projects that underpin AI and data-intensive research in the life sciences. This program will fund technical advances and address significant bottlenecks in software tools with demonstrated community adoption in the life sciences, allowing them to unlock new capabilities for scientists worldwide and evolve functionality to meet the demands of AI-native research environments."
@@ -162,6 +163,7 @@ opportunities:
     url: https://discourse-network.github.io/funding/round-2
     type: "Grant"
     amount: "£15,000"
+    status: "Closed"
     amountSort: 15000
     deadline: "5th June 2026, 16:00 BST"
     deadlineSort: "2026-06-05"
