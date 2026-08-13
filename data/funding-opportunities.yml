@@ -216,6 +216,7 @@ opportunities:
     amountSort: 50000
     deadline: "1 August 2026 12:00 CEST"
     deadlineSort: "2026-08-01"
+    status: "Closed"
     eligibility: "Given equal proposals, inhabitants of the EU and countries associated to Horizon Europe are given priority; proposals from outside those geographic areas can be eligible if the project is of exceptional quality. Project results must be released under an open source license."
     geography: "EU"
     focusArea: "Fediversity ecosystem — federated hosting infrastructure and service portability"
@@ -253,6 +254,7 @@ opportunities:
     amountSort: 50000
     deadline: "1 August 2026 12:00 CEST"
     deadlineSort: "2026-08-01"
+    status: "Closed"
     eligibility: "Given equal proposals, inhabitants of the EU and countries associated to Horizon Europe are given priority; proposals from outside those geographic areas can be eligible if the project is of exceptional quality. Project results must be released under an open source license."
     geography: "EU"
     focusArea: "GNU Taler libre digital payment system ecosystem"
