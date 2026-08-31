@@ -191,7 +191,7 @@ Angela Newell (University of Texas at Austin OSPO, Texas-OSPO), Bethany Philbric
 
 **A note on AI use:** In addition to working from Deep Dive transcripts, capturing learning from our community discussions and other patterns from our members, this article was drafted with the help of AI. As a small organization, tools like this help us turn rich conversations into written resources without losing the ideas along the way. As always, there were plenty of human eyes reviewing, editing and improving the content before this article made it to publication. Thanks go to our community for the insights. If you do spot any errors, please let us know so we can correct them!
 
-* Knowledge sharing is at the heart of the CURIOSS community. Our members develop ['patterns'](https://curioss.org/patterns/) to record how they resolve problems facing academic OSPOs in university and research institutions. We categorize the patterns based on the common themes, priorities or challenges identified by members.
+*Knowledge sharing is at the heart of the CURIOSS community. Our members develop ['patterns'](https://curioss.org/patterns/) to record how they resolve problems facing academic OSPOs in university and research institutions. We categorize the patterns based on the common themes, priorities or challenges identified by members.
 
 ** CURIOSS hosts regular talks to support knowledge exchange and to accelerate the advancement of academic open source throughout the ecosystem. At our monthly [Deep Dives](https://curioss.org/resources/curioss-talks/), we invite an expert in the field of open science, open research or academic open source to speak to CURIOSS members and participate in a Q&A session under Chatham House Rule.
 
