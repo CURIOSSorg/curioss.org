@@ -1,5 +1,12 @@
 talks:
 
+  - slug: sabir-ibrahim-heather-meeker
+    name: "Sabir Ibrahim and Heather Meeker"
+    date: 2026-09-22
+    title: "Commercial Open Source Software (COSS) Current Norms and Trends"
+    image: /images/resources/sabir-ibrahim-heather-meeker.png
+    youtubeLink: https://www.youtube.com/watch?v=zo7pTaEu1U0
+
   - slug: isotta-peira
     name: "Isotta Peira"
     date: 2026-06-18
