@@ -1,5 +1,5 @@
 ---
-title: Closing the Skills Gap: How Academic OSPOs are leading the way with Open Source Internships
+title: Closing the Skills Gap:How Academic OSPOs are leading the way with Open Source Internships
 image: "/images/news/closing-the-skills-gap.png"
 date: 2026-08-31
 Description: Learning from Open Source Internship Programs
