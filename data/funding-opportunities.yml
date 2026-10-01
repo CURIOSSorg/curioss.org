@@ -86,39 +86,24 @@ opportunities:
       - nih
       - biomedical
 
-  - title: "Pathways to Enable Open-Source Ecosystems (POSE) — Phase 1"
-    posted: "2026-04-24"
-    funder: "National Science Foundation (NSF)"
-    url: "https://new.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems"
-    type: "Grant"
-    amount: "Up to $300,000 for projects with durations up to 1 year"
-    amountSort: 300000
-    deadline: "Full proposal: 2026-09-01 · Full proposal: 2027-03-02"
-    deadlineSort: "2026-09-01"
-    eligibility: ""
-    geography: "USA"
-    focusArea: "Open-source research software ecosystems"
-    description: "Funds scoping activities to help existing open-source research products with small user communities transition into sustainable, robust open-source ecosystems. Phase I supports early formation of managing organizations and training for teams building such ecosystems."
-    tags:
-      - nsf
-      - ecosystem
-
-  - title: "Pathways to Enable Open-Source Ecosystems (POSE) — Phase 2"
+  - title: "Pathways to Enable Secure Open-Source Ecosystems (PESOSE)"
     posted: "2026-04-24"
     funder: "National Science Foundation (NSF)"
     url: "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems"
     type: "Grant"
-    amount: "Up to $1,500,000 for projects with durations up to 2 years"
+    amount: "Track 1 (Planning): up to $300,000 · Track 2 (Establishment): up to $1,500,000 · Track 3 (Security): up to $1,500,000; 40–60 awards anticipated"
     amountSort: 1500000
-    deadline: "Full proposal: 2026-09-01 · Full proposal: 2027-03-02"
-    deadlineSort: "2026-09-01"
-    eligibility: ""
+    deadline: "Full proposal: 2027-03-02 · Full proposal: 2027-09-07 (first Tuesday in March and September, annually)"
+    deadlineSort: "2027-03-02"
+    eligibility: "See solicitation NSF 26-506."
     geography: "USA"
     focusArea: "Open-source research software ecosystems"
-    description: "Supports transition of promising open-source research products with small existing user and contributor communities into sustainable, robust open-source ecosystems. A POSE Phase I award is not required to apply to Phase II."
+    description: "Successor to POSE (NSF 24-606). Supports turning promising open-source research products into sustainable, secure open-source ecosystems, via three tracks: planning and scoping a new ecosystem, establishing or expanding an ecosystem around a product with existing adoption, and enhancing the safety, security, and privacy of existing ecosystems. A prior planning award is not required for the other tracks."
     tags:
       - nsf
       - ecosystem
+      - open-source
+      - security
 
   - title: "Open Source for the Life Sciences"
     posted: "2026-05-05"
@@ -141,7 +126,7 @@ opportunities:
       - philanthropy
 
   - title:  Open Science Meetings
-    posted: 2026-05-07
+    posted: "2026-05-07"
     funder: "Open Science NL"
     url: https://www.openscience.nl/en/calls/open-science-meetings-0
     type: "Grant"
@@ -158,7 +143,7 @@ opportunities:
       - meetings
 
   - title: DisCouRSE Flexible Fund - Round 2
-    posted: 2026-05-07
+    posted: "2026-05-07"
     funder: UKRI/DisCouRSE Network+
     url: https://discourse-network.github.io/funding/round-2
     type: "Grant"
@@ -235,12 +220,12 @@ opportunities:
     type: "Grant"
     amount: "$10,000 per project, paid in tranches ($6,000 during the 3-week program, $2,000 at the 6-month check-in, $2,000 at the 12-month check-in), plus up to $10,000 in Azure credits"
     amountSort: 10000
-    deadline: "Session 5 applications open, reviewed on a rolling basis; due 2026-08-18"
-    deadlineSort: "2026-08-18"
+    deadline: "Rolling; applications are considered for all program sessions"
+    deadlineSort: ""
     eligibility: "Open source project maintainers (individuals or teams of up to 3) aged 18+, with an active GitHub profile, located in a GitHub Sponsors-supported region, not a current GitHub employee, with a clearly licensed project that has demonstrated community adoption and a defined governance structure."
     geography: "Global (GitHub Sponsors-supported regions)"
     focusArea: "Open source software security"
-    description: "Funds maintainers of widely-depended-on open source projects to improve security practices, through a 3-week education program, GitHub Security Lab office hours, and direct funding tied to security milestones at 6- and 12-month check-ins. Session 5 applications are currently open and under rolling review."
+    description: "Funds maintainers of widely-depended-on open source projects to improve security practices, through a 3-week education program, GitHub Security Lab office hours, and direct funding tied to security milestones at 6- and 12-month check-ins. Applications are accepted on a rolling basis and considered for all program sessions."
     tags:
       - security
       - github
@@ -268,13 +253,13 @@ opportunities:
 
   - title: "BSSw Fellowship Program"
     posted: "2026-07-24"
-    status: "Closed"
     funder: "U.S. Department of Energy (DOE) and National Science Foundation (NSF)"
     url: "https://bssw.io/pages/bssw-fellowship-program"
     type: "Fellowship"
     amount: "Up to $25,000 per Fellow, awarded as a subcontract to the recipient's institution"
     amountSort: 25000
-    deadline: "2026 cohort closed 2025-10-31; 2027 cycle expected to open summer 2026"
+    deadline: "2027 cohort applications due 2026-10-30"
+    deadlineSort: "2026-10-30"
     eligibility: "Applicants at any career stage (student through senior professional) affiliated with a U.S.-based institution able to receive federal funding."
     geography: "USA"
     focusArea: "Scientific software developer productivity and sustainability"
@@ -306,6 +291,7 @@ opportunities:
 
   - title: "Information Controls Research Program (ICRP)"
     posted: "2026-07-29"
+    status: "Closed"
     funder: "Open Technology Fund (OTF)"
     url: "https://www.opentech.fund/research-2/icrp/"
     type: "Fellowship"
@@ -331,8 +317,9 @@ opportunities:
     type: "Grant"
     amount: "£350,000 total across at least two rounds; individual projects up to £40,000 (80% of Full Economic Costs)"
     amountSort: 40000
-    deadline: "30 September 2026, 11:59pm BST"
+    deadline: "Round 1: 30 September 2026, 11:59pm BST · Round 2 expected to open late spring 2027"
     deadlineSort: "2026-09-30"
+    status: "Closed"
     eligibility: "Lead applicants must be based at UK universities, UK non-profit organisations, or work as freelance trainers/educators, able to sign a grant agreement with the University of Edinburgh."
     geography: "UK"
     focusArea: "FAIRifying training resources for digital Research Technical Professionals (dRTPs)"
@@ -350,8 +337,9 @@ opportunities:
     type: "Grant"
     amount: "£350,000 total across two rounds; each round funds one large project up to £150,000 and several small projects up to £15,000 (80% of Full Economic Costs)"
     amountSort: 150000
-    deadline: "30 September 2026, 11:59pm BST (first round)"
+    deadline: "Round 1: 30 September 2026, 11:59pm BST · Round 2 expected to open late spring 2027"
     deadlineSort: "2026-09-30"
+    status: "Closed"
     eligibility: "Lead applicants must be based at UK universities, UK non-profit organisations, or work as freelance trainers/educators; collaborative multi-institutional proposals accepted for larger projects."
     geography: "UK"
     focusArea: "Tools and frameworks for navigating the dRTP skills ecosystem"
@@ -367,10 +355,10 @@ opportunities:
     funder: "CHARTED (dRTP Skills)"
     url: "https://drtp-skills.ac.uk/funds-community/"
     type: "Grant"
-    amount: "£150,000 total; up to £5,000 per activity"
-    amountSort: 5000
-    deadline: "Rolling deadline, 15th of alternate months"
-    deadlineSort: "2026-08-15"
+    amount: "£150,000 total; up to £12,500 per activity (80% of Full Economic Costs)"
+    amountSort: 12500
+    deadline: "Rolling deadline, 15th of alternate months; next 2026-11-15. Apply at least three months before the activity."
+    deadlineSort: "2026-11-15"
     eligibility: "UK-based researchers and dRTPs involved with research software, research data, or research computing, or freelance trainers/educators in this sector; can support non-UK collaborators visiting the UK."
     geography: "UK"
     focusArea: "Community activities for the dRTP ecosystem"
@@ -389,7 +377,7 @@ opportunities:
     amount: "£150,000 total; up to £5,000 per award"
     amountSort: 5000
     deadline: "Rolling deadline, 15th of each month"
-    deadlineSort: "2026-08-15"
+    deadlineSort: "2026-10-15"
     eligibility: "Early-career professionals and those transitioning into dRTP roles, primarily UK-based; must show career benefit, plans to share outcomes locally, and have explored other funding sources first."
     geography: "UK"
     focusArea: "Professional development for dRTPs"
@@ -400,19 +388,19 @@ opportunities:
       - professional-development
       - uk
 
-  - title: "Open Science Infrastructure Programme (pre-announcement)"
+  - title: "Open Science Infrastructure Programme"
     posted: "2026-07-30"
     funder: "Open Science NL"
-    url: "https://www.openscience.nl/en/news/pre-announcement-new-funding-round-open-science-infrastructure-programme"
+    url: "https://www.openscience.nl/en/calls/open-science-infrastructure"
     type: "Grant"
     amount: "€17,000,000 total; up to €1,700,000 per proposal"
     amountSort: 1700000
-    deadline: "Call expected to open October 2026 · Letter of intent due 2026-11-03 · Full proposal due 2027-04-13"
+    deadline: "Letter of intent: 2026-11-03 14:00 CET · Mandatory workshop: 2026-12-02 · Full proposal: 2027-04-13 14:00 CET"
     deadlineSort: "2026-11-03"
     eligibility: ""
     geography: "Netherlands"
     focusArea: "Digital infrastructure for open science"
-    description: "Pre-announcement for the next round of the Open Science Infrastructure programme, supporting improvement and further development of existing digital infrastructures that enable open science, with a greater focus on collaboration and consortium formation. Full call details, including eligibility, will be published in the Staatscourant closer to opening."
+    description: "The next round of the Open Science Infrastructure programme, supporting improvement and further development of existing digital infrastructures that enable open science, with a greater focus on collaboration and consortium formation. Now open for letters of intent."
     tags:
       - open-science
       - infrastructure
@@ -420,6 +408,7 @@ opportunities:
 
   - title: "Astera Hidden Science Competition"
     posted: "2026-07-30"
+    status: "Closed"
     funder: "Astera Institute"
     url: "https://astera.org/hidden-science-competition/"
     type: "Prize"
@@ -455,20 +444,57 @@ opportunities:
       - nsf
       - infrastructure
 
-  - title: "FAIR Research Outputs Call (pre-announcement)"
+  - title: "FAIR Research Outputs Call"
     posted: "2026-08-13"
     funder: "Open Science NL"
-    url: "https://www.openscience.nl/en/news/pre-announcement-first-round-of-the-fair-research-outputs-call"
+    url: "https://www.openscience.nl/en/calls/fair-research-outputs"
     type: "Grant"
     amount: "€2,850,000 total; €1,400,000 available for first call; up to €50,000 per project"
     amountSort: 50000
-    deadline: "Call expected to open September 2026 · Continuous, first-come-first-served until 2027-02-23"
-    deadlineSort: "2026-09-01"
+    deadline: "Submissions open 2026-12-01 · Continuous, first-come-first-served until 2027-02-23 14:00 CET"
+    deadlineSort: "2027-02-23"
     eligibility: ""
     geography: "Netherlands"
     focusArea: "FAIR non-traditional research outputs"
-    description: "Pre-announcement for a new funding instrument supporting researchers in making non-traditional research outputs — such as datasets, software, and creative works — open and FAIR-compliant, including development of guidelines, standards, or tools that improve findability, accessibility, interoperability, and reusability. Full call details will be published in the Staatscourant closer to opening."
+    description: "A new funding instrument supporting researchers in making non-traditional research outputs — such as datasets, software, and creative works — open and FAIR-compliant, including development of guidelines, standards, or tools that improve findability, accessibility, interoperability, and reusability."
     tags:
       - open-science
       - fair
+      - netherlands
+
+  - title: "Training-based Workforce Development for Advanced Cyberinfrastructure (CyberTraining)"
+    posted: "2026-10-02"
+    funder: "National Science Foundation (NSF)"
+    url: "https://www.nsf.gov/funding/opportunities/training-based-workforce-development-advanced"
+    type: "Grant"
+    amount: "Pilot: up to $300,000 over 2 years · Small Implementation: up to $500,000 over 4 years · Medium Implementation: up to $1,000,000 over 4 years; ~18 awards anticipated"
+    amountSort: 1000000
+    deadline: "Full proposal: 2027-01-21 (third Thursday in January, annually thereafter)"
+    deadlineSort: "2027-01-21"
+    eligibility: "An individual may serve as PI, co-PI, or Senior Personnel on only one Pilot or Implementation proposal per competition. See solicitation NSF 23-520 for eligible PI types."
+    geography: "USA"
+    focusArea: "Research workforce training for advanced cyberinfrastructure"
+    description: "Supports training and education that prepares the research workforce to create, use, and support advanced cyberinfrastructure — computation, large-scale data handling and analytics, networking, and security — and promotes broad adoption of CI tools and methods, including integrating computational skills into undergraduate and graduate education."
+    tags:
+      - nsf
+      - training
+      - infrastructure
+      - research-software
+
+  - title: "Citizen Science Hubs 2026"
+    posted: "2026-10-02"
+    funder: "Open Science NL"
+    url: "https://www.openscience.nl/en/calls/citizen-science-hubs-2026"
+    type: "Grant"
+    amount: "€2,400,000 total; material costs capped at 30% of the grant"
+    amountSort: 2400000
+    deadline: "Full proposal: 2027-01-08 14:00 CET"
+    deadlineSort: "2027-01-08"
+    eligibility: "At least two applicants from different Dutch research organisations (universities, university medical centres, KNAW/NWO institutes, RIVM, KNMI) with contracts covering the project duration; at most one application per organisation."
+    geography: "Netherlands"
+    focusArea: "Citizen science support within research organisations"
+    description: "Funds the establishment of citizen science hubs to strengthen knowledge, expertise, and support for citizen science (including science communication) within Dutch research organisations."
+    tags:
+      - open-science
+      - community
       - netherlands
