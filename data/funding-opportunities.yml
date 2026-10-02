@@ -497,3 +497,23 @@ opportunities:
       - open-science
       - community
       - netherlands
+
+  - title: "MIT Solve 2027 Global Challenges"
+    posted: "2026-10-03"
+    funder: "MIT Solve"
+    url: "https://solve.mit.edu/challenges"
+    type: "Prize"
+    amount: "$10,000 grant to every selected Solver team (~$40,000 average after selection); $1M+ prize pool with individual prizes up to $150,000"
+    amountSort: 150000
+    deadline: "2026-11-02 12:00 EST"
+    deadlineSort: "2026-11-02"
+    eligibility: "Teams with tech-based solutions at the prototype, pilot, growth, or scale stage (concept-stage solutions are eligible only for the Indigenous Communities Fellowship); previous Solvers may apply with new solutions only. Some prizes are restricted to US-based teams."
+    geography: "Global"
+    focusArea: "Tech-based solutions to global challenges in health, climate, learning, and economic prosperity"
+    description: "MIT Solve's open innovation challenges seek tech-based solutions from anyone, anywhere. The 2027 cycle has four challenges: Global Health, Global Climate, Global Learning, and Global Economic Prosperity. Selected Solvers receive a grant from Solve and are eligible for sponsor prizes."
+    tags:
+      - prize
+      - innovation
+      - health
+      - climate
+      - education
