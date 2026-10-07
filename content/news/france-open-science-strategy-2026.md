@@ -1,7 +1,7 @@
 ---
 title: "France's new Open Science Strategy calls for a National Network of Academic OSPOs"
 image: "/images/news/france-open-science-strategy-2026.png"
-date: 2026-07-10
+date: 2026-10-07
 Description: "French strategy for Academic OSPO Network"
 ---
 
@@ -21,7 +21,7 @@ The strategy aims to embed these transformations in a longer-term perspective.
 
 ## The Software Paradox and a Dedicated Objective
 
-The strategy names what it calls "the software paradox". FOSS (Free and open source software) emerged in the 1980s (a decade before [arXiv](https://arxiv.org/), producing global successes such as Python, R, scikit-learn and BLAST. Yet open science policies were built around publications and data first. Software only appeared explicitly in policy in the early 2020s, with the updated OECD Recommendation (2021) and the full chapter of France's Second National Plan for Open Science.
+The strategy names what it calls "the software paradox". FOSS (Free and open source software) emerged in the 1980s (a decade before [arXiv](https://arxiv.org/)), producing global successes such as Python, R, scikit-learn and BLAST. Yet open science policies were built around publications and data first. Software only appeared explicitly in policy in the early 2020s, with the updated OECD Recommendation (2021) and the full chapter of France's Second National Plan for Open Science.
 
 The diagnosis is frank. The strategy states that:
 
