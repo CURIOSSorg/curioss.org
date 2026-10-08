@@ -517,3 +517,22 @@ opportunities:
       - health
       - climate
       - education
+
+  - title: "Rapid Response Fund Vendor RFP"
+    posted: "2026-10-08"
+    funder: "Open Technology Fund (OTF)"
+    url: "https://www.opentech.fund/news/open-technology-fund-requests-proposals-for-the-rapid-response-fund/"
+    type: "Contract"
+    amount: "Paid vendor services; rates proposed by the vendor per the RFP"
+    deadline: "2026-11-23 23:59 EST (questions due 2026-10-28 23:59 EST)"
+    deadlineSort: "2026-11-23"
+    eligibility: "Service providers, organizations, and individuals, mostly digital security practitioners, with technical, thematic, or regional expertise in responding to digital emergencies. Submissions go to rapidresponse@opentech.fund and must follow the RFP's \"Proposal Submission\" guidelines."
+    geography: "Global"
+    focusArea: "Emergency digital security support for independent media and civil society facing state-sponsored digital attacks or censorship"
+    description: "OTF's Rapid Response Fund gives recipients either direct financial support or technical services from trusted vendors. This RFP is looking for vendors who can provide emergency digital security support in selected service categories, helping independent media, civil society, and at-risk individuals or organizations hit by state-sponsored digital attacks stay safe, get back online, prevent future attacks, and respond to sudden censorship events."
+    tags:
+      - internet-freedom
+      - security
+      - censorship
+      - contract
+      - civil-society
