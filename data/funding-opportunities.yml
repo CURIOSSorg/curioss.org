@@ -132,7 +132,7 @@ opportunities:
     type: "Grant"
     amount: "€15,000"
     amountSort: 15000 # no unit?
-    deadline: "10 December 2026 14:00 CET"
+    deadline: "10 December 2026 14:00 CET, or earlier if the budget runs out (9% of the €400,000 budget remained as of 13 October 2026)"
     deadlineSort: "2026-12-10"
     eligibility: "Dutch institutions"
     geography: "Netherlands"
@@ -277,6 +277,7 @@ opportunities:
     amount: "£4,000 per Fellow, to spend over a 15-month period"
     amountSort: 4000
     deadline: "Applications open 10 August 2026; close 5 October 2026"
+    status: "Closed"
     deadlineSort: "2026-10-05"
     eligibility: "Open to those doing work to promote good computational practices in research. Primarily for UK-based applicants or those with formal affiliation to a UK-based institution; up to three positions are available for international applicants, who must demonstrate how their plans foster international collaboration or how UK research culture benefits from their perspective/techniques."
     geography: "UK (with limited international positions)"
@@ -375,8 +376,8 @@ opportunities:
     type: "Grant"
     amount: "£150,000 total; up to £5,000 per award"
     amountSort: 5000
-    deadline: "Rolling deadline, 15th of each month"
-    deadlineSort: "2026-10-15"
+    deadline: "Rolling deadline, 15th of each month; next 2026-11-15"
+    deadlineSort: "2026-11-15"
     eligibility: "Early-career professionals and those transitioning into dRTP roles, primarily UK-based; must show career benefit, plans to share outcomes locally, and have explored other funding sources first."
     geography: "UK"
     focusArea: "Professional development for dRTPs"
@@ -450,7 +451,7 @@ opportunities:
     type: "Grant"
     amount: "€2,850,000 total; €1,400,000 available for first call; up to €50,000 per project"
     amountSort: 50000
-    deadline: "Submissions open 2026-12-01 · Continuous, first-come-first-served until 2027-02-23 14:00 CET"
+    deadline: "Continuous, first-come-first-served until 2027-02-23 14:00 CET, with an interim submission deadline on 2026-12-01 14:00 CET. The Life Sciences and Health category's budget ran out on 2026-10-08."
     deadlineSort: "2027-02-23"
     eligibility: ""
     geography: "Netherlands"
