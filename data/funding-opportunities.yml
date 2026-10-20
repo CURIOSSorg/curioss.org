@@ -557,3 +557,23 @@ opportunities:
       - infrastructure
       - security
       - open-hardware
+
+  - title: "Catalyst Fund: Research Software in the Age of AI (Exploratory Fund)"
+    posted: "2026-10-21"
+    funder: "Catalyst Fund (fiscally sponsored by The Hack Foundation)"
+    url: "https://researchsoftwarecatalyst.fund/"
+    type: "Grant"
+    amount: "Up to $50,000 per project (most expected between $15,000 and $50,000); no overheads or indirect costs"
+    amountSort: 50000
+    deadline: "Single deadline in late October 2026 (exact date not yet announced; applications not yet open as of 2026-10-21). A larger Impact Fund (up to $200,000, 9–12 months) is planned to open late 2026 or early 2027."
+    deadlineSort: "2026-10-31"
+    eligibility: "Individuals, informal teams, institutions, and non-profits anywhere in the world; no institutional affiliation required, and no connection to the Edinburgh workshop needed. Work must start now and finish within three to six months. Software outputs must be released under an OSI-approved license; other outputs under CC BY or CC0."
+    geography: "Global"
+    focusArea: "Research software and the responsible use of generative AI"
+    description: "Funds people building, verifying, and teaching research software, and the norms, tools, methods, and training that support good use of generative AI in research software. Each project should leave something others can use, such as a tool, curriculum, dataset, document, or report. Example projects include agentic verification tools for testing and review, agent workflows for routine maintenance like issue triage and dependency updates, a searchable collection of AI-assisted project case studies, and a playbook for research team leaders on AI adoption. Applications are a two-page plain-language proposal with a simple budget and a three- to six-month schedule, reviewed by the community. Programme chair: Karthik Ram (UC Berkeley)."
+    tags:
+      - research-software
+      - ai
+      - rse
+      - open-source
+      - catalyst-fund
