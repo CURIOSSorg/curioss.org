@@ -257,8 +257,8 @@ opportunities:
     type: "Fellowship"
     amount: "Up to $25,000 per Fellow, awarded as a subcontract to the recipient's institution"
     amountSort: 25000
-    deadline: "2027 cohort applications due 2026-10-30"
-    deadlineSort: "2026-10-30"
+    deadline: "2027 cohort applications due 2026-10-31 (extended from 2026-10-30)"
+    deadlineSort: "2026-10-31"
     eligibility: "Applicants at any career stage (student through senior professional) affiliated with a U.S.-based institution able to receive federal funding."
     geography: "USA"
     focusArea: "Scientific software developer productivity and sustainability"
