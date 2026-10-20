@@ -536,3 +536,23 @@ opportunities:
       - censorship
       - contract
       - civil-society
+
+  - title: "Restack (Open Internet Stack)"
+    posted: "2026-10-20"
+    funder: "NLnet"
+    url: "https://nlnet.nl/restack/"
+    type: "Grant"
+    amount: "€5,000 – €50,000 per project, with possible scale-up for proven potential (~€7 million total through 2030)"
+    amountSort: 50000
+    deadline: "3 November 2026 12:00 CET"
+    deadlineSort: "2026-11-03"
+    eligibility: "No categorical exclusions of persons. Projects need a strong European dimension, usually met by team members based in Horizon Europe-eligible countries receiving at least 60% of the funds; exceptionally strong proposals from outside those countries may be considered. Results must be released under a recognised free or open source license. AI-related projects are out of scope unless they already have more than 1 million active human users."
+    geography: "EU / Horizon Europe associated countries"
+    focusArea: "Operational internet commons across the full technology stack"
+    description: "Part of the Open Internet Stack initiative, funded by the European Commission through Horizon Europe. Restack supports projects that deliver, mature, and scale internet commons, from libre chips and secure devices to middleware, local-first infrastructure, and end-user applications. In scope: core internet infrastructure and open alternatives to widely used closed technologies, full-stack security, software supply chain, reproducibility, decoupling of infrastructure layers, and interoperability standards. Grantees can also get accessibility scans, security audits, reproducible packaging, licensing and governance help, and standardisation support."
+    tags:
+      - nlnet
+      - open-source
+      - infrastructure
+      - security
+      - open-hardware
