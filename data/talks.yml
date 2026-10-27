@@ -1,5 +1,12 @@
 talks:
 
+  - slug: morane-gruenpeter
+    name: "Morane Gruenpeter"
+    date: 2026-10-22
+    title: "OSPO-RADAR - Building a window into the Software Heritage Cathedral"
+    image: /images/resources/morane-gruenpeter.png
+    youtubeLink: https://www.youtube.com/watch?v=dA8bkAw9SUE
+
   - slug: sabir-ibrahim-heather-meeker
     name: "Sabir Ibrahim and Heather Meeker"
     date: 2026-09-22
