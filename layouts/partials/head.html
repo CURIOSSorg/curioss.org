@@ -37,6 +37,10 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — Funding Opportunities" href="{{ "resources/funding-opportunities/index.xml" | absURL }}">
   {{ end }}
 
+  {{ if eq .Section "news" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — News" href="{{ "news/index.xml" | absURL }}">
+  {{ end }}
+
   {{ template "_internal/opengraph.html" . }}
   {{ if .Params.Image }}
   {{ with .Params.Image }}
