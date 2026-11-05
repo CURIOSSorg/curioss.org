@@ -132,7 +132,7 @@ opportunities:
     type: "Grant"
     amount: "€15,000"
     amountSort: 15000 # no unit?
-    deadline: "10 December 2026 14:00 CET, or earlier if the budget runs out (9% of the €400,000 budget remained as of 13 October 2026)"
+    deadline: "10 December 2026 14:00 CET, or earlier if the budget runs out (the €400,000 budget was almost depleted as of 22 October 2026, with funding expected for about one more application)"
     deadlineSort: "2026-12-10"
     eligibility: "Dutch institutions"
     geography: "Netherlands"
@@ -218,10 +218,10 @@ opportunities:
     funder: "GitHub"
     url: "https://github.com/open-source/github-secure-open-source-fund"
     type: "Grant"
-    amount: "$10,000 per project, paid in tranches ($6,000 during the 3-week program, $2,000 at the 6-month check-in, $2,000 at the 12-month check-in), plus up to $10,000 in Azure credits"
+    amount: "$10,000 per project, paid in tranches ($6,000 during the 3-week program, $2,000 at the 6-month check-in, $2,000 at the 12-month check-in), plus $10,000 in Azure credits; eligible projects may receive up to $150,000 in Azure infrastructure credits from Microsoft for Startups"
     amountSort: 10000
     deadline: "Rolling; applications are considered for all program sessions"
-    eligibility: "Open source project maintainers (individuals or teams of up to 3) aged 18+, with an active GitHub profile, located in a GitHub Sponsors-supported region, not a current GitHub employee, with a clearly licensed project that has demonstrated community adoption and a defined governance structure."
+    eligibility: "Open source project maintainers (individuals or teams of up to 2) aged 18+, with an active GitHub profile, located in a GitHub Sponsors-supported region, not a current GitHub employee, with a clearly licensed project that has demonstrated community adoption and a defined governance structure."
     geography: "Global (GitHub Sponsors-supported regions)"
     focusArea: "Open source software security"
     description: "Funds maintainers of widely-depended-on open source projects to improve security practices, through a 3-week education program, GitHub Security Lab office hours, and direct funding tied to security milestones at 6- and 12-month check-ins. Applications are accepted on a rolling basis and considered for all program sessions."
@@ -252,13 +252,14 @@ opportunities:
 
   - title: "BSSw Fellowship Program"
     posted: "2026-07-24"
+    status: "Closed"
     funder: "U.S. Department of Energy (DOE) and National Science Foundation (NSF)"
     url: "https://bssw.io/pages/bssw-fellowship-program"
     type: "Fellowship"
     amount: "Up to $25,000 per Fellow, awarded as a subcontract to the recipient's institution"
     amountSort: 25000
-    deadline: "2027 cohort applications due 2026-10-31 (extended from 2026-10-30)"
-    deadlineSort: "2026-10-31"
+    deadline: "2027 cohort applications due 2026-10-30, before midnight PDT"
+    deadlineSort: "2026-10-30"
     eligibility: "Applicants at any career stage (student through senior professional) affiliated with a U.S.-based institution able to receive federal funding."
     geography: "USA"
     focusArea: "Scientific software developer productivity and sustainability"
@@ -362,7 +363,7 @@ opportunities:
     eligibility: "UK-based researchers and dRTPs involved with research software, research data, or research computing, or freelance trainers/educators in this sector; can support non-UK collaborators visiting the UK."
     geography: "UK"
     focusArea: "Community activities for the dRTP ecosystem"
-    description: "Supports local networks, workshops, hackathons, mentoring programmes, and training that build skills and clarify career pathways for digital Research Technical Professionals. Covers room/venue hire and catering; excludes staff time and equipment purchases."
+    description: "Supports local networks, workshops, hackathons, mentoring programmes, and training that build skills and clarify career pathways for digital Research Technical Professionals. Covers costs such as room/venue hire and catering at 80% of Full Economic Costs; under terms updated in September 2026, staff time is allowed, while equipment purchases remain ineligible."
     tags:
       - training
       - drtp
@@ -390,17 +391,18 @@ opportunities:
 
   - title: "Open Science Infrastructure Programme"
     posted: "2026-07-30"
+    status: "Closed"
     funder: "Open Science NL"
     url: "https://www.openscience.nl/en/calls/open-science-infrastructure"
     type: "Grant"
     amount: "€17,000,000 total; up to €1,700,000 per proposal"
     amountSort: 1700000
-    deadline: "Letter of intent: 2026-11-03 14:00 CET · Mandatory workshop: 2026-12-02 · Full proposal: 2027-04-13 14:00 CET"
+    deadline: "Letter of intent and workshop registration closed 2026-11-03 14:00 CET · Mandatory workshop: 2026-12-02 · Full proposal: 2027-04-13 14:00 CET"
     deadlineSort: "2026-11-03"
     eligibility: ""
     geography: "Netherlands"
     focusArea: "Digital infrastructure for open science"
-    description: "The next round of the Open Science Infrastructure programme, supporting improvement and further development of existing digital infrastructures that enable open science, with a greater focus on collaboration and consortium formation. Now open for letters of intent."
+    description: "The next round of the Open Science Infrastructure programme, supporting improvement and further development of existing digital infrastructures that enable open science, with a greater focus on collaboration and consortium formation."
     tags:
       - open-science
       - infrastructure
@@ -433,8 +435,8 @@ opportunities:
     type: "Grant/Cooperative Agreement"
     amount: "$4,000,000 – $12,000,000 per award over 5 years; ~$100,000,000 available, up to 10 awards anticipated"
     amountSort: 12000000
-    deadline: "Full proposal: 2026-11-04"
-    deadlineSort: "2026-11-04"
+    deadline: "Full proposal: 2027-11-03 (first Wednesday in November, annually)"
+    deadlineSort: "2027-11-03"
     eligibility: "Limited submission: one award per state or multi-state region; one proposal per institution; individuals may serve as PI, co-PI, or Senior/Key Personnel on at most one proposal per deadline. See solicitation NSF 26-513 for eligible organization types."
     geography: "USA"
     focusArea: "AI research computing infrastructure"
@@ -446,12 +448,13 @@ opportunities:
 
   - title: "FAIR Research Outputs Call"
     posted: "2026-08-13"
+    status: "Closed"
     funder: "Open Science NL"
     url: "https://www.openscience.nl/en/calls/fair-research-outputs"
     type: "Grant"
     amount: "€2,850,000 total; €1,400,000 available for first call; up to €50,000 per project"
     amountSort: 50000
-    deadline: "Continuous, first-come-first-served until 2027-02-23 14:00 CET, with an interim submission deadline on 2026-12-01 14:00 CET. The Life Sciences and Health category's budget ran out on 2026-10-08."
+    deadline: "Budget fully exhausted, according to the funder. The call ran first-come-first-served, with a listed closing date of 2027-02-23 14:00 CET and an interim submission deadline of 2026-12-01 14:00 CET."
     deadlineSort: "2027-02-23"
     eligibility: ""
     geography: "Netherlands"
@@ -490,7 +493,7 @@ opportunities:
     amountSort: 2400000
     deadline: "Full proposal: 2027-01-08 14:00 CET"
     deadlineSort: "2027-01-08"
-    eligibility: "At least two applicants from different Dutch research organisations (universities, university medical centres, KNAW/NWO institutes, RIVM, KNMI) with contracts covering the project duration; at most one application per organisation."
+    eligibility: "At least two applicants from different Dutch research organisations (universities, universities of applied sciences, university medical centres, KNAW/NWO institutes, RIVM, KNMI) with contracts covering the project duration; at most one application per organisation. Organisations funded under the Citizen Science Hubs 2024 call are excluded."
     geography: "Netherlands"
     focusArea: "Citizen science support within research organisations"
     description: "Funds the establishment of citizen science hubs to strengthen knowledge, expertise, and support for citizen science (including science communication) within Dutch research organisations."
@@ -506,8 +509,8 @@ opportunities:
     type: "Prize"
     amount: "$10,000 grant to every selected Solver team (~$40,000 average after selection); $1M+ prize pool with individual prizes up to $150,000"
     amountSort: 150000
-    deadline: "2026-11-02 12:00 EST"
-    deadlineSort: "2026-11-02"
+    deadline: "2026-11-06 12:00 EST"
+    deadlineSort: "2026-11-06"
     eligibility: "Teams with tech-based solutions at the prototype, pilot, growth, or scale stage (concept-stage solutions are eligible only for the Indigenous Communities Fellowship); previous Solvers may apply with new solutions only. Some prizes are restricted to US-based teams."
     geography: "Global"
     focusArea: "Tech-based solutions to global challenges in health, climate, learning, and economic prosperity"
@@ -545,9 +548,9 @@ opportunities:
     type: "Grant"
     amount: "€5,000 – €50,000 per project, with possible scale-up for proven potential (~€7 million total through 2030)"
     amountSort: 50000
-    deadline: "3 November 2026 12:00 CET"
-    deadlineSort: "2026-11-03"
-    eligibility: "No categorical exclusions of persons. Projects need a strong European dimension, usually met by team members based in Horizon Europe-eligible countries receiving at least 60% of the funds; exceptionally strong proposals from outside those countries may be considered. Results must be released under a recognised free or open source license. AI-related projects are out of scope unless they already have more than 1 million active human users."
+    deadline: "3 January 2027 12:00 CET (second call, opened 3 November 2026)"
+    deadlineSort: "2027-01-03"
+    eligibility: "No categorical exclusions of persons. Projects need a strong European dimension, usually met by team members based in Horizon Europe-eligible countries receiving at least 60% of the funds; exceptionally strong proposals from outside those countries may be considered. Results must be released under a recognised free or open source license. Generative AI projects are out of scope unless they already have more than 1 million active human users and are directly relevant to the stack."
     geography: "EU / Horizon Europe associated countries"
     focusArea: "Operational internet commons across the full technology stack"
     description: "Part of the Open Internet Stack initiative, funded by the European Commission through Horizon Europe. Restack supports projects that deliver, mature, and scale internet commons, from libre chips and secure devices to middleware, local-first infrastructure, and end-user applications. In scope: core internet infrastructure and open alternatives to widely used closed technologies, full-stack security, software supply chain, reproducibility, decoupling of infrastructure layers, and interoperability standards. Grantees can also get accessibility scans, security audits, reproducible packaging, licensing and governance help, and standardisation support."
@@ -563,14 +566,14 @@ opportunities:
     funder: "Catalyst Fund (fiscally sponsored by The Hack Foundation)"
     url: "https://researchsoftwarecatalyst.fund/"
     type: "Grant"
-    amount: "Up to $50,000 per project (most expected between $15,000 and $50,000); no overheads or indirect costs"
+    amount: "Up to $50,000 per project (most expected between $15,000 and $50,000), including indirect costs of up to 10% of the budget"
     amountSort: 50000
-    deadline: "Single deadline in late October 2026 (exact date not yet announced; applications not yet open as of 2026-10-21). A larger Impact Fund (up to $200,000, 9–12 months) is planned to open late 2026 or early 2027."
-    deadlineSort: "2026-10-31"
-    eligibility: "Individuals, informal teams, institutions, and non-profits anywhere in the world; no institutional affiliation required, and no connection to the Edinburgh workshop needed. Work must start now and finish within three to six months. Software outputs must be released under an OSI-approved license; other outputs under CC BY or CC0."
+    deadline: "2026-12-31 (applications opened 2026-10-30; decisions by mid-March 2027). A larger Impact Fund (up to $200,000, 9–12 months) is planned to open in 2027."
+    deadlineSort: "2026-12-31"
+    eligibility: "Individuals, informal teams, institutions, and non-profits anywhere in the world, unless US sanctions law prevents payment; LLCs, companies, and other for-profit organisations cannot apply. No institutional affiliation required, and no connection to the Edinburgh workshop needed. Projects must be able to start now and finish within three to six months (anticipated project period April–September 2027). Software outputs must be released under an OSI-approved license; other outputs under CC BY or CC0."
     geography: "Global"
     focusArea: "Research software and the responsible use of generative AI"
-    description: "Funds people building, verifying, and teaching research software, and the norms, tools, methods, and training that support good use of generative AI in research software. Each project should leave something others can use, such as a tool, curriculum, dataset, document, or report. Example projects include agentic verification tools for testing and review, agent workflows for routine maintenance like issue triage and dependency updates, a searchable collection of AI-assisted project case studies, and a playbook for research team leaders on AI adoption. Applications are a two-page plain-language proposal with a simple budget and a three- to six-month schedule, reviewed by the community. Programme chair: Karthik Ram (UC Berkeley)."
+    description: "Funds people building, verifying, and teaching research software, and the norms, tools, methods, and training that support good use of generative AI in research software. Each project should leave something others can use, such as a tool, curriculum, dataset, document, or report. Example projects include agentic verification tools for testing and review, agent workflows for routine maintenance like issue triage and dependency updates, a searchable collection of AI-assisted project case studies, and a playbook for research team leaders on AI adoption. Applications are a short plain-language proposal with a simple budget and a three- to six-month schedule, reviewed by a panel of five to seven community members. Programme chair: Karthik Ram (UC Berkeley)."
     tags:
       - research-software
       - ai
