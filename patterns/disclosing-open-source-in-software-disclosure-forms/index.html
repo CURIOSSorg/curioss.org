@@ -652,9 +652,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="References">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#related-patterns" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -664,23 +665,17 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#contributors-acknowledgements" class="md-nav__link">
     <span class="md-ellipsis">
       
         Contributors &amp; Acknowledgements
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#a-note-on-ai-use" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        A Note on AI Use
       
     </span>
   </a>
@@ -749,156 +744,85 @@
 
 <h1 id="dedicated-software-disclosure-form">Dedicated Software Disclosure Form<a class="headerlink" href="#dedicated-software-disclosure-form" title="Permanent link"> §</a></h1>
 <h2 id="pattern-summary">Pattern Summary<a class="headerlink" href="#pattern-summary" title="Permanent link"> §</a></h2>
-<p>Use a dedicated software disclosure form that asks researchers to list
-all third-party and open source software that their work depends on,
-together with licenses. This enables the institution to identify a basic software bill of materials (SBOM).</p>
+<p>Use a dedicated software disclosure form that asks researchers to list all third-party and open source software that their work depends on, together with licenses. This enables the Technology Transfer Office (TTO) to identify a basic software bill of materials (SBOM).</p>
 <h2 id="problem-challenge">Problem / Challenge<a class="headerlink" href="#problem-challenge" title="Permanent link"> §</a></h2>
 <ul>
-<li>Open source is present in almost every research software project,
-    yet it is often invisible to the TTO when researchers disclose a new
-    invention or piece of software.</li>
-<li>Many institutions only have a general invention disclosure form
-    (IDF), which is often STEM-heavy and patent-focused. Software, and
-    particularly the open source it depends on, may not be fully
-    referenced, or may not be named at all.</li>
-<li>When third-party open source components and their licenses are not
-    known at the outset, Tech Transfer Offices (TTOs) can discover licensing conflicts late in
-    the process - after critical decisions about release, licensing and
-    commercialization have already been made.</li>
-<li>Institutions have little hard data on how much of their research
-    output uses or produces open source, which makes it harder to plan
-    support, monitor activity or make the case for open source.</li>
+<li>Open source is present in almost every research software project, yet it is often invisible to the TTO when researchers disclose a new invention or piece of software.</li>
+<li>Many institutions only have a general invention disclosure form (IDF), which is often STEM-heavy and patent-focused. Software, and particularly the open source it depends      on, may not be fully referenced, or may not be named at all.</li>
+<li>When third-party open source components and their licenses are not kown at the outset, Tech Transfer Offices (TTOs) can discover licensing conflicts late in the process -      after critical decisions about release, licensing and commercialization have already been made.</li>
+<li>Institutions have little hard data on how much of their research output uses or produces open source, which makes it harder to plan support, monitor activity or make the       case for open source.</li>
 </ul>
 <h2 id="context">Context<a class="headerlink" href="#context" title="Permanent link"> §</a></h2>
-<p>A university or research institution with a Technology Transfer Office
-(TTO), or similar innovation or commercialization team, that receives
-disclosures of research outputs from researchers.</p>
-<p>An OSPO, open source champion or TTO staff member is in place who
-understands the context for open source disclosed
-within the institution's commercialization and translation pathways.</p>
+<p>A university or research institution with a Technology Transfer Office (TTO), or similar innovation or commercialization team, that receives disclosures of research outputs from researchers.</p>
+<p>An OSPO, open source champion or TTO staff member is in place who understands the context for open source disclosed within the institution's commercialization and translation pathways.</p>
 <h2 id="forces">Forces<a class="headerlink" href="#forces" title="Permanent link"> §</a></h2>
 <ul>
 <li>Disclosure practice is not standard across TTOs.</li>
-<li>Asking for a full list of dependencies and licenses asks more of
-    researchers.</li>
-<li>Researchers may not be familiar with SBOMs, or may not know the
-    licenses of every component they use.</li>
-<li>The TTO or OSPO may not own the institutional IP policy, which may
-    sit at a higher level of governance. Updating a disclosure form may
-    be more within their control than changing the policy itself.</li>
-<li>TTO colleagues may not be fully aware of the importance or value
-    proposition of open source (see <a href="https://curioss.org/patterns/integrating-oss-into-institutional-software-pathways/">Integrating OSS into Institutional
-    Software
-    Pathways</a>).</li>
+<li>Asking for a full list of dependencies and licenses asks more of researchers.</li>
+<li>Researchers may not be familiar with SBOMs, or may not know the licenses of every component they use.</li>
+<li>The TTO or OSPO may not own the institutional IP policy, which may sit at a higher level of governance. Updating a disclosure form may be more within their control than changing the policy itself.</li>
+<li>TTO colleagues may not be fully aware of the importance or value proposition of open source see <a href="https://curioss.org/patterns/integrating-oss-into-institutional-software-pathways/">Integrating OSS into Institutional Software Pathways</a>.</li>
 </ul>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link"> §</a></h2>
-<p>Use a dedicated software disclosure form, alongside the invention
-disclosure form, that captures the open source the software depends on.</p>
+<p>Use a dedicated software disclosure form, alongside the invention disclosure form, that captures the open source the software depends on.</p>
 <p>The solution below outlines some core activities to consider.</p>
 <h3 id="review-current-disclosure-processes">Review current disclosure processes<a class="headerlink" href="#review-current-disclosure-processes" title="Permanent link"> §</a></h3>
 <ul>
-<li>Identify which forms researchers currently use to disclose research
-    outputs (e.g. invention disclosure, software disclosure, idea
-    disclosure or IP notification forms) and who owns them.</li>
-<li>Check whether these forms currently ask anything about software,
-    third-party components or open source licenses.</li>
-<li>Where possible, look at examples of disclosure forms from other
-    institutions. Questions vary widely, from a simple description of
-    what was developed through to full dependency lists and questions on
-    the use of AI tools.</li>
+<li>Identify which forms researchers currently use to disclose research outputs (e.g. invention disclosure, software disclosure, idea disclosure or IP notification forms) and who owns them.</li>
+<li>Check whether these forms currently ask anything about software, third-party components or open source licenses.</li>
+<li>Where possible, look at examples of disclosure forms from other institutions. Questions vary widely, from a simple description of what was developed through to full dependency lists and questions on the use of AI tools.</li>
 </ul>
 <h3 id="keep-the-software-disclosure-form-lighter-than-the-invention-disclosure">Keep the software disclosure form lighter than the invention disclosure<a class="headerlink" href="#keep-the-software-disclosure-form-lighter-than-the-invention-disclosure" title="Permanent link"> §</a></h3>
 <ul>
-<li>Design the software disclosure form as a shorter companion to the
-    invention disclosure form so researchers can complete both together.</li>
-<li>Focus on what matters most for software: what was developed, who
-    contributed, where the code is held and what it depends on.</li>
+<li>Design the software disclosure form as a shorter companion to the invention disclosure form so researchers can complete both together.</li>
+<li>Focus on what matters most for software: what was developed, who contributed, where the code is held and what it depends on.</li>
 </ul>
 <h3 id="ask-for-all-third-party-software-and-licenses">Ask for all third-party software and licenses<a class="headerlink" href="#ask-for-all-third-party-software-and-licenses" title="Permanent link"> §</a></h3>
 <ul>
-<li>Ask researchers to list all third-party software, libraries and
-    dependencies they have used, together with their licenses. In
-    effect, this provides a basic SBOM.</li>
-<li>Where researchers can generate an SBOM with a tool, accept it in
-    place of a manually completed list.</li>
+<li>Ask researchers to list all third-party software, libraries and dependencies they have used, together with their licenses. In effect, this provides a basic SBOM.</li>
+<li>Where researchers can generate an SBOM with a tool, accept it in place of a manually completed list.</li>
 </ul>
 <h3 id="draft-focused-open-source-questions">Draft focused open source questions<a class="headerlink" href="#draft-focused-open-source-questions" title="Permanent link"> §</a></h3>
 <p>Keep the questions specific to open source. Examples include:</p>
 <ul>
-<li>Does the output contain or depend on any third-party or open source
-    software? If so, list the components and their licenses (or attach
-    an SBOM).</li>
-<li>Has any part of the code already been released publicly? If so,
-    where (e.g. a public repository) and under which license?</li>
-<li>Is there a plan or obligation (e.g. from a funder or collaborator)
-    to release the software as open source?</li>
+<li>Does the output contain or depend on any third-party or open source software? If so, list the components and their licenses (or attach an SBOM).</li>
+<li>Has any part of the code already been released publicly? If so, where (e.g. a public repository) and under which license?</li>
+<li>Is there a plan or obligation (e.g. from a funder or collaborator) to release the software as open source?</li>
 <li>Were AI tools or agents used to generate any part of the code?</li>
-<li>Who contributed to the code, including external collaborators or
-    students?</li>
+<li>Who contributed to the code, including external collaborators or students?</li>
 </ul>
 <h3 id="use-the-disclosure-to-inform-decisions">Use the disclosure to inform decisions<a class="headerlink" href="#use-the-disclosure-to-inform-decisions" title="Permanent link"> §</a></h3>
-<p>Use the information gathered to check license compatibility and to
-inform decisions about release and commercialization routes.</p>
+<p>Use the information gathered to check license compatibility and to inform decisions about release and commercialization routes.</p>
 <h3 id="use-the-information-for-monitoring">Use the information for monitoring<a class="headerlink" href="#use-the-information-for-monitoring" title="Permanent link"> §</a></h3>
-<p>Disclosed dependency lists and repository locations can help the institution to distinguish between internal development and code that has already
-been released publicly, and to build a better picture of open source
-activity across the institution.</p>
+<p>Disclosed dependency lists and repository locations can help the institution to distinguish between internal development and code that has already been released publicly, and to build a better picture of open source activity across the institution.</p>
 <h3 id="review-and-update-regularly">Review and update regularly<a class="headerlink" href="#review-and-update-regularly" title="Permanent link"> §</a></h3>
-<p>Revisit the questions periodically with TTO colleagues and researchers
-to ensure that the form keeps pace with new practices (e.g. the use of
-AI tools and agents in development) and new types of research outputs.</p>
+<p>Revisit the questions periodically with TTO colleagues and researchers to ensure that the form keeps pace with new practices (e.g. the use of AI tools and agents in development) and new types of research outputs.</p>
 <h2 id="resulting-context">Resulting Context<a class="headerlink" href="#resulting-context" title="Permanent link"> §</a></h2>
-<p>The TTO has visibility of open source components and licenses from the
-moment a research output is disclosed.</p>
-<p>Licensing issues can be identified early, conversations about release
-and commercialization routes are better informed, and the institution
-builds up a clearer picture of how open source is used in its research.</p>
+<p>The TTO has visibility of open source components and licenses from the moment a research output is disclosed.</p>
+<p>Licensing issues can be identified early, conversations about release and commercialization routes are better informed, and the institution builds up a clearer picture of how open source is used in its research.</p>
 <h2 id="additional-learning-from-trinity-college-dublin">Additional Learning from Trinity College Dublin<a class="headerlink" href="#additional-learning-from-trinity-college-dublin" title="Permanent link"> §</a></h2>
-<p>Our TTO has a dedicated software disclosure form, which, as far as we
-know, is not standard practice across Tech Transfer offices.</p>
-<p>Our software disclosure form is lighter than our invention disclosure
-form (IDF). We sometimes ask researchers to complete both, with the two
-forms going alongside each other.</p>
-<p>The main advantage for open source is that we ask researchers to name
-all third-party software and dependencies they have used, including all
-of their licenses. In effect, our researchers provide a basic SBOM as
-part of their disclosure.</p>
+<p>Our TTO has a dedicated software disclosure form, which, as far as we know, is not standard practice across Tech Transfer offices.</p>
+<p>Our software disclosure form is lighter than our invention disclosure form (IDF). We sometimes ask researchers to complete both, with the two forms going alongside each other.</p>
+<p>The main advantage for open source is that we ask researchers to name all third-party software and dependencies they have used, including all of their licenses. In effect, our researchers provide a basic SBOM as part of their disclosure.</p>
 <p>We plan to update our software disclosure form over time.</p>
-<p>Our current IDF can be too STEM-heavy for researchers in arts,
-humanities and social sciences. We're planning to work with researchers
-to develop a 'softer' innovation disclosure form that would also capture
-outputs such as teaching materials, where appropriate.</p>
-<p>We do not claim IP in artistic or scholarly works, and IP in teaching
-materials is something of a grey area. Where researchers want our
-support for these outputs (e.g. for consultancy or a spin-out), it must
-first be clear that we own the IP.</p>
+<p>Our current IDF can be too STEM-heavy for researchers in arts, humanities and social sciences. We're planning to work with researchers to develop a 'softer' innovation disclosure form that would also capture outputs such as teaching materials, where appropriate.</p>
+<p>We do not claim IP in artistic or scholarly works, and IP in teaching materials is something of a grey area. Where researchers want our support for these outputs (e.g. for consultancy or a spin-out), it must first be clear that we own the IP.</p>
 <h2 id="known-instances">Known Instances<a class="headerlink" href="#known-instances" title="Permanent link"> §</a></h2>
 <p>Technology Transfer Office, Trinity College Dublin</p>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link"> §</a></h2>
-<h2 id="related-patterns">Related Patterns<a class="headerlink" href="#related-patterns" title="Permanent link"> §</a></h2>
+<h3 id="related-patterns">Related Patterns<a class="headerlink" href="#related-patterns" title="Permanent link"> §</a></h3>
 <ul>
-<li>Light-Touch Open Source Disclosure</li>
-<li><a href="https://curioss.org/patterns/integrating-oss-into-institutional-software-pathways/">Integrating OSS into Institutional Software
-    Pathways</a></li>
+<li><a href="https://curioss.org/patterns/light-touch-open-source-disclosure/">Light-Touch Open Source Disclosure</a></li>
+<li><a href="https://curioss.org/patterns/integrating-oss-into-institutional-software-pathways/">Integrating OSS into Institutional Software Pathways</a></li>
 </ul>
 <h2 id="contributors-acknowledgements">Contributors &amp; Acknowledgements<a class="headerlink" href="#contributors-acknowledgements" title="Permanent link"> §</a></h2>
 <ul>
 <li><a href="../authors/#aoife-tierney">Aoife Tierney</a> — Trinity College Dublin, <a href="https://orcid.org/0009-0009-8699-7043"><img alt="ORCID iD icon" src="../assets/orcid-id.svg" /> 0009-0009-8699-7043</a></li>
 <li><a href="../authors/#ciara-flanagan">Ciara Flanagan</a> — CURIOSS, <a href="https://orcid.org/0009-0005-3153-7673"><img alt="ORCID iD icon" src="../assets/orcid-id.svg" /> 0009-0005-3153-7673</a></li>
 <li><a href="../authors/#clara-morella-teixidor">Clara Morella Teixidor</a> — Barcelona Institute for Global Health (ISGlobal)</li>
-<li>
-<p><a href="../authors/#jacek-plucinski">Jacek Plucinski</a> — Université du Luxembourg</p>
-<p>0009-0009-8699-7043](https://orcid.org/0009-0009-8699-7043)
--   Clara Morella Teixidor --- Barcelona Institute for Global Health
-(ISGlobal)
--   Jacek Plucinski --- Université du Luxembourg, <a href="https://orcid.org/0009-0004-9877-2419">ORCID:
-0009-0004-9877-2419</a>
--   Ciara Flanagan --- CURIOSS, <a href="https://orcid.org/0009-0005-3153-7673">ORCID:
-0009-0005-3153-7673</a></p>
-</li>
+<li><a href="../authors/#jacek-plucinski">Jacek Plucinski</a> — Université du Luxembourg</li>
 </ul>
-<h2 id="a-note-on-ai-use">A Note on AI Use<a class="headerlink" href="#a-note-on-ai-use" title="Permanent link"> §</a></h2>
-<p>This content was drafted with the help of AI. As a small organization,
+<p><strong>A Note on AI Use:</strong> This content was drafted with the help of AI. As a small organization,
 AI tools help us turn rich conversations into written resources with
 less effort---meaning we can offer more to the community. As always,
 there were plenty of human eyes reviewing, editing and improving the
