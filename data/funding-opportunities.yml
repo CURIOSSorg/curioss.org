@@ -448,12 +448,13 @@ opportunities:
 
   - title: "FAIR Research Outputs Call"
     posted: "2026-08-13"
+    status: "Closed"
     funder: "Open Science NL"
     url: "https://www.openscience.nl/en/calls/fair-research-outputs"
     type: "Grant"
     amount: "€2,850,000 total; €1,400,000 available for first call; up to €50,000 per project"
     amountSort: 50000
-    deadline: "The funder now says the call's budget is fully exhausted, and applications are only accepted while the grant ceiling has not been reached. The page still lists the call as open, first-come-first-served until 2027-02-23 14:00 CET, with an interim submission deadline on 2026-12-01 14:00 CET. Check with Open Science NL before applying."
+    deadline: "Budget fully exhausted, according to the funder. The call ran first-come-first-served, with a listed closing date of 2027-02-23 14:00 CET and an interim submission deadline of 2026-12-01 14:00 CET."
     deadlineSort: "2027-02-23"
     eligibility: ""
     geography: "Netherlands"
