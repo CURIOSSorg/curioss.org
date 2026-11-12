@@ -51,6 +51,8 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of California San Diego" image="/images/about/logos/uc_san_diego.png" url="https://datanexus.ucsd.edu/ospo/index.html">}}
       {{< /company >}}
+      {{< company name="University of California San Francisco" image="/images/about/logos/uc-san-francisco-logo.png" url="https://ssc.ucsf.edu/ospo.html">}}
+      {{< /company >}}
       {{< company name="University of California Santa Barbara" image="/images/about/logos/uc_santa_barbara.png" url="https://ucospo.net/santa-barbara/">}}
       {{< /company >}}
       {{< company name="University of California Santa Cruz" image="/images/about/logos/ucsc.png" url="https://ucsc-ospo.github.io/">}}
