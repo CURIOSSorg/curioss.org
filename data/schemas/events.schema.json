@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://curioss.org/schemas/events.schema.json",
+  "title": "Events",
+  "description": "Schema for data/events.yml. Each entry in `events` describes one event shown at /community/events/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["events"],
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/event" }
+    }
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "posted", "date", "start"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the event."
+        },
+        "posted": {
+          "type": "string",
+          "format": "date",
+          "description": "Date this entry was added (YYYY-MM-DD). Used as the RSS pubDate. Do not change when editing an existing entry."
+        },
+        "date": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable date, which may be fuzzy (e.g. \"April 2027\") or include a time."
+        },
+        "start": {
+          "type": "string",
+          "format": "date",
+          "description": "First day of the event (YYYY-MM-DD), used for sorting and to decide when an event is past."
+        },
+        "end": {
+          "type": "string",
+          "format": "date",
+          "description": "Last day of a multi-day event (YYYY-MM-DD)."
+        },
+        "location": {
+          "type": "string",
+          "description": "City and/or format (e.g. \"London\", \"Virtual (Zoom)\")."
+        },
+        "organizer": {
+          "type": "string",
+          "description": "Who is running the event."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Event or registration page."
+        },
+        "description": {
+          "type": "string",
+          "description": "Short description. Markdown is allowed."
+        }
+      }
+    }
+  }
+}

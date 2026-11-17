@@ -1,0 +1,12 @@
+{{/* Renders one entry from data/events.yml. */}}
+<article class="card border-1 mb-4" id="{{ .title | anchorize }}">
+  <div class="card-body">
+    <h3 class="mb-2">
+      {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener" class="post-title">{{ $.title }}</a>{{ else }}{{ .title }}{{ end }}
+    </h3>
+    <p class="mb-1"><strong>{{ .date }}</strong></p>
+    {{ with .location }}<p class="mb-1">{{ . }}</p>{{ end }}
+    {{ with .organizer }}<p class="text-muted mb-3">Organized by {{ . }}</p>{{ end }}
+    {{ with .description }}<div class="mb-0">{{ . | markdownify }}</div>{{ end }}
+  </div>
+</article>
