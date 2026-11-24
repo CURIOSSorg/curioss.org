@@ -9,7 +9,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
     <div class="row justify-content-center">
       {{< company name="The Alan Turing Institute" image="/images/about/logos/alan_turing_institute.png" url="https://alan-turing-institute.github.io/hut23-open-source-sa">}}
       {{< /company >}}
-      {{< company name="Biohub" image="/images/about/logos/biohub.png" url="https://github.com/sustainers/academic-map/blob/main/research-institutions/biohub.md">}}
+      {{< company name="Biohub" image="/images/about/logos/biohub.png" url="https://curioss.org/academic-map/research-institutions/biohub.html">}}
       {{< /company >}}
       {{< company name="Carnegie Mellon University" image="/images/about/logos/cmul.png" url="https://www.library.cmu.edu/services/ospo">}}
       {{< /company >}}
@@ -19,13 +19,13 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Georgia Tech" image="/images/about/logos/georgia.png" url="https://ospo.cc.gatech.edu/">}}
       {{< /company >}}
-      {{< company name="ISGlobal" image="/images/about/logos/isglobal.png" url="https://sustainoss.org/academic-map/research-institutions/isglobal-barcelona-institute-for-global-health.html">}}
+      {{< company name="ISGlobal" image="/images/about/logos/isglobal.png" url="https://curioss.org/academic-map/research-institutions/isglobal-barcelona-institute-for-global-health.html">}}
       {{< /company >}}
       {{< company name="JHU Library" image="/images/about/logos/jhu_library.png" url="https://ospo.library.jhu.edu/">}}
       {{< /company >}}
       {{< company name="Lero" image="/images/about/logos/lero.png" url="https://sfi-lero.github.io/OSPO/">}}
       {{< /company >}}
-      {{< company name="Mass General Brigham" image="/images/about/logos/mass_general_brigham.png" url="https://github.com/sustainers/academic-map/blob/main/research-institutions/mass-general-brigham.md/">}}
+      {{< company name="Mass General Brigham" image="/images/about/logos/mass_general_brigham.png" url="https://curioss.org/academic-map/research-institutions/mass-general-brigham.html">}}
       {{< /company >}}
       {{< company name="Mississippi State University" image="/images/about/logos/msstate.svg" url="https://www.otm.msstate.edu/ospo">}}
       {{< /company >}}
@@ -43,7 +43,7 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="Université Grenobles Alpes" image="/images/about/logos/uga.png" url="https://scienceouverte.univ-grenoble-alpes.fr/en/about/codes-data-grenoble-alpes-office/">}}
       {{< /company >}}
-      {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://sustainoss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
+      {{< company name="SnT-Université du Luxembourg" image="/images/about/logos/snt.png" url="https://curioss.org/academic-map/universities/snt-university-of-luxembourg.html">}}
       {{< /company >}}
       {{< company name="Univerity of California Berkeley" image="/images/about/logos/uc_berkeley.png" url="https://ospo-berkeley-edu.netlify.app">}}
       {{< /company >}}
@@ -65,11 +65,11 @@ subtitle: "CURIOSS is a community for individuals who work in university and res
       {{< /company >}}
       {{< company name="University of Texas at Austin" image="/images/about/logos/university_of_texas.png" url="https://opensource.utexas.edu/">}}
       {{< /company >}}
-      {{< company name="University of Texas at Dallas" image="/images/about/logos/ut_dallas_logo.svg" url="https://sustainoss.org/academic-map/universities/university-of-texas-dallas.html/">}}
+      {{< company name="University of Texas at Dallas" image="/images/about/logos/ut_dallas_logo.svg" url="https://curioss.org/academic-map/universities/university-of-texas-dallas.html">}}
       {{< /company >}}
-      {{< company name="University of Texas at El Paso" image="/images/about/logos/utep_logo.svg" url="https://sustainoss.org/academic-map/universities/university-of-texas-el-paso.html">}}
+      {{< company name="University of Texas at El Paso" image="/images/about/logos/utep_logo.svg" url="https://curioss.org/academic-map/universities/university-of-texas-el-paso.html">}}
       {{< /company >}}
-      {{< company name="University of Texas at San Antonio" image="/images/about/logos/ut-san-antonio-logo.svg" url="https://sustainoss.org/academic-map/universities/university-of-texas-san-antonio.html">}}
+      {{< company name="University of Texas at San Antonio" image="/images/about/logos/ut-san-antonio-logo.svg" url="https://curioss.org/academic-map/universities/university-of-texas-san-antonio.html">}}
       {{< /company >}}
       {{< company name="University of Vermont" image="/images/about/logos/university_of_vermont_logo.png" url="https://verso.w3.uvm.edu/">}}
       {{< /company >}}

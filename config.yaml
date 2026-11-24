@@ -38,8 +38,8 @@ menu:
       URL: resources/resources-list
       parent: resources
       weight: 6
-    - name: SustainOSS Academic Map
-      URL: https://sustainoss.org/academic-map/intro.html
+    - name: CURIOSS Academic Map
+      URL: academic-map/intro.html
       parent: resources
       weight: 7
     - name: About
@@ -103,8 +103,8 @@ menu:
       URL: resources/resources-list
       weight: 7
       pre: _blank
-    - name: SustainOSS Academic Map
-      URL: https://sustainoss.org/academic-map/intro.html
+    - name: CURIOSS Academic Map
+      URL: academic-map/intro.html
       weight: 8
       pre: _blank
   footer_right:
