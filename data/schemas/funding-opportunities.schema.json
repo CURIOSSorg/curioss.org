@@ -43,6 +43,15 @@
           "format": "uri",
           "description": "Canonical link to the call page."
         },
+        "mapPages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^funders/[^.]+$"
+          },
+          "uniqueItems": true,
+          "description": "Pages in the CURIOSS Academic Map that should list this call while it is open, as paths without .md (e.g. funders/national-science-foundation)."
+        },
         "type": {
           "type": "string",
           "description": "Funding type (e.g. Grant, Fellowship, Prize)."
