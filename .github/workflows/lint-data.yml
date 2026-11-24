@@ -37,3 +37,22 @@ jobs:
           check-jsonschema \
             --schemafile data/schemas/talks.schema.json \
             data/talks.yml
+
+      - name: Validate data/members.yml
+        if: ${{ !cancelled() }}
+        run: |
+          check-jsonschema \
+            --schemafile data/schemas/members.schema.json \
+            data/members.yml
+
+      - name: Check that every member logo exists
+        if: ${{ !cancelled() }}
+        run: |
+          missing=0
+          for logo in $(grep -E '^ +logo:' data/members.yml | sed -E 's/^ +logo: *"?([^"]*)"?/\1/'); do
+            if [ ! -f "static$logo" ]; then
+              echo "::error file=data/members.yml::Logo not found: static$logo"
+              missing=1
+            fi
+          done
+          exit $missing

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://curioss.org/schemas/members.schema.json",
+  "title": "Members",
+  "description": "Schema for data/members.yml. Each entry is one member institution, shown on /about/members/ and on its page in the CURIOSS Academic Map.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["members"],
+  "properties": {
+    "members": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/member" }
+    }
+  },
+  "$defs": {
+    "member": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "logo", "url"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Institution name. Shown under the logo and used as its alt text."
+        },
+        "logo": {
+          "type": "string",
+          "pattern": "^/images/about/logos/[^/]+\\.(png|svg|jpg|jpeg|webp)$",
+          "description": "Path to the logo, under static/ (e.g. /images/about/logos/example.png)."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Where the logo links to, usually the institution's OSPO."
+        },
+        "mapPage": {
+          "type": "string",
+          "pattern": "^(universities|research-institutions|organizations|service-providers)/[^/]+$",
+          "description": "The institution's page in the CURIOSS Academic Map, as a path without .md (e.g. universities/example-university). The map shows the logo on that page."
+        }
+      }
+    }
+  }
+}
