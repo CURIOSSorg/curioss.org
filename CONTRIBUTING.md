@@ -40,3 +40,10 @@ check-jsonschema --schemafile data/schemas/talks.schema.json              data/t
 ```
 
 A clean run prints `ok -- validation done`. Any other output is an error to fix.
+
+## Generated folders
+
+Two folders are built in other repositories and pushed here on every deploy. Don't edit them by hand, because the next deploy overwrites them. Make the change in the source repository instead.
+
+* `static/patterns/` comes from [CURIOSSorg/curioss-patterns](https://github.com/CURIOSSorg/curioss-patterns).
+* `static/academic-map/` comes from [CURIOSSorg/academic-map](https://github.com/CURIOSSorg/academic-map).
