@@ -12,7 +12,7 @@ Contributions to this repo are welcome. Please follow the following guidelines:
 
 ## Editing data files
 
-Site content driven by YAML lives in [`data/`](data/) — funding opportunities or talks. Each file has a JSON Schema in
+Site content driven by YAML lives in [`data/`](data/) — funding opportunities, talks, or members. Each file has a JSON Schema in
 [`data/schemas/`](data/schemas/) that lists the required and allowed fields, the
 expected types, and the formats (dates, URLs, image paths). The schemas are the
 source of truth for what a valid entry looks like.
@@ -37,9 +37,14 @@ You don't need to run checks locally - the GitHub action will flag any PRs, whic
 pip install check-jsonschema
 check-jsonschema --schemafile data/schemas/funding-opportunities.schema.json data/funding-opportunities.yml
 check-jsonschema --schemafile data/schemas/talks.schema.json              data/talks.yml
+check-jsonschema --schemafile data/schemas/members.schema.json            data/members.yml
 ```
 
 A clean run prints `ok -- validation done`. Any other output is an error to fix.
+
+## Adding a member
+
+Add the institution to [`data/members.yml`](data/members.yml), and put its logo in `static/images/about/logos/`. If it has a page in the [CURIOSS Academic Map](https://curioss.org/academic-map/intro.html), set `mapPage` too, and the map will show the logo on that page the next time it builds.
 
 ## Generated folders
 
