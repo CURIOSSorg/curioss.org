@@ -32,7 +32,7 @@ members:
     url: "https://transfer.ethz.ch/researchers/oss.html"
     mapPage: "universities/eth-zurich"
 
-  - name: "WASHINGTON University"
+  - name: "George Washington University"
     logo: "/images/about/logos/washington.png"
     url: "https://ospo.gwu.edu/"
     mapPage: "universities/george-washington"
@@ -97,7 +97,7 @@ members:
     url: "https://www.tcd.ie/innovation/for-trinity-innovators/open-source-programme-office/"
     mapPage: "universities/trinity-college-dublin"
 
-  - name: "Université Grenobles Alpes"
+  - name: "Université Grenoble Alpes"
     logo: "/images/about/logos/uga.png"
     url: "https://scienceouverte.univ-grenoble-alpes.fr/en/about/codes-data-grenoble-alpes-office/"
     mapPage: "universities/université-grenoble-alpes"
@@ -107,7 +107,7 @@ members:
     url: "https://curioss.org/academic-map/universities/snt-university-of-luxembourg.html"
     mapPage: "universities/snt-university-of-luxembourg"
 
-  - name: "Univerity of California Berkeley"
+  - name: "University of California Berkeley"
     logo: "/images/about/logos/uc_berkeley.png"
     url: "https://ospo-berkeley-edu.netlify.app"
     mapPage: "universities/university-of-california-berkeley"
