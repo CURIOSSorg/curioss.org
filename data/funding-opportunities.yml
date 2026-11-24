@@ -147,7 +147,7 @@ opportunities:
     type: "Grant"
     amount: "€15,000"
     amountSort: 15000 # no unit?
-    deadline: "10 December 2026 14:00 CET, or earlier if the budget runs out (the €400,000 budget was almost depleted as of 22 October 2026, with funding expected for about one more application)"
+    deadline: "10 December 2026 14:00 CET, or earlier if the budget runs out (only €5,200 of the €400,000 budget remained as of 18 November 2026)"
     deadlineSort: "2026-12-10"
     eligibility: "Dutch institutions"
     geography: "Netherlands"
@@ -377,8 +377,8 @@ opportunities:
     type: "Grant"
     amount: "£150,000 total; up to £12,500 per activity (80% of Full Economic Costs)"
     amountSort: 12500
-    deadline: "Rolling deadline, 15th of alternate months; next 2026-11-15. Apply at least three months before the activity."
-    deadlineSort: "2026-11-15"
+    deadline: "Rolling deadline, 15th of alternate months; next 2027-01-15. Apply at least three months before the activity."
+    deadlineSort: "2027-01-15"
     eligibility: "UK-based researchers and dRTPs involved with research software, research data, or research computing, or freelance trainers/educators in this sector; can support non-UK collaborators visiting the UK."
     geography: "UK"
     focusArea: "Community activities for the dRTP ecosystem"
@@ -396,8 +396,8 @@ opportunities:
     type: "Grant"
     amount: "£150,000 total; up to £5,000 per award"
     amountSort: 5000
-    deadline: "Rolling deadline, 15th of each month; next 2026-11-15"
-    deadlineSort: "2026-11-15"
+    deadline: "Rolling deadline, 15th of each month; next 2026-12-15"
+    deadlineSort: "2026-12-15"
     eligibility: "Early-career professionals and those transitioning into dRTP roles, primarily UK-based; must show career benefit, plans to share outcomes locally, and have explored other funding sources first."
     geography: "UK"
     focusArea: "Professional development for dRTPs"
@@ -527,6 +527,7 @@ opportunities:
 
   - title: "MIT Solve 2027 Global Challenges"
     posted: "2026-10-03"
+    status: "Closed"
     funder: "MIT Solve"
     url: "https://solve.mit.edu/challenges"
     type: "Prize"
@@ -547,6 +548,7 @@ opportunities:
 
   - title: "Rapid Response Fund Vendor RFP"
     posted: "2026-10-08"
+    status: "Closed"
     funder: "Open Technology Fund (OTF)"
     url: "https://www.opentech.fund/news/open-technology-fund-requests-proposals-for-the-rapid-response-fund/"
     type: "Contract"
