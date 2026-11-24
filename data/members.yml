@@ -1,0 +1,188 @@
+# CURIOSS member institutions, shown on /about/members/ in this order.
+#
+# The CURIOSS Academic Map (https://github.com/CURIOSSorg/academic-map) also reads
+# this file when it builds: it shows each member's logo on the member's map page.
+# The schema is data/schemas/members.schema.json.
+#
+# Fields:
+#   name:    institution name, used as the logo's alt text
+#   logo:    path to the logo under static/ (e.g. /images/about/logos/example.png)
+#   url:     where the logo links to
+#   mapPage: optional; the institution's page in the academic map, as a path
+#            without .md (e.g. universities/example-university)
+
+members:
+  - name: "The Alan Turing Institute"
+    logo: "/images/about/logos/alan_turing_institute.png"
+    url: "https://alan-turing-institute.github.io/hut23-open-source-sa"
+    mapPage: "research-institutions/the-alan-turing-institute"
+
+  - name: "Biohub"
+    logo: "/images/about/logos/biohub.png"
+    url: "https://curioss.org/academic-map/research-institutions/biohub.html"
+    mapPage: "research-institutions/biohub"
+
+  - name: "Carnegie Mellon University"
+    logo: "/images/about/logos/cmul.png"
+    url: "https://www.library.cmu.edu/services/ospo"
+    mapPage: "universities/carnegie-mellon-university"
+
+  - name: "ETH Zürich"
+    logo: "/images/about/logos/eth_zürich.png"
+    url: "https://transfer.ethz.ch/researchers/oss.html"
+    mapPage: "universities/eth-zurich"
+
+  - name: "WASHINGTON University"
+    logo: "/images/about/logos/washington.png"
+    url: "https://ospo.gwu.edu/"
+    mapPage: "universities/george-washington"
+
+  - name: "Georgia Tech"
+    logo: "/images/about/logos/georgia.png"
+    url: "https://ospo.cc.gatech.edu/"
+    mapPage: "universities/georgia-institute-of-technology"
+
+  - name: "ISGlobal"
+    logo: "/images/about/logos/isglobal.png"
+    url: "https://curioss.org/academic-map/research-institutions/isglobal-barcelona-institute-for-global-health.html"
+    mapPage: "research-institutions/isglobal-barcelona-institute-for-global-health"
+
+  - name: "JHU Library"
+    logo: "/images/about/logos/jhu_library.png"
+    url: "https://ospo.library.jhu.edu/"
+    mapPage: "universities/johns-hopkins-university"
+
+  - name: "Lero"
+    logo: "/images/about/logos/lero.png"
+    url: "https://sfi-lero.github.io/OSPO/"
+    mapPage: "research-institutions/lero"
+
+  - name: "Mass General Brigham"
+    logo: "/images/about/logos/mass_general_brigham.png"
+    url: "https://curioss.org/academic-map/research-institutions/mass-general-brigham.html"
+    mapPage: "research-institutions/mass-general-brigham"
+
+  - name: "Mississippi State University"
+    logo: "/images/about/logos/msstate.svg"
+    url: "https://www.otm.msstate.edu/ospo"
+    mapPage: "universities/mississippi-state-university"
+
+  - name: "Oregon State University"
+    logo: "/images/about/logos/oregon_state_university.png"
+    url: "https://osuosl.org/"
+    mapPage: "universities/oregon-state-university"
+
+  - name: "RIT"
+    logo: "/images/about/logos/rit_logo.png"
+    url: "https://openr.it/"
+    mapPage: "universities/rit"
+
+  - name: "Saint Louis University"
+    logo: "/images/about/logos/slu_logo.png"
+    url: "https://oss-slu.github.io/"
+    mapPage: "universities/slu"
+
+  - name: "Stanford University"
+    logo: "/images/about/logos/stanford.png"
+    url: "https://opensource.stanford.edu/"
+    mapPage: "universities/stanford-university"
+
+  - name: "Syracuse University"
+    logo: "/images/about/logos/syracuse.png"
+    url: "https://opensource.syracuse.edu/"
+    mapPage: "universities/syracuse"
+
+  - name: "Trinity College"
+    logo: "/images/about/logos/tcd.png"
+    url: "https://www.tcd.ie/innovation/for-trinity-innovators/open-source-programme-office/"
+    mapPage: "universities/trinity-college-dublin"
+
+  - name: "Université Grenobles Alpes"
+    logo: "/images/about/logos/uga.png"
+    url: "https://scienceouverte.univ-grenoble-alpes.fr/en/about/codes-data-grenoble-alpes-office/"
+    mapPage: "universities/université-grenoble-alpes"
+
+  - name: "SnT-Université du Luxembourg"
+    logo: "/images/about/logos/snt.png"
+    url: "https://curioss.org/academic-map/universities/snt-university-of-luxembourg.html"
+    mapPage: "universities/snt-university-of-luxembourg"
+
+  - name: "Univerity of California Berkeley"
+    logo: "/images/about/logos/uc_berkeley.png"
+    url: "https://ospo-berkeley-edu.netlify.app"
+    mapPage: "universities/university-of-california-berkeley"
+
+  - name: "University of California Davis"
+    logo: "/images/about/logos/uc_davis.png"
+    url: "https://ucospo.net/davis/"
+    mapPage: "universities/university-of-california-davis"
+
+  - name: "University of California Los Angeles"
+    logo: "/images/about/logos/uc_los_angeles.png"
+    url: "https://ucospo.net/los-angeles/"
+    mapPage: "universities/university-of-california-los-angeles"
+
+  - name: "University of California San Diego"
+    logo: "/images/about/logos/uc_san_diego.png"
+    url: "https://datanexus.ucsd.edu/ospo/index.html"
+    mapPage: "universities/university-of-california-san-diego"
+
+  - name: "University of California San Francisco"
+    logo: "/images/about/logos/uc-san-francisco-logo.png"
+    url: "https://ssc.ucsf.edu/ospo.html"
+    mapPage: "universities/university-of-california-san-francisco"
+
+  - name: "University of California Santa Barbara"
+    logo: "/images/about/logos/uc_santa_barbara.png"
+    url: "https://ucospo.net/santa-barbara/"
+    mapPage: "universities/university-of-california-santa-barbara"
+
+  - name: "University of California Santa Cruz"
+    logo: "/images/about/logos/ucsc.png"
+    url: "https://ucsc-ospo.github.io/"
+    mapPage: "universities/university-of-california-santa-cruz"
+
+  - name: "University College London"
+    logo: "/images/about/logos/ucl.svg"
+    url: "https://github-pages.ucl.ac.uk/open-source/"
+    mapPage: "universities/university-college-london"
+
+  - name: "University of Michigan"
+    logo: "/images/about/logos/university_of_michigan.png"
+    url: "https://innovationpartnerships.umich.edu/moss/"
+    mapPage: "universities/university-of-michigan"
+
+  - name: "University of Texas at Austin"
+    logo: "/images/about/logos/university_of_texas.png"
+    url: "https://opensource.utexas.edu/"
+    mapPage: "universities/university-of-texas-austin"
+
+  - name: "University of Texas at Dallas"
+    logo: "/images/about/logos/ut_dallas_logo.svg"
+    url: "https://curioss.org/academic-map/universities/university-of-texas-dallas.html"
+    mapPage: "universities/university-of-texas-dallas"
+
+  - name: "University of Texas at El Paso"
+    logo: "/images/about/logos/utep_logo.svg"
+    url: "https://curioss.org/academic-map/universities/university-of-texas-el-paso.html"
+    mapPage: "universities/university-of-texas-el-paso"
+
+  - name: "University of Texas at San Antonio"
+    logo: "/images/about/logos/ut-san-antonio-logo.svg"
+    url: "https://curioss.org/academic-map/universities/university-of-texas-san-antonio.html"
+    mapPage: "universities/university-of-texas-san-antonio"
+
+  - name: "University of Vermont"
+    logo: "/images/about/logos/university_of_vermont_logo.png"
+    url: "https://verso.w3.uvm.edu/"
+    mapPage: "universities/university-of-vermont"
+
+  - name: "University of Washington"
+    logo: "/images/about/logos/university-of-washington.png"
+    url: "https://escience.washington.edu"
+    mapPage: "universities/university-of-washington"
+
+  - name: "University of Wisconsin-Madison"
+    logo: "/images/about/logos/wisconsin.png"
+    url: "https://ospo.wisc.edu/"
+    mapPage: "universities/university-of-wisconsin-madison"

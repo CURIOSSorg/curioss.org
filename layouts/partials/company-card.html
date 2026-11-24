@@ -1,0 +1,16 @@
+{{- /* One logo card on the members page. Takes a dict with name, image, url, and optional inner (a quote). */ -}}
+<div class="col-md-4 col-sm-6 mb-4">
+  <div class="feature-card bg-members-box text-center mb-0">
+    <div class="h-150 d-flex align-items-center justify-content-center mb-0 company-logo-box">
+      <a href="{{ .url }}" class="d-flex align-items-center justify-content-center w-100 h-100">
+        <img src="{{ .image }}" alt="{{ .name }}" title="{{ .name }}" class="mh-150 mw-100">
+      </a>
+      <div>{{ .name }}</div>
+    </div>
+    {{ if (not (eq (trim (default "" .inner) "\n ") "")) }}
+      <div id="{{ urlize .name }}-cite" class="cite-text">
+      <p><cite>“{{ trim .inner "\n " }}”</cite></p>
+      </div>
+    {{ end }}
+  </div>
+</div>
