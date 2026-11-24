@@ -1,0 +1,7 @@
+# Open Knowledge Foundation
+
+- **Website:** [Open Knowledge Foundation](https://okfn.org/)
+
+## Overview
+
+The Open Knowledge Foundation (OKF) is a global, non-profit network that creates and promotes tools and projects to foster openness and transparency, including in the field of science. They encourage the unrestricted sharing of research data, publications, and educational resources. Through initiatives like their Open Science Project, they aim to democratize access to scientific knowledge and facilitate extensive collaboration across borders.
