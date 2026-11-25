@@ -5,8 +5,6 @@ date: 2024-11-29
 Description: "How OSPOs Support Academic-Industry Partnerships"
 ---
 
-# How OSPOs Support Academic-Industry Partnerships
-
 At a recent panel discussion at the Linux Foundation Open Source Summit Europe 2024, titled "[Collaboration with Universities and Enterprises: OSPO \- What's Next?](https://youtu.be/HhlQajqwGYU?feature=shared)", TODO Group members and CURIOSS members shared insights on bridging the gap between academia and industry through Open Source Program Offices (OSPOs). 
 
 The panel explored how traditional technology transfer offices in academic institutions are being complemented by Open Source Program Offices (OSPOs), creating a new paradigm for research collaboration. This dual approach addresses both conventional commercialization paths and more flexible, open collaboration models, offering new opportunities for knowledge exchange and innovation. As Sayeed Choudhury noted, "Technology transfer offices are typically the way in which universities and industry have interacted with each other, but what is interesting is the OSPO is now becoming another way in which researchers, faculty, and students are thinking about working with industry."

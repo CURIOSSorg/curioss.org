@@ -2,6 +2,8 @@
 title: "France's new Open Science Strategy calls for a National Network of Academic OSPOs"
 image: "/images/news/france-open-science-strategy-2026.png"
 date: 2026-10-07
+authors:
+  - name: "Violaine Louvet"
 Description: "French strategy for Academic OSPO Network"
 ---
 

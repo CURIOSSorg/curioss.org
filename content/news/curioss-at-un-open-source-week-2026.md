@@ -4,7 +4,6 @@ image: "/images/news/curioss-at-un-open-source-week.png"
 date: 2026-09-24
 Description: Learning from UN Open Source Week 2026
 ---
-# CURIOSS at UN Open Source Week 2026
 
 ## Session overview
 

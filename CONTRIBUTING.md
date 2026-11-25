@@ -46,6 +46,25 @@ A clean run prints `ok -- validation done`. Any other output is an error to fix.
 
 Add the institution to [`data/members.yml`](data/members.yml), and put its logo in `static/images/about/logos/`. If it has a page in the [CURIOSS Academic Map](https://curioss.org/academic-map/intro.html), set `mapPage` too, and the map will show the logo on that page the next time it builds.
 
+## Crediting news authors
+
+List a post's authors at the top of the post file, between the `---` lines, in the order they should appear. You only need to edit that one file. Copy this and fill it in:
+
+```yaml
+authors:
+  - name: "Jane Doe"
+    orcid: "0000-0002-1825-0097"
+    affiliations: ["Example University"]
+    url: "https://example.org"
+  - name: "John Smith"
+```
+
+Only `name` is required. Delete any other line you don't need. `url` is one website of the author's choice, linked from their name. Keep the field names in lowercase, and the spaces at the start of each line as shown. The page already shows the post's title, so don't repeat it as a heading in the post.
+
+On each pull request, the **Check news authors** check compares new and edited posts with the others. It fails if a name looks like a misspelling of an existing author (such as "J. Doe" for "Jane Doe"), if an ORCID iD is invalid or doesn't match the name, or if the fields are written incorrectly. It warns, without failing, if a post has no authors or if someone's affiliations or website differ between posts, which can be correct. Open the check or the **Files changed** tab to see what to fix. If two different people really do have similar names, add both ORCID iDs, or a maintainer can merge anyway.
+
+[`data/authors.yml`](data/authors.yml) is a registry of all authors. You don't need to edit it: once the check passes, a workflow rebuilds it and commits it to your pull request. If you're also editing the branch on your own computer, pull that commit before pushing again. Pull requests from forks are skipped, and the next pull request from this repository adds their authors. If two open pull requests conflict in this file, keep either version, because it's rebuilt from the posts.
+
 ## Generated folders
 
 Two folders are built in other repositories and pushed here on every deploy. Don't edit them by hand, because the next deploy overwrites them. Make the change in the source repository instead.

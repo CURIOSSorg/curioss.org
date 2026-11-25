@@ -5,7 +5,8 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
-        <h2 class="mb-4">{{ .Title }}</h2>
+        <h1 class="h2 mb-4">{{ .Title }}</h1>
+        {{ partial "authors.html" . }}
         <p class="post-date">🗓️ Date: {{ .Date.Format "2006-01-02" }}</p>
         <ul>
           {{ range .Params.tags }}

@@ -5,8 +5,6 @@ date: 2026-09-29
 Description: Learning on Recruiting and Working with Graduate Students
 ---
 
-# Small Teams, Big Impact: Hiring Graduate Student Talent for Academic OSPOs
-
 ## Introduction
 
 Most academic Open Source Program Offices (OSPOs) run lean. A single Director (usually with a small handful of staff) is expected to cover community building, project support, outreach, policy and a dozen other responsibilities across an entire university - often on a limited or short-term budget. In a recent conversation, members described graduate students as one of the most valuable resources available to them: a source of specialist skills, dedicated project capacity and outreach energy that a small OSPO could rarely otherwise afford.

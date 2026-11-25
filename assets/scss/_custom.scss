@@ -318,3 +318,21 @@ button.svelte-la9dd4:disabled {
     color: #6c757d;
     margin-bottom: 1rem;
 }
+// News post bylines
+ul.post-authors {
+    margin-bottom: 10px;
+
+    li {
+        margin-bottom: 4px;
+    }
+}
+
+a.post-author-orcid,
+a.post-author-orcid:hover {
+    color: #a6ce39; // ORCID brand green
+    border: none;
+}
+
+.post-author-affiliation {
+    font-size: 0.9em;
+}

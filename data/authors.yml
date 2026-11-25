@@ -1,0 +1,10 @@
+# GENERATED FILE: do not edit. It's rebuilt from the news posts on each pull request.
+# To change an author's details, edit the front matter of their posts in content/news/.
+
+authors:
+- name: Regina Nkenchor
+  posts:
+  - content/news/2025-02-27-academic-open-source-workshop-chaosscon.md
+- name: Violaine Louvet
+  posts:
+  - content/news/france-open-science-strategy-2026.md
