@@ -135,28 +135,28 @@ menu:
       pre: _blank
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
   de:
-    languageName: Deutsch
+    label: Deutsch
     weight: 2
   ja:
-    languageName: 日本語
+    label: 日本語
     weight: 2
   zh:
-    languageName: 中文
+    label: 中文
     weight: 2
   it:
-    languageName: Italiano
+    label: Italiano
     weight: 2
   es:
-    languageName:  Español
+    label:  Español
     weight: 2
   ru:
-    languageName: Русский
+    label: Русский
     weight: 2
   fr:
-    languageName: Français
+    label: Français
     weight: 2
 pagination:
   pagerSize: '3'

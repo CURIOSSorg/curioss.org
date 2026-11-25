@@ -5,10 +5,10 @@
     <link>{{ .Permalink }}</link>
     <description>Open funding opportunities for open-source scientific software, curated by CURIOSS.</description>
     <generator>Hugo</generator>
-    <language>{{ site.LanguageCode | default "en" }}</language>
+    <language>{{ site.Language.Locale | default "en" }}</language>
     <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     <atom:link href="{{ "resources/funding-opportunities/index.xml" | absURL }}" rel="self" type="application/rss+xml" />
-    {{ $data := index site.Data "funding-opportunities" }}
+    {{ $data := index hugo.Data "funding-opportunities" }}
     {{ $open := where $data.opportunities "status" "!=" "Closed" }}
     {{ range sort $open "posted" "desc" }}
     {{ if .posted }}
