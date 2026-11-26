@@ -4,6 +4,8 @@
 authors:
 - name: Ciara Flanagan
   orcid: 0009-0005-3153-7673
+  affiliations:
+  - CURIOSS
   posts:
   - content/news/six_new_members.md
   - content/news/new_grant_supports_development_of_curioss.md
@@ -15,6 +17,8 @@ authors:
   - content/news/small-teams-big-impact.md
 - name: Clare Dillon
   orcid: 0009-0008-6205-0296
+  affiliations:
+  - CURIOSS
   posts:
   - content/news/funding_awarded_for_curioss_network.md
   - content/news/licensing_resources_for_academic _ospos.md
@@ -28,10 +32,14 @@ authors:
   - content/news/2025-02-27-academic-open-source-workshop-chaosscon.md
 - name: Richard Littauer
   orcid: 0000-0001-5428-7535
+  affiliations:
+  - CURIOSS
   posts:
   - content/news/academic_ospo_defn.md
   - content/news/10_quick_tips.md
 - name: Violaine Louvet
   orcid: 0000-0002-8742-8952
+  affiliations:
+  - Université Grenoble Alpes
   posts:
   - content/news/france-open-science-strategy-2026.md
