@@ -3,6 +3,7 @@
 
 authors:
 - name: Ciara Flanagan
+  orcid: 0009-0005-3153-7673
   posts:
   - content/news/six_new_members.md
   - content/news/new_grant_supports_development_of_curioss.md
@@ -31,5 +32,6 @@ authors:
   - content/news/academic_ospo_defn.md
   - content/news/10_quick_tips.md
 - name: Violaine Louvet
+  orcid: 0000-0002-8742-8952
   posts:
   - content/news/france-open-science-strategy-2026.md
