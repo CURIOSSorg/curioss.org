@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $events := site.Data.events.events }}
+{{ $events := hugo.Data.events.events }}
 {{ range $events }}
   {{ if not .posted }}
     {{ errorf "Event %q is missing required `posted` field. Add `posted: YYYY-MM-DD` to data/events.yml (see the header comment in that file)." .title }}

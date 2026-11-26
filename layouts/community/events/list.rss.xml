@@ -5,12 +5,12 @@
     <link>{{ .Permalink }}</link>
     <description>Upcoming events for the academic open source and OSPO community, curated by CURIOSS.</description>
     <generator>Hugo</generator>
-    <language>{{ site.LanguageCode | default "en" }}</language>
+    <language>{{ site.Language.Locale | default "en" }}</language>
     <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     <atom:link href="{{ "community/events/index.xml" | absURL }}" rel="self" type="application/rss+xml" />
     {{ $page := . }}
     {{ $today := now.Format "2006-01-02" }}
-    {{ range sort site.Data.events.events "posted" "desc" }}
+    {{ range sort hugo.Data.events.events "posted" "desc" }}
     {{ if and .posted .start (ge (.end | default .start) $today) }}
     {{ $anchor := printf "%s#%s" $page.Permalink (.title | anchorize) }}
     {{ $body := printf "<p><strong>%s</strong></p>" .date }}
