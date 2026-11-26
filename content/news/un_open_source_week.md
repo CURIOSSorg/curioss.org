@@ -4,6 +4,7 @@ image: "/images/news/un_open_source_week.png"
 date: 2025-07-01
 authors:
   - name: "Clare Dillon"
+    orcid: "0009-0008-6205-0296"
 Description: Highlights from Open Source Week
 ---
 

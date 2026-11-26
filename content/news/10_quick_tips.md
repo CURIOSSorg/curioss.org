@@ -4,6 +4,7 @@ image: "/images/news/10_quick_tips.png"
 date: 2025-05-26
 authors:
   - name: "Richard Littauer"
+    orcid: "0000-0001-5428-7535"
 Description: New preprint on software resiliency
 ---
 

@@ -4,7 +4,9 @@ image: "/images/news/academic_ospo_article.jpg"
 date: 2024-10-29
 authors:
   - name: "Richard Littauer"
+    orcid: "0000-0001-5428-7535"
   - name: "Clare Dillon"
+    orcid: "0009-0008-6205-0296"
 Description: "New output from the CURIOSS OSPO Definition WG"
 ---
 

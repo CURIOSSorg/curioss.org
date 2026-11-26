@@ -4,6 +4,7 @@ image: "/images/news/licensing_resources_for_academic_ospos.png"
 date: 2024-08-01
 authors:
   - name: "Clare Dillon"
+    orcid: "0009-0008-6205-0296"
 Description: Licensing resources used by CURIOSS members
 ---
 

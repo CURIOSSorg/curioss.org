@@ -4,6 +4,7 @@ image: "/images/news/2026_02_27_dublin_gathering_slide.png"
 date: 2026-02-27
 authors:
   - name: "Clare Dillon"
+    orcid: "0009-0008-6205-0296"
 Description: Summary with links to recordings
 ---
 
