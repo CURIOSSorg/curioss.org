@@ -315,6 +315,11 @@ button.svelte-la9dd4:disabled {
 
 .recording-speaker {
     font-size: 0.85rem;
-    color: #6c757d;
+    color: $text-color-muted;
     margin-bottom: 1rem;
+}
+
+// Bootstrap's muted grey is too faint on the light grey footer.
+.text-muted {
+    color: $text-color-muted !important;
 }
