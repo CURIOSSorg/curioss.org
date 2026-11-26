@@ -13,6 +13,7 @@ authors:
   - content/news/closing-the-skills-gap--how-academic-ospos-are-leading-the way-with-open-source-internships.md
   - content/news/small-teams-big-impact.md
 - name: Clare Dillon
+  orcid: 0009-0008-6205-0296
   posts:
   - content/news/funding_awarded_for_curioss_network.md
   - content/news/licensing_resources_for_academic _ospos.md
@@ -25,6 +26,7 @@ authors:
   posts:
   - content/news/2025-02-27-academic-open-source-workshop-chaosscon.md
 - name: Richard Littauer
+  orcid: 0000-0001-5428-7535
   posts:
   - content/news/academic_ospo_defn.md
   - content/news/10_quick_tips.md
