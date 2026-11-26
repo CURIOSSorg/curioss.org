@@ -4,6 +4,7 @@ image: "/images/news/france-open-science-strategy-2026.png"
 date: 2026-10-07
 authors:
   - name: "Violaine Louvet"
+    orcid: "0000-0002-8742-8952"
 Description: "French strategy for Academic OSPO Network"
 ---
 

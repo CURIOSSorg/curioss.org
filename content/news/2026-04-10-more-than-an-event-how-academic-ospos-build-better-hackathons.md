@@ -4,6 +4,7 @@ image: "/images/news/2026-04-10-more-than-an-event-how-academic-ospos-build-bett
 date: 2026-04-10
 authors:
   - name: "Ciara Flanagan"
+    orcid: "0009-0005-3153-7673"
 Description: New learning from Academic OSPOs
 ---
 

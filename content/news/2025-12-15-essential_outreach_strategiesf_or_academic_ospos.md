@@ -4,6 +4,7 @@ image: "/images/news/essential_outreach_strategies_for_academic_ospos.png"
 date: 2025-12-15
 authors:
   - name: "Ciara Flanagan"
+    orcid: "0009-0005-3153-7673"
 Description: Effective Outreach Strategies
 ---
 
