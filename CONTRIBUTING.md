@@ -67,11 +67,29 @@ authors:
   - name: "John Smith"
 ```
 
+**If someone is already in the [author registry](data/authors.yml), you only need their name**, spelled the same way. Their ORCID iD, affiliations and website are filled in from the registry:
+
+```yaml
+authors:
+  - name: "Ciara Flanagan"
+```
+
+If a post states one of these details, the post shows its own version instead.
+
 Only `name` is required for each author. You can leave any other field empty or delete its line. An author with every field empty is ignored. `url` is one website of the author's choice, linked from their name. Keep the field names in lowercase, and the spaces at the start of each line as shown. The page already shows the post's title, so don't repeat it as a heading in the post.
 
 On each pull request, the **Check news authors** check compares new and edited posts with the others. It fails if a name looks like a misspelling of an existing author (such as "J. Doe" for "Jane Doe"), if an ORCID iD is invalid or doesn't match the name, or if the fields are written incorrectly. It warns, without failing, if a post has no authors or if someone's affiliations or website differ between posts, which can be correct. Open the check or the **Files changed** tab to see what to fix. If two different people really do have similar names, add both ORCID iDs, or a maintainer can merge anyway.
 
-[`data/authors.yml`](data/authors.yml) is a registry of all authors. You don't need to edit it: once the check passes, a workflow rebuilds it and commits it to your pull request. If you're also editing the branch on your own computer, pull that commit before pushing again. Pull requests from forks are skipped, and the next pull request from this repository adds their authors. If two open pull requests conflict in this file, keep either version, because it's rebuilt from the posts.
+[`data/authors.yml`](data/authors.yml) is a registry of all authors. Each detail comes from the newest post, by date, that states it. You don't need to edit it: once the check passes, a workflow rebuilds it and commits it to your pull request. If you're also editing the branch on your own computer, pull that commit before pushing again. Pull requests from forks are skipped, and the next pull request from this repository adds their authors. If two open pull requests conflict in this file, keep either version, because it's rebuilt from the posts.
+
+### When someone's details change
+
+For example, if an author changes affiliation:
+
+1. Add the old affiliation to any of their earlier posts that give no affiliation, so those posts keep it. Posts that already state one don't need changing.
+2. Write the new affiliation in their next post. It becomes the default for later posts that give only their name.
+
+If a new default would change earlier posts, the check warns you and lists them. Leaving a field empty means "use the registry", so a post can't show no affiliation for someone who has one there.
 
 ## Generated folders
 

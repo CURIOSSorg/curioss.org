@@ -4,7 +4,8 @@
     authors.py check --base <git ref>   check posts added or edited since <git ref>
     authors.py build                    rewrite data/authors.yml from all posts
 
-The posts are the source of truth. data/authors.yml is generated from them.
+The posts are the source of truth. data/authors.yml is generated from them, and
+the site uses it to fill in any details that a post leaves out.
 """
 
 import argparse
@@ -22,7 +23,9 @@ REGISTRY = Path("data/authors.yml")
 FIELDS = {"name", "orcid", "affiliations", "url"}
 HEADER = """\
 # GENERATED FILE: do not edit. It's rebuilt from the news posts on each pull request.
-# To change an author's details, edit the front matter of their posts in content/news/.
+# Posts that give only an author's name get the rest of their details from this file.
+# To change a detail, write it in the front matter of a post in content/news/.
+# Each detail here comes from the newest post that states it.
 """
 
 
@@ -83,7 +86,7 @@ def read_post(path):
     except yaml.YAMLError as error:
         return "", [], [(1, f"The front matter isn't valid YAML: {error}")]
 
-    date = str(meta.get("date", ""))
+    date = str(meta.get("date") or "")
     raw = without_blanks(meta.get("authors"))
     if raw in (None, "", [], {}):
         return date, [], []
@@ -130,6 +133,35 @@ def read_post(path):
 
 def all_posts():
     return {path: read_post(path) for path in sorted(NEWS.rglob("*.md")) if path.name != "_index.md"}
+
+
+def oldest_first(posts):
+    return sorted(posts.items(), key=lambda item: (item[1][0], str(item[0])))
+
+
+def new_defaults(path, author, posts):
+    """Warn if this post changes a default that other posts are relying on."""
+    entries = [
+        (other_path, other)
+        for other_path, (_, authors, _) in oldest_first(posts)
+        for other in authors
+        if other["name"] == author["name"]
+    ]
+    messages = []
+    for field in ("affiliations", "url"):
+        stated = [(other_path, other[field]) for other_path, other in entries if field in other]
+        # Only the newest post stating a field sets its default.
+        if field not in author or stated[-1][0] != path:
+            continue
+        before = [value for other_path, value in stated if other_path != path]
+        relying = [str(other_path) for other_path, other in entries if field not in other]
+        if before and relying and before[-1] != author[field]:
+            messages.append(
+                f"This changes the default {field} for {author['name']} from {before[-1]} to {author[field]}. "
+                f"These posts don't state their own, so they'll change too: {', '.join(relying)}. "
+                f"To keep the old value on them, add it to each one"
+            )
+    return messages
 
 
 def plain(name):
@@ -196,6 +228,8 @@ def check(base):
 
         checked.add(path)
         for author in authors:
+            for message in new_defaults(path, author, posts):
+                report("warning", path, message, author["line"])
             seen = set()
             for other_path, (_, others, _) in posts.items():
                 # Skip posts already checked, so each pair is reported once.
@@ -216,7 +250,7 @@ def check(base):
 def build():
     registry = {}
     # Oldest first, so that the newest post's details win.
-    for path, (_, authors, problems) in sorted(all_posts().items(), key=lambda item: (item[1][0], str(item[0]))):
+    for path, (_, authors, problems) in oldest_first(all_posts()):
         for line, message in problems:
             report("warning", path, message, line)
         for author in authors:

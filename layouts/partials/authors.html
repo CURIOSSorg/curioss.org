@@ -1,5 +1,12 @@
 {{- /* Byline for a news post. Takes the page, and reads the `authors` list in its front matter. */ -}}
-{{- /* Blank fields, such as those left over from the new post template, are ignored. */ -}}
+{{- /* Blank fields, such as those left over from the new post template, are ignored.
+      Anything a post leaves out is filled in from the registry, data/authors.yml. */ -}}
+{{- $registry := dict }}
+{{- with hugo.Data.authors }}
+  {{- range .authors }}
+    {{- $registry = merge $registry (dict .name .) }}
+  {{- end }}
+{{- end }}
 {{- $authors := slice }}
 {{- range .Params.authors }}
   {{- $filled := false }}
@@ -23,12 +30,13 @@
 {{- with $authors }}
 <ul class="post-authors list-unstyled" aria-label="Authors">
   {{- range . }}
-  {{- $name := .name }}
+  {{- $name := trim .name " " }}
+  {{- $default := or (index $registry $name) dict }}
   <li>
     <span class="post-author-name">
-      {{- if .url }}<a href="{{ .url }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end -}}
+      {{- with or .url $default.url }}<a href="{{ . }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end -}}
     </span>
-    {{- with .orcid }}
+    {{- with or .orcid $default.orcid }}
     {{- $orcid := strings.TrimSuffix "/" (replaceRE `^\s*https?://orcid\.org/` "" .) }}
     <a class="post-author-orcid" href="https://orcid.org/{{ $orcid }}" title="ORCID iD: {{ $orcid }}" aria-label="ORCID iD of {{ $name }}"><i class="fab fa-orcid" aria-hidden="true"></i></a>
     {{- end }}
@@ -38,7 +46,7 @@
         {{- if . }}{{ $affiliations = $affiliations | append . }}{{ end }}
       {{- end }}
     {{- end }}
-    {{- with $affiliations }}
+    {{- with or $affiliations $default.affiliations }}
     <span class="post-author-affiliation">({{ delimit . "; " }})</span>
     {{- end }}
   </li>
