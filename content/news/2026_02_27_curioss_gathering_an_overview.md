@@ -19,13 +19,13 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
 
 *Click the links below for recordings of each session.*
 
-# Day 1 - Best Practice Talks
+## Day 1 - Best Practice Talks
 
 - Francesca Vera, OpenSource@Stanford:   **[From Code Review to Community: Academic OSPO Partnership with pyOpenSci and rOpenSci](https://www.youtube.com/watch?v=9HDAZJS_Wck)**
 - David Lippert, GW Open Source Program Office:   **[OSPO-tunity Knocks - Moving your management out of the shadows and into GitHub](https://www.youtube.com/watch?v=uzixYN5dvYk)**
 - Matthew Feickert, University of Wisconsin-Madison OSPO:   **[UW-Madison OSPO: Open Source Software Internship Program](https://www.youtube.com/watch?v=-HIE5G6JWmY)**
 
-# Day 2 -  Open Addresses
+## Day 2 -  Open Addresses
 
 - Clare Dillon, CURIOSS:   **[Welcome and Opening Address](https://www.youtube.com/watch?v=Q5P3kT6YOGQ)**
 - Josh Greenberg, Alfred P. Sloan Foundation:   **[Why Open Source matters for Open Science](https://www.youtube.com/watch?v=cEeDQBQpC90)**
@@ -37,7 +37,7 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
     * Josh Greenberg, Alfred P. Sloan Foundation
     * Kate Hertweck, Biohub
 
-# Day 2 - General Sessions
+## Day 2 - General Sessions
 
 - **Panel:**   **[CURIOSS OSPO Case Studies](https://www.youtube.com/watch?v=9ZxQH8KsvQk)**
   
@@ -59,7 +59,7 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
     * Stephen Walli, Microsoft
 - Dr. Daniel Izquierdo Cortázar, Bitergia:   **[The Geopolitics of Code: From Digital Sovereignty to Global Fragmentation](https://www.youtube.com/watch?v=MG-LKOxve8w)**
 
-# Day 2 - Deep Dives
+## Day 2 - Deep Dives
 
 - Ana Jiménez Santamaría, PyTorch Foundation:   **[OSPO Academic Outreach Program](https://www.youtube.com/watch?v=xJYituGNddk)**
 - Dr. Colin Keogh, Inlecom Commercial Pathways, Sapien Innovation:   **[From Funded Openness to Sustainable Impact - Operationalising Open Source in Academic Research](https://www.youtube.com/watch?v=dBZCwTn1wPA)**
@@ -75,7 +75,7 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
     * Richard Littauer, CURIOSS
 - Malcolm Bain, Across Legal:   **[Open Source Licensing for Success](https://www.youtube.com/watch?v=PB5syUAax4k)**
 
-# Day 2 - Ask the Experts
+## Day 2 - Ask the Experts
 
 - **Panel:**   **[Steps to Setting up an Academic OSPO](https://www.youtube.com/watch?v=agi6PoHD-7g)**
   
@@ -90,7 +90,7 @@ Day 2 opened up the conversation to a broader audience spanning academia and the
     * Stephanie Lieggie, UC Santa Cruz OSPO
     * Austin Check, Office of Technology Management, Mississippi State University
 
-# Acknowledgements
+## Acknowledgements
 Many thanks to the **[Alfred P. Sloan Foundation](https://sloan.org/)** for their generous support, which made the CURIOSS Gathering possible.
 
 We’re also very grateful to the **[Trinity College Dublin OSPO](https://www.tcd.ie/innovation/knex/open-source-programme-office/)** for partnering with CURIOSS to host the event.

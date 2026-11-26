@@ -76,7 +76,7 @@ authors:
 
 If a post states one of these details, the post shows its own version instead.
 
-Only `name` is required for each author. You can leave any other field empty or delete its line; if the registry has that detail, it's filled in. An author with every field empty, including the name, is ignored. `url` is one website of the author's choice, linked from their name. Keep the field names in lowercase, and the spaces at the start of each line as shown. The page already shows the post's title, so don't repeat it as a heading in the post.
+Only `name` is required for each author. You can leave any other field empty or delete its line; if the registry has that detail, it's filled in. An author with every field empty, including the name, is ignored. `url` is one website of the author's choice, linked from their name. Keep the field names in lowercase, and the spaces at the start of each line as shown. The page already shows the post's title, so don't repeat it as a heading in the post. Start section headings at `##`, and use `###` for subsections. Don't use `#`: it's the level for the title, and the site shows it as `##`.
 
 On each pull request, the **Check news authors** check compares new and edited posts with the others. It fails if a name looks like a misspelling of an existing author (such as "J. Doe" for "Jane Doe"), if an ORCID iD is invalid or doesn't match the name, or if the fields are written incorrectly. It warns, without failing, if a post has no authors or if someone's affiliations or website differ between posts, which can be correct. Open the check or the **Files changed** tab to see what to fix. If two different people really do have similar names, add both ORCID iDs, or a maintainer can merge anyway.
 

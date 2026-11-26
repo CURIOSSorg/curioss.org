@@ -9,7 +9,7 @@ authors:
 Description: Effective Outreach Strategies
 ---
 
-# Introduction 
+## Introduction 
 
 Academic open source program offices (OSPOs) serve as centers of competency for open source software within their universities.
 
@@ -21,7 +21,7 @@ Without effective outreach, even the most well-resourced OSPO risks becoming an 
 
 In conversations about outreach, members identified a common sequence for delivering outreach activities based on their OSPOs’ maturity, staff capacity and available resources. The importance of measuring the impact of outreach activities was also noted by different members. 
 
-# The Outreach Challenge for Academic OSPOs
+## The Outreach Challenge for Academic OSPOs
 
 An academic OSPO faces a unique challenge from the moment it's launched: how to establish visibility and build relationships across a *decentralized* organization. 
 OSPOs cannot rely on one single communication channel or relationship to reach faculty and researchers working across numerous, siloed departments.
@@ -32,7 +32,7 @@ CURIOSS members also observed a gap in understanding amongst stakeholders on the
 
 The administrative placement of an OSPO also affects its visibility and reach. Depending on its institution, an OSPO may be situated in the library, computer sciences, data sciences or the office of research. In some cases, OSPOs are situated across more than one service. OSPOs need to proactively extend their reach beyond their immediate organizational home. This requires deliberate, sustained outreach efforts that build awareness, establish trust and demonstrate value across their institution.
 
-# Outreach activities for Early-Stage OSPOs
+## Outreach activities for Early-Stage OSPOs
 
 The initial  outreach activities being undertaken by academic OSPOs focus on two areas: establishing a digital presence and understanding the community they’re serving.
 
@@ -46,7 +46,7 @@ The [Project Rolodex](https://github.com/CURIOSSorg/curioss-patterns/blob/main/p
 
 Developing an [Open Source Survey](https://github.com/CURIOSSorg/curioss-patterns/blob/main/open-source-survey.md) also gives OSPOs an opportunity to gather information about open source projects on campus, collect feedback and signpost the OSPO’s services. The pattern also includes a link to reproducing the open source survey created by the University of Wisconsin-Madison OSPO.
 
-# Creating Communication Channels
+## Creating Communication Channels
 
 Once initial contact has been established, the next steps are to maintain awareness, promote engagement and grow the reach of the OSPO. 
 
@@ -56,7 +56,7 @@ There are also benefits to [Setting Up an Informal Communication Platform](https
 
 As OSPOs have matured, some CURIOSS members have opted to create newsletters. The [Publish an OSPO Newsletter](https://github.com/CURIOSSorg/curioss-patterns/blob/main/publish-an-ospo-newsletter.md) pattern provides guidance on typical newsletter content and practices. One important insight is that newsletter frequency should match staff resources and capacity. Newsletters do not need to follow a monthly schedule - a semester-based cadence can be equally effective and more sustainable.
 
-# Strengthening Student Outreach
+## Strengthening Student Outreach
 
 OSPOs that leverage the energy and networks of community members can extend their reach far beyond what staff alone can achieve. 
 
@@ -72,11 +72,11 @@ An ambassador program may be worth considering for OSPOs that don’t have full-
 
 The [Student Showcase Sessions at OSPO Events](https://github.com/CURIOSSorg/curioss-patterns/blob/main/student-showcase-sessions-at-ospo-events.md) pattern demonstrates how promoting student open source work can serve multiple outreach goals simultaneously. When students present their projects at OSPO-organized events, it celebrates their achievements, inspires other students, demonstrates the OSPO's impact and creates compelling content that attracts faculty and administrator attention. This pattern addresses how to structure showcase sessions, support student presenters and maximize the outreach value of student-centered programming.
 
-# OSPO Events as a vehicle for Outreach
+## OSPO Events as a vehicle for Outreach
 
 CURIOSS members have also found that hosting larger open source events/conferences have been very effective in boosting the visibility of their OSPOs and fostering strategic networks across campus. The [Host an Open Source Conference](https://github.com/CURIOSSorg/curioss-patterns/blob/main/host-an-open-source-conference.md) pattern outlines the logistical, financial, and programmatic considerations for hosting successful events.
 
-# Conclusion
+## Conclusion
 
 While each of the above patterns offers individual value, CURIOSS members have noted the importance of combining and sequencing activities in order to meet diverse stakeholders through multiple channels and touchpoints.
 
@@ -88,7 +88,7 @@ Overall, successful outreach activities don’t just raise OSPO visibility. The 
 
 As academic OSPOs continue to evolve, the outreach strategies that connect them with their communities will remain central to their success. 
 
-# Acknowledgements
+## Acknowledgements
 
 These CURIOSS patterns were identified at the CURIOSS Summer Workshop hosted by the Vermont Research Open Source Program Office (VERSO) in 2024 and the CURIOSS Winter Gathering hosted by the UC Santa Cruz OSPO in 2025. Members also participated in group discussions and carefully reviewed and contributed to the patterns as they developed.
 

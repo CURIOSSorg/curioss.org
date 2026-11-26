@@ -318,6 +318,18 @@ button.svelte-la9dd4:disabled {
     color: #6c757d;
     margin-bottom: 1rem;
 }
+// Headings inside news posts stay smaller than the post title
+.post-content {
+    h2 { font-size: 28px; }
+    h3 { font-size: 23px; }
+    h4 { font-size: 20px; }
+
+    @include tablet {
+        h2 { font-size: 25px; }
+        h3 { font-size: 22px; }
+    }
+}
+
 // News post bylines
 ul.post-authors {
     margin-bottom: 10px;

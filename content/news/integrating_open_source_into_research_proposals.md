@@ -10,14 +10,14 @@ Description: Successful practices from Academic OSPOs
 ---
 
 
-# Introduction
+## Introduction
 
 Across universities, academic OSPOs are increasingly being approached by faculty seeking support with funding applications. Recent conversations amongst [CURIOSS members](https://curioss.org/about/members/) have revealed how these requests present unique opportunities - not just to help secure research funding but to build open source best practices into projects from their earliest stages.
 These experiences have informed new [CURIOSS patterns](https://curioss.org/patterns/) that capture proven approaches for both assisting with and leading on grant applications. The patterns highlight how this work consistently delivers multiple benefits. 
 
-# Embedding Open Source Excellence at the Design Stage
+## Embedding Open Source Excellence at the Design Stage
 
-## Strategic Grant Application Support
+### Strategic Grant Application Support
 
 Funding agencies increasingly expect transparent approaches and reproducible outputs from the research they support. However, faculty and researchers may not know how best to demonstrate that their publications, data and/or software will meet these requirements in their funding applications. Similarly, Principal Investigators (PIs) are not always aware of relevant open source best practices or options.
 
@@ -31,7 +31,7 @@ Due to the cross-cutting nature of their work, academic OSPOs are uniquely place
 
 Successful marketing of an academic OSPO’s services to colleagues also creates other entry points for [supporting funding proposals with an open source component](https://github.com/CURIOSSorg/curioss-patterns/blob/main/supporting-grant-proposals-with-an-open-source-component.md) and embedding the sustainable development of open source software into research projects. CURIOSS members provided examples of influencing or contributing to proposal narratives; building in a deeper commitment to collaborate with the OSPO; and recommending partnerships with third party experts to enhance the potential success of grant applications.
 
-## Direct Leadership in Funding Proposals
+### Direct Leadership in Funding Proposals
 
 Some CURIOSS members also report that their OSPOs are moving from supporting roles to leading on funding applications.
 
@@ -41,7 +41,7 @@ By serving as [Lead Principal Investigator on grants](https://github.com/CURIOSS
 
 In both cases, members have emphasized the importance of ensuring that staff have sufficient time and capacity to take on these responsibilities.
 
-# Promoting Open Source Innovation and Fostering Open Source Research Communities
+## Promoting Open Source Innovation and Fostering Open Source Research Communities
 
 Academic OSPOs also [secure sponsorship for open source conferences and events](https://github.com/CURIOSSorg/curioss-patterns/blob/main/secure-sponsorship-for-an-open-source-conference.md) that bring together academic and industry communities. 
 
@@ -49,7 +49,7 @@ These gatherings serve multiple purposes including: raising the profile of open 
 
 While sponsorship may not be crucial to hosting all events, CURIOSS members have observed that greater resources translate into more speakers, better venues, side events and technical infrastructure. This enhances the overall experience for participants; and creates greater opportunities for open source projects to collaborate, maximize research impact and attract support from colleagues, the open source community and industry partners.
 
-# The outcomes and learning from OSPO involvement in funding proposals
+## The outcomes and learning from OSPO involvement in funding proposals
 
 The experiences shared by CURIOSS members highlight that academic OSPOs are uniquely positioned to enhance grant success. Their broad internal and external networks bridge multiple fields while their deep expertise in all aspects of open source development and sustainability provides the specialized knowledge that funding agencies increasingly value.
 
@@ -57,10 +57,10 @@ However, success in this space requires intentional relationship building. Acade
 
 The benefits extend far beyond simply helping colleagues and researchers to secure funding. OSPOs report that their involvement in grant proposals creates a virtuous cycle: they communicate their understanding of open source best practices to funders; maximize research impact by embedding open source practices into grant applications; build stronger relationships with faculty colleagues; and establish their reputation as valuable institutional resources. This value proposition underlines the important work that academic OSPOs undertake to promote open source as both an essential research tool *and* artefact in the research landscape.
 
-# Acknowledgements
+## Acknowledgements
 
 Some of the above CURIOSS patterns were identified at the 2025 CURIOSS Winter Gathering hosted by the [UC Santa Cruz OSPO](https://ucsc-ospo.github.io/) and in further discussions. Members have also reviewed and contributed to the patterns as they developed. 
 
-## Many thanks to: 
+### Many thanks to: 
 
 David Lippert and Lorena Barba of the [GW OSPO](https://ospo.gwu.edu/), Jeff Young ([Georgia Tech OSPO](https://ospo.cc.gatech.edu/)), Lance Albertson of the [Open Source Lab](https://osuosl.org/) at Oregon State University, Sayeed Choudhury and Tom Hughes of the [Carnegie Mellon University OSPO](https://www.library.cmu.edu/services/ospo), Stephanie Lieggi of the [UC Santa Cruz OSPO](https://ucsc-ospo.github.io/) and the [UC OSPO Network](https://ucospo.net/) and Zach Chandler ([OpenSource@Stanford](https://opensource.stanford.edu/)).
