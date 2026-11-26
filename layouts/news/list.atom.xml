@@ -1,0 +1,58 @@
+{{- /* Full-text Atom feed of the news, for readers and for Rogue Scholar. Each author is a
+      separate <author>, with their ORCID iD as the <uri>. */ -}}
+{{- $posts := .RegularPages.ByDate.Reverse -}}
+{{- $license := "https://creativecommons.org/licenses/by/4.0/" -}}
+{{- printf "<?xml version=%q encoding=%q?>" "1.0" "utf-8" }}
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="{{ site.Language.Locale | default "en" }}">
+  <title>{{ printf "%s %s" site.Title .Title | transform.XMLEscape }}</title>
+  <subtitle>{{ "News from CURIOSS, the Community for University and Research Institution Open Source Program Offices, and its members." | transform.XMLEscape }}</subtitle>
+  <id>{{ .Permalink }}</id>
+  <link rel="alternate" type="text/html" href="{{ .Permalink }}"/>
+  {{- with .OutputFormats.Get "atom" }}
+  <link rel="self" type="application/atom+xml" href="{{ .Permalink }}"/>
+  {{- end }}
+  <link rel="license" href="{{ $license }}"/>
+  <rights>Creative Commons Attribution 4.0 International (CC BY 4.0): {{ $license }}</rights>
+  {{- with index $posts 0 }}
+  <updated>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+  {{- end }}
+  <author>
+    <name>{{ site.Title | transform.XMLEscape }}</name>
+    <uri>{{ site.BaseURL }}</uri>
+  </author>
+  <icon>{{ "images/favicons/color_logo_vert1.svg" | absURL }}</icon>
+  <generator>Hugo</generator>
+  {{- range $posts }}
+  {{- /* Links in the feed have to work away from the site, so make them absolute. */ -}}
+  {{- $content := .Content | replaceRE `(\s(?:href|src)=["'])/([^/])` (printf "${1}%s${2}" site.BaseURL) }}
+  {{- $content = $content | replaceRE `(\shref=["'])#` (printf "${1}%s#" .Permalink) }}
+  <entry>
+    <title>{{ .Title | transform.XMLEscape }}</title>
+    <id>{{ .Permalink }}</id>
+    <link rel="alternate" type="text/html" href="{{ .Permalink }}"/>
+    <published>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</published>
+    <updated>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+    {{- range partial "resolve-authors.html" . }}
+    <author>
+      <name>{{ .name | transform.XMLEscape }}</name>
+      {{- if .orcid }}
+      <uri>https://orcid.org/{{ .orcid | transform.XMLEscape }}</uri>
+      {{- else if .url }}
+      <uri>{{ .url | transform.XMLEscape }}</uri>
+      {{- end }}
+    </author>
+    {{- end }}
+    <rights>CC BY 4.0: {{ $license }}</rights>
+    {{- range .Params.tags }}
+    <category term="{{ . | transform.XMLEscape }}"/>
+    {{- end }}
+    {{- with .Params.image }}
+    <media:thumbnail url="{{ . | absURL | transform.XMLEscape }}"/>
+    {{- end }}
+    {{- with .Description }}
+    <summary>{{ . | transform.XMLEscape }}</summary>
+    {{- end }}
+    <content type="html" xml:base="{{ .Permalink }}">{{ $content | transform.XMLEscape }}</content>
+  </entry>
+  {{- end }}
+</feed>

@@ -14,11 +14,18 @@
 # subscribers see new opportunities chronologically. Set it to the day you add
 # the entry; do not change it when editing an existing entry.
 #
+# `mapPages` is optional. If the funder or program has a page in the CURIOSS
+# Academic Map (https://curioss.org/academic-map/intro.html), list it here as a
+# path without .md (e.g. funders/national-science-foundation), and the map will
+# show the call on that page while it is open.
+#
 # Template you can copy (remove the # comment marks at the beginning.)
 #  - title:
 #    posted:
 #    funder:
 #    url:
+#    mapPages:
+#      - 
 #    type:
 #    amount:
 #    amountSort:
@@ -36,7 +43,10 @@ opportunities:
     posted: "2026-04-24"
     status: "Closed"
     funder: "National Science Foundation (NSF)"
-    url: "https://new.nsf.gov/funding/opportunities/safe-ose-safety-security-privacy-open-source-ecosystems/nsf24-608/solicitation"
+    url: "https://www.nsf.gov/funding/opportunities/safe-ose-safety-security-privacy-open-source-ecosystems/nsf24-608/solicitation"
+    mapPages:
+      - "funders/nsf-grants/safe-ose"
+      - "funders/national-science-foundation"
     type: "Grant"
     amount: "$1,500,000 over 24 months; Year 1 not to exceed $500,000"
     amountSort: 1500000
@@ -90,6 +100,9 @@ opportunities:
     posted: "2026-04-24"
     funder: "National Science Foundation (NSF)"
     url: "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems"
+    mapPages:
+      - "funders/nsf-grants/pose"
+      - "funders/national-science-foundation"
     type: "Grant"
     amount: "Track 1 (Planning): up to $300,000 · Track 2 (Establishment): up to $1,500,000 · Track 3 (Security): up to $1,500,000; 40–60 awards anticipated"
     amountSort: 1500000
@@ -109,6 +122,8 @@ opportunities:
     posted: "2026-05-05"
     funder: "Open Source for Science Fund"
     url: https://os4science.org/funding_opportunity/os4ls/
+    mapPages:
+      - "funders/os4science"
     type: "Grant"
     amount: "$250,000 over 2 years (Track 1: Domain-specific Tools); $1,000,000 over 2 years (Track 2: Foundational Libraries and Ecosystem Initiatives)"
     amountSort: 1000000
@@ -132,7 +147,7 @@ opportunities:
     type: "Grant"
     amount: "€15,000"
     amountSort: 15000 # no unit?
-    deadline: "10 December 2026 14:00 CET, or earlier if the budget runs out (the €400,000 budget was almost depleted as of 22 October 2026, with funding expected for about one more application)"
+    deadline: "10 December 2026 14:00 CET, or earlier if the budget runs out (only €5,200 of the €400,000 budget remained as of 18 November 2026)"
     deadlineSort: "2026-12-10"
     eligibility: "Dutch institutions"
     geography: "Netherlands"
@@ -170,6 +185,8 @@ opportunities:
     funder: "NSF"
     status: "Closed"
     url: https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america
+    mapPages:
+      - "funders/national-science-foundation"
     type: "Grant"
     amount: "Each Coordination Hub Award will receive support of $1M/year for three years, with the possibility for one additional year of support if the Coordination Hub can demonstrate a compelling need as it phases out or transitions to other sources of funding."
     amountSort: 1000000
@@ -255,6 +272,8 @@ opportunities:
     status: "Closed"
     funder: "U.S. Department of Energy (DOE) and National Science Foundation (NSF)"
     url: "https://bssw.io/pages/bssw-fellowship-program"
+    mapPages:
+      - "funders/national-science-foundation"
     type: "Fellowship"
     amount: "Up to $25,000 per Fellow, awarded as a subcontract to the recipient's institution"
     amountSort: 25000
@@ -358,8 +377,8 @@ opportunities:
     type: "Grant"
     amount: "£150,000 total; up to £12,500 per activity (80% of Full Economic Costs)"
     amountSort: 12500
-    deadline: "Rolling deadline, 15th of alternate months; next 2026-11-15. Apply at least three months before the activity."
-    deadlineSort: "2026-11-15"
+    deadline: "Rolling deadline, 15th of alternate months; next 2027-01-15. Apply at least three months before the activity."
+    deadlineSort: "2027-01-15"
     eligibility: "UK-based researchers and dRTPs involved with research software, research data, or research computing, or freelance trainers/educators in this sector; can support non-UK collaborators visiting the UK."
     geography: "UK"
     focusArea: "Community activities for the dRTP ecosystem"
@@ -377,8 +396,8 @@ opportunities:
     type: "Grant"
     amount: "£150,000 total; up to £5,000 per award"
     amountSort: 5000
-    deadline: "Rolling deadline, 15th of each month; next 2026-11-15"
-    deadlineSort: "2026-11-15"
+    deadline: "Rolling deadline, 15th of each month; next 2026-12-15"
+    deadlineSort: "2026-12-15"
     eligibility: "Early-career professionals and those transitioning into dRTP roles, primarily UK-based; must show career benefit, plans to share outcomes locally, and have explored other funding sources first."
     geography: "UK"
     focusArea: "Professional development for dRTPs"
@@ -432,6 +451,8 @@ opportunities:
     posted: "2026-08-05"
     funder: "National Science Foundation (NSF)"
     url: "https://www.nsf.gov/funding/opportunities/us-national-science-foundation-state-regional-artificial"
+    mapPages:
+      - "funders/national-science-foundation"
     type: "Grant/Cooperative Agreement"
     amount: "$4,000,000 – $12,000,000 per award over 5 years; ~$100,000,000 available, up to 10 awards anticipated"
     amountSort: 12000000
@@ -469,6 +490,8 @@ opportunities:
     posted: "2026-10-02"
     funder: "National Science Foundation (NSF)"
     url: "https://www.nsf.gov/funding/opportunities/training-based-workforce-development-advanced"
+    mapPages:
+      - "funders/national-science-foundation"
     type: "Grant"
     amount: "Pilot: up to $300,000 over 2 years · Small Implementation: up to $500,000 over 4 years · Medium Implementation: up to $1,000,000 over 4 years; ~18 awards anticipated"
     amountSort: 1000000
@@ -504,6 +527,7 @@ opportunities:
 
   - title: "MIT Solve 2027 Global Challenges"
     posted: "2026-10-03"
+    status: "Closed"
     funder: "MIT Solve"
     url: "https://solve.mit.edu/challenges"
     type: "Prize"
@@ -524,6 +548,7 @@ opportunities:
 
   - title: "Rapid Response Fund Vendor RFP"
     posted: "2026-10-08"
+    status: "Closed"
     funder: "Open Technology Fund (OTF)"
     url: "https://www.opentech.fund/news/open-technology-fund-requests-proposals-for-the-rapid-response-fund/"
     type: "Contract"

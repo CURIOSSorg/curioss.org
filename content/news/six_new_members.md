@@ -2,6 +2,10 @@
 title: New CURIOSS members
 image: "/images/news/six_new_members.png"
 date: 2024-05-16
+authors:
+  - name: "Ciara Flanagan"
+    orcid: "0009-0005-3153-7673"
+    affiliations: ["CURIOSS"]
 Description: Six new members join CURIOSS
 ---
 

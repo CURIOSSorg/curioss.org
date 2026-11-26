@@ -25,7 +25,7 @@
         </div>
 
         <div id="funding-list">
-          {{ $data := index .Site.Data "funding-opportunities" }}
+          {{ $data := index hugo.Data "funding-opportunities" }}
           {{ range $data.opportunities }}
           {{ if eq (lower (trim (default "" .status) " ")) "closed" }}
           <article class="card border-1 mb-4 funding-card"

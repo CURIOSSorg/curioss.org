@@ -1,5 +1,12 @@
 talks:
 
+  - slug: david-lippert
+    name: "David Lippert"
+    date: 2026-11-19
+    title: "How the GW OSPO Uses Skill.md and AI"
+    image: /images/resources/david-lippert-v2.png
+    youtubeLink: https://www.youtube.com/watch?v=JugcNG55uf4
+
   - slug: morane-gruenpeter
     name: "Morane Gruenpeter"
     date: 2026-10-22

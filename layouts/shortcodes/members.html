@@ -1,0 +1,4 @@
+{{- /* Renders every member in data/members.yml, in file order. */ -}}
+{{ range hugo.Data.members.members }}
+  {{ partial "company-card.html" (dict "name" .name "image" .logo "url" .url) }}
+{{ end }}

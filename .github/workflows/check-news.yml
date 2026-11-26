@@ -1,0 +1,73 @@
+name: Check news posts
+
+on:
+  pull_request:
+    paths:
+      - "content/news/**"
+      - "data/authors.yml"
+      - ".github/scripts/authors.py"
+      - ".github/scripts/headings.py"
+      - ".github/workflows/check-news.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-news-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet pyyaml
+
+      - name: Warn about level 1 headings in new and edited posts
+        run: python .github/scripts/headings.py --base "origin/${{ github.base_ref }}"
+
+      - name: Check authors in new and edited posts
+        run: python .github/scripts/authors.py check --base "origin/${{ github.base_ref }}"
+
+  # Rebuild data/authors.yml and commit it to the pull request's branch, so that
+  # editors only have to edit their post. Runs only once the check passes. Forks
+  # are skipped, because the workflow can't push to them; the next pull request
+  # from this repository picks up their authors.
+  registry:
+    needs: check
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet pyyaml
+
+      - run: python .github/scripts/authors.py build
+
+      - name: Commit the registry to the pull request if it changed
+        env:
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          git add data/authors.yml
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update the news author registry"
+          git push origin "HEAD:$BRANCH"

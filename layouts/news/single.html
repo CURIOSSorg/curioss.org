@@ -4,15 +4,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
-        <h2 class="mb-4">{{ .Title }}</h2>
-        <p class="post-date">🗓️ Date: {{ .Date.Format "2006-01-02" }}</p>
+        {{ with .Params.image }}<img src="{{ . | absURL }}" alt="{{ $.Title }}" class="img-fluid w-100 rounded mb-4">{{ end }}
+        <h1 class="h2 mb-4">{{ .Title }}</h1>
+        {{ partial "authors.html" (dict "page" . "details" true) }}
+        <p class="post-date">{{ .Date.Format "Jan 2, 2006" }}</p>
         <ul>
           {{ range .Params.tags }}
             <li><a href="{{ default $.Permalink }}">{{ . }}</a></li>
           {{ end }}
         </ul>
-        <div class="content">{{.Content}}</div>
+        <div class="content post-content">{{.Content}}</div>
       </div>
     </div>
   </div>

@@ -8,7 +8,8 @@ The site is built with Hugo framework. All content is located at the `content` f
 
 #### Prerequisites
 * Downloads [Git](https://git-scm.com/downloads)
-* Downloads [Hugo](https://gohugo.io/getting-started/installing/)
+* Downloads [Hugo](https://gohugo.io/getting-started/installing/), version 0.170.1 or later
+* Downloads [Dart Sass](https://sass-lang.com/install/), which Hugo uses to compile the styles
 
 #### Local run the website
 

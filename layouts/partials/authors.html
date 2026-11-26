@@ -1,0 +1,23 @@
+{{- /* Byline for a news post. Takes `page`, and `details`: whether to show ORCID iDs
+      and affiliations. */ -}}
+{{- $details := .details }}
+{{- with partial "resolve-authors.html" .page }}
+<ul class="post-authors list-unstyled" aria-label="Authors">
+  {{- range . }}
+  {{- $name := .name }}
+  <li>
+    <span class="post-author-name">
+      {{- with .url }}<a href="{{ . }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end -}}
+    </span>
+    {{- if $details }}
+    {{- with .orcid }}
+    <a class="post-author-orcid" href="https://orcid.org/{{ . }}" title="ORCID iD: {{ . }}" aria-label="ORCID iD of {{ $name }}"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+    {{- end }}
+    {{- with .affiliations }}
+    <span class="post-author-affiliation">({{ delimit . "; " }})</span>
+    {{- end }}
+    {{- end }}
+  </li>
+  {{- end }}
+</ul>
+{{- end -}}

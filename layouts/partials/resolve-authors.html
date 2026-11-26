@@ -1,0 +1,50 @@
+{{- /* Returns a news post's authors as a list of maps with `name`, and where known `url`,
+      `orcid` (the iD only) and `affiliations`. Takes the page. Anything a post leaves out
+      is filled in from the registry, data/authors.yml. Blank fields, such as those left
+      over from the new post template, are ignored. */ -}}
+{{- $page := . }}
+{{- $registry := dict }}
+{{- with hugo.Data.authors }}
+  {{- range .authors }}
+    {{- $registry = merge $registry (dict .name .) }}
+  {{- end }}
+{{- end }}
+{{- $authors := slice }}
+{{- range $page.Params.authors }}
+  {{- $filled := false }}
+  {{- if reflect.IsMap . }}
+    {{- range . }}
+      {{- range (cond (reflect.IsSlice .) . (slice .)) }}
+        {{- if . }}{{ $filled = true }}{{ end }}
+      {{- end }}
+    {{- end }}
+  {{- else if . }}
+    {{- $filled = true }}
+  {{- end }}
+  {{- if $filled }}
+    {{- if not (and (reflect.IsMap .) .name) }}
+      {{- errorf "%s: write each author as `- name: ...` (see CONTRIBUTING.md)" $page.File.Path }}
+    {{- else }}
+      {{- $name := trim .name " " }}
+      {{- $default := or (index $registry $name) dict }}
+      {{- $author := dict "name" $name }}
+      {{- with or .url $default.url }}
+        {{- $author = merge $author (dict "url" .) }}
+      {{- end }}
+      {{- with or .orcid $default.orcid }}
+        {{- $author = merge $author (dict "orcid" (strings.TrimSuffix "/" (replaceRE `^\s*https?://orcid\.org/` "" .))) }}
+      {{- end }}
+      {{- $affiliations := slice }}
+      {{- with .affiliations }}
+        {{- range (cond (reflect.IsSlice .) . (slice .)) }}
+          {{- if . }}{{ $affiliations = $affiliations | append . }}{{ end }}
+        {{- end }}
+      {{- end }}
+      {{- with or $affiliations $default.affiliations }}
+        {{- $author = merge $author (dict "affiliations" .) }}
+      {{- end }}
+      {{- $authors = $authors | append (slice $author) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- return $authors -}}

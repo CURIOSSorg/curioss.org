@@ -5,7 +5,7 @@
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   <meta name="description"
-    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with site.Params.author }}
   <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
@@ -19,7 +19,7 @@
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
+  {{ $style := resources.Get "scss/style.scss" | css.Sass | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/color_logo_vert1.svg">
@@ -29,7 +29,7 @@
 
   {{ if .IsTranslated }}
   {{ range .Translations }}
-  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.Label }}">
   {{ end }}
   {{ end }}
 
@@ -43,6 +43,7 @@
 
   {{ if eq .Section "news" }}
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — News" href="{{ "news/index.xml" | absURL }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.Title }} — News (full text)" href="{{ "news/atom.xml" | absURL }}">
   {{ end }}
 
   {{ template "_internal/opengraph.html" . }}
