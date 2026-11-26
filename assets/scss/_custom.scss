@@ -315,9 +315,10 @@ button.svelte-la9dd4:disabled {
 
 .recording-speaker {
     font-size: 0.85rem;
-    color: #6c757d;
+    color: $text-color-muted;
     margin-bottom: 1rem;
 }
+
 // Headings inside news posts stay smaller than the post title
 .post-content {
     h2 { font-size: 28px; }
@@ -347,4 +348,9 @@ a.post-author-orcid:hover {
 
 .post-author-affiliation {
     font-size: 0.9em;
+}
+
+// Bootstrap's muted grey is too faint on the light grey footer.
+.text-muted {
+    color: $text-color-muted !important;
 }
