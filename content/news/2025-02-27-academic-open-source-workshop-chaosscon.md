@@ -2,6 +2,8 @@
 title: Academic Open Source Workshop at CHAOSSCon Europe 2025
 image: "/images/news/25-02-26-CHAOSScon-slide.png"
 date: 2025-02-27
+authors:
+  - name: "Regina Nkenchor"
 Description: Report from Academic Open Source Workshop, CHAOSScon, Feb 2025
 ---
 

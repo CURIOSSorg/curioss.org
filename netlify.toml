@@ -3,13 +3,13 @@
 
 [build]
   publish = "public"
-  command = "hugo --minify -b $URL"
+  command = ".github/scripts/install-dart-sass.sh $HOME/dart-sass && PATH=$HOME/dart-sass:$PATH hugo --minify -b $URL"
 
 [build.environment]
-  HUGO_VERSION = "0.147.0"
+  HUGO_VERSION = "0.170.1"
 
 [context.deploy-preview]
-  command = "hugo --minify -b $DEPLOY_PRIME_URL"
+  command = ".github/scripts/install-dart-sass.sh $HOME/dart-sass && PATH=$HOME/dart-sass:$PATH hugo --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --minify -b $DEPLOY_PRIME_URL"
+  command = ".github/scripts/install-dart-sass.sh $HOME/dart-sass && PATH=$HOME/dart-sass:$PATH hugo --minify -b $DEPLOY_PRIME_URL"

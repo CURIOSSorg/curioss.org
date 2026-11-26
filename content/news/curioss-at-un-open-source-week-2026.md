@@ -2,9 +2,12 @@
 title: CURIOSS at UN Open Source Week 2026
 image: "/images/news/curioss-at-un-open-source-week.png" 
 date: 2026-09-24
+authors:
+  - name: "Clare Dillon"
+    orcid: "0009-0008-6205-0296"
+    affiliations: ["CURIOSS"]
 Description: Learning from UN Open Source Week 2026
 ---
-# CURIOSS at UN Open Source Week 2026
 
 ## Session overview
 
@@ -50,9 +53,9 @@ The lightning talk slides from the session are linked below:
 **Zach Chandler, OpenSource@Stanford**
 [University as Open Source Accelerator](https://drive.google.com/file/d/1Ar48ac1l63_ZvpY6_vMBCV_vYtAkFH4a/view?usp=sharing)
 
-# Article 
+## Article 
 
-## Introduction
+### Introduction
 
 The CURIOSS community was delighted to return to UN Open Source Week 2026 in New York this June. 
 
@@ -61,7 +64,7 @@ Building on our participation last year, we hosted a session dedicated to a ques
 Over the past few years, the number of OSPOs and OSPO-like activities in universities and research institutions has grown significantly and many of them are already designed to support the SDGs. Our session, “Building Open Source Capacity at Scale: University OSPOs as Engines for SDG Impact”, set out to explore what has been done, share what is in progress, and think together about how academic open source can do more to drive real impact. 
 It formed part of the conference’s “OSPOs for Good” day, and brought together CURIOSS members and open source advocates from institutions around the world.
 
-## Lightning talks: SDG impact in practice
+### Lightning talks: SDG impact in practice
 
 We opened with a series of short lightning talks from three CURIOSS speakers, each grounding the discussion in real initiatives. 
 
@@ -75,11 +78,11 @@ Jennifer Schopf [Texas-OSPO](https://texas-opensource.org/) shared how the Texas
 
 Zach Chandler offered a close look at how a university can act as an open source accelerator, describing how [OpenSource@Stanford](https://opensource.stanford.edu/) has taken the Natural Capital Alliance’s InVEST toolset, which now underpins UN-adopted ecosystem accounting and maps to a wide span of the SDGs, and deliberately built a durable community around it through a modular, plugin-friendly architecture, contributor roundtables, a plugin registry, and an annual symposium. His central message resonated across the room: building the software is only the start, and it takes intentional community work to turn a strong research project into a thriving open source ecosystem.
 
-## Who was in the room
+### Who was in the room
 
 Before the workshop, a quick poll asked who had joined us, and the room turned out to be split almost evenly between academic and non-academic participants. The split points to real appetite both for peer exchange among established OSPOs and for the on-ramps that help new institutions get started, alongside strong interest from the wider open source community. 
 
-## What the community told us
+### What the community told us
 
 The talks were followed by a short interactive workshop, where we invited everyone in the room to answer a single question: how do you think academic OSPOs can impact the Sustainable Development Goals? Participants shared their thoughts and reading them together, a clear agenda emerged. We brought back this input to the CURIOSS community and have elaborated on some of the core themes below:
 
@@ -91,14 +94,14 @@ The talks were followed by a short interactive workshop, where we invited everyo
 * **Scale up and shape policy:** Others looked further outward, hoping to see academic OSPOs scale beyond single campuses and countries, support the implementation of academic findings in public policy, and act as experimentation-driven action labs with immediate impact on their communities. Underneath it all sat one simple structural point, made more than once: to do any of this well, an institution first needs an OSPO.
 * **And have fun:** Amid all the strategy, one contributor offered a two-word reminder that drew agreement in the room: have fun. It is a fitting note for a community whose strength comes from bringing people together around shared, open work.
 
-## Looking ahead
+### Looking ahead
 
 We came away from the session encouraged by the energy in the room and by how much of this work is already underway. The priorities our community surfaced, building open source literacy, connecting students to real projects, sustaining what we build, sharing resources, and collaborating across institutions, map closely to the work CURIOSS exists to support. We are grateful to everyone who joined, contributed, and shared their ideas so generously, to our speakers, and to the organizers of UN Open Source Week for the opportunity to explore academic open source as a pathway to the global common good. We look forward to carrying these conversations forward with our members in the months ahead.
 
 **A note on AI use:** This content was drafted with the help of AI. As a small organization, AI tools help us turn rich conversations into written resources with less effort - meaning we can offer more to the community. As always, there are plenty of human eyes reviewing, editing, and improving the content before it is published. Thanks go to our community for the insights. If you do spot any errors, please let us know so we can correct them! 
 
 
-### Appendix: full Mentimeter input
+#### Appendix: full Mentimeter input
 
 **Source:** Academic OSPOs and the SDGs, Interactive Conference Session (Mentimeter), CURIOSS session at UN Open Source Week 2026, Thursday 25 June 2026.
 

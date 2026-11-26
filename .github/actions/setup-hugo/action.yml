@@ -1,0 +1,16 @@
+name: Set up Hugo
+description: Install Hugo and Dart Sass. The Hugo version is also set in netlify.toml.
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: "0.170.1"
+
+    - name: Setup Dart Sass
+      shell: bash
+      run: |
+        .github/scripts/install-dart-sass.sh "$RUNNER_TEMP/dart-sass"
+        echo "$RUNNER_TEMP/dart-sass" >> "$GITHUB_PATH"

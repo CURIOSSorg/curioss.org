@@ -2,11 +2,13 @@
 title: More than an event - How Academic OSPOs build better Hackathons
 image: "/images/news/2026-04-10-more-than-an-event-how-academic-ospos-build-better-hackathons.png" 
 date: 2026-04-10
+authors:
+  - name: "Ciara Flanagan"
+    orcid: "0009-0005-3153-7673"
+    affiliations: ["CURIOSS"]
 Description: New learning from Academic OSPOs
 ---
 
-# More than an event : How Academic OSPOs build better Hackathons
- 
  ## Introduction
 Hackathons have long been a fixture of university life but academic Open Source Program Offices (OSPOs) are transforming them into something far more purposeful. Across [CURIOSS member institutions](https://curioss.org/about/members/), OSPOs are designing and facilitating hackathons that go well beyond a weekend of competitive coding. At their best, these events are strategic tools for skills development, community building and open source sustainability. They also have the potential to foster external partnerships that benefit universities long after the final pitch ends.
 

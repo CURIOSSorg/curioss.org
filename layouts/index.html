@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-{{ if .Site.Data.homepage.home.enable }}
+{{ if hugo.Data.homepage.home.enable }}
 <!-- home -->
 <section class="section">
   <div class="container">
-    {{ with .Site.Data.homepage.home }}
+    {{ with hugo.Data.homepage.home }}
     <div class="col-lg-10 mx-auto text-center">
       <h2>{{ .title | markdownify }}</h2>
       <p class="lead">{{ .subtitle | markdownify}}</p>
@@ -25,11 +25,11 @@
 {{ end }}
 
 
-{{ if .Site.Data.homepage.joincurioss.enable }}
+{{ if hugo.Data.homepage.joincurioss.enable }}
 <section class="section">
   <div class="container">
     <div class="row">
-      {{ range first 3 .Site.Data.joincurioss.services }}
+      {{ range first 3 hugo.Data.joincurioss.services }}
       <div class="col-lg-4 mb-4 mb-lg-0">
         <a href="{{ .url }}" class="text-decoration-none">
           <div class="card hover-bg-secondary shadow py-4">

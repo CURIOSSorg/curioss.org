@@ -1,0 +1,47 @@
+# GENERATED FILE: do not edit. It's rebuilt from the news posts on each pull request.
+# Posts that give only an author's name get the rest of their details from this file.
+# To change a detail, write it in the front matter of a post in content/news/.
+# Each detail here comes from the newest post that states it.
+
+authors:
+- name: Ciara Flanagan
+  orcid: 0009-0005-3153-7673
+  affiliations:
+  - CURIOSS
+  posts:
+  - content/news/six_new_members.md
+  - content/news/new_grant_supports_development_of_curioss.md
+  - content/news/2025-02-17-how_academic_ospos_leverage_events.md
+  - content/news/integrating_open_source_into_research_proposals.md
+  - content/news/2025-12-15-essential_outreach_strategiesf_or_academic_ospos.md
+  - content/news/2026-04-10-more-than-an-event-how-academic-ospos-build-better-hackathons.md
+  - content/news/closing-the-skills-gap--how-academic-ospos-are-leading-the way-with-open-source-internships.md
+  - content/news/small-teams-big-impact.md
+- name: Clare Dillon
+  orcid: 0009-0008-6205-0296
+  affiliations:
+  - CURIOSS
+  posts:
+  - content/news/funding_awarded_for_curioss_network.md
+  - content/news/licensing_resources_for_academic _ospos.md
+  - content/news/academic_ospo_defn.md
+  - content/news/nov24-industry-partnerships.md
+  - content/news/un_open_source_week.md
+  - content/news/2026_02_27_curioss_gathering_an_overview.md
+  - content/news/curioss-at-un-open-source-week-2026.md
+- name: Regina Nkenchor
+  posts:
+  - content/news/2025-02-27-academic-open-source-workshop-chaosscon.md
+- name: Richard Littauer
+  orcid: 0000-0001-5428-7535
+  affiliations:
+  - CURIOSS
+  posts:
+  - content/news/academic_ospo_defn.md
+  - content/news/10_quick_tips.md
+- name: Violaine Louvet
+  orcid: 0000-0002-8742-8952
+  affiliations:
+  - Université Grenoble Alpes
+  posts:
+  - content/news/france-open-science-strategy-2026.md
