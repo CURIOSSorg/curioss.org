@@ -1,5 +1,7 @@
 # GENERATED FILE: do not edit. It's rebuilt from the news posts on each pull request.
-# To change an author's details, edit the front matter of their posts in content/news/.
+# Posts that give only an author's name get the rest of their details from this file.
+# To change a detail, write it in the front matter of a post in content/news/.
+# Each detail here comes from the newest post that states it.
 
 authors:
 - name: Ciara Flanagan
