@@ -1,10 +1,28 @@
 {{- /* Byline for a news post. Takes the page, and reads the `authors` list in its front matter. */ -}}
-{{- with .Params.authors }}
+{{- /* Blank fields, such as those left over from the new post template, are ignored. */ -}}
+{{- $authors := slice }}
+{{- range .Params.authors }}
+  {{- $filled := false }}
+  {{- if reflect.IsMap . }}
+    {{- range . }}
+      {{- range (cond (reflect.IsSlice .) . (slice .)) }}
+        {{- if . }}{{ $filled = true }}{{ end }}
+      {{- end }}
+    {{- end }}
+  {{- else if . }}
+    {{- $filled = true }}
+  {{- end }}
+  {{- if $filled }}
+    {{- if and (reflect.IsMap .) .name }}
+      {{- $authors = $authors | append (slice .) }}
+    {{- else }}
+      {{- errorf "%s: write each author as `- name: ...` (see CONTRIBUTING.md)" $.File.Path }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- with $authors }}
 <ul class="post-authors list-unstyled" aria-label="Authors">
   {{- range . }}
-  {{- if or (not (reflect.IsMap .)) (not .name) }}
-    {{- errorf "%s: write each author as `- name: ...` (see CONTRIBUTING.md)" $.File.Path }}
-  {{- else }}
   {{- $name := .name }}
   <li>
     <span class="post-author-name">
@@ -14,11 +32,16 @@
     {{- $orcid := strings.TrimSuffix "/" (replaceRE `^\s*https?://orcid\.org/` "" .) }}
     <a class="post-author-orcid" href="https://orcid.org/{{ $orcid }}" title="ORCID iD: {{ $orcid }}" aria-label="ORCID iD of {{ $name }}"><i class="fab fa-orcid" aria-hidden="true"></i></a>
     {{- end }}
+    {{- $affiliations := slice }}
     {{- with .affiliations }}
-    <span class="post-author-affiliation">({{ if reflect.IsSlice . }}{{ delimit . "; " }}{{ else }}{{ . }}{{ end }})</span>
+      {{- range (cond (reflect.IsSlice .) . (slice .)) }}
+        {{- if . }}{{ $affiliations = $affiliations | append . }}{{ end }}
+      {{- end }}
+    {{- end }}
+    {{- with $affiliations }}
+    <span class="post-author-affiliation">({{ delimit . "; " }})</span>
     {{- end }}
   </li>
-  {{- end }}
   {{- end }}
 </ul>
 {{- end -}}

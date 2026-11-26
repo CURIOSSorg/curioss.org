@@ -63,6 +63,19 @@ def front_matter(path):
     return {str(key).lower(): value for key, value in data.items()}
 
 
+def without_blanks(value):
+    """Drop empty fields, such as those left over from the new post template."""
+    blank = (None, "", [], {})
+    if isinstance(value, dict):
+        cleaned = {str(key): without_blanks(item) for key, item in value.items()}
+        return {key: item for key, item in cleaned.items() if item not in blank}
+    if isinstance(value, list):
+        return [item for item in map(without_blanks, value) if item not in blank]
+    if isinstance(value, str):
+        return value.strip()
+    return value
+
+
 def read_post(path):
     """Return (date, authors, problems) for one post."""
     try:
@@ -71,8 +84,8 @@ def read_post(path):
         return "", [], [(1, f"The front matter isn't valid YAML: {error}")]
 
     date = str(meta.get("date", ""))
-    raw = meta.get("authors")
-    if raw is None:
+    raw = without_blanks(meta.get("authors"))
+    if raw in (None, "", [], {}):
         return date, [], []
     if not isinstance(raw, list):
         return date, [], [(line_of(path, "authors"), "`authors` must be a list, with each author starting `- name:`")]
@@ -83,7 +96,6 @@ def read_post(path):
             problems.append((line_of(path, str(entry)), f"Write this author as `- name: \"{entry}\"`"))
             continue
         # Hugo is case-sensitive about these keys, so `Name:` is an unknown field.
-        entry = {str(key): value for key, value in entry.items() if value not in (None, "", [])}
         name = str(entry.get("name", "")).strip()
         if not name:
             problems.append((line_of(path, "authors"), "Every author needs a `name`"))
