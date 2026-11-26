@@ -5,6 +5,7 @@ date: 2026-09-29
 authors:
   - name: "Ciara Flanagan"
     orcid: "0009-0005-3153-7673"
+    affiliations: ["CURIOSS"]
 Description: Learning on Recruiting and Working with Graduate Students
 ---
 

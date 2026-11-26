@@ -5,6 +5,7 @@ date: 2026-09-24
 authors:
   - name: "Clare Dillon"
     orcid: "0009-0008-6205-0296"
+    affiliations: ["CURIOSS"]
 Description: Learning from UN Open Source Week 2026
 ---
 

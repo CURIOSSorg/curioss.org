@@ -5,6 +5,7 @@ date: 2025-09-10
 authors:
   - name: "Ciara Flanagan"
     orcid: "0009-0005-3153-7673"
+    affiliations: ["CURIOSS"]
 Description: Successful practices from Academic OSPOs
 ---
 

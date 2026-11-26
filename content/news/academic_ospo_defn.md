@@ -5,8 +5,10 @@ date: 2024-10-29
 authors:
   - name: "Richard Littauer"
     orcid: "0000-0001-5428-7535"
+    affiliations: ["CURIOSS"]
   - name: "Clare Dillon"
     orcid: "0009-0008-6205-0296"
+    affiliations: ["CURIOSS"]
 Description: "New output from the CURIOSS OSPO Definition WG"
 ---
 

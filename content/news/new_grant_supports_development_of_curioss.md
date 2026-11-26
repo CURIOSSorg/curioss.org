@@ -5,6 +5,7 @@ date: 2024-07-05
 authors:
   - name: "Ciara Flanagan"
     orcid: "0009-0005-3153-7673"
+    affiliations: ["CURIOSS"]
 Description: New grant supports the development and growth of CURIOSS
 ---
 

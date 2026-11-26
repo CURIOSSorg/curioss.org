@@ -5,6 +5,7 @@ date: 2025-05-26
 authors:
   - name: "Richard Littauer"
     orcid: "0000-0001-5428-7535"
+    affiliations: ["CURIOSS"]
 Description: New preprint on software resiliency
 ---
 
