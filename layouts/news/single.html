@@ -6,7 +6,7 @@
       <div class="col-lg-10 mx-auto">
         {{ with .Params.image }}<img src="{{ . | absURL }}" alt="{{ $.Title }}" class="img-fluid w-100 rounded mb-4">{{ end }}
         <h1 class="h2 mb-4">{{ .Title }}</h1>
-        {{ partial "authors.html" . }}
+        {{ partial "authors.html" (dict "page" . "affiliations" true) }}
         <p class="post-date">🗓️ Date: {{ .Date.Format "2006-01-02" }}</p>
         <ul>
           {{ range .Params.tags }}
