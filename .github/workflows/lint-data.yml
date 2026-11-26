@@ -31,6 +31,13 @@ jobs:
             --schemafile data/schemas/funding-opportunities.schema.json \
             data/funding-opportunities.yml
 
+      - name: Validate data/events.yml
+        if: ${{ !cancelled() }}
+        run: |
+          check-jsonschema \
+            --schemafile data/schemas/events.schema.json \
+            data/events.yml
+
       - name: Validate data/talks.yml
         if: ${{ !cancelled() }}
         run: |

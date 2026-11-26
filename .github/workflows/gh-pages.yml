@@ -3,6 +3,11 @@ name: github pages
 on:
   push:
     branches: [main]
+  # Rebuild daily so date-dependent pages (e.g. upcoming events and their RSS
+  # feed) stay current without needing a push.
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 jobs:
   hugo-build:

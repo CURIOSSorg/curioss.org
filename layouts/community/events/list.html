@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+{{ $events := hugo.Data.events.events }}
+{{ range $events }}
+  {{ if not .posted }}
+    {{ errorf "Event %q is missing required `posted` field. Add `posted: YYYY-MM-DD` to data/events.yml (see the header comment in that file)." .title }}
+  {{ end }}
+  {{ if not .start }}
+    {{ errorf "Event %q is missing required `start` field. Add `start: YYYY-MM-DD` to data/events.yml (see the header comment in that file)." .title }}
+  {{ end }}
+{{ end }}
+
+{{/* An event is upcoming until the day after its last day. ISO dates compare correctly as strings. */}}
+{{ $today := now.Format "2006-01-02" }}
+{{ $upcoming := slice }}
+{{ $past := slice }}
+{{ range sort $events "start" }}
+  {{ if lt (.end | default .start) $today }}
+    {{ $past = $past | append . }}
+  {{ else }}
+    {{ $upcoming = $upcoming | append . }}
+  {{ end }}
+{{ end }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto mb-4">
+        <div class="content">{{ .Content }}</div>
+
+        <h2 class="mt-4 mb-4">Upcoming events</h2>
+        {{ range $upcoming }}
+          {{ partial "event-card.html" . }}
+        {{ else }}
+          <p class="text-muted">No upcoming events right now. Check back soon, or subscribe to the <a href="index.xml">RSS feed</a>.</p>
+        {{ end }}
+
+        <div class="text-center mt-5">
+          <a href="https://github.com/CURIOSSorg/curioss.org/issues/new?title=Event+suggestion:+&body=%23%23+Event+details%0A%0A-+%2A%2ATitle%2A%2A:+%0A-+%2A%2ADate%28s%29+and+time%2A%2A:+%0A-+%2A%2ALocation%2A%2A+%28city%2C+virtual%2C+or+hybrid%29:+%0A-+%2A%2AOrganizer%2A%2A:+%0A-+%2A%2AURL%2A%2A:+%0A-+%2A%2ADescription%2A%2A:+%0A"
+             target="_blank"
+             rel="noopener"
+             class="btn btn-secondary">Suggest an event</a>
+        </div>
+
+        {{ with $past }}
+        <h2 class="mt-5 mb-4">Past events</h2>
+        {{ range sort . "start" "desc" }}
+          {{ partial "event-card.html" . }}
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

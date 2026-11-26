@@ -1,0 +1,117 @@
+# Upcoming events of interest to the CURIOSS community: meetups, workshops,
+# summits, and calls for proposals. Rendered at /community/events/ and
+# published as an RSS feed at /community/events/index.xml.
+#
+# To add an event, copy the template below to the end of the `events:` list and
+# open a pull request. Order in this file does not matter; the page sorts by
+# `start`. The data is validated against data/schemas/events.schema.json in CI.
+#
+# Fields:
+#   title       (required) Name of the event.
+#   posted      (required) Date the entry was added (YYYY-MM-DD). Used as the
+#               RSS <pubDate>. Set it to the day you add the entry; do not change
+#               it when editing an existing entry.
+#   date        (required) Human-readable date, shown on the page and in the
+#               feed. Can be fuzzy, e.g. "End of March 2027" or "April 2027",
+#               and can include a time, e.g. "December 3, 2026, 10–11am PT".
+#   start       (required) First day of the event (YYYY-MM-DD). Used to sort
+#               events and to decide when an event is past. For fuzzy dates, use
+#               a best guess and update it once the real date is announced.
+#   end         (optional) Last day of a multi-day event (YYYY-MM-DD). An event
+#               moves to "Past events" (and out of the RSS feed) the day after
+#               `end`, or the day after `start` if there is no `end`.
+#   location    (optional) City and/or format, e.g. "London", "Virtual (Zoom)",
+#               "Berkeley, CA (hybrid)".
+#   organizer   (optional) Who is running the event.
+#   url         (optional) Event or registration page. If left out, the feed
+#               links to the event's entry on the events page.
+#   description (optional) Short description. Markdown is allowed.
+#
+# Changing an event's `title` changes its anchor on the page and its ID in the
+# RSS feed, so subscribers will see it again as a new item. Fix typos freely,
+# but avoid renaming events after they are posted.
+#
+# Template you can copy (remove the # comment marks at the beginning.)
+#  - title:
+#    posted:
+#    date:
+#    start:
+#    end:
+#    location:
+#    organizer:
+#    url:
+#    description:
+
+events:
+  - title: "UC Berkeley OSPO Monthly Meetup"
+    posted: "2026-11-17"
+    date: "November 19, 2026, 3pm PT"
+    start: "2026-11-19"
+    location: "Berkeley, CA (hybrid)"
+    organizer: "UC Berkeley OSPO (BIDS)"
+    url: "https://bids.berkeley.edu/programs-initiatives/open-source-program-office-ospo"
+    description: "The Berkeley OSPO's monthly meetup. Hybrid, and open to anyone."
+
+  - title: "SOFAIR Global Open Source AI Summit"
+    posted: "2026-11-17"
+    date: "November 30, 2026"
+    start: "2026-11-30"
+    location: "London (Francis Crick Institute)"
+    organizer: "SOFAIR Lab"
+    url: "https://www.eventbrite.com/e/global-open-source-ai-summit-tickets-2003504489862"
+    description: "An in-person summit bringing together international initiatives building open-source AI models."
+
+  - title: "UC OSPO Network All-Campus Virtual Meetup"
+    posted: "2026-11-17"
+    date: "December 3, 2026, 10–11am PT"
+    start: "2026-12-03"
+    location: "Virtual (Zoom)"
+    organizer: "UC OSPO Network"
+    url: "https://ucospo.net/events/"
+    description: "The UC OSPO Network's monthly all-campus meetup, open to anyone. Registration required."
+
+  - title: "CURIOSS Git and GitHub Workshop"
+    posted: "2026-11-17"
+    date: "December 7–8, 2026, 10am–12pm PT / 1–3pm ET"
+    start: "2026-12-07"
+    end: "2026-12-08"
+    location: "Virtual (Zoom)"
+    organizer: "CURIOSS"
+    description: "A two-session introduction to Git and GitHub. Please share it with your students and researchers."
+
+  - title: "CURIOSS Gathering at CHAOSSCon"
+    posted: "2026-11-17"
+    date: "January 28, 2027"
+    start: "2027-01-28"
+    location: "Brussels"
+    organizer: "CURIOSS"
+    description: "A CURIOSS Gathering and workshop is being planned for CHAOSSCon, the Thursday before FOSDEM. More details to come."
+
+  - title: "ASTP Symposium on AI and Knowledge Transfer"
+    posted: "2026-11-17"
+    date: "February 11–12, 2027"
+    start: "2027-02-11"
+    end: "2027-02-12"
+    location: "Leiden"
+    organizer: "ASTP"
+    url: "https://astp4kt.eu/events"
+    description: "ASTP's symposium \"AI: From Daily Practice to Future Impact\"."
+
+  - title: "GW OSCON 2027"
+    posted: "2026-11-17"
+    date: "March 31 – April 1, 2027"
+    start: "2027-03-31"
+    end: "2027-04-01"
+    location: "Washington, DC"
+    organizer: "GW Open Source Program Office"
+    url: "https://ospo.gwu.edu/open-source-conference-gw-oscon-2027"
+    description: "The third annual George Washington University Open Source Conference. The CFP opens next week."
+
+  - title: "UC Open 2027"
+    posted: "2026-11-17"
+    date: "April 2027"
+    start: "2027-04-01"
+    end: "2027-04-30"
+    location: "Santa Barbara, CA"
+    organizer: "UC OSPO Network"
+    description: "The University of California Open Source Summit. A save the date and CFP are coming soon."

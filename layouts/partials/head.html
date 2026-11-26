@@ -37,6 +37,10 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — Funding Opportunities" href="{{ "resources/funding-opportunities/index.xml" | absURL }}">
   {{ end }}
 
+  {{ if eq .RelPermalink "/community/events/" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — Events" href="{{ "community/events/index.xml" | absURL }}">
+  {{ end }}
+
   {{ if eq .Section "news" }}
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — News" href="{{ "news/index.xml" | absURL }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.Title }} — News (full text)" href="{{ "news/atom.xml" | absURL }}">
