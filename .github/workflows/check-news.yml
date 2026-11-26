@@ -1,4 +1,4 @@
-name: Check news authors
+name: Check news posts
 
 on:
   pull_request:
@@ -6,13 +6,14 @@ on:
       - "content/news/**"
       - "data/authors.yml"
       - ".github/scripts/authors.py"
-      - ".github/workflows/check-authors.yml"
+      - ".github/scripts/headings.py"
+      - ".github/workflows/check-news.yml"
 
 permissions:
   contents: read
 
 concurrency:
-  group: check-authors-${{ github.event.pull_request.number }}
+  group: check-news-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
@@ -28,6 +29,9 @@ jobs:
           python-version: "3.12"
 
       - run: pip install --quiet pyyaml
+
+      - name: Warn about level 1 headings in new and edited posts
+        run: python .github/scripts/headings.py --base "origin/${{ github.base_ref }}"
 
       - name: Check authors in new and edited posts
         run: python .github/scripts/authors.py check --base "origin/${{ github.base_ref }}"

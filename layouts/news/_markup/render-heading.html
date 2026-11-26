@@ -1,3 +1,0 @@
-{{- /* The post title is the page's only H1, so an H1 written in a post is shown as an H2. */ -}}
-{{- $level := math.Max 2 .Level | int }}
-<h{{ $level }} id="{{ .Anchor }}">{{ .Text }}</h{{ $level }}>
