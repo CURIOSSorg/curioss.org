@@ -1,7 +1,7 @@
 {{- /* Byline for a news post. Reads the `authors` list in the page's front matter.
-      Takes `page`, and `affiliations`: whether to show them. */ -}}
+      Takes `page`, and `details`: whether to show ORCID iDs and affiliations. */ -}}
 {{- $page := .page }}
-{{- $showAffiliations := .affiliations }}
+{{- $details := .details }}
 {{- /* Blank fields, such as those left over from the new post template, are ignored.
       Anything a post leaves out is filled in from the registry, data/authors.yml. */ -}}
 {{- $registry := dict }}
@@ -39,6 +39,7 @@
     <span class="post-author-name">
       {{- with or .url $default.url }}<a href="{{ . }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end -}}
     </span>
+    {{- if $details }}
     {{- with or .orcid $default.orcid }}
     {{- $orcid := strings.TrimSuffix "/" (replaceRE `^\s*https?://orcid\.org/` "" .) }}
     <a class="post-author-orcid" href="https://orcid.org/{{ $orcid }}" title="ORCID iD: {{ $orcid }}" aria-label="ORCID iD of {{ $name }}"><i class="fab fa-orcid" aria-hidden="true"></i></a>
@@ -49,7 +50,6 @@
         {{- if . }}{{ $affiliations = $affiliations | append . }}{{ end }}
       {{- end }}
     {{- end }}
-    {{- if $showAffiliations }}
     {{- with or $affiliations $default.affiliations }}
     <span class="post-author-affiliation">({{ delimit . "; " }})</span>
     {{- end }}
