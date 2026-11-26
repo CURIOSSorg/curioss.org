@@ -2,6 +2,8 @@
 title: Funding awarded for CURIOSS Network
 image: "/images/news/funding_awarded_for_curioss_network.png"
 date: 2023-09-01
+authors:
+  - name: "Clare Dillon"
 Description: Grant awarded to set up CURIOSS
 ---
 

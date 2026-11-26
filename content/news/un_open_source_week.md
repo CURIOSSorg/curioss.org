@@ -2,6 +2,8 @@
 title: CURIOSS at UN Open Source Week
 image: "/images/news/un_open_source_week.png"
 date: 2025-07-01
+authors:
+  - name: "Clare Dillon"
 Description: Highlights from Open Source Week
 ---
 

@@ -2,6 +2,8 @@
 title: CURIOSS at UN Open Source Week 2026
 image: "/images/news/curioss-at-un-open-source-week.png" 
 date: 2026-09-24
+authors:
+  - name: "Clare Dillon"
 Description: Learning from UN Open Source Week 2026
 ---
 

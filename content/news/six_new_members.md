@@ -2,6 +2,8 @@
 title: New CURIOSS members
 image: "/images/news/six_new_members.png"
 date: 2024-05-16
+authors:
+  - name: "Ciara Flanagan"
 Description: Six new members join CURIOSS
 ---
 

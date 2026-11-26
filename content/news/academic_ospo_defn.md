@@ -2,6 +2,9 @@
 title: "Academic OSPO Definition"
 image: "/images/news/academic_ospo_article.jpg"
 date: 2024-10-29
+authors:
+  - name: "Richard Littauer"
+  - name: "Clare Dillon"
 Description: "New output from the CURIOSS OSPO Definition WG"
 ---
 

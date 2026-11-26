@@ -2,6 +2,8 @@
 title: How Academic OSPOs leverage events to deepen Open Source engagement
 image: "/images/news/how_academic_ospos_leverage_events.png"
 date: 2025-07-17
+authors:
+  - name: "Ciara Flanagan"
 Description: New learning about open source events
 ---
 

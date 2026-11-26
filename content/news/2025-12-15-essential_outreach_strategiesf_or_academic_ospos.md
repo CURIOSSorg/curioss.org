@@ -2,6 +2,8 @@
 title: Essential Outreach Strategies for Academic OSPOs
 image: "/images/news/essential_outreach_strategies_for_academic_ospos.png"
 date: 2025-12-15
+authors:
+  - name: "Ciara Flanagan"
 Description: Effective Outreach Strategies
 ---
 

@@ -2,6 +2,8 @@
 title: "Academic-Industry Collaboration"
 image: "/images/news/nov24-industry-partnerships.jpg"
 date: 2024-11-29
+authors:
+  - name: "Clare Dillon"
 Description: "How OSPOs Support Academic-Industry Partnerships"
 ---
 

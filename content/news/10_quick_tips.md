@@ -2,6 +2,8 @@
 title: 10 quick tips for making your software outlive your job
 image: "/images/news/10_quick_tips.png"
 date: 2025-05-26
+authors:
+  - name: "Richard Littauer"
 Description: New preprint on software resiliency
 ---
 

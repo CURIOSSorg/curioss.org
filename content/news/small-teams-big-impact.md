@@ -2,6 +2,8 @@
 title: "Small teams, Big Impact: Hiring Graduate Student Talent for Academic OSPOs"
 image: "/images/news/small-teams-big-impact.png"
 date: 2026-09-29
+authors:
+  - name: "Ciara Flanagan"
 Description: Learning on Recruiting and Working with Graduate Students
 ---
 

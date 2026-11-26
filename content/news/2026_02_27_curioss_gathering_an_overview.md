@@ -2,6 +2,8 @@
 title: The CURIOSS Gathering 2026 - An Overview
 image: "/images/news/2026_02_27_dublin_gathering_slide.png"
 date: 2026-02-27
+authors:
+  - name: "Clare Dillon"
 Description: Summary with links to recordings
 ---
 

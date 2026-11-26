@@ -2,6 +2,8 @@
 title: Licensing Resources for Academic OSPOs
 image: "/images/news/licensing_resources_for_academic_ospos.png"
 date: 2024-08-01
+authors:
+  - name: "Clare Dillon"
 Description: Licensing resources used by CURIOSS members
 ---
 

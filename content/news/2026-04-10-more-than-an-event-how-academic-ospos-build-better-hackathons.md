@@ -2,6 +2,8 @@
 title: More than an event - How Academic OSPOs build better Hackathons
 image: "/images/news/2026-04-10-more-than-an-event-how-academic-ospos-build-better-hackathons.png" 
 date: 2026-04-10
+authors:
+  - name: "Ciara Flanagan"
 Description: New learning from Academic OSPOs
 ---
 

@@ -2,6 +2,8 @@
 title: Integrating Open Source into Research Proposals
 image: "/images/news/integrating_open_source_into_research_proposals.png"
 date: 2025-09-10
+authors:
+  - name: "Ciara Flanagan"
 Description: Successful practices from Academic OSPOs
 ---
 
