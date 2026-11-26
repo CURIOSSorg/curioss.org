@@ -22,7 +22,7 @@
               <a href="{{ default .Permalink .Params.redirect }}" {{ with .Params.target }} target="{{ . }}" {{ end }} class="post-title">{{ .Title }}</a>
             </h3>
             {{ partial "authors.html" (dict "page" . "affiliations" false) }}
-            <p class="post-date">🗓️ Date: {{ .Date.Format "2006-01-02" }}</p>
+            <p class="post-date">{{ .Date.Format "Jan 2, 2006" }}</p>
             <ul>
               {{ range .Params.tags }}
                 <li><a href="{{ "tags" | relLangURL }}/{{ . | urlize }}">{{ . }}</a></li>
