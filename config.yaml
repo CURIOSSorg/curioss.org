@@ -162,6 +162,16 @@ pagination:
   pagerSize: '3'
 disqusShortname: ''
 googleAnalytics: ''
+# A full-text Atom feed, switched on for the news in content/news/_index.md.
+mediaTypes:
+  application/atom+xml:
+    suffixes: ["xml"]
+outputFormats:
+  Atom:
+    mediaType: application/atom+xml
+    baseName: atom
+    isPlainText: true
+    rel: alternate
 markup:
   goldmark:
     renderer:

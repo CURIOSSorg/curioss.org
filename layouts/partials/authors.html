@@ -1,56 +1,19 @@
-{{- /* Byline for a news post. Reads the `authors` list in the page's front matter.
-      Takes `page`, and `details`: whether to show ORCID iDs and affiliations. */ -}}
-{{- $page := .page }}
+{{- /* Byline for a news post. Takes `page`, and `details`: whether to show ORCID iDs
+      and affiliations. */ -}}
 {{- $details := .details }}
-{{- /* Blank fields, such as those left over from the new post template, are ignored.
-      Anything a post leaves out is filled in from the registry, data/authors.yml. */ -}}
-{{- $registry := dict }}
-{{- with hugo.Data.authors }}
-  {{- range .authors }}
-    {{- $registry = merge $registry (dict .name .) }}
-  {{- end }}
-{{- end }}
-{{- $authors := slice }}
-{{- range $page.Params.authors }}
-  {{- $filled := false }}
-  {{- if reflect.IsMap . }}
-    {{- range . }}
-      {{- range (cond (reflect.IsSlice .) . (slice .)) }}
-        {{- if . }}{{ $filled = true }}{{ end }}
-      {{- end }}
-    {{- end }}
-  {{- else if . }}
-    {{- $filled = true }}
-  {{- end }}
-  {{- if $filled }}
-    {{- if and (reflect.IsMap .) .name }}
-      {{- $authors = $authors | append (slice .) }}
-    {{- else }}
-      {{- errorf "%s: write each author as `- name: ...` (see CONTRIBUTING.md)" $page.File.Path }}
-    {{- end }}
-  {{- end }}
-{{- end }}
-{{- with $authors }}
+{{- with partial "resolve-authors.html" .page }}
 <ul class="post-authors list-unstyled" aria-label="Authors">
   {{- range . }}
-  {{- $name := trim .name " " }}
-  {{- $default := or (index $registry $name) dict }}
+  {{- $name := .name }}
   <li>
     <span class="post-author-name">
-      {{- with or .url $default.url }}<a href="{{ . }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end -}}
+      {{- with .url }}<a href="{{ . }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end -}}
     </span>
     {{- if $details }}
-    {{- with or .orcid $default.orcid }}
-    {{- $orcid := strings.TrimSuffix "/" (replaceRE `^\s*https?://orcid\.org/` "" .) }}
-    <a class="post-author-orcid" href="https://orcid.org/{{ $orcid }}" title="ORCID iD: {{ $orcid }}" aria-label="ORCID iD of {{ $name }}"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+    {{- with .orcid }}
+    <a class="post-author-orcid" href="https://orcid.org/{{ . }}" title="ORCID iD: {{ . }}" aria-label="ORCID iD of {{ $name }}"><i class="fab fa-orcid" aria-hidden="true"></i></a>
     {{- end }}
-    {{- $affiliations := slice }}
     {{- with .affiliations }}
-      {{- range (cond (reflect.IsSlice .) . (slice .)) }}
-        {{- if . }}{{ $affiliations = $affiliations | append . }}{{ end }}
-      {{- end }}
-    {{- end }}
-    {{- with or $affiliations $default.affiliations }}
     <span class="post-author-affiliation">({{ delimit . "; " }})</span>
     {{- end }}
     {{- end }}
